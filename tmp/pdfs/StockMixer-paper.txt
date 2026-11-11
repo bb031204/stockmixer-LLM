@@ -1,0 +1,511 @@
+      StockMixer: A Simple yet Strong MLP-based Architecture for Stock Price
+                                   Forecasting
+                                                   Jinyong Fan1 , Yanyan Shen1 *
+                                                     1
+                                                       Shanghai Jiao Tong University
+                                                      {weizhili, shenyy}@sjtu.edu.cn
+
+
+
+                            Abstract                                     • Indicator correlations. Typically, there are several finan-
+  Stock price forecasting is a fundamental yet challenging task            cial indicators serving as raw features for each stock per
+  in quantitative investment. Various researchers have devel-              trading day, e.g., the basic open, high, low, and closing
+  oped a combination of neural network models (e.g., RNNs,                 prices. It is desirable to model correlations and depen-
+  GNNs, Transformers) for capturing complex indicator, tem-                dencies among raw indicators and extract high-level la-
+  poral and stock correlations of the stock data. While complex            tent features that are informative for future stock trends.
+  architectures are highly expressive, they are often difficult to
+  optimize and the performances are often compromised by the
+                                                                         • Temporal correlations. Stock price movements are funda-
+  limited stock data. In this paper, we propose a simple MLP-              mentally caused by the continuous demand-and-supply
+  based architecture named StockMixer which is easy to opti-               balancing. The temporal trends in surrounding trading
+  mize and enjoys strong predictive performance. StockMixer                days are noticeably correlated, e.g., moving in the same
+  performs indicator mixing, followed by time mixing, and                  or reverse directions. The existence of temporal correla-
+  finally stock mixing. Unlike the standard MLP-based mix-                 tions makes the future trends predictable.
+  ing, we devise the time mixing to exchange multi-scale time
+  patch information and realize the stock mixing by exploit-             • Stock correlations. As staying in the same market, stocks
+  ing stock-to-market and market-to-stock influences explic-               are correlated. For instance, stocks in the same industry
+  itly. Extensive experiments on real stock benchmarks demon-              may all have an upstream movement in one trading day
+  strate our proposed StockMixer outperforms various state-of-             due to a bullish event for the industry. Being aware of the
+  the-art forecasting methods with a notable margin while re-              stock correlations is thus beneficial for the forecasting.
+  ducing memory usage and runtime cost. Code is available at
+  https://github.com/SJTU-Quant/StockMixer.                                Existing deep learning methods (Zou et al. 2022) take
+                                                                        parts or all of the correlations into account. A typical model
+                                                                        architecture consists of a specialized neural module for mod-
+                        Introduction                                    eling each individual correlation, followed by a fusion mod-
+Stock price forecasting is a fundamental task in the field of           ule that combines information from preceding modules for
+quantitative investment. Due to the fact that the movements             the final prediction. Specifically, Recurrent Neural Networks
+of different stock prices in a market are not independent with          (RNNs) (Qin et al. 2017; Nelson, Pereira, and De Oliveira
+each other, stock price forecasting is practically formulated           2017; Feng et al. 2018) are used for modeling temporal cor-
+as a multivariate time series forecasting problem. As the               relations; Graph Neural Networks (GNNs) (Feng et al. 2019;
+stock market is highly volatile and chaotic, achieving high             Li et al. 2021; Sawhney et al. 2021) are good at exchang-
+forecasting accuracy remains an open question.                          ing stock-wise information; Transformer-based models (Yoo
+   Numerous efforts have been devoted to improving fore-                et al. 2021; Wang et al. 2022; Li et al. 2023a) use the at-
+casting performance for profitable stock investment. Early              tention mechanism to emphasize crucial patterns from cor-
+attempts apply basic machine learning methods to uncover                related subjects. Nevertheless, a hybrid neural architecture
+complex patterns in stock data, including decision trees (Nu-           increases the model complexity and may further hurt the
+groho, Adji, and Fauziati 2014; Kamble 2017), support vec-              model’s generalization ability. The reasons are three-fold.
+tor machines (SVM) (Xie et al. 2013), and k-nearest neigh-              First, stock price data is of a limited size, i.e., about 250 trad-
+bors (KNN) (Alkhatib et al. 2013). With the advent of deep              ing days per year and each day delivers only one multivariate
+learning, recent literature focuses on developing neural ar-            time series for training, introducing overfitting risks into the
+chitectures that are expressive and flexible to exploit various         model. Second, a hybrid model involving diverse informa-
+inductive biases based on the intuitive (probably insightful)           tion exchanging scopes (e.g., local or global) and behaviors
+understandings about the stock market. Generally, there are             (e.g., using gating or attention) is not easy to optimize which
+three kinds of correlations that have been investigated.                may compromise the final performance. Third, some com-
+    * corresponding author.                                             ponents may learn inaccurate inductive bias that misleads
+Copyright © 2024, Association for the Advancement of Artificial         the model training. For instance, GNNs assume smoothness
+Intelligence (www.aaai.org). All rights reserved.                       between related stocks but their underlying patterns can be
+heterogeneous. To these ends, we are interested in devel-         mixer and achieves more promising predictive performance
+oping a simple neural architecture that is easy to optimize       than state-of-the-art methods.
+and enjoys strong predictive performance by modeling the             To summarize, this paper has the following contributions:
+above-mentioned correlations effectively.
+                                                                   • We propose a lightweight and effective MLP-based ar-
+   Recently, Multi-layer Perception (MLP) architectures
+                                                                     chitecture for stock price forecasting. It consists of indi-
+have shown promising performance in computer vision tasks
+                                                                     cator mixing, time mixing and stock mixing to capture
+than state-of-the-art neural networks that use convolutions
+                                                                     complex correlations in the stock data.
+and attention mechanisms (Tolstikhin et al. 2021; Touvron
+et al. 2022; Yu et al. 2022). The architectural simplicity         • We demonstrate the deficiencies of the standard MLP-
+and linear computational efficiency of the MLP architecture          based mixing. We introduce patch-based multi-scale time
+inspire us to adapt it to the problem of stock price fore-           mixing and market-aware stock mixing that exploits the
+casting. A straightforward way is to perform MLP-based               characteristics of stock patterns.
+mixing three times for modeling indicator, temporal, and           • We conduct extensive experiments on three real stock
+stock correlations, respectively. Specifically, indicator mix-       benchmarks NASDAQ, NYSE and S&P500. The exper-
+ing uses matrix multiplication and activation functions to           imental results show our proposed StockMixer outper-
+model interactions among indicators within each stock-time           forms state-of-the-art methods in terms of various evalu-
+pair, while time and stock mixing are performed within the           ation metrics.
+stock-indicator and indicator-time pairs accordingly.
+   However, the standard MLP-based mixing suffers from                                  Related Work
+poor performance according to our experiments. Through
+deep analysis, we identify two key technical challenges.          In this section, we review the related work from the literature
+   First, due to the high dynamics of the stock market, the       of stock price forecasting and MLP-based Architectures.
+time correlations in surrounding trading days are not sim-        Stock Price Forecasting. Stock price forecasting has un-
+ply point-wise correlations. At one extreme, the closing          dergone a long period of development on top of price-
+prices of a stock within a time window like 5 days are con-       volume indicators from historical data. At the very begin-
+stantly changing, similar to iid samples drawn from an un-        ning, conventional mathematical algorithms only focus on
+derlying distribution. The time mixing that exchanges time-       numerical features (Piccolo 1990; Wang and Leu 1996;
+point information is thus insufficient for modeling temo cor-     Tseng, Yu, and Tzeng 2002) based on financial techni-
+relations. Second, MLP-based mixing over stocks essen-            cal analysis. With the advances of deep neural network
+tially performs information exchange among stocks based           (DNN), parts of the works following previous paradigm
+on the learned weight matrix. As pointed out in the previ-        employ recurrent neural networks (Nelson, Pereira, and
+ous works (Sawhney et al. 2021; Huynh et al. 2023), stock         De Oliveira 2017; Qin et al. 2017) or convolutional neu-
+correlations are complex, and the direct stock-to-stock mix-      ral networks (Tsantekidis et al. 2017) to model a single
+ing may compromise the model performance. For instance,           stock price and predict its short-term trend. To enhance
+two stocks in the same industry may randomly have similar         the capability of handling fine-grained transition signals,
+trends or divergent trends over time. To sum up, it is time       some efforts have explored other techniques such as self-
+to seek effective time mixing and stock mixing schemes that       attention mechanism (Li, Shen, and Zhu 2018), adversar-
+overcome the above two challenges.                                ial training (Feng et al. 2018), and gated causal convolu-
+   In this paper, we propose a simple yet strong MLP-based        tions (Wang et al. 2021). Later studies achieve state-of-the-
+architecture named StockMixer for stock price forecasting.        art performance considering the inter-stock relationships.
+Specifically, we design three mixing blocks for modeling the      For instance, RSR (Feng et al. 2019) proposes a temporal
+indicator, temporal, and stock correlations effectively. Our      graph convolution model, which created the compositions
+insights to tackle the two challenges are the following. For      of temporal encoder, relation embedding and a prediction
+time mixing, the local temporal patterns on surrounding days      layer. LSTM-RGCN (Li et al. 2021) handles both positive
+are correlated to a certain extent. For example, the rising-up    and negative correlations among stocks to alleviate the over-
+and falling-down variation tendencies are not independent         smoothing problem when predicting overnight stock price
+and are driven by the latent stock value. Hence, we patch         movements. STHAN-R (Sawhney et al. 2021) augments the
+time steps at multiple scales and extract patch tendencies to     corporate relevance based on Wiki data and uses hypergraph
+be mixed. For stock mixing, we recognize that stock corre-        convolution to propagate higher-order neighbor’s informa-
+lations are typically influenced by overall stock market con-     tion. The latest method ESTIMATE (Huynh et al. 2023)
+ditions or states. For instance, in a bull market, stocks tend    also uses hypergraph to capture the non-pairwise correla-
+to become more correlated and move together as investors          tions with temporal generative filters for individual patterns
+become more optimistic. We thus use two MLP structures            per stock.
+to learn latent stock states from all stocks and use the states
+to influence individual stocks. This leads to a more robust       MLP-based Architectures. Recently, MLP has been rein-
+modeling of stock correlations, from individual stocks to the     vestigated in the computer vision domain (Tolstikhin et al.
+whole market, and then back to the stocks. Based on the so-       2021; Liu et al. 2021; Touvron et al. 2022). With linear
+phisticated designs for time mixing and stock mixing, our         computation complexity and simpler architectures, MLP-
+proposed StockMixer enjoys structural complexity as MLP-          Mixer (Tolstikhin et al. 2021) attains similar performance
+                                        Figure 1: Overview of the proposed StockMixer.
+
+
+as CNN and Transformer by operating patches and signifi-          mented in the token or feature channel, residual connection,
+cantly enhancing the amount of inductive bias upon common         data scale transformation (such as reshape, transposition) as
+MLPs. Similar efforts have recently been put in the time          well as appropriative activation function. Except for a sig-
+series domain. Dlinear (Zeng et al. 2023) and its follow-         nificant enhancement for the computation speed, we value
+up works (Das et al. 2023) confirm the feasibility of this        it more in exchanging information between various dimen-
+simple architecture in temporal prediction tasks. A series of     sions. This ability enables close communication between in-
+works (Zhang et al. 2022; Li et al. 2023b; Ekambaram et al.       dicators, time, and stocks in the stock market, promoting the
+2023) utilize the MLP-Mixer backbone that significantly           expressive power of the model. Residual connection keeps a
+empowers the learning capability of simple MLP structures         trade-off between inputs and mixed feature while layer nor-
+to improve the performance of time series forecasting. How-       malization eliminates the impact of data offset to a certain
+ever, since stock data lacks periodicity and changes dy-          extend. For each original representation x ∈ Ra×b , we com-
+namically in temporal and stock correlations, the aforemen-       pute a new embedding y ∈ Ra×b with mixed features on
+tioned MLP-based methods perform even worse than the ba-          dimension a as:
+sic models on stock datasets.
+                                                                              y = x + W2 σ(W1 LayerNorm(x)),                 (2)
+                      Methodology
+                                                                  where x is the inputs feature and y is the output of the block.
+Problem Definition                                                W1 ∈ Rh×a , W2 ∈ Ra×h are trainable weights of fully
+Following the setup of existing works (Feng et al. 2018;          connected layers and h is a tunable hidden dimension always
+Huynh et al. 2023), we input the normalized stock historic        equal to a. σ denotes the non-linear activation function,
+patterns with multiple indicators (such as stock open price,      which makes significant impact on predicted performance.
+close price or 5-day average close price) and output closing      Previous CV models chose GeLU (Howard et al. 2019) that
+price of the next day to calculate the 1-day return ratio. The    performs better on images, and through experiments we find
+notations are as follows.                                         that ReLU and HardSwish (Avenash and Viswanath 2019)
+   Given all data of the stock market composed of N stocks        achieve superior performance on temporal data.
+X = {X1 , X2 , . . . , XN }, each stock Xi ∈ RT ×F contains
+historical data with lookback window length T , where F           The StockMixer Approach
+denotes the indicator dimension at one time step. Our task
+is to predict closing price pti on trading day t and calculate    Figure 1 illustrates the overview of StockMixer, mainly in-
+                              pti −pit−1                          cluding two parts: indicator&time mixing and stock mixing.
+the 1-day return ratio rit=      pit−1
+                                         . Denoting our model
+                                                                  The former extracts the respective representations of each
+parameters as θ, the process can be expressed as:                 stock, acting as an efficient encoder. The latter gathers the
+                        θ                                         learned representations of all stocks in current market to
+                    → p ∈ RN ×1 → r ∈ RN ×1 .
+       X ∈ RN ×T ×F −                                     (1)     capture the complex stock correlations. Finally, we combine
+                                                                  these two representations to predict close price on trading
+Standard MLP-based Mixing                                         day. Here, adhering to the arrangement of data dimension,
+As a lightweight method towards image classification, MLP-        we design the module sequence as indicator mixing, time
+Mixer only relies on the linear layers repeatedly imple-          mixing and stock mixing, deriving our StockMixer.
+                                                                   Time Series Forecasting (LTSF), they rely heavily on sta-
+                                                                   ble and periodic datasets (e.x. electricity and transportation),
+                                                                   which are easier to learn stable and sufficient representa-
+                                                                   tions. Due to the timeliness of the shares market, only re-
+                                                                   cent lookback window is effective for price prediction. It is
+                                                                   necessary to utilize the patterns more fully and overcome
+                                                                   the sensitivity of linear models to small fluctuations caused
+                                                                   by the absence of periodicity. In order to mine information
+                                                                   from short sequences as much as possible while enhanc-
+                                                                   ing the robustness of the linear layer against time deviation,
+  Figure 2: Standard mixing (left) vs time mixing (right).         we segment original time sequence into subsequence-level
+                                                                   patches and mix features at different scales. Such segmenta-
+                                                                   tion causes dimension extension adverse to mixture, so we
+Indicator Mixing. Historical stock price has shown to be           map the representations of all time steps in a patch into one
+a strong indicator of future stock trends and widely used          overall look. Specifically, we obtain the corresponding sin-
+across financial literature. Previous works fed the sequence       gle pattern by avgpool or one-dimensional convolution from
+of financial indicators into recurrent neural network and ig-      raw inputs of a stock x ∈ RT ×F as:
+nored the correlations between indicators. For instance, the
+                                                                                                              T T
+difference between the open and closing prices of a stock on             x(k) = Avgpool(x)kernel=k , k ∈ { , , . . . , 1}, (5)
+the same day may imply its future trend, so it is needed to                                                   2 4
+                                                                                    T
+exchange the information of indicators at each time step be-       and x(k) ∈ R k ×F represents the compressed sequence
+fore calculating the temporal representations. Our indicator       when the patch size is k. Then we send the x(k) through indi-
+mixing is consistent with standard MLP-based mixing. For           cator mixing and time mixing, obtain its mixing embedding
+each stock, we transpose its time and indicator to perform                    T
+                                                                   h(k) ∈ R k ×F . After that, we assign a fully connected layer
+feature mixing on the indicator dimension and formulate the        after a concatenation operation to all patch size to aggregate
+indicator mixing as:                                               the final temporal representation h. The process is:
+         x̂T = xT + W2 σ(W1 LayerNorm(xT )),                (3)            h(k) = TimeMixing(IndicatorMixing(x(k) )),           (6)
+where xT ∈ RF ×T denotes transposed original embedding                                                      T T
+                                                                             h = FC(concat(h(k) )), k ∈ { , , . . . , 1}.       (7)
+of a single stock and x̂ ∈ RT ×F is the result of indicator                                                 2 4
+mixing and we take it as the inputs of the following time          Concretely, in this work, if the length of the input series is
+mixing.                                                                                                            T   T
+                                                                   16, we set k ∈ {1, 2, 4} and thus h ∈ R(T + 2 + 4 ) . For the
+Time Mixing. Unlike standard MLP-based mixing in                   convenience of subsequent narration, we denote the embed-
+computer vision emphasizing the equality of patches, infor-        ding dimension d = (T + T2 + T4 ). By combining informa-
+mation exchange in temporal domain relies more on chrono-          tion at different scales, the model can obtain multi-level, rich
+logical order. Specifically, information from earlier time         and diverse feature representations on limited series, and im-
+steps can influence later time steps, but not vice versa. How-     prove its generalization ability on unprecedented data.
+ever, standard MLP-based mixing employs the fully con-             Stock Mixing. Based on the previous operations, we
+nected structure to exchange information against the charac-       obtain the temporal representations of all stocks H =
+teristic of temporal data. To address this issue, we propose a     {h1 , h2 , . . . , hN } ∈ RN ×d . Next, we describe our Stock
+structural modification on the fully connected hidden layer        Mixing to construct inter stock relation without any prior
+resembling a self-attention mask in Figure 2. When commu-          knowledge like knowledge graphs or industry information.
+nicating the temporal information, any t could only see it-        Obviously, it is conceivable that the strong information ex-
+self and its previous time step’s content instead of adopting      change capability of MLP-Mixer could be applied for rela-
+all equally. This modification ensures that information from       tion capture. By setting the hidden dimension of standard
+later time steps does not leak into the earlier ones, more in      mixing a = N in Equation 2, the interaction process can
+line with temporal nature. Replacing the weights with upper        be understood as N market characteristics aggregated by all
+triangular matrix realises the process:                            stocks, in turn, affect these N stocks. This modeling method
+             h = x̂ + U2 σ(U1 LayerNorm(x̂)),               (4)    is no different from message-passing on a fully connected
+                                                                   graph which involves an edge between any two stocks. In
+where x ∈ RT ×F denotes the indicator mixing representa-           that case, some insignificant relationships or coincidences
+tion and U1 ∈ RHt ×T , U2 ∈ RT ×Ht respectively signify            will also be considered and the mode of message passing we
+the learnable weights of the first and second fully connected      capture is extremely vulnerable. Due to the small sizes of the
+layer, that only the upper triangular part of a matrix is train-   stock datasets, the absence of transferability and robustness
+able to achieve the effect of mask. Ht means the hidden di-        causes serious overfitting problem.
+mension of time and here we set Ht = T as customary.                  Drawing insights from that, we hope to preserve the most
+   Although there exist researches (Zeng et al. 2023; Li et al.    important and informative market states to improve the per-
+2023b; Ekambaram et al. 2023) deploying MLP into Long              formance and interpretability of the model. For one stock,
+we do not have to take all other stocks’ information into con-                            NASDAQ          NYSE          S&P500
+sideration, but decompose the process of direct information
+exchange among stocks into stock-to-market and market-to-                   # Stocks         1026         1737             474
+stock similar to hypergraph. To achieve this, we replace the               Start Time      13-01-02     13-01-02        16-01-04
+hidden dimension of standard mixing related to stocks with                 End Time        17-12-08     17-12-08        22-05-25
+a hyperparameter m to reach the effect of self-learnable hy-               Train Days        756          756             1006
+pergraph. The stock mixing can be formulated as:                            Val Days         252          252              253
+                                                                           Test Days         273          273             352
+          Ĥ = H + M2 σ(M1 LayerNorm(H)),                      (8)
+                                                                                     Table 1: Statistics of datasets.
+                m×N
+where M1 ∈ R           compresses N representations into m
+while the M2 ∈ RN ×m restores the zoomed information.
+This process is similar to the process in which node infor-           Implementation Details. Our model is implemented with
+mation in a hypergraph is first aggregated onto hyperedges            PyTorch. For fair comparison, all samples are generated by
+and then the impact of hyperedges on each entity is calcu-            moving a 16-day lookback window along trading days. Re-
+lated, except that this process is induced by the model it-           garding temporal scale factors, k ∈ {1, 2, 4} is set for all
+self. H ∈ RN ×h represents the individual embeddings of N             datasets and only 1 Stock Mixing is employed in the model.
+stocks in the market and Ĥ denotes the influence on each             We use grid search to find optimal market hyperparameters
+stock from extracted relationships.                                   m, and finalize m = 20, 25, 8 for NASDAQ, NYSE and
+   Finally, we compute the concatenation between stock’s              S&P500, respectively. For methods that require market in-
+own representation H and its corresponding market-                    formation, we construct graphs or hypergraphs according to
+                                                                      the preprocessing process in the original paper. The loss fac-
+influenced representation Ĥ and then send it to a fully con-
+                                                                      tor α is 0.1 and the learning rate is 1e − 3. We conducted all
+nected layer for dimension reduction to obtain the final pre-
+                                                                      the experiments on a server equipped with Intel(R) Xeon(R)
+diction.
+                                                                      Silver 4110 CPU, 128GB Memory, and a Nvidia GeForce
+                                                                      RTX 2080 Ti GPU (12GB Memory). Each experiment was
+Loss Function                                                         repeated 3 times and the average performance was reported.
+We use the 1-day return ratio of a stock as the ground-truth          Metrics. Previous studies applied distinct pointers, mak-
+rather than the normalized price used in previous work us-            ing it troublesome for comprehensive comparison of vari-
+ing a combination of a pointwise regression and pairwise              ous methods. To thoroughly evaluate the performance of the
+ranking-aware loss to minimize the MSE between the pre-               techniques, we employ four most frequently used and most
+dicted and actual return ratios while maintaining the relative        stable metrics, among which are two rank-based evaluation
+order of top ranked stocks with higher expected return for            metrics, one accuracy-based and the other return-based. In-
+investment as:                                                        formation Coefficient (IC) is a coefficient that shows how
+                                                                      close the prediction is to the actual result, computed by the
+                 N X
+                   N                                                  average Pearson correlation coefficient. Rank Information
+                                                                      Coefficient (RIC) is the coefficient based on the ranking of
+                 X
+  L =LMSE + α              max(0, −(r̂it − r̂jt )(rit − rjt )), (9)
+                 i=1 j=1
+                                                                      the stocks’ short-term profit potential, computed by the av-
+                                                                      erage Spearman coefficient. The above two metrics evaluate
+where r̂t and rt are the predicted and actual ranking scores,         stock selection ability of model and they are strongly related
+respectively, and α is a weighting parameter.                         to rank loss. Precision@N evaluates the precision of the top
+                                                                      N predictions. For example, when N is 10, and the labels
+                                                                      of 4 among these top 10 predictions are positive, then the
+                      Experiments                                     Precision@10 is 40%. Sharpe Ratio (SR) takes into account
+Experimental Setup                                                    both return and risk and calculates the average return per unit
+                                                                                                                             R −R
+                                                                      of volatility in relation to the risk-free rate: SR = t θ f ,
+Datasets. We evaluate our approach based on three real-               where Rt represents the return, Rf represents the risk-free
+world datasets from the US stock market. The statistics of            rate, and θ represents the standard deviation of the returns.
+the datasets are in Table 1. These datasets all contain rela-
+tively complete sector-industry relations or Wiki company-            Baselines. We compare the performance of our architec-
+based relations, making it easy to compare with other graph-          ture with that of several state-of-the-art baselines, as fol-
+based methods. NASDAQ and NYSE (Feng et al. 2019) fil-                lows: (1) LSTM (Hochreiter and Schmidhuber 1997) ap-
+ter transaction records between 01/02/2013 and 12/08/2017             plies vanilla LSTM on temporal price data for ranking.
+from corresponding markets. Datasets removed abnormal                 (2) ALSTM (Feng et al. 2018) integrates the adversarial
+patterns and penny stocks while maintain their represen-              training and stochasticity simulation in an enhanced LSTM
+tative properties that NASDAQ is more volatile whereas                to better learn the market dynamics. (3) RGCN (Li et al.
+NYSE is more stable. S&P500 (Huynh et al. 2023) gath-                 2021) adopts Relational Graph Convolutional Networks
+ers historic price data and the information about industries          (RGCN) to model multi-relations. (4) GAT (Veličković et al.
+in the S&P 500 index from the Yahoo Finance database.                 2017) utilizes graph attention networks (GAT) to aggregate
+                                    NASDAQ                                NYSE                              S&P500
+            Model
+                           IC     RIC  prec@N        SR        IC     RIC   prec@N       SR      IC      RIC   prec@N       SR
+           LSTM          0.032   0.354  0.514       0.892    0.024   0.256   0.512      0.857   0.031   0.186   0.531      1.332
+RNN
+          ALSTM          0.035   0.371  0.522       0.941    0.023   0.276   0.519      0.764   0.029   0.181   0.532      1.298
+           RGCN          0.034   0.382  0.516       1.054    0.025   0.275   0.517      0.932   0.028   0.175   0.528      1.359
+GNN         GAT          0.035   0.377  0.530       1.233    0.025   0.297   0.521      1.070   0.034   0.191   0.541      1.484
+           RSR-I         0.038   0.398  0.531       1.238    0.026   0.284   0.519      0.098   0.033   0.200   0.542      1.437
+         STHAN-SR        0.039   0.451  0.543       1.416    0.029   0.344   0.542      1.228   0.037   0.227   0.549      1.533
+HGNN
+         ESTIMATE        0.037   0.444  0.539       1.307    0.030   0.327   0.536      1.115   0.035   0.241   0.553      1.547
+           Linear        0.019   0.188  0.505       0.517    0.015   0.163   0.497      0.625   0.016   0.156   0.520      0.674
+MLP
+         StockMixer      0.043   0.501  0.545       1.465    0.029   0.351   0.539      1.454   0.041   0.262   0.551      1.586
+
+Table 2: Comparison results on stock metrics (measured by t-test with p-value < 0.01). The methods for comparison are
+mainly divided into four types: RNN (Recurrent Neural Network), GNN (Graph Neural Network), HGNN (HyperGraph Neural
+Network) and MLP (Multi-Layer Perceptron). Bold & underlines show best & second best (SOTA) results, respectively.
+
+
+stock embeddings encoded by GRU on the stock graph. (5)                        Ablation            NASDAQ            NYSE
+RSR (Feng et al. 2019) combines Temporal Graph Convo-                    Model Component          IC    RIC        IC   RIC
+lution with LSTM to learn the stocks’ interaction in a time-                    LSTM            0.032 0.354      0.024 0.256
+sensitive manner. The original proposes two ways, RSR-E                  w.o.Indicator Mixing   0.040 0.465      0.027 0.291
+using similarity as relation weight as well as RSR-I with                 w.o.Time Mixing       0.018 0.164      0.016 0.161
+neural net for relation weight, and we choose RSR-I with                  w.o.Stock Mixing      0.037 0.376      0.026 0.285
+better performance as the baseline. (6) STHAN-SR (Sawh-
+                                                                        LSTM + Stock Mixing     0.041 0.476      0.030 0.307
+ney et al. 2021) models the relations with hypergraph atten-
+tion combined temporal Hawkes attentive LSTM to tailor                       STHAN-SR           0.039 0.451      0.029 0.344
+spatiotemporal network architecture to rank stocks. (7) ES-                   StockMixer        0.043 0.501      0.029 0.351
+TIMATE (Huynh et al. 2023) implements a memory-based
+mechanism onto an LSTM network in an attempt to learn in-            Table 3: Ablation study over three components (indicator
+dividual patterns and employs hypergraph attentions to cap-          mixing, time mixing, and stock mixing) on NASDAQ and
+ture the non-pairwise correlations, which pass message by            NYSE.
+the wavelet basis instead of the Fourier basis. (8) Linear
+only uses simple fully connected layers to predict the final
+price.                                                               data. Relatively short lookback window overlooks periodic-
+                                                                     ity and time deviation leads to market value varying, which
+Overall Comparison                                                   are the main cause of severe overfitting. 4) Balancing the
+                                                                     lightweight of MLP models with the excellent performance
+Table 2 shows the performance of all the comparison meth-
+                                                                     of hybrid networks, our proposed StockMixer obtains the
+ods. Most of the baselines’ results on the benchmarks are
+                                                                     best results across most metrics and fetches an average rela-
+reported using their original settings and all of them adopt
+                                                                     tive performance gain of 7.6%, 10.8% and 10.9% in regard
+the same optimization loss in ensuring fair. We have the fol-
+                                                                     of two rank metrics and the risk adjusted returns (p < 0.01).
+lowing key observations: 1) For univariate methods, whether
+                                                                     Meanwhile, simple but strong design brings parameter quan-
+LSTM or enhanced ALSTM performs worse than all other
+                                                                     tity second only to RNN and much less computation time
+hybrid architectures, which proves the necessity and effec-
+                                                                     compared with graph message passing. In addition, slight
+tiveness of relationships in the stock market. As it should
+                                                                     performance degradation is observed on NYSE with most
+be, RNN-based encoders are faster the rest due to no addi-
+                                                                     stocks (1737), which may indicate that insufficient induc-
+tional calculations on relations and perform better with small
+                                                                     tive bias gradually come into force in dealing with larger
+capacity of stocks(e.g., S&P500) because of the fewer re-
+                                                                     candidate pools.
+lationships in the market. 2) Hypergraph architectures ap-
+preciably have better capability of modeling complicated
+inter-stock dependencies, since classic graph tends to de-           Ablation Study
+fine pairwise correlations between any two entities. How-            Model Component. We attempt to verify the effect of
+ever, tendency of real share prices do not depend on several         three mixing blocks by removing the one of them respec-
+strongly correlated enterprise but current market attributes.        tively and compare with two typical baselines, STHAN-SR
+Thus, to some extent, hyperedges gathering the industry in-          and LSTM. We also replace the previous market module
+formation reflect parts of these market attributes. 3) Sim-          with our stock mixing and implement these settlements in
+ple linear model lacks adequate inductive bias and naturally         NASDAQ and NYSE. The results are shown in Table 3. As
+fail while other MLP-based methods for time series perform           shown, different components jointly contribute to the per-
+even worse without considering the characteristics of stock          formance. Among three parts, the mixing of time dimension
+                                                                  (a) Window length       (b) Market         (c) Scale factor
+
+                                                                       Figure 4: Sensitivity to parameters T , m and k.
+
+
+                                                                 hyperparameters and select IC as metric.
+                                                                 Lookback window length T . We analyze the prediction
+                                                                 performance of StockMixer when varying the length T of
+                                                                 the lookback window in Figure4a. Across all datasets, mod-
+                                                                 erate window length gains the best performance. Too short
+                                                                 window length drops quickly due to the lack of information
+                                                                 while the overlong sequential patterns also fails as the lack
+                                                                 of early information gain and increased learning costs for
+Figure 3: Effects of different activation function on NAS-       stocks.
+DAQ.                                                             Market dimension m. We consider different m of the hid-
+                                                                 den dimension of stock mixing in Figure 4b and observe
+                                                                 that datasets achieve their best performance at distinct m.
+matters most, for the poor learning of isolated representation   As shown, result on S&P500 degrades significantly when
+can lead to meaningless relationship modeling. This also ex-     w exceeds 10 while that on NYSE does well at around 30.
+plains why StockMixer as well as earlier architecture adopts     Markets with high capacity prefer larger m that the surge in
+a framework of time before space. Without incorporating          stock numbers brings more complex market representations
+indicator features, MLP-Mixer has slightly worse perfor-
+mance, which confirmed the importance of mixing indicator        Multi-Scale factor k. We analyze the variance in the prof-
+features into stock movement. From the model performance         itability depending on the number of scale factors from the
+of ablation experiments, the order of impact on the model is     ranking in Figure 4c. It is seen that StockMixer performs
+time, stock and indicator. The variant replacing the indicator   generally well, while the best results are obtained for k = 3.
+mixing with vanilla LSTM can draw with the state-of-the-art
+STHAN-SR that integrates the stock mixing without prior                                 Conclusion
+knowledge is quite competent at shares market relationship.      In this paper, we proposed StockMixer, a simple yet strong
+We can see that the MLP-based encoder credible alternative       architecture with enhanced MLP blocks for stock price fore-
+to RNN and brings a higher performance gain to LSTM. The         casting. Instead of using different sub-networks to model in-
+most likely reason is that RNN makes the hidden represen-        dicator, temporal and stock correlations, StockMixer con-
+tation lack cross-indicator correlation.                         sists of a lightweight combination of indicator, time, and
+Activation Function. We investigate the impact of differ-        stock mixing blocks. Especially, time mixing takes more
+ent activation functions on model performance. Due to space      scales into consideration which construct preferable tempo-
+limit, we depict the results on NASDAQ in Figure 3, similar      ral encoder and provides improvements for temporal data. In
+regularities can be observed on other datasets. In the origi-    market view, stock mixing decomposes the standard mixing
+nal module, the GELU function with excellent performance         block to into information exchange of stock-to-market and
+in multiple computer vision, natural language processing,        market-to-stock, which is a more robust modeling of stock
+and voice tasks did not achieve the best performance in          correlations. Through extensive experiments, we show that
+such sequence prediction tasks as stocks. It can be seen that    StockMixer outperforms all popular benchmarks with an av-
+both Sigmoid and tanh perform mediocrely while ReLU and          erage relative performance gain of 7.6%, 10.8% and 10.9%
+HardSwish obviously improve model performance over all           in regard of three metrics, validating that this architecture
+metrics. This ablation verified the impact of non-linear func-   offers a powerful alternative to other current methods. In fu-
+tion on mixing block, and we also conduct the similar exper-     ture, we aim to optimize the hyperparameter selection pro-
+iments to explore the effect of Layer Normalization, where       cess and adapt StockMixer to more stock markets.
+is no significant difference.
+                                                                                   Acknowledgements
+Hyperparameter Sensitivity                                       This work is supported by the National Key Research
+The results in Figure 4 show the hyperparameter sensitiv-        and Development Program of China (2022YFE0200500),
+ity. Due to the space limit, we focus on the most important      Shanghai Municipal Science and Technology Major Project
+(2021SHZDZX0102), and SJTU Global Strategic Partner-             Li, Z.; Rao, Z.; Pan, L.; and Xu, Z. 2023b. Mts-mixers:
+ship Fund (2021SJTU-HKUST).                                      Multivariate time series forecasting via factorized temporal
+                                                                 and channel mixing. arXiv preprint arXiv:2302.04501.
+                       References                                Liu, H.; Dai, Z.; So, D.; and Le, Q. V. 2021. Pay attention to
+Alkhatib, K.; Najadat, H.; Hmeidi, I.; and Shatnawi, M.          mlps. Advances in Neural Information Processing Systems,
+K. A. 2013. Stock price prediction using k-nearest neighbor      34: 9204–9215.
+(kNN) algorithm. International Journal of Business, Hu-          Nelson, D. M.; Pereira, A. C.; and De Oliveira, R. A. 2017.
+manities and Technology, 3(3): 32–44.                            Stock market’s price movement prediction with LSTM neu-
+Avenash, R.; and Viswanath, P. 2019. Semantic Segmenta-          ral networks. In 2017 International joint conference on neu-
+tion of Satellite Images using a Modified CNN with Hard-         ral networks (IJCNN), 1419–1426. Ieee.
+Swish Activation Function. In VISIGRAPP (4: VISAPP),             Nugroho, F. S. D.; Adji, T. B.; and Fauziati, S. 2014. Deci-
+413–420.                                                         sion support system for stock trading using multiple indica-
+Das, A.; Kong, W.; Leach, A.; Sen, R.; and Yu, R. 2023.          tors decision tree. In 2014 The 1st International Conference
+Long-term Forecasting with TiDE: Time-series Dense En-           on Information Technology, Computer, and Electrical Engi-
+coder. arXiv preprint arXiv:2304.08424.                          neering, 291–296. IEEE.
+                                                                 Piccolo, D. 1990. A distance measure for classifying
+Ekambaram, V.; Jati, A.; Nguyen, N.; Sinthong, P.; and
+                                                                 ARIMA models. Journal of time series analysis, 11(2): 153–
+Kalagnanam, J. 2023. TSMixer: Lightweight MLP-Mixer
+                                                                 164.
+Model for Multivariate Time Series Forecasting. arXiv
+preprint arXiv:2306.09364.                                       Qin, Y.; Song, D.; Chen, H.; Cheng, W.; Jiang, G.; and
+                                                                 Cottrell, G. 2017. A dual-stage attention-based recurrent
+Feng, F.; Chen, H.; He, X.; Ding, J.; Sun, M.; and Chua,         neural network for time series prediction. arXiv preprint
+T.-S. 2018. Enhancing stock movement prediction with ad-         arXiv:1704.02971.
+versarial training. arXiv preprint arXiv:1810.09936.
+                                                                 Sawhney, R.; Agarwal, S.; Wadhwa, A.; Derr, T.; and Shah,
+Feng, F.; He, X.; Wang, X.; Luo, C.; Liu, Y.; and Chua, T.-      R. R. 2021. Stock selection via spatiotemporal hypergraph
+S. 2019. Temporal relational ranking for stock prediction.       attention network: A learning to rank approach. In Proceed-
+ACM Transactions on Information Systems (TOIS), 37(2):           ings of the AAAI Conference on Artificial Intelligence, vol-
+1–30.                                                            ume 35, 497–504.
+Hochreiter, S.; and Schmidhuber, J. 1997. Long short-term        Tolstikhin, I. O.; Houlsby, N.; Kolesnikov, A.; Beyer, L.;
+memory. Neural computation, 9(8): 1735–1780.                     Zhai, X.; Unterthiner, T.; Yung, J.; Steiner, A.; Keysers, D.;
+Howard, A.; Sandler, M.; Chu, G.; Chen, L.-C.; Chen, B.;         Uszkoreit, J.; et al. 2021. Mlp-mixer: An all-mlp architec-
+Tan, M.; Wang, W.; Zhu, Y.; Pang, R.; Vasudevan, V.; et al.      ture for vision. Advances in neural information processing
+2019. Searching for mobilenetv3. In Proceedings of the           systems, 34: 24261–24272.
+IEEE/CVF international conference on computer vision,            Touvron, H.; Bojanowski, P.; Caron, M.; Cord, M.; El-
+1314–1324.                                                       Nouby, A.; Grave, E.; Izacard, G.; Joulin, A.; Synnaeve, G.;
+Huynh, T. T.; Nguyen, M. H.; Nguyen, T. T.; Nguyen, P. L.;       Verbeek, J.; et al. 2022. Resmlp: Feedforward networks
+Weidlich, M.; Nguyen, Q. V. H.; and Aberer, K. 2023. Ef-         for image classification with data-efficient training. IEEE
+ficient integration of multi-order dynamics and internal dy-     Transactions on Pattern Analysis and Machine Intelligence,
+namics in stock movement prediction. In Proceedings of the       45(4): 5314–5321.
+Sixteenth ACM International Conference on Web Search and         Tsantekidis, A.; Passalis, N.; Tefas, A.; Kanniainen, J.; Gab-
+Data Mining, 850–858.                                            bouj, M.; and Iosifidis, A. 2017. Forecasting stock prices
+Kamble, R. A. 2017. Short and long term stock trend predic-      from the limit order book using convolutional neural net-
+tion using decision tree. In 2017 International Conference       works. In 2017 IEEE 19th conference on business informat-
+on Intelligent Computing and Control Systems (ICICCS),           ics (CBI), volume 1, 7–12. IEEE.
+1371–1375. IEEE.                                                 Tseng, F.-M.; Yu, H.-C.; and Tzeng, G.-H. 2002. Combin-
+Li, H.; Shen, Y.; and Zhu, Y. 2018. Stock price prediction us-   ing neural network model with seasonal time series ARIMA
+ing attention-based multi-input LSTM. In Asian conference        model. Technological forecasting and social change, 69(1):
+on machine learning, 454–469. PMLR.                              71–87.
+Li, L.; Duan, L.; Wang, J.; He, C.; Chen, Z.; Xie, G.; Deng,     Veličković, P.; Cucurull, G.; Casanova, A.; Romero, A.; Lio,
+S.; and Luo, Z. 2023a. Memory-Enhanced Transformer               P.; and Bengio, Y. 2017. Graph attention networks. arXiv
+for Representation Learning on Temporal Heterogeneous            preprint arXiv:1710.10903.
+Graphs. Data Science and Engineering, 8(2): 98–111.              Wang, H.; Li, S.; Wang, T.; and Zheng, J. 2021. Hierarchi-
+Li, W.; Bao, R.; Harimoto, K.; Chen, D.; Xu, J.; and Su, Q.      cal Adaptive Temporal-Relational Modeling for Stock Trend
+2021. Modeling the stock relation with graph network for         Prediction. In IJCAI, 3691–3698.
+overnight stock movement prediction. In Proceedings of the       Wang, H.; Wang, T.; Li, S.; Zheng, J.; Guan, S.; and Chen,
+twenty-ninth international conference on international joint     W. 2022. Adaptive long-short pattern transformer for stock
+conferences on artificial intelligence, 4541–4547.               investment selection. In Proceedings of the Thirty-First
+International Joint Conference on Artificial Intelligence,
+3970–3977.
+Wang, J.-H.; and Leu, J.-Y. 1996. Stock market trend predic-
+tion using ARIMA-based neural networks. In Proceedings
+of International Conference on Neural Networks (ICNN’96),
+volume 4, 2160–2165. IEEE.
+Xie, B.; Passonneau, R.; Wu, L.; and Creamer, G. G. 2013.
+Semantic frames to predict stock price movement. In Pro-
+ceedings of the 51st annual meeting of the association for
+computational linguistics, 873–883.
+Yoo, J.; Soun, Y.; Park, Y.-c.; and Kang, U. 2021. Accu-
+rate multivariate stock movement prediction via data-axis
+transformer with multi-level contexts. In Proceedings of the
+27th ACM SIGKDD Conference on Knowledge Discovery &
+Data Mining, 2037–2045.
+Yu, T.; Li, X.; Cai, Y.; Sun, M.; and Li, P. 2022. S2-mlp:
+Spatial-shift mlp architecture for vision. In Proceedings of
+the IEEE/CVF winter conference on applications of com-
+puter vision, 297–306.
+Zeng, A.; Chen, M.; Zhang, L.; and Xu, Q. 2023. Are trans-
+formers effective for time series forecasting? In Proceedings
+of the AAAI conference on artificial intelligence, volume 37,
+11121–11128.
+Zhang, T.; Zhang, Y.; Cao, W.; Bian, J.; Yi, X.; Zheng, S.;
+and Li, J. 2022. Less is more: Fast multivariate time se-
+ries forecasting with light sampling-oriented mlp structures.
+arXiv preprint arXiv:2207.01186.
+Zou, J.; Zhao, Q.; Jiao, Y.; Cao, H.; Liu, Y.; Yan, Q.; Ab-
+basnejad, E.; Liu, L.; and Shi, J. Q. 2022. Stock Market
+Prediction via Deep Learning Techniques: A Survey. arXiv
+preprint arXiv:2212.12717.
+

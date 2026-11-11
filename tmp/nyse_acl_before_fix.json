@@ -1,0 +1,30 @@
+﻿[
+    {
+        "Path":  "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NYSE\\eod_data.pkl",
+        "Sddl":  "O:S-1-5-21-3610481774-617731719-2120504135-1003G:S-1-5-21-3610481774-617731719-2120504135-513D:P(A;;FA;;;OW)(A;;FA;;;SY)(A;;FA;;;BA)"
+    },
+    {
+        "Path":  "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NYSE\\mask_data.pkl",
+        "Sddl":  "O:S-1-5-21-3610481774-617731719-2120504135-1003G:S-1-5-21-3610481774-617731719-2120504135-513D:P(A;;FA;;;OW)(A;;FA;;;SY)(A;;FA;;;BA)"
+    },
+    {
+        "Path":  "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NYSE\\gt_data.pkl",
+        "Sddl":  "O:S-1-5-21-3610481774-617731719-2120504135-1003G:S-1-5-21-3610481774-617731719-2120504135-513D:P(A;;FA;;;OW)(A;;FA;;;SY)(A;;FA;;;BA)"
+    },
+    {
+        "Path":  "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NYSE\\price_data.pkl",
+        "Sddl":  "O:S-1-5-21-3610481774-617731719-2120504135-1003G:S-1-5-21-3610481774-617731719-2120504135-513D:P(A;;FA;;;OW)(A;;FA;;;SY)(A;;FA;;;BA)"
+    },
+    {
+        "Path":  "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NYSE\\tickers.csv",
+        "Sddl":  "O:S-1-5-21-3610481774-617731719-2120504135-1003G:S-1-5-21-3610481774-617731719-2120504135-513D:P(A;;FA;;;OW)(A;;FA;;;SY)(A;;FA;;;BA)"
+    },
+    {
+        "Path":  "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NYSE\\trading_dates.csv",
+        "Sddl":  "O:S-1-5-21-3610481774-617731719-2120504135-1003G:S-1-5-21-3610481774-617731719-2120504135-513D:P(A;;FA;;;OW)(A;;FA;;;SY)(A;;FA;;;BA)"
+    },
+    {
+        "Path":  "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NYSE\\validation_report.json",
+        "Sddl":  "O:S-1-5-21-3610481774-617731719-2120504135-1003G:S-1-5-21-3610481774-617731719-2120504135-513D:P(A;;FA;;;OW)(A;;FA;;;SY)(A;;FA;;;BA)"
+    }
+]

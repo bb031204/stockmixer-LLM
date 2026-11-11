@@ -1,0 +1,148 @@
+{
+  "source_root": "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master",
+  "source_ticker_file": "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master\\data\\NYSE_tickers_qualify_dr-0.98_min-5_smooth.csv",
+  "source_dates_file": "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master\\data\\NYSE_aver_line_dates.csv",
+  "source_ticker_sha256": "628de28b3440b191dcda5d250a1ae2e861c773bff9168e27b7e8229e95cc26af",
+  "source_dates_sha256": "6780888aed6da65f5bbc802451fcda5845fa7085ad447a92ab02ebeeae4121f6",
+  "source_csv_aggregate_sha256": "385c73ebf7f7fa712297f93da5b880457f9e1454e1f67c961ca8500fc98d64af",
+  "source_csv_digest_rule": "qualified ticker order: UTF-8 ticker + NUL + raw CSV SHA256 bytes",
+  "loader": "D:\\finance\\model\\StockMixer\\StockMixer\\src\\load_data.py",
+  "loader_sha256": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97",
+  "steps": 1,
+  "features": [
+    "close_ma5",
+    "close_ma10",
+    "close_ma20",
+    "close_ma30",
+    "close"
+  ],
+  "stocks": 1737,
+  "trading_days": 1245,
+  "date_range": [
+    "2013-01-02",
+    "2017-12-08"
+  ],
+  "ignored_extra_csv_count": 32,
+  "missing_stock_days": 1389,
+  "valid_stock_day_fraction": 0.9993577071671834,
+  "valid_one_day_label_pairs": 2159126,
+  "max_valid_label_absolute_error": 0.0,
+  "labels_after_missing_previous_day_excluded_by_window_mask": 349,
+  "min_valid_stocks_per_17_day_window": 1700,
+  "price_range": [
+    0.02867799997329712,
+    1.100000023841858
+  ],
+  "valid_return_range": [
+    -0.4951232075691223,
+    0.9818721413612366
+  ],
+  "splits": {
+    "train_nominal": {
+      "indices": [
+        0,
+        755
+      ],
+      "dates": [
+        "2013-01-02",
+        "2015-12-31"
+      ],
+      "days": 756
+    },
+    "validation": {
+      "indices": [
+        756,
+        1007
+      ],
+      "dates": [
+        "2016-01-04",
+        "2016-12-30"
+      ],
+      "days": 252
+    },
+    "test": {
+      "indices": [
+        1008,
+        1244
+      ],
+      "dates": [
+        "2017-01-03",
+        "2017-12-08"
+      ],
+      "days": 237
+    }
+  },
+  "sampling_note": "Original training candidates can include validation targets 756..771; preserved.",
+  "arrays": {
+    "eod_data": {
+      "shape": [
+        1737,
+        1245,
+        5
+      ],
+      "dtype": "float32",
+      "bytes": 43251465,
+      "sha256": "8680e8572d21d75292d14b6b6f426506936b9f71370254a58aef06eb303ebe1b"
+    },
+    "mask_data": {
+      "shape": [
+        1737,
+        1245
+      ],
+      "dtype": "float32",
+      "bytes": 8650423,
+      "sha256": "6abd15f407eafb98c757f61e5bec524472e076483a8067c4d21e59d255433f09"
+    },
+    "gt_data": {
+      "shape": [
+        1737,
+        1245
+      ],
+      "dtype": "float32",
+      "bytes": 8650423,
+      "sha256": "3c839ecfd60b2fb2b82efeec5ff0520802b46191ce4e65a0f360bb67dcfc5a1f"
+    },
+    "price_data": {
+      "shape": [
+        1737,
+        1245
+      ],
+      "dtype": "float32",
+      "bytes": 8650423,
+      "sha256": "1e3b9626410efd036160281b7bb9f7680f3c562f68c306a0c08ddeea95b96c3f"
+    }
+  },
+  "previous_files_backup": "D:\\finance\\model\\StockMixer\\StockMixer\\dataset_backups\\NYSE_20261110_204845_010032",
+  "training_compatibility_check": {
+    "device": "cpu",
+    "stocks": 1737,
+    "lookback": 16,
+    "features": 5,
+    "market_num": 25,
+    "alpha": 0.1,
+    "batches": [
+      {
+        "target_index": 16,
+        "valid_stocks": 1700,
+        "forward_loss_backward_finite": true
+      },
+      {
+        "target_index": 756,
+        "valid_stocks": 1712,
+        "forward_loss_backward_finite": true
+      },
+      {
+        "target_index": 1008,
+        "valid_stocks": 1732,
+        "forward_loss_backward_finite": true
+      },
+      {
+        "target_index": 1244,
+        "valid_stocks": 1733,
+        "forward_loss_backward_finite": true
+      }
+    ],
+    "one_adam_update_finite": true,
+    "full_training_run": false
+  }
+}

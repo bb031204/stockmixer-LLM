@@ -1,0 +1,81 @@
+{
+  "datasets": {
+    "NASDAQ": {
+      "verification": "Every tensor row equals the qualified ticker's processed CSV after the unchanged loader's slicing and missing-value replacement.",
+      "verified_source_csv_rows": 1026,
+      "max_absolute_error": 0.0,
+      "stocks": 1026,
+      "shape": [
+        1026,
+        1245,
+        5
+      ],
+      "dtype": "float32",
+      "date_range": [
+        "2013-01-02",
+        "2017-12-08"
+      ],
+      "company_names_available": 109,
+      "source_wikidata_ids_available": 512
+    },
+    "SP500": {
+      "verification": "All normalized features equal raw features / per-stock per-feature maximum in dictionary-key order.",
+      "max_absolute_error": 0.0,
+      "training_start_raw_index": 915,
+      "training_date_range": [
+        "2016-01-04",
+        "2022-05-25"
+      ],
+      "training_days": 1611,
+      "stocks": 474,
+      "shape": [
+        474,
+        2526,
+        5
+      ],
+      "dtype": "float64",
+      "date_range": [
+        "2012-05-14",
+        "2022-05-25"
+      ],
+      "company_names_available": 474,
+      "source_wikidata_ids_available": 0
+    },
+    "NYSE": {
+      "verification": "Every tensor row equals the qualified ticker's processed CSV after the unchanged loader's slicing and missing-value replacement.",
+      "verified_source_csv_rows": 1737,
+      "max_absolute_error": 0.0,
+      "stocks": 1737,
+      "shape": [
+        1737,
+        1245,
+        5
+      ],
+      "dtype": "float32",
+      "date_range": [
+        "2013-01-02",
+        "2017-12-08"
+      ],
+      "company_names_available": 308,
+      "source_wikidata_ids_available": 597
+    }
+  },
+  "total_mapping_rows": 3237,
+  "input_sha256": {
+    "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\SP500\\sp500_ticker.csv": "f820d36fc38be430c5dea4711acfef3a5b83110e26ec95ddeb0553839e61efe8",
+    "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master\\data\\NASDAQ_tickers_qualify_dr-0.98_min-5_smooth.csv": "d4543ab1f4fe046b0c4ca50520c2b8783e3e4c173f1e385492f0014cce2c16f4",
+    "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master\\data\\NASDAQ_wiki.csv": "87933c8b57da8a6eff13f3aadf42d6af4553ec2074dfd6423af61ecacc5a29de",
+    "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master\\data\\NASDAQ_aver_line_dates.csv": "41d82ece472d92e92cf09c7d47b5599ca45e0337e06c24fe5b0131eefc9e3331",
+    "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NASDAQ\\eod_data.pkl": "598e1a23e4f71c22c655870ad7cd3b8cfea132233e280b23619108f4f1d91531",
+    "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\SP500\\baseline_data_sp500.npy": "d16a37a8f4c761cf6a9f2b4850e6f480c699a92d72853410a72a434109cad685",
+    "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\SP500\\SP500.npy": "08dacd91409d5f428f9a2e43abff27cffdd4893975202c6bdd0d9fa0cbfe1c31",
+    "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master\\data\\NYSE_tickers_qualify_dr-0.98_min-5_smooth.csv": "628de28b3440b191dcda5d250a1ae2e861c773bff9168e27b7e8229e95cc26af",
+    "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master\\data\\NYSE_wiki.csv": "d4b57f3dedf008f88a59b74a85003029c2396fcbab332edf2b0bfdbb3f89171b",
+    "D:\\finance\\model\\StockMixer\\Temporal_Relational_Stock_Ranking-master\\data\\NYSE_aver_line_dates.csv": "6780888aed6da65f5bbc802451fcda5845fa7085ad447a92ab02ebeeae4121f6",
+    "D:\\finance\\model\\StockMixer\\StockMixer\\dataset\\NYSE\\eod_data.pkl": "8680e8572d21d75292d14b6b6f426506936b9f71370254a58aef06eb303ebe1b"
+  },
+  "outputs": {
+    "stock_identity_mapping.csv": "d768a41ba55d2e20c4f532747910a5daae27db03719c6f435ea7c2561d6e4824",
+    "stock_identity_mapping.md": "8b85eac5c846f1e860d4f48daf23d784e187d4c6f04c4a5c2c9d62925d80a81f"
+  }
+}
