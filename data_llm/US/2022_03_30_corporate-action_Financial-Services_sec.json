@@ -1,0 +1,36 @@
+{
+  "source_id": "87778eb0998fc9488a076ad3",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001140361-22-011863-index.html",
+  "title": null,
+  "时间": "2022-03-30",
+  "分类": "corporate_action",
+  "关键词": [
+    "CREDICORP LTD",
+    "Financial Services",
+    "Corporate Action"
+  ],
+  "主要内容": "Credicorp Ltd. (“Credicorp”) notifies you, as a Material Event, that in its session held on March 29, 2022, the Annual General Meeting of Credicorp agreed to appoint Gaveglio Aparicio y Asociados Sociedad Civil de Responsabilidad Limitada, representatives of PricewaterhouseCoopers in Peru, as external auditors of Credicorp and its subsidiaries for the financial year 2022, and to delegate the power to set and approve fees for such audit services to the Board of Directors (for further delegation to the Audit Committee thereof).",
+  "股票实体": [
+    {
+      "名称": "CREDICORP LTD",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.002365+00:00",
+    "fetched_at": "2026-11-12T07:35:00.642865+00:00",
+    "feature_available_at": "2026-11-12T07:35:35.556883+00:00",
+    "availability_basis": "extraction"
+  }
+}

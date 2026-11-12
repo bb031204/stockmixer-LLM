@@ -1,0 +1,45 @@
+{
+  "source_id": "6fffa3a409ca1e6520428347",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000278/0001144204-12-025812-index.html",
+  "title": null,
+  "时间": "2012-05-03",
+  "分类": "Finance",
+  "关键词": [
+    "PacificHealth Laboratories Inc (PHL)",
+    "Healthcare",
+    "2012-05-03",
+    "Signal Nutrition LLC",
+    "PacificHealth Laboratories, Inc."
+  ],
+  "主要内容": "PacificHealth Laboratories Inc (PHL) reported a net loss of $39,849 for the quarter ended March 3, 2012, compared to a net income of $27,230 in the same period in 2011. Gross profit for the quarter was $744,170, down from $770,619 in the prior year. Operating expenses totaled $779,704, with general and administrative expenses including related party consulting of $49,145. Cash flows from operating activities were $96,917 in 2012, compared to $100,642 in 2011. Cash flows from investing activities were -$90,933, compared to $22,909 in the prior year. Cash and cash equivalents increased to $752,900 from $677,759. The company disclosed unaudited financial statements for the period ending May 3, 2012, referencing its annual report on Form 10-K for the year ended December 31, 2011. Revenue recognition follows ASC 605, with sales recognized upon product delivery to customers when title has passed, price is fixed, and collection is assured. Deferred revenue of $61,554 was reported under the 'pay on scan' model. The company also invested in auction rate securities, classified as short-term investments, with fair value measured using Level 2 inputs.",
+  "股票实体": [
+    {
+      "名称": "Signal Nutrition LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "PacificHealth Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T08:36:23.286293+00:00",
+    "feature_available_at": "2026-11-12T08:44:13.670217+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source_id": "71005b44b3cd12f8e6e8b0d3",
+  "url": "https://www.sec.gov/Archives/edgar/data/100122/0000100122-22-000007-index.html",
+  "title": "tep-20220217",
+  "时间": "2022-02-17",
+  "分类": "corporate_action",
+  "关键词": [
+    "Tucson Electric Power Company",
+    "Utilities",
+    "Senior Notes"
+  ],
+  "主要内容": "On February 17, 2022, Tucson Electric Power Company issued and sold $325 million aggregate principal amount of 3.25% Senior Notes due 2032 (the Notes). The Notes were registered under the Securities Act of 1933, as amended, pursuant to Registration Statement No. 333-231982.",
+  "股票实体": [
+    {
+      "名称": "Tucson Electric Power Company",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Utilities",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:22:38.571096+00:00",
+    "feature_available_at": "2026-11-12T07:22:54.665393+00:00",
+    "availability_basis": "extraction"
+  }
+}

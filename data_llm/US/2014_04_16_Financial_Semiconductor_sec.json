@@ -1,0 +1,38 @@
+{
+  "source_id": "7647b6ef6eabcc5dc1ec27cf",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000180/0001000180-14-000025-index.html",
+  "title": null,
+  "时间": "2014-04-16",
+  "分类": "Financial",
+  "关键词": [
+    "SanDisk Corporation",
+    "SANDISK CORP",
+    "Semiconductor",
+    "Non-GAAP financial measures",
+    "Share-based compensation",
+    "Amortization of acquisition-related intangible assets",
+    "Non-cash economic interest expenses",
+    "Call option",
+    "1.5% Sr. Convertible Notes due 2017"
+  ],
+  "主要内容": "SanDisk Corporation issued a press release to report its financial results for its first quarter ended March 30, 2014. The company disclosed in its 8-K filing that it provides non-GAAP financial measures to enhance understanding of its financial performance. These measures exclude certain expenses, gains, and losses, such as share-based compensation, amortization of acquisition-related intangible assets, and non-cash economic interest expenses. The company believes non-GAAP results align with financial models used by analysts and provide consistency in financial reporting. Non-GAAP diluted shares include the impact of a call option, which offsets dilutive shares from its 1.5% Sr. Convertible Notes due 2017, while GAAP diluted shares exclude this anti-dilutive impact.",
+  "股票实体": [
+    {
+      "名称": "SanDisk Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.456109+00:00",
+    "fetched_at": "2026-11-12T12:47:17.833281+00:00",
+    "feature_available_at": "2026-11-12T12:47:55.377387+00:00",
+    "availability_basis": "extraction"
+  }
+}

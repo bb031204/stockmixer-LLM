@@ -1,0 +1,32 @@
+{
+  "source_id": "7059e3a307ee71b230fd28d0",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-13-035090-index.html",
+  "title": null,
+  "时间": "2013-06-17",
+  "分类": "corporate_action",
+  "关键词": [
+    "NOVAVAX INC",
+    "Biotechnology",
+    "Corporate Action",
+    "Grant Thornton LLP"
+  ],
+  "主要内容": "The stockholders voted on the following matters: Proposal 1: Stockholders elected the following Class III nominees for director, each to serve until the 2016 Annual Meeting of Stockholders or until his successor is duly elected and qualified: Name For Withheld Broker Non-Votes Stanley C. Erck 70,551,703 676,017 41,864,502 Michael A. McManus, Jr., J.D. 69,262,834 1,964,886 41,864,502 James F. Young, Ph.D. 69,832,989 1,394,731 41,864,502 Proposal 2: Stockholders ratified the appointment of Grant Thornton LLP as the Company’s independent registered public accounting firm for the fiscal year ending December 31, 2013: For Against Abstaining 110,759,524 2,074,750 257,948 Proposal 3: Stockholders approved an amendment to the Company’s certificate of incorporation to increase the total number of authorized shares of the Company’s common stock from 200,000,000 share",
+  "股票实体": [
+    {
+      "名称": "Grant Thornton LLP",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T11:37:43.336104+00:00",
+    "feature_available_at": "2026-11-12T11:38:56.833508+00:00",
+    "availability_basis": "extraction"
+  }
+}

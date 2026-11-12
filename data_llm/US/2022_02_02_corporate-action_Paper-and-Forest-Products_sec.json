@@ -1,0 +1,31 @@
+{
+  "source_id": "e2fb8eaaddee2e4cdc748118",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000623/0001000623-22-000003-index.html",
+  "title": "swm-20220131",
+  "时间": "2022-02-02",
+  "分类": "corporate_action",
+  "关键词": [
+    "Schweitzer-Mauduit International, Inc.",
+    "Paper and Forest Products",
+    "restricted stock awards"
+  ],
+  "主要内容": "On January 31, 2022, Schweitzer-Mauduit International, Inc. granted restricted stock awards to its executive officers as part of one-time recognition and retention awards for their work in the acquisition and integration of the Scapa Group during fiscal 2021. The awards include 32,000 shares to Omar Hoek, 25,000 shares to Ricardo Nuñez, and 40,000 shares to R. Andrew Wamser, Jr. All shares will vest on the third anniversary of the grant date, subject to continued employment. Executives domiciled in the U.S. (Mr. Wamser and Mr. Nunez) also entered into Restrictive Covenant Agreements, including non-competition and non-solicitation clauses, for two years following termination of employment.",
+  "股票实体": [
+    {
+      "名称": "Schweitzer-Mauduit International, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T06:55:03.507175+00:00",
+    "feature_available_at": "2026-11-12T06:55:23.636478+00:00",
+    "availability_basis": "extraction"
+  }
+}

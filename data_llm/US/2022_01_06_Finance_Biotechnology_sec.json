@@ -1,0 +1,55 @@
+{
+  "source_id": "672ae1f9118d1492819e63f4",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001233/0001628280-22-000401-index.html",
+  "title": "sgmo-20211230",
+  "时间": "2022-01-06",
+  "分类": "Finance",
+  "关键词": [
+    "Sanofi",
+    "Sangamo Therapeutics, Inc.",
+    "SAR445136",
+    "PRECIZN-1",
+    "Sickle cell disease",
+    "Clinical trials",
+    "Collaboration Agreement",
+    "Milestone payments",
+    "License payment",
+    "Allogeneic universal genomic medicine",
+    "Sangamo"
+  ],
+  "主要内容": "On December 30, 2021, Sanofi terminated its Global Research, Development and Commercialization Collaboration and License Agreement with Sangamo Therapeutics, Inc., effective June 28, 2022. The termination was due to Sanofi’s strategic shift toward allogeneic universal genomic medicine approaches. Under the agreement, Sangamo received a $20 million upfront license payment and is entitled to up to $276.3 million in milestone payments, with $13.5 million already achieved. As of the Termination Date, the Collaboration Agreement will be terminated in its entirety, and Sangamo will not be entitled to receive any further milestone payments or royalties from Sanofi. Sangamo expects that the Phase 1/2 PRECIZN study of SAR445136, the cell therapy candidate for the treatment of sickle cell disease, will be completed as planned, with the final patients in the study dosed in the third quarter of 2022.",
+  "股票实体": [
+    {
+      "名称": "Sanofi",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Sangamo Therapeutics, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Sangamo",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:23:03.515068+00:00",
+    "feature_available_at": "2026-11-12T07:24:26.332202+00:00",
+    "availability_basis": "extraction"
+  }
+}

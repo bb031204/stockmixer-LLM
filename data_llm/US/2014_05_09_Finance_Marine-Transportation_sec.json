@@ -1,0 +1,37 @@
+{
+  "source_id": "75f11ee0d58eb375a22938e2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000177/0000919574-14-002860-index.html",
+  "title": null,
+  "时间": "2014-05-09",
+  "分类": "Finance",
+  "关键词": [
+    "NORDIC AMERICAN TANKERS Ltd",
+    "NORDIC AMERICAN TANKERS",
+    "Marine Transportation",
+    "Share Premium Account",
+    "Dividend Policy",
+    "Authorized Share Capital",
+    "Deloitte AS",
+    "Bermuda"
+  ],
+  "主要内容": "NORDIC AMERICAN TANKERS Ltd announced its Annual General Meeting of Shareholders will be held on June 17, 2014, in Bermuda. The meeting will address six key items, including electing six directors, approving Deloitte AS as independent auditors, amending the Memorandum of Association to increase authorized share capital, reducing the share premium account by approximately $208.2 million, presenting audited financial statements for the year-ended December 31, 2013, and transacting other business. The record date for shareholders is April 28, 2014, and all shareholders must present photo identification to attend. The company proposes to increase its authorized share capital from $900,000 to $1,800,000, comprising 180,000,000 common shares of $0.01 par value. The current authorized capital includes 90,000,000 shares, with 89,182,001 issued and outstanding as of May 8, 2014. The increase aims to provide flexibility for future equity offerings and capital raising without special shareholder meetings. The board recommends approval, requiring a majority vote. Deloitte is recommended as independent auditors for the next year.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Marine Transportation",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.456109+00:00",
+    "fetched_at": "2026-11-12T12:44:29.025003+00:00",
+    "feature_available_at": "2026-11-12T12:47:12.338006+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source_id": "8724f6f72317b957888a7838",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-13-039146-index.html",
+  "title": null,
+  "时间": "2013-05-09",
+  "分类": "results",
+  "关键词": [
+    "DISH Network Corporation",
+    "Broadcasting and Telecommunications",
+    "Results of Operations and Financial Condition"
+  ],
+  "主要内容": "DISH Network Corporation issued a press release reporting financial results for the quarter ended March 31, 2013. A copy of the press release is attached hereto as Exhibit 99.1 and incorporated herein by reference.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting and Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T12:05:07.064504+00:00",
+    "feature_available_at": "2026-11-12T12:05:20.921189+00:00",
+    "availability_basis": "extraction"
+  }
+}

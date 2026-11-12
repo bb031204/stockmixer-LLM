@@ -1,0 +1,47 @@
+{
+  "source_id": "a40456e3abfdf556a3a14fc2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/0001193125-15-145520-index.html",
+  "title": null,
+  "时间": "2015-04-24",
+  "分类": "Finance",
+  "关键词": [
+    "Waters Corporation",
+    "WATERS CORP /DE/",
+    "Credit Agreement",
+    "revolving commitments",
+    "term loan facility",
+    "revolving credit facility",
+    "letter of credit facility",
+    "JPMORGAN CHASE BANK, N.A."
+  ],
+  "主要内容": "Waters Corporation amended its Credit Agreement on April 24, 2015, increasing revolving commitments from $1.1 billion to $1.3 billion. The maturity of the Loans was extended from June 25, 2018, to April 23, 2020. Interest rate margins and fees were adjusted based on the company's leverage ratio. As of April 23, 2015, the total outstanding amount under the Credit Agreement was approximately $1,012 million, with $300 million under the term loan facility, $710 million under the revolving credit facility, and $2 million under the letter of credit facility. The Company plans to use future borrowings for general corporate purposes as outlined in the Credit Agreement.",
+  "股票实体": [
+    {
+      "名称": "Waters Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "JPMORGAN CHASE BANK, N.A.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Industrial Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:16:53.913685+00:00",
+    "feature_available_at": "2026-11-12T17:17:28.863507+00:00",
+    "availability_basis": "extraction"
+  }
+}

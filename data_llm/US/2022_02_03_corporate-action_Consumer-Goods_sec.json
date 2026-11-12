@@ -1,0 +1,31 @@
+{
+  "source_id": "7eadeb93520b4a677319ab93",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001250/0001001250-22-000004-index.html",
+  "title": "el-20220202",
+  "时间": "2022-02-03",
+  "分类": "corporate_action",
+  "关键词": [
+    "The Estée Lauder Companies Inc.",
+    "Consumer Goods",
+    "dividend"
+  ],
+  "主要内容": "The Estée Lauder Companies Inc. declared a quarterly dividend of $0.60 per share on its Class A and Class B Common Stock. The dividend is payable in cash on March 15, 2022, to stockholders of record as of February 28, 2022.",
+  "股票实体": [
+    {
+      "名称": "The Estée Lauder Companies Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:27:02.460237+00:00",
+    "feature_available_at": "2026-11-12T07:27:20.638897+00:00",
+    "availability_basis": "extraction"
+  }
+}

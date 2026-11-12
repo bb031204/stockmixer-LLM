@@ -1,0 +1,25 @@
+{
+  "source_id": "9bb6b823e7ecf81316e44601",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/0001193125-15-187088-index.html",
+  "title": null,
+  "时间": "2015-05-14",
+  "分类": "corporate_action",
+  "关键词": [
+    "WATERS CORP /DE/",
+    "Water Technology",
+    "Executive Compensation Vote"
+  ],
+  "主要内容": "WATERS CORP /DE/ reported that its shareholders approved a non-binding vote on executive compensation with 64,352,122 votes in favor, 3,755,254 against, 217,858 abstentions, and 2,844,911 broker non-votes. The vote was conducted on May 14, 2015.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:18:34.709879+00:00",
+    "feature_available_at": "2026-11-12T17:18:57.672078+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source_id": "b1a7556bfacf3a6c80355466",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-14-004485-index.html",
+  "title": null,
+  "时间": "2014-06-16",
+  "分类": "corporate_action",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Banking",
+    "Corporate Action"
+  ],
+  "主要内容": "Royal Bank of Canada issued $1,250,000,000 aggregate principal amount of 1.250% Senior Notes, due June 16, 2017. Royal Bank of Canada issued $400,000,000 aggregate principal amount of Senior Floating Rate Notes, due June 16, 2017.",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T13:41:23.022550+00:00",
+    "feature_available_at": "2026-11-12T13:41:39.961326+00:00",
+    "availability_basis": "extraction"
+  }
+}

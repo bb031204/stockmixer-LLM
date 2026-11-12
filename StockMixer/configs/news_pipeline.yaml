@@ -1,0 +1,31 @@
+# Independent news module configuration. Does not replace or modify config.yaml.
+# Paths are relative to StockMixer/; actual news folders are currently empty.
+news_root: ../data_llm
+finbert:
+  model_id: ProsusAI/finbert
+  local_files_only: true
+  # Pass a local directory through --model-dir. Its files are pinned by SHA256.
+  max_length: 512
+  batch_size: 16
+  pooling: cls_last_hidden
+  supported_languages: [en]
+panel:
+  # observed_pit requires actual acquisition/encoding/model/mapping availability.
+  # Historical NASDAQ/NYSE FinBERT research defaults to retrospective.
+  mode: retrospective
+  projection: pca
+  projection_seed: 1234
+  lookback_sessions: 5
+  decay_tau_sessions: 3.0
+  simulated_latency_seconds: 300
+fusion:
+  news_dim: 40
+  hidden_dim: 32
+  dropout: 0.0
+  freeze_backbone: true
+  enabled_channels: [company, industry, market]
+# These are verified news-axis references, not overrides of baseline training.
+datasets:
+  NASDAQ: {train_end_idx: 756, valid_end_idx: 1008, stocks: 1026, days: 1245}
+  NYSE: {train_end_idx: 756, valid_end_idx: 1008, stocks: 1737, days: 1245}
+  SP500: {train_end_idx: 1006, valid_end_idx: 1259, stocks: 474, days: 1611}

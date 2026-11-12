@@ -1,0 +1,10 @@
+# Install in a separate environment; do not upgrade the baseline stockmixer environment.
+# PCA is implemented with NumPy SVD; scikit-learn/joblib are unnecessary.
+transformers==4.44.2
+pyarrow==17.0.0
+exchange-calendars==4.5.5
+numpy==1.26.4
+pandas==2.2.3
+PyYAML==6.0.2
+# Reuse the baseline torch through a separate --system-site-packages venv.
+# JSONL tables work without pyarrow. Only calendar generation needs exchange-calendars.

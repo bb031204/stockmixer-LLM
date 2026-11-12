@@ -1,0 +1,44 @@
+{
+  "source_id": "aa4dc060aaff684ee20a4eb9",
+  "url": "https://www.prnewswire.com/news-releases/merger-of-rfmd-and-triquint-is-now-complete-qorvo-emerges-as-a-new-leader-in-rf-solutions-300014997.html",
+  "title": "Merger of RFMD and TriQuint Is Now Complete, Qorvo™ Emerges as a New Leader in RF Solutions",
+  "时间": "2015-01-02T11:00:00+00:00",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "RF Micro Devices",
+    "TriQuint Semiconductor",
+    "Qorvo",
+    "RF solutions",
+    "merger"
+  ],
+  "主要内容": "RF Micro Devices, Inc. and TriQuint Semiconductor, Inc. completed their merger to form Qorvo, a new leader in RF solutions. The merger is expected to achieve at least $150 million in cost synergies, with $75 million in annualized synergies exiting the first year after closing and an additional $7,500,000 exiting the second year. TriQuint shareholders will receive 1.675 shares of Qorvo, and RFMD shareholders will receive 1 share of Qorvo for each share held. The transaction is expected to be accretive to non-GAAP EPS in the first full fiscal year following the merger. Qorvo, formed by the merger of RFMD and TriQuint, has emerged as a new leader in RF solutions. The company has over 6,000 global employees and offers a broad portfolio of products and core technologies. Qorvo is certified under ISO9001, ISO 14001, and ISO/TS 16949 standards and is a DoD-accredited 'Trusted Source' for GaAs, GaN, and BAW products and services. Securities explicitly mentioned in the source include Qorvo.",
+  "股票实体": [
+    {
+      "名称": "Qorvo",
+      "股票代码": "QRVO",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Semiconductors",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:26.075299+00:00",
+    "fetched_at": "2026-11-12T04:13:05.412520+00:00",
+    "feature_available_at": "2026-11-12T04:13:59.015424+00:00",
+    "availability_basis": "extraction"
+  }
+}

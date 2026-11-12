@@ -1,0 +1,33 @@
+{
+  "source_id": "b4dbbf99ed2b2486a78c07ed",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120913a.htm",
+  "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+  "时间": "2012-09-13",
+  "分类": "Finance",
+  "关键词": [
+    "Federal Reserve",
+    "FOMC",
+    "economic recovery",
+    "mortgage-backed securities",
+    "interest rates",
+    "monetary policy"
+  ],
+  "主要内容": "On September 13, 2012, the Federal Reserve announced it would increase policy accommodation by purchasing additional agency mortgage-backed securities at a pace of $40 billion per month. The decision aimed to support a stronger economic recovery and ensure inflation remained at the rate consistent with its dual mandate. The Fed also planned to continue extending the average maturity of its securities holdings and reinvest principal payments in agency mortgage-backed securities. These actions were expected to put downward pressure on longer-term interest rates, support mortgage markets, and make financial conditions more accommodative. The Fed maintained the target range for the federal funds rate at 0 to 1/4 percent and anticipated exceptionally low levels for the federal funds rate would be warranted at least through mid-2015. Jeffrey M. Lacker opposed additional asset purchases and preferred to omit the description of the time period for exceptionally low rates.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:29:48.600101+00:00",
+    "fetched_at": "2026-11-12T06:01:26.669875+00:00",
+    "feature_available_at": "2026-11-12T06:02:19.921472+00:00",
+    "availability_basis": "extraction"
+  }
+}

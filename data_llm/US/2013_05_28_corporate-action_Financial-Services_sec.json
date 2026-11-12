@@ -1,0 +1,36 @@
+{
+  "source_id": "6e7f1122d44425dd2fc3e133",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-13-000440-index.html",
+  "title": null,
+  "时间": "2013-05-28",
+  "分类": "corporate_action",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Financial Services",
+    "Corporate Action"
+  ],
+  "主要内容": "BROOKFIELD TO ISSUE C$150 MILLION OF 4.9% PREFERRED SHARES AND REDEEM ITS CLASS A PREFERENCE SHARES, SERIES 21",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.293585+00:00",
+    "fetched_at": "2026-11-12T12:12:49.732591+00:00",
+    "feature_available_at": "2026-11-12T12:13:03.328589+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "source_id": "c6cce4211459d309240e471a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-13-000025-index.html",
+  "title": null,
+  "时间": "2013-05-16",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "PricewaterhouseCoopers",
+    "share repurchase",
+    "share issuance",
+    "preemptive rights"
+  ],
+  "主要内容": "Core Laboratories N.V. requested shareholders to elect three Class II supervisory directors for the 2016 Annual Meeting. The company also sought ratification of PricewaterhouseCoopers as independent registered public accountants for the fiscal year ending December 31, 2013. Shareholders were asked to approve the cancellation of repurchased shares held by the company on May 16, 2013, and to extend the authority to repurchase up to 10% of issued share capital until November 16, 2014. Additionally, the company sought to extend the authority to issue shares and grant rights up to 10% of outstanding shares annually until November 16, 2014. The results of the voting are detailed in the proxy statement filed on March 20, 2013.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.291562+00:00",
+    "fetched_at": "2026-11-12T10:33:28.988441+00:00",
+    "feature_available_at": "2026-11-12T10:34:03.308001+00:00",
+    "availability_basis": "extraction"
+  }
+}

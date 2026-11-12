@@ -1,0 +1,33 @@
+{
+  "source_id": "c27fc70074eccbe379c3a8c1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000177/0000919574-12-002822-index.html",
+  "title": null,
+  "时间": "2012-04-17",
+  "分类": "Finance",
+  "关键词": [
+    "NORDIC AMERICAN TANKERS Ltd",
+    "share premium reduction",
+    "dividend policy",
+    "Bermuda law",
+    "share capital"
+  ],
+  "主要内容": "NORDIC AMERICAN TANKERS Ltd announced a shareholder meeting on April 17, 2012, to elect seven directors, appoint Deloitte AS as auditors, and approve a share premium account reduction of $75.5 million. The record date was set for April 10, 2012. The proposed reduction aims to enhance the company's ability to declare and distribute dividends to shareholders. The surplus from the reduction will be credited to the contributed surplus account, not resulting in an immediate shareholder distribution. The company disclosed its share capital of $529,156, with a share premium of approximately $75.5 million. Dividends are declared quarterly, considering liabilities, credit facility terms, and Bermuda law. The reduction is subject to compliance with Bermuda law, including the publication of a notice in an appointed newspaper and filing a memorandum with the Bermuda Registrar of Companies. The proposal requires the affirmative vote of the majority of shareholders and is unanimously recommended by the Board of Directors.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Marine Transportation",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T07:38:19.589364+00:00",
+    "feature_available_at": "2026-11-12T07:40:38.252945+00:00",
+    "availability_basis": "extraction"
+  }
+}

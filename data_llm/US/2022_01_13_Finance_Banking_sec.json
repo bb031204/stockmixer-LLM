@@ -1,0 +1,52 @@
+{
+  "source_id": "a73279465423f1ba4ea29cc8",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001104659-22-003727-index.html",
+  "title": null,
+  "时间": "2022-01-13",
+  "分类": "Finance",
+  "关键词": [
+    "CREDICORP LTD",
+    "Banco de Credito del Perú",
+    "S&P Global Ratings",
+    "Sustainability Financing Framework",
+    "Green Projects",
+    "Social Projects",
+    "ICMA",
+    "GBP",
+    "SBP",
+    "GLP",
+    "Banco de Credito del Peru",
+    "Credicorp Ltd."
+  ],
+  "主要内容": "CREDICORP LTD announced that S&P Global Ratings has granted a \"strong\" rating to Banco de Credito del Perú's Sustainability Financing Framework, recognizing its alignment with international sustainability standards, clear project criteria, and transparent reporting commitment. This makes BCP the first Latin American bank with such a rating. The Framework aligns with Credicorp's corporate sustainability strategy and outlines parameters for BCP and Mibanco. Credicorp Ltd. announced plans to launch financing instruments for green, social, and sustainable purposes, including bonds and commercial papers issued through public or private placements, loans, and repos. The proceeds from these instruments will be allocated to eligible green projects (renewable energy, green buildings, energy efficiency, sustainable water, wastewater management, sustainable land use) and social projects (SME financing, microfinancing, financial literacy, access to essential services). The framework follows international guidelines from ICMA, GBP, SB, and GLP. The filing is not deemed 'filed' under the Exchange Act or incorporated by reference in any filing under the Securities Act of 1933.",
+  "股票实体": [
+    {
+      "名称": "CREDICORP LTD",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Banco de Credito del Peru",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Credicorp Ltd.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:27:56.660172+00:00",
+    "feature_available_at": "2026-11-12T07:28:28.279415+00:00",
+    "availability_basis": "extraction"
+  }
+}

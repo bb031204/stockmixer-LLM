@@ -1,0 +1,36 @@
+{
+  "source_id": "958ffcc3e270719b09aef078",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001307942-12-000018-index.html",
+  "title": null,
+  "时间": "2012-05-29",
+  "分类": "corporate_action",
+  "关键词": [
+    "BLONDER TONGUE LABORATORIES, INC.",
+    "Healthcare",
+    "Corporate Action"
+  ],
+  "主要内容": "On May 29, 2012, BLONDER TONGUE LABORATORIES, INC. held its annual meeting of shareholders. Robert J. Pallé, Jr. and Gary P. Scharmett were elected as directors for three-year terms, set to expire at the 2015 annual meeting. The votes for these directors were as follows: Robert J. Pallé, Jr. received 3,878,931 votes for, 446,939 against, and 1,601,233 abstentions. Gary P. Scharmett received 3,514,587 votes for, 811,283 against, and 1,601,233 abstentions. Additionally, the stockholders approved Proposal 2, which ratified the appointment of Marcum LLP as the Company’s independent registered public accountants for the year ending December 31, 2012. The proposal received 5,861,383 votes for, 62,869 against, and 2,851 abstentions.",
+  "股票实体": [
+    {
+      "名称": "BLONDER TONGUE LABORATORIES, INC.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T09:02:20.214660+00:00",
+    "feature_available_at": "2026-11-12T09:03:02.848775+00:00",
+    "availability_basis": "extraction"
+  }
+}

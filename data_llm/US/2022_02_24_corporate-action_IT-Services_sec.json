@@ -1,0 +1,36 @@
+{
+  "source_id": "a7fb9c5db7d386fa82a0d9a7",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000184/0001104659-22-026352-index.html",
+  "title": null,
+  "时间": "2022-02-24",
+  "分类": "corporate_action",
+  "关键词": [
+    "SAP SE",
+    "IT Services",
+    "dividend"
+  ],
+  "主要内容": "SAP SE announced on February 24, 2022, that the Executive Board and Supervisory Board recommend shareholders approve a €2.45 per share dividend for fiscal year 2021. The press release also mentioned the nomination of three candidates for reelection at the 2022 Annual General Meeting of Shareholders.",
+  "股票实体": [
+    {
+      "名称": "SAP SE",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "IT Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:58.999365+00:00",
+    "fetched_at": "2026-11-12T06:33:23.192591+00:00",
+    "feature_available_at": "2026-11-12T06:33:34.905990+00:00",
+    "availability_basis": "extraction"
+  }
+}

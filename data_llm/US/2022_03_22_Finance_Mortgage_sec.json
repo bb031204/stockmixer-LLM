@@ -1,0 +1,43 @@
+{
+  "source_id": "d749ad6873c9b1c653021140",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000298/0001104659-22-036616-index.html",
+  "title": null,
+  "时间": "2022-03-22",
+  "分类": "Finance",
+  "关键词": [
+    "Impac Mortgage Holdings, Inc.",
+    "IMPAC MORTGAGE HOLDINGS, INC.",
+    "Mortgage",
+    "Purchase, Sale and Assignment Agreement",
+    "37 securitizations",
+    "$37.5 million",
+    "March 16, 2022",
+    "April 30, 2022"
+  ],
+  "主要内容": "Impac Mortgage Holdings, Inc. and its subsidiaries entered into a Purchase, Sale and Assignment Agreement on March 16, 2022, to sell certain certificates and assign optional termination and loan purchase rights related to 37 securitizations that closed between 2000 and 2007. The total cash purchase price is $37.5 million, with $20 million paid on March 16, 2022, and the remaining $17.5 million to be paid by April 30, 2022, contingent on the Sellers’ satisfaction of closing and payment release provisions. The proceeds from the transaction, net of transaction costs, will be used for general corporate purposes and working capital, which may include the repayment of debt obligations. The Sale Agreement includes customary obligations for the seller to assist the purchaser in exercising rights, and certain remedies in connection with such rights. The Company emphasized that the representations, warranties, and covenants in the Sale Agreement are for allocating contractual risk and not guarantees of accuracy or future actions. The purchaser of the disposed assets has no material relationship with the Company or its directors, officers, or associates.",
+  "股票实体": [
+    {
+      "名称": "Impac Mortgage Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Mortgage",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T06:53:26.199906+00:00",
+    "feature_available_at": "2026-11-12T06:54:57.297550+00:00",
+    "availability_basis": "extraction"
+  }
+}

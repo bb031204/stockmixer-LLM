@@ -1,0 +1,31 @@
+{
+  "source_id": "b912e05d26ba2ab4e4792440",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001250/0001001250-22-000020-index.html",
+  "title": "el-20220222",
+  "时间": "2022-02-24",
+  "分类": "corporate_action",
+  "关键词": [
+    "The Estée Lauder Companies Inc.",
+    "Consumer Goods",
+    "unpaid leave"
+  ],
+  "主要内容": "On February 22, 2022, John Demsey, Executive Group President of The Estée Lauder Companies Inc., was placed on unpaid leave following content posted on his Instagram handle. The action was disclosed in Item 5.02 of the SEC filing dated February 24, 2022.",
+  "股票实体": [
+    {
+      "名称": "The Estée Lauder Companies Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:27:23.669279+00:00",
+    "feature_available_at": "2026-11-12T07:27:38.012121+00:00",
+    "availability_basis": "extraction"
+  }
+}

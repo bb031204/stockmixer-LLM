@@ -1,0 +1,40 @@
+{
+  "source_id": "85863ec632fab4be703e6163",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-13-024665-index.html",
+  "title": null,
+  "时间": "2013-04-29",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Novavax, Inc.",
+    "Fred Driscoll",
+    "Vice President",
+    "Chief Financial Officer",
+    "Resignation",
+    "Specialty Pharmaceutical Company",
+    "Corporate Governance"
+  ],
+  "主要内容": "On April 25, 2013, Fred Driscoll, Vice President and Chief Financial Officer of Novavax, Inc., announced his intention to resign, effective May 17, 2013. Mr. Drisc, a resident of the Boston area, plans to pursue an opportunity with a Massachusetts-based specialty pharmaceutical company. The Company thanked Fred for his many years of service and wished him well with his new opportunity. Novavax, Inc. has initiated the recruitment of a senior-level financial executive. The filing was made on April 29, 2013, under the Securities Exchange Act of 1934. The report was signed by John A. Herrmann III, who holds the title of Vice President, General Counsel and Corporate Secretary.",
+  "股票实体": [
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T11:34:48.070147+00:00",
+    "feature_available_at": "2026-11-12T11:35:12.935317+00:00",
+    "availability_basis": "extraction"
+  }
+}

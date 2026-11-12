@@ -1,0 +1,49 @@
+{
+  "source_id": "b54e65b407990f3d4455fc1c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000285/0001144204-12-031514-index.html",
+  "title": null,
+  "时间": "2012-05-23",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "Reinsurance Technologies Ltd.",
+    "ReTech Solutions, Inc.",
+    "Ludvik Holdings, Inc.",
+    "ReTech",
+    "Merger Agreement"
+  ],
+  "主要内容": "Reinsurance Technologies Ltd. entered into a merger agreement on March 31, 2012, with ReTech Solutions, Inc. and Ludvik Holdings, Inc. Under the terms, Ludvik will become the surviving corporation, and shareholders of Reinsurance Technologies will receive shares of Lud, Ludvik will invest $2,500,000 in ReTech. The merger is contingent on due diligence by June 30, 2012. The agreement is attached as Exhibit 10.1 to the Form 8-K filing dated May 23, 2012.",
+  "股票实体": [
+    {
+      "名称": "Reinsurance Technologies Ltd.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "ReTech Solutions, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Ludvik Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Insurance Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T08:44:31.094337+00:00",
+    "feature_available_at": "2026-11-12T08:44:55.239828+00:00",
+    "availability_basis": "extraction"
+  }
+}

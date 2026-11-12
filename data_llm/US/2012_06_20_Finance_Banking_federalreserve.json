@@ -1,0 +1,48 @@
+{
+  "source_id": "f635d0b182a97edf0acbf236",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20120620a.htm",
+  "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+  "时间": "2012-06-20",
+  "分类": "Finance",
+  "关键词": [
+    "Federal Reserve",
+    "FOMC",
+    "economic expansion",
+    "employment growth",
+    "unemployment",
+    "business investment",
+    "household spending",
+    "housing sector",
+    "inflation",
+    "oil and gas prices",
+    "monetary policy",
+    "federal funds rate",
+    "securities maturity extension program",
+    "Jeffrey M. Lacker",
+    "Federal Funds Rate"
+  ],
+  "主要内容": "On June 20, 2012, the Federal Reserve issued its FOMC statement. Economic expansion remained moderate, but employment growth had slowed. Unemployment remained high. Business investment continued to rise, while household spending growth decelerated. The housing sector remained weak. Inflation declined due to lower oil and gas prices, with long-term inflation expectations stable. The Fed aimed to achieve maximum employment and price stability. The Fed also announced that economic growth would remain moderate and gradually improve, with the unemployment rate expected to decline slowly. Global financial strains posed significant risks. Inflation was anticipated to stay at or below the rate consistent with its dual mandate. The Fed would maintain a highly accommodative monetary policy, keeping the federal funds rate at 0 to 1/4 percent through late 2014. The Fed would continue its securities maturity extension program, purchasing long-term Treasury securities and redeeming short-term ones to lower longer-term interest rates and ease financial conditions. The FOMC voted to take further action to promote a stronger economic recovery and sustained improvement in labor market conditions while maintaining price stability. Jeffrey M. Lacker opposed the continuation of the maturity extension program.",
+  "股票实体": [
+    {
+      "名称": "Federal Funds Rate",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:29:48.600101+00:00",
+    "fetched_at": "2026-11-12T06:02:23.182166+00:00",
+    "feature_available_at": "2026-11-12T06:04:50.114046+00:00",
+    "availability_basis": "extraction"
+  }
+}

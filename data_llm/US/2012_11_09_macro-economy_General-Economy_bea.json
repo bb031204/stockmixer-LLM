@@ -1,0 +1,27 @@
+{
+  "source_id": "59905735a58bc810901c4fdc",
+  "url": "https://www.bea.gov/news/blog/2012-11-09/use-table-essential-tool-looks-deep-inside-us-economy",
+  "title": "The Use Table: An Essential Tool That Looks Deep Inside the U.S. Economy",
+  "时间": "2012-11-09",
+  "分类": "macro_economy",
+  "关键词": [
+    "U.S. Economy",
+    "Use Table",
+    "Total Industry Output",
+    "Final Uses",
+    "GDP Equation"
+  ],
+  "主要内容": "The Use Table provides insights into the U.S. economy by detailing how commodities are used across industries. It includes sections for intermediate and final uses, with final uses encompassing personal consumption, investment, and net exports. This aligns with the GDP equation: GDP = C + I + G + NX.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:27:54.703669+00:00",
+    "fetched_at": "2026-11-12T05:05:54.226096+00:00",
+    "feature_available_at": "2026-11-12T05:06:15.912732+00:00",
+    "availability_basis": "extraction"
+  }
+}

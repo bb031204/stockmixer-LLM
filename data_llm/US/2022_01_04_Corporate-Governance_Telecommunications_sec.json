@@ -1,0 +1,39 @@
+{
+  "source_id": "b53fa2cb4650504fd41989f2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001001082-22-000006-index.html",
+  "title": "SC1-#4717350-v1-Comments_to_CFO_8-K_8_8_2018_v1 compared with SC1-#4717350-v3-Comments_to_CFO_8-K_8_8_2018_v1",
+  "时间": "2022-01-04",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "DISH Network Corporation",
+    "Afshin Mohebbi",
+    "W. Erik Carlson",
+    "2022 Incentive Plan",
+    "2019 Stock Incentive Plan"
+  ],
+  "主要内容": "DISH Network Corporation announced that Afshin Mohebbi stepped down from the Board of Directors as of December 31, 2021. W. Erik Carlson was appointed as a new director, effective December 31, 2021. Mr. Carlson has served as President and Chief Executive Officer since December 2017 and has held various leadership roles within the company. On December 30, 2021, DISH Network’s Board and Compensation Committee approved the 2022 Incentive Plan under its 2019 Stock Incentive Plan. The plan aims to reward executives and senior employees with equity and cash incentives upon achieving business objectives. Options to purchase Class A common stock will vest based on the Corporation’s performance prior to December 31, 2026. Non-participating executives may join the wireless incentive program for wireless-focused employees.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T07:06:03.084971+00:00",
+    "feature_available_at": "2026-11-12T07:06:40.671736+00:00",
+    "availability_basis": "extraction"
+  }
+}

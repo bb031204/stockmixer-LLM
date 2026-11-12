@@ -1,0 +1,31 @@
+{
+  "source_id": "80069e2ba728fe39420097dd",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001307942-14-000016-index.html",
+  "title": null,
+  "时间": "2014-04-21",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "Electronics",
+    "K Tech patent litigation"
+  ],
+  "主要内容": "On April 21, 2014, Blonder Tongue Laboratories, Inc. issued a press release announcing that it had received a favorable ruling in the K Tech patent litigation. The press release is attached as Exhibit 99.1.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T14:12:06.469719+00:00",
+    "feature_available_at": "2026-11-12T14:12:43.530779+00:00",
+    "availability_basis": "extraction"
+  }
+}

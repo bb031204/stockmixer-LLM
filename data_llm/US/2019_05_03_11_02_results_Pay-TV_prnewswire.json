@@ -1,0 +1,38 @@
+{
+  "source_id": "f1060f5e817446dae96360d4",
+  "url": "https://www.prnewswire.com/news-releases/dish-network-reports-first-quarter-2019-financial-results-300843210.html",
+  "title": "DISH Network Reports First Quarter 2019 Financial Results",
+  "时间": "2019-05-03T11:02:00+01:00",
+  "分类": "results",
+  "关键词": [
+    "DISH Network Corporation",
+    "Pay-TV",
+    "results",
+    "DISH"
+  ],
+  "主要内容": "DISH Network Corporation (NASDAQ: DISH) reported revenue of $3.19 billion for the first quarter ending March 31, 2019, down from $3.46 billion in the same period in 2018. Net income was $340 million, compared to $368 million in 2018. Diluted earnings per share were $0.65, down from $0.70. The company ended the quarter with 12.063 million total Pay-TV subscribers, including 9.639 million DISH TV and 2.424 million Sling TV subscribers. Net pay-TV subscribers declined by approximately 259,000, compared to a decline of 94,000 in the first quarter of 2018.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": "DISH",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Pay-TV",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:30:20.005603+00:00",
+    "fetched_at": "2026-11-12T06:16:20.208908+00:00",
+    "feature_available_at": "2026-11-12T06:16:44.164267+00:00",
+    "availability_basis": "extraction"
+  }
+}

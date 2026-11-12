@@ -1,0 +1,49 @@
+{
+  "source_id": "67301e2b916de2dcefe7f8c3",
+  "url": "https://www.prnewswire.com/news-releases/marvell-semiconductor-president-and-ceo-matt-murphy-elected-chair-of-sia-300555832.html",
+  "title": "Marvell Semiconductor President and CEO Matt Murphy Elected Chair of SIA",
+  "时间": "2017-11-14T21:15:00+00:00",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Marvell Semiconductor (MRVL)",
+    "Semiconductor Industry Association (SIA)",
+    "Matt Murphy",
+    "Micron Technology (MU)",
+    "Sanjay Mehrotra",
+    "Marvell Semiconductor, Inc.",
+    "MRVL",
+    "Micron Technology, Inc.",
+    "MU"
+  ],
+  "主要内容": "The Semiconductor Industry Association (SIA) announced on 2017-11-14 that Matt Murphy, President and CEO of Marvell Semiconductor, Inc. (NASDAQ: MRVL), has been elected as its 2018 Chair. Sanjay Mehrotra, President and CEO of Micron Technology, Inc. (NASDAQ: MU), was elected as 2018 Vice Chair. Murphy has led Marvell since joining the company in July 2016, overseeing its turnaround and reestablishing it as a leading innovator in storage and networking technology. Mehrotra, with over two decades at Maxim Integrated, brings extensive experience in semiconductor technology leadership. Murphy emphasized the importance of semiconductor technology in shaping the modern world and called for increased U.S. support for research, competitiveness, and global trade.",
+  "股票实体": [
+    {
+      "名称": "Marvell Semiconductor, Inc.",
+      "股票代码": "MRVL",
+      "交易所": "NASDAQ"
+    },
+    {
+      "名称": "Micron Technology, Inc.",
+      "股票代码": "MU",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:33.083717+00:00",
+    "fetched_at": "2026-11-12T04:17:26.933703+00:00",
+    "feature_available_at": "2026-11-12T04:18:10.694144+00:00",
+    "availability_basis": "extraction"
+  }
+}

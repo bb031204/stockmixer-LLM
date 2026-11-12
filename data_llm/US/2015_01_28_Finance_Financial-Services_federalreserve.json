@@ -1,0 +1,37 @@
+{
+  "source_id": "8837eff1cb6d2dbcc3a03b81",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20150128a.htm",
+  "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+  "时间": "2015-01-28",
+  "分类": "Finance",
+  "关键词": [
+    "Federal Reserve",
+    "FOMC",
+    "Federal Funds Rate",
+    "Inflation",
+    "Employment",
+    "Monetary Policy"
+  ],
+  "主要内容": "The Federal Reserve issued a FOMC statement on January 28, 2015, highlighting that economic activity has expanded at a solid pace. Labor market conditions improved further, with strong job gains and a lower unemployment rate. Household spending rose moderately, and recent energy price declines boosted purchasing power. Business fixed investment advanced, while the housing recovery remained slow. Inflation fell below the Committee’s longer-run objective, largely due to energy price declines. Market-based inflation compensation measures dropped significantly, while survey-based inflation expectations remained stable. The Fed reaffirmed its 0 to 1/4 percent federal funds rate target range and will assess progress toward its goals, including labor market conditions and inflation expectations, before beginning to normalize monetary policy. The Fed indicated that rate hikes may occur sooner if progress toward employment and inflation targets is faster than expected, or be delayed if progress is slower. The Fed also maintained its policy of reinvesting principal payments from agency debt and mortgage-backed securities, and rolling over maturing Treasury securities.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Finance",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:30:00.944560+00:00",
+    "fetched_at": "2026-11-12T06:09:39.878722+00:00",
+    "feature_available_at": "2026-11-12T06:10:40.467572+00:00",
+    "availability_basis": "extraction"
+  }
+}

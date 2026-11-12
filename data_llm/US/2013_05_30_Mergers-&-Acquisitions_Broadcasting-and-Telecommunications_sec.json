@@ -1,0 +1,48 @@
+{
+  "source_id": "c0adb6683913dadbbe99b84d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-13-045482-index.html",
+  "title": null,
+  "时间": "2013-05-30",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "DISH Network Corporation",
+    "Clearwire Corporation",
+    "Broadcasting and Telecommunications",
+    "Clearwire Board of Directors"
+  ],
+  "主要内容": "DISH Network Corporation issued a press release on May 29, 2013, announcing that it sent a letter to Clearwire Corporation offering to acquire all outstanding Class A shares for $4.40 per share in cash. DISH intends to commence a tender offer prior to the Clearwire stockholders' meeting on May 31, 2013. The tender offer was part of DISH's strategy to acquire assets from Clearwire, a company in the broadcasting and telecommunications industry. The announcement was made through a press release and was signed by R. Stanton Dodge, Executive Vice President, General Counsel and Secretary of DISH Network Corporation on May 30, 2013.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Clearwire Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Clearwire Board of Directors",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting and Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T12:08:43.389361+00:00",
+    "feature_available_at": "2026-11-12T12:09:06.963107+00:00",
+    "availability_basis": "extraction"
+  }
+}

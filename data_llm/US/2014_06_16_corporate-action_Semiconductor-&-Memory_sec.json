@@ -1,0 +1,38 @@
+{
+  "source_id": "c99c29fa8492b2dad69c12d9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000180/0001104659-14-046105-index.html",
+  "title": null,
+  "时间": "2014-06-16",
+  "分类": "corporate_action",
+  "关键词": [
+    "SanDisk Corporation",
+    "Semiconductor & Memory",
+    "Merger Agreement",
+    "Fusion-io, Inc."
+  ],
+  "主要内容": "On June 16, 2014, SanDisk Corporation entered into an Agreement and Plan of Merger with Fusion-io, Inc., pursuant to which SanDisk will acquire Fusion-io in a transaction valued at approximately $1.1 billion, net of cash assumed. The merger was announced in a joint press release issued by SanDisk and Fusion-io on the same date.",
+  "股票实体": [
+    {
+      "名称": "SanDisk Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Fusion-io, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.456109+00:00",
+    "fetched_at": "2026-11-12T12:47:58.179830+00:00",
+    "feature_available_at": "2026-11-12T12:48:15.858576+00:00",
+    "availability_basis": "extraction"
+  }
+}

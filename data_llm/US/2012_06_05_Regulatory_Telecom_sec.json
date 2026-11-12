@@ -1,0 +1,50 @@
+{
+  "source_id": "64d9ca4d92850c32c3ead12a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001001082-12-000012-index.html",
+  "title": null,
+  "时间": "2012-06-05",
+  "分类": "Regulatory",
+  "关键词": [
+    "DISH Network Corporation",
+    "FCC",
+    "148 degree orbital location",
+    "license termination",
+    "write-off",
+    "DISH DBS Corporation"
+  ],
+  "主要内容": "On May 31, 2012, the International Bureau of the Federal Communications Commission (FCC) announced the termination of DISH Network Corporation's license for use of the 148 degree orbital location. The license, which had a carrying value of $68 million, will require a write-off in Q2 2012 due to the FCC's termination. DISH Network Corporation disclosed that it is evaluating whether to challenge the termination of its license for the 148 degree orbital location. The company previously disclosed this issue in its public filings, including in its 10-K and 10-Q reports.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DISH DBS Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting and Telecommunications",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Broadcasting & Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.070830+00:00",
+    "fetched_at": "2026-11-12T09:24:45.945723+00:00",
+    "feature_available_at": "2026-11-12T09:25:08.127465+00:00",
+    "availability_basis": "extraction"
+  }
+}

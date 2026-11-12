@@ -1,0 +1,39 @@
+{
+  "source_id": "54d7b32b5f728c80bd535c93",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-15-000018-index.html",
+  "title": null,
+  "时间": "2015-04-29",
+  "分类": "corporate_action",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "BAM",
+    "Financial Services",
+    "Over-Allotment Option",
+    "Class A Shares"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. (NYSE: BAM) (TSX: BAM.A) (Euronext: BAMA) (“Brookfield”) today announced that the underwriters for its public offering of 17,860,000 Class A Limited Voting Shares (“Class A Shares”) completed on April 27, 2015 (the “Offering”) have exercised their option (the “Over-Allotment Option”) to purchase an additional 2,679,000 Class A Shares at a price of US$56.00 per Class A Share. Brookfield will receive additional gross proceeds of approximately US$150 million from the exercise of the Over-Allotment Option. The aggregate gross proceeds from the Offering, including the Over-Allotment Option, and a private placement of 1,395,089 Class A Shares completed concurrently with the Offering, total approximately US$1.225 billion. Closing of the Over-Allotment Option is expected to occur on April 30, 2015.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:39:46.034070+00:00",
+    "feature_available_at": "2026-11-12T17:40:26.021266+00:00",
+    "availability_basis": "extraction"
+  }
+}

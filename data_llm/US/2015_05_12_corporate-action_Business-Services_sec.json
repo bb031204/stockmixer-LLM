@@ -1,0 +1,35 @@
+{
+  "source_id": "ea1f6f2675069a9736b2784d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-15-000047-index.html",
+  "title": null,
+  "时间": "2015-05-12",
+  "分类": "corporate_action",
+  "关键词": [
+    "Insperity, Inc.",
+    "Business Services",
+    "Rule 10b5-1",
+    "trading plan",
+    "154,500 shares",
+    "prearranged",
+    "six month period"
+  ],
+  "主要内容": "On May 12, 2015, Insperity, Inc. announced that its Chairman of the Board and Chief Executive Officer, Mr. Sarvadi, established a new structured, prearranged trading plan to sell a portion of his beneficially owned shares of Insperity common stock over a six-month period in accordance with Rule 10b5-1 of the Securities Exchange Act of 1934. The plan allows Mr. Sarvadi to sell a maximum of 154,500 shares at predetermined stock prices ranging from $53.60 to $70.10. These shares represent approximately 9% of his current common stock holdings. The plan was initiated during the company’s open window for insider transactions. Rule 10b5-1 permits the implementation of a written plan for selling stock at times when insiders are not in possession of material nonpublic information, and allows them to sell stock on a regular basis and in a non-discretionary manner, regardless of any subsequent material nonpublic information they receive.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:23:43.874176+00:00",
+    "feature_available_at": "2026-11-12T17:24:13.336565+00:00",
+    "availability_basis": "extraction"
+  }
+}

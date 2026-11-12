@@ -1,0 +1,37 @@
+{
+  "source_id": "b618cbbbad44b802fb57227f",
+  "url": "https://www.prnewswire.com/news-releases/hg-data-company-selected-one-of-30-companies-to-watch-in-information-industry-186000102.html",
+  "title": "HG Data Company Selected One of \"30 Companies to Watch\" in Information Industry",
+  "时间": "2013-01-08T12:30:00+00:00",
+  "分类": "industry_supply_demand",
+  "关键词": [
+    "HG Data Company",
+    "Information Industry",
+    "30 companies to watch"
+  ],
+  "主要内容": "HG Data Company, a \"big data\" startup tracking the use of enterprise technology, has been selected as one of \"30 companies to watch\" in 2013 by market research firm Outsell. Outsell identifies innovators globally, both big and small, that are disrupting the information industry through novel but significant breakthroughs in business models. HG Data's methodology is shaking up the company-information industry because machine-learning disrupts an activity traditionally performed through manual processes including telephone surveys.",
+  "股票实体": [
+    {
+      "名称": "HG Data Company",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Information Industry",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:08:38.737452+00:00",
+    "fetched_at": "2026-11-12T18:09:25.710694+00:00",
+    "feature_available_at": "2026-11-12T18:09:43.095290+00:00",
+    "availability_basis": "extraction"
+  }
+}

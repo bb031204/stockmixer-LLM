@@ -1,0 +1,46 @@
+{
+  "source_id": "67338bb50bf179e49bd3e11a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-12-034173-index.html",
+  "title": null,
+  "时间": "2012-05-08",
+  "分类": "Finance",
+  "关键词": [
+    "DISH Network Corporation",
+    "NASDAQ: DISH",
+    "DISH DBS Corporation",
+    "Senior Notes",
+    "2017 Notes",
+    "2022 Notes",
+    "Telecommunications"
+  ],
+  "主要内容": "On May 8, 2012, DISH Network Corporation (NASDAQ: \"DISH\") announced that its wholly-owned subsidiary, DISH DBS Corporation, priced $900 million aggregate principal amount of 5-year, 4.625% Senior Notes due 2017 and $1 billion aggregate principal amount of 5-year, 4.625% Senior Notes due 2017. DISH Network Corporation issued $1.9 billion in senior notes, including $1.0 billion in 10-year, 5.875% notes due 2022 and $0.9 billion in 5-year, 5.875% notes due 2017. The notes will mature on July 15, 2017 and July 15, 2022, with interest paid semi-annually on January 15 and July 15. Proceeds are for general corporate purposes. The offering was conducted via private placement under Rule 144A and Regulation S. Notes are unregistered and cannot be offered or sold in the U.S. without registration or exemption.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DISH DBS Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting & Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.070830+00:00",
+    "fetched_at": "2026-11-12T09:23:09.705328+00:00",
+    "feature_available_at": "2026-11-12T09:23:40.909027+00:00",
+    "availability_basis": "extraction"
+  }
+}

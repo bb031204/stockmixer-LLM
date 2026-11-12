@@ -1,0 +1,31 @@
+{
+  "source_id": "686db231ec389c48e984618c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001181431-13-025378-index.html",
+  "title": null,
+  "时间": "2013-05-06",
+  "分类": "corporate_action",
+  "关键词": [
+    "CMS",
+    "Technology",
+    "marketing support services"
+  ],
+  "主要内容": "CMS provides marketing support services to GEOSPACE TECHNOLOGIES CORP, including product photography, video shoots, brochure design, magazine advertising, website design, and other marketing and advertising services. For the Company's 2012 fiscal year and 2013 fiscal year to date, payments for these services totaled approximately $125,000 and $97,000, respectively.",
+  "股票实体": [
+    {
+      "名称": "CMS",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.293585+00:00",
+    "fetched_at": "2026-11-12T12:22:03.409958+00:00",
+    "feature_available_at": "2026-11-12T12:22:15.876284+00:00",
+    "availability_basis": "extraction"
+  }
+}

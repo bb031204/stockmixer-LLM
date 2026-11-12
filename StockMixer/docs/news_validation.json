@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-12",
+  "tests_passed": 30,
+  "tests_failed": 0,
+  "real_datasets_checked": [
+    "NASDAQ",
+    "NYSE",
+    "SP500"
+  ],
+  "cuda_forward_backward_checked": true,
+  "real_finbert_weights_inference_run": false,
+  "real_news_articles_available": 0,
+  "baseline_training_or_testing_changed": false,
+  "full_training_run": false,
+  "optional_dependencies_installed": false,
+  "baseline_sha256": {
+    "StockMixer\\src\\evaluator.py": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60",
+    "StockMixer\\src\\load_data.py": "648ae80f8464257dbccff1254d5c6d3210f6a3f87b9f24d65f73eb41e1734c97",
+    "StockMixer\\src\\model.py": "8e255da03d1efbbaead8a75f9561e6980c6b19a16f20fa2731f5ce99d4d2ec31",
+    "StockMixer\\src\\train.py": "12706ea2b3c3542cef3167e3e49c7489335546676023c91cfc5494db30add9c8",
+    "StockMixer/config.yaml": "30d63fa68de337457c6334a343a7b8d3727e89193985825cb1a5662cb6fb0c5f"
+  },
+  "notes": [
+    "Synthetic text encoder fixtures validate contracts only; not pretrained FinBERT accuracy.",
+    "Real inference and full news training await source records, pinned weights and verified historical mappings."
+  ]
+}

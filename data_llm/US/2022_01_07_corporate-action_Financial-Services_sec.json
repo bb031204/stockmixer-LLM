@@ -1,0 +1,32 @@
+{
+  "source_id": "b0f10986daf96805c96ab85f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000298/0001104659-22-002292-index.html",
+  "title": null,
+  "时间": "2022-01-07",
+  "分类": "corporate_action",
+  "关键词": [
+    "Impac Mortgage Holdings, Inc.",
+    "Financial Services",
+    "Special Meeting",
+    "Series B Preferred Shares"
+  ],
+  "主要内容": "Impac Mortgage Holdings, Inc. held a special virtual meeting for Series B Preferred Shares holders. The meeting was originally scheduled for October 13, 2021, but a quorum was not present. The meeting was adjourned to November 23, 2021, and then again to January 6, 2022. Despite multiple adjournments, no quorum was established, and no Preferred Directors were elected by the holders of Series B Preferred Shares.",
+  "股票实体": [
+    {
+      "名称": "Impac Mortgage Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T06:52:40.255587+00:00",
+    "feature_available_at": "2026-11-12T06:53:03.485203+00:00",
+    "availability_basis": "extraction"
+  }
+}

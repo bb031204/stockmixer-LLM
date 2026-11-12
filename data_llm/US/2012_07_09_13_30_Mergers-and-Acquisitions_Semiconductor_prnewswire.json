@@ -1,0 +1,69 @@
+{
+  "source_id": "c317cdc7d31ba1f1b5786cfa",
+  "url": "https://www.prnewswire.com/news-releases/ultra-clean-holdings-inc-completes-strategic-merger-with-advanced-integration-technologies-161772085.html",
+  "title": "Ultra Clean Holdings, Inc. Completes Strategic Merger with Advanced Integration Technologies",
+  "时间": "2012-07-09T13:30:00+01:00",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "Ultra Clean Holdings, Inc.",
+    "UCTT",
+    "Advanced Integration Technologies",
+    "AIT",
+    "Semiconductor"
+  ],
+  "主要内容": "Ultra Clean Holdings, Inc. (UCTT) completed its merger with Advanced Integration Technologies (AIT) on July 9, 2012. The merger adds new customers in the semiconductor capital equipment and medical equipment markets, and enhances UCTT's manufacturing capabilities in complete tools, frame manufacturing, and sheet metal fabrication. AIT's 2011 revenue was nearly $170M, significantly increasing UCTT's scale. The merger is expected to be accretive to earnings for 2012 and 2013. It also leverages combined Asian manufacturing capabilities and supports global expansion through UCTT's vertical integration model.",
+  "股票实体": [
+    {
+      "名称": "Ultra Clean Holdings, Inc.",
+      "股票代码": "UCTT",
+      "交易所": null
+    },
+    {
+      "名称": "Advanced Integration Technologies",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor Equipment",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Medical Device",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Research",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Energy",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Flat Panel",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Industrial",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:15.561350+00:00",
+    "fetched_at": "2026-11-12T04:04:38.262831+00:00",
+    "feature_available_at": "2026-11-12T04:05:40.128450+00:00",
+    "availability_basis": "extraction"
+  }
+}

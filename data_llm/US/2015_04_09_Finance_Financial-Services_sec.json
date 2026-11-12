@@ -1,0 +1,52 @@
+{
+  "source_id": "c37a562c6ed0d05b82493f56",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-15-000551-index.html",
+  "title": null,
+  "时间": "2015-04-09",
+  "分类": "Finance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "NYSE: BAM",
+    "TSX: BAM.A",
+    "Euronext: BAMA",
+    "stock split",
+    "dividend increase",
+    "6%",
+    "May 12, 2015",
+    "fractional shares",
+    "taxable",
+    "non-taxable",
+    "government regulation",
+    "litigation",
+    "tax laws",
+    "catastrophic events",
+    "international conflicts",
+    "cyberterrorism",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. (NYSE: BAM) (TSX: BAM.A) (Euronext: BAMA) announced a three-for-two stock split and a 6% per share dividend increase. The stock split will be implemented via a stock dividend, with shareholders receiving one-half of a Class A Share for each Class A and Class B Share held. The dividend will be payable on May 12, 2015, to shareholders of record as of May 5, 2015. Fractional shares will be paid in cash based on the closing price on the Toronto Stock Exchange on the record date. The stock split aims to improve liquidity and accessibility for individual shareholders without diluting equity. The stock dividend is not taxable in Canada or the U.S., though cash for fractional shares is taxable. The company expects to commence paying a quarterly dividend of US$0.12 per share, representing an increase of approximately 6% over the current rate on a split-adjusted basis. Class A Shares will trade on a 'due bill' basis from May 1 to May 12, 2015, with ex-dividend trading starting on May 13, 2015.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:28:47.926944+00:00",
+    "feature_available_at": "2026-11-12T17:30:03.462707+00:00",
+    "availability_basis": "extraction"
+  }
+}

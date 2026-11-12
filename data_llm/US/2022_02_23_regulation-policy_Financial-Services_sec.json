@@ -1,0 +1,31 @@
+{
+  "source_id": "67d18c30f4a14555ddccd74b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-22-049984-index.html",
+  "title": "8-K",
+  "时间": "2022-02-23",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Medallion Financial Corp.",
+    "Financial Services",
+    "Results of Operations and Financial Condition"
+  ],
+  "主要内容": "Medallion Financial Corp. issued a press release to the news media announcing the Company’s results for the year and quarter ended December 31, 2021. A copy of the press release is attached hereto as Exhibit 99.1 and is incorporated herein by reference.",
+  "股票实体": [
+    {
+      "名称": "Medallion Financial Corp.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:58.999365+00:00",
+    "fetched_at": "2026-11-12T06:34:30.644093+00:00",
+    "feature_available_at": "2026-11-12T06:34:44.737719+00:00",
+    "availability_basis": "extraction"
+  }
+}

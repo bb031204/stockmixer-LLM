@@ -1,0 +1,67 @@
+{
+  "source_id": "d9dd9f6be147ae4a14bb6b22",
+  "url": "https://www.sec.gov/Archives/edgar/data/1666700/0001666700-19-000056-index.html",
+  "title": null,
+  "时间": "2019-06-07",
+  "分类": "Financial",
+  "关键词": [
+    "DowDuPont Inc.",
+    "Dow Inc.",
+    "Corteva Inc.",
+    "DuPont de Nemours, Inc.",
+    "Chemicals",
+    "DowDuPont",
+    "DuPont"
+  ],
+  "主要内容": "DowDuPont Inc. completed a merger of equals transaction with The Dow Chemical Company and E. I. du Pont de Nemours and Company, forming two subsidiaries: Dow Inc. and Corteva Inc. These subsidiaries hold the materials science and agriculture businesses, respectively. The company previously announced plans to separate into three independent, publicly traded companies through a series of stock distributions. DowDuPont completed the Dow Distribution on April 1, 2019, and the Corteva Distribution on June 1, 2019. Following the Distributions, DowDuPont changed its registered name to DuPont de Nemours, Inc. In 2018, DowDuPont issued $12.7 billion in senior unsecured notes and entered into a $3.0 billion term loan agreement. The company also issued $1.4 billion in commercial paper in May 2019 to fund the Corteva Distribution. Proceeds from these financings, along with cash from operations, were used to fund cash contributions to Dow and Corteva, and to complete a $3.0 billion share repurchase program in the first quarter of 2019.",
+  "股票实体": [
+    {
+      "名称": "DowDuPont Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Dow Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Corteva Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DowDuPont",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DuPont de Nemours, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DuPont",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Chemicals",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:26:53.440558+00:00",
+    "fetched_at": "2026-11-12T03:53:25.211152+00:00",
+    "feature_available_at": "2026-11-12T03:55:00.225103+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "source_id": "e862bf7499e68a20f6ccdefc",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001171/0001193125-13-211477-index.html",
+  "title": null,
+  "时间": "2013-05-09",
+  "分类": "Finance",
+  "关键词": [
+    "Broadway Financial Corp (DE)",
+    "executive compensation",
+    "2012",
+    "2011",
+    "2010",
+    "Wayne-Kent A. Bradshaw",
+    "Paul C. Hudson",
+    "Samuel Sarpong",
+    "Norman Bellefeuille",
+    "Wilbur McKesson",
+    "Salary Continuation Agreement",
+    "Crowe Horwath LLP",
+    "Audit Committee",
+    "financial services",
+    "Cathay General Bancorp",
+    "Edward W. Wedbush",
+    "First Opportunity Fund, Inc.",
+    "Kellogg Chan",
+    "Robert C. Davidson, Jr.",
+    "Javier León",
+    "A. Odell Maddox",
+    "Daniel A. Medina",
+    "Virgil Roberts",
+    "All directors and executive officers as a group"
+  ],
+  "主要内容": "Broadway Financial Corp (DE) disclosed executive compensation details for 2012, 2011, and 2010. Wayne-Kent A. Bradshaw, CEO, received $272,292, $210,000, and $210,000, respectively. Paul C. Hudson, also CEO, earned $204,375, $330,000, and $300,000. Samuel Sarpong, CFO, received $172,601 annually. Norman Bellefeuille and Wilbur McKesson, both Chief Loan Officers, earned $93,125 and $135,992 for 2012. Compensation includes deferred amounts and 401(k) contributions. The company has a Salary Continuation Agreement with Mr. Hudson, with benefits reflected in Consolidated Financial Statements as of December 31, 2012. Stock options vest over five years, with terms of ten years from the grant date. Director compensation for 2012 included cash fees and insurance premiums. The filing details beneficial ownership, with Cathay General Bancorp holding 215,000 shares (11.21%), Edward W. Wedbush owning 129,332 shares (6.75%), and First Opportunity Fund, Inc. holding 96,980 shares (5.06%). Directors and executive officers collectively hold 441,755 shares (23.02%).",
+  "股票实体": [
+    {
+      "名称": "Cathay General Bancorp",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Edward W. Wedbush",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "First Opportunity Fund, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Wayne-Kent A. Bradshaw",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Paul C. Hudson",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Kellogg Chan",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Robert C. Davidson, Jr.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Javier León",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "A. Odell Maddox",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Daniel A. Medina",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Virgil Roberts",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Samuel Sarpong",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Norman Bellefeuille",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "All directors and executive officers as a group",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.293585+00:00",
+    "fetched_at": "2026-11-12T12:23:41.717319+00:00",
+    "feature_available_at": "2026-11-12T12:26:48.160581+00:00",
+    "availability_basis": "extraction"
+  }
+}

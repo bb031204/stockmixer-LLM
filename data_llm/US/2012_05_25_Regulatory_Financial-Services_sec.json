@@ -1,0 +1,33 @@
+{
+  "source_id": "54254695580ee4e304f543e4",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001171/0001193125-12-249159-index.html",
+  "title": null,
+  "时间": "2012-05-25",
+  "分类": "Regulatory",
+  "关键词": [
+    "Broadway Financial Corporation",
+    "NASDAQ",
+    "Form 10-Q",
+    "Fair Value Disclosure Requirements",
+    "Regulatory Compliance"
+  ],
+  "主要内容": "Broadway Financial Corporation received a letter from the Nasdaq Listing Qualifications Department on May 25, 2012, stating that it was not in compliance with Nasdaq Listing Rule 5250(c)(1) due to its failure to file its first quarter 2012 Form 10-Q. The delay was attributed to the lack of information required to meet new fair value disclosure requirements. The company must submit a plan to Nasdaq within 60 calendar days of receiving the deficiency letter. Nasdaq may grant an exception of up to 180 calendar days from the original due date, or until November 19, 2012, to regain compliance. The company expects to file its Form 10-Q by May 31, 2012.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.070830+00:00",
+    "fetched_at": "2026-11-12T09:36:51.319696+00:00",
+    "feature_available_at": "2026-11-12T09:37:20.304882+00:00",
+    "availability_basis": "extraction"
+  }
+}

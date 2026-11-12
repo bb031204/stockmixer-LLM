@@ -1,0 +1,36 @@
+{
+  "source_id": "df2aa30dfc6204f141c05beb",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-12-000420-index.html",
+  "title": null,
+  "时间": "2012-05-10",
+  "分类": "results",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Financial Services",
+    "Funds from Operations"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. reported strong funds from operations of $283 million for the first quarter of 2012.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.070830+00:00",
+    "fetched_at": "2026-11-12T09:25:49.887118+00:00",
+    "feature_available_at": "2026-11-12T09:26:01.914086+00:00",
+    "availability_basis": "extraction"
+  }
+}

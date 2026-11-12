@@ -1,0 +1,35 @@
+{
+  "source_id": "c6ddffefd99eed4cd8e9e596",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000623/0001104659-22-026861-index.html",
+  "title": null,
+  "时间": "2022-02-25",
+  "分类": "Finance",
+  "关键词": [
+    "Schweitzer-Mauduit International, Inc.",
+    "SWM Luxembourg",
+    "Fourth Amendment",
+    "Credit Agreement",
+    "Revolving Credit Facility",
+    "Term A Facility",
+    "Net Debt to EBITDA Ratio",
+    "financial covenant"
+  ],
+  "主要内容": "On February 22, 2022, Schweitzer-Mauduit International, Inc. and SWM Luxembourg entered into the Fourth Amendment to the Credit Agreement, modifying terms of the Revolving Credit Facility and Term A Facility. The Fourth Amendment amends the original Credit Agreement to, among other things, adjust the maximum Net Debt to EBITDA Ratio financial covenant to specific ratios for various fiscal quarters. If the Net Debt to EBITDA Ratio exceeds 4.75 to 1.00 or if required financial statements are not delivered, an amendment fee of 0.25% on loans and letters of credit, and 0.05% on undrawn Revolving Commitments, is payable quarterly or at termination. The description is subject to the full text of the Fourth Amendment attached as Exhibit 10.1.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Industrial Manufacturing",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T06:55:39.893001+00:00",
+    "feature_available_at": "2026-11-12T06:56:15.485116+00:00",
+    "availability_basis": "extraction"
+  }
+}

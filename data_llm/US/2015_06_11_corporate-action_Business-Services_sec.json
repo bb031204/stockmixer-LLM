@@ -1,0 +1,30 @@
+{
+  "source_id": "96ad8ef42974079a7a5ee95b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-15-000051-index.html",
+  "title": null,
+  "时间": "2015-06-11",
+  "分类": "corporate_action",
+  "关键词": [
+    "Inspecity, Inc.",
+    "Business Services",
+    "Board of Directors Resignation"
+  ],
+  "主要内容": "On June 10, 2015, Jack M. Fields and Paul S. Lattanzio resigned from the Board of Directors of Inspecity, Inc.. Their resignations were not due to any disagreements with the company. Additionally, Eli Jones and Michael W. Brown resigned as Class I directors and were reappointed as Class III directors. The Board of Directors and its committees were updated accordingly.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:24:45.798781+00:00",
+    "feature_available_at": "2026-11-12T17:25:11.629012+00:00",
+    "availability_basis": "extraction"
+  }
+}

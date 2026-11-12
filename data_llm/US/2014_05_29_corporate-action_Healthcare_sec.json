@@ -1,0 +1,30 @@
+{
+  "source_id": "d4f3904478291da5e2e8b0b7",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-14-217363-index.html",
+  "title": null,
+  "时间": "2014-05-29",
+  "分类": "corporate_action",
+  "关键词": [
+    "HENRY SCHEIN INC",
+    "Healthcare",
+    "Annual Meeting",
+    "directors",
+    "say-on-pay",
+    "BDO USA, LLP"
+  ],
+  "主要内容": "HENRY SCHEIN INC held its Annual Meeting on 2014-05-29, where stockholders voted on three matters. First, fourteen directors were elected for terms expiring in 2015. Second, a non-binding vote approved the 2013 compensation paid to Named Executive Officers, known as the 'say-on-pay' proposal. Third, the selection of BDO USA, LLP as the independent registered public accounting firm for the fiscal year ending December 27, 2014, was ratified. Voting results showed strong support for the directors, with For votes ranging from 68,041,855 to 74,658,389. The 'say-on-pay' proposal received 71,394,435 For votes, with 2,917,411 Against and 454,212 Abstain. Broker Non-Votes totaled 4,433,018 for all items.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.456109+00:00",
+    "fetched_at": "2026-11-12T13:07:42.366170+00:00",
+    "feature_available_at": "2026-11-12T13:08:29.050004+00:00",
+    "availability_basis": "extraction"
+  }
+}

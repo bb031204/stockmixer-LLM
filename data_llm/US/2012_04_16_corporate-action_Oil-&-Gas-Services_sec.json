@@ -1,0 +1,36 @@
+{
+  "source_id": "6a9695f90989cbec15ebc6ca",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-12-000022-index.html",
+  "title": null,
+  "时间": "2012-04-16",
+  "分类": "corporate_action",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Oil & Gas Services",
+    "dividend"
+  ],
+  "主要内容": "On April 16, 2012, Core Laboratories N.V. announced a quarterly cash dividend of $0.28 per share of common stock for shareholders of record on April 27, 2012, with payment due on May 25, 2012. The press release is included as Exhibit 99.1.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T08:10:47.022286+00:00",
+    "feature_available_at": "2026-11-12T08:10:58.299482+00:00",
+    "availability_basis": "extraction"
+  }
+}

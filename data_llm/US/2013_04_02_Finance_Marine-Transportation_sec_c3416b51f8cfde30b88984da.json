@@ -1,0 +1,43 @@
+{
+  "source_id": "c3416b51f8cfde30b88984da",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000177/0000919574-13-002619-index.html",
+  "title": null,
+  "时间": "2013-04-02",
+  "分类": "Finance",
+  "关键词": [
+    "Nordic American Tankers Ltd",
+    "NORDIC AMERICAN TANKERS Ltd",
+    "Marine Transportation",
+    "SEC filing datePublished=2013-04-02"
+  ],
+  "主要内容": "Nordic American Tankers Ltd announced on April 2, 2013, that its follow-on offering of 9.75 million common shares has been priced at $9.60 per share. The offering is subject to customary closing conditions and is expected to close on April 5, 2013. The Company’s Chairman and CEO, Herbjørn Hansson, purchased 156,250 shares in the offering. Morgan Stanley & Co. LLC is the bookrunning manager, and DNB Markets Inc., Skandinaviska Enskilda Banken AB, and Pareto Securities Inc. are co-managers. The underwriters have a 30-day option to purchase up to an additional 1,462,500 shares. The company plans to use the net proceeds from the offering to fund acquisitions under its expansion program, including the Nordic Future, and for general corporate purposes. The company currently operates 20 double-hull Suezmax tankers and has a preliminary agreement to acquire the Nordic Future, expected to be delivered by May 2013. The company is also reviewing other potential vessel acquisitions. The offering is subject to regulatory filings and is being supported by a prospectus and related supplement.",
+  "股票实体": [
+    {
+      "名称": "Nordic American Tankers Ltd",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Marine Transportation",
+      "依据": "inferred"
+    },
+    {
+      "名称": "shipping",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.290563+00:00",
+    "fetched_at": "2026-11-12T09:54:07.742611+00:00",
+    "feature_available_at": "2026-11-12T09:54:56.629942+00:00",
+    "availability_basis": "extraction"
+  }
+}

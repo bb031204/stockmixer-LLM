@@ -1,0 +1,36 @@
+{
+  "source_id": "e8e00d58a91880fa59c764f6",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-12-002825-index.html",
+  "title": null,
+  "时间": "2012-06-26",
+  "分类": "regulation_policy",
+  "关键词": [
+    "ROYAL BANK OF CANADA",
+    "Banking",
+    "Credit ratings"
+  ],
+  "主要内容": "On June 21, 2012, Moody’s Investors Service announced that it has downgraded the long-term senior rating of ROYAL BANK OF CANADA to Aa3 from Aa1 and stated that the rating outlook is stable.",
+  "股票实体": [
+    {
+      "名称": "ROYAL BANK OF CANADA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T08:36:07.933011+00:00",
+    "feature_available_at": "2026-11-12T08:36:19.261974+00:00",
+    "availability_basis": "extraction"
+  }
+}

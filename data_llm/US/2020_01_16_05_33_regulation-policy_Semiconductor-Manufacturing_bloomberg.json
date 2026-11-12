@@ -1,0 +1,37 @@
+{
+  "source_id": "be9904b1a55931b176719dca",
+  "url": "https://www.bloomberg.com/news/articles/2020-01-16/apple-chipmaker-tsmc-s-profit-beats-in-run-up-to-5g-smartphones",
+  "title": "Apple Chipmaker TSMC’s Profit Bigger Than Expected",
+  "时间": "2020-01-16T05:33:34.008000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Taiwan Semiconductor Manufacturing Co.",
+    "Semiconductor Manufacturing",
+    "U.S. sanctions on Huawei"
+  ],
+  "主要内容": "Taiwan Semiconductor Manufacturing Co. projected quarterly revenue well above analysts’ estimates, brushing aside concerns that tighter U.S. sanctions on No. 2 customer Huawei Technologies Co. could dampen its business. Shares in the world’s largest contract chipmaker have slid two straight days on worries that Washington will tighten existing restrictions on exports to Huawei, potentially curtailing shipments from TSMC and other non-American firms. If the U.S. does move ahead, any disruption would be short-term because TSMC could replace some of the lost Huawei business with orders from other customers thanks to the 5G boom, Chairman Mark Liu said during a post-earnings conference with analysts.",
+  "股票实体": [
+    {
+      "名称": "Taiwan Semiconductor Manufacturing Co.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor Manufacturing",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:26:57.862672+00:00",
+    "fetched_at": "2026-11-12T03:55:32.736198+00:00",
+    "feature_available_at": "2026-11-12T03:55:49.781339+00:00",
+    "availability_basis": "extraction"
+  }
+}

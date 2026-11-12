@@ -1,0 +1,36 @@
+{
+  "source_id": "f29f522bd13af46a8b2a426f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-14-011094-index.html",
+  "title": null,
+  "时间": "2014-06-12",
+  "分类": "results",
+  "关键词": [
+    "Optical Cable Corporation",
+    "Optical Cable Manufacturing",
+    "second quarter of fiscal year 2014 financial results"
+  ],
+  "主要内容": "On June 11, 2014, Optical Cable Corporation issued a press release announcing its second quarter of fiscal year 2014 financial results. Also on June 11, 2014, Optical Cable Corporation held an earnings call. The press release is attached hereto as Exhibit 99.1 and the transcript for the earnings call is attached as Exhibit 99.2.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Optical Cable Manufacturing",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T13:23:32.346618+00:00",
+    "feature_available_at": "2026-11-12T13:23:51.372960+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "source_id": "fd189e51532f02b538343bb9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-22-025933-index.html",
+  "title": "8-K",
+  "时间": "2022-02-02",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "RSM US LLP",
+    "Annual Meeting of Stockholders",
+    "Shareholders vote",
+    "Executive compensation",
+    "Owens"
+  ],
+  "主要内容": "Geospace Technologies Corporation announced its first quarter fiscal year 2022 operating results. The Annual Meeting of Stockholders was held on February 2, 2022, via live webcast. Shareholders voted on three proposals, including the election of directors Edgar R. Giesinger, Jr. and Gary D. Owens for a three-year term expiring in 2025 or until their successors are duly elected and qualified. Proposal 2, to ratify the appointment of RSM US LLP as auditors for the fiscal year ending September 30, 2022, received 11,165,676.75 votes in favor, 4,620 against, and 1,265 abstentions. Proposal 3, an advisory vote on executive compensation, was approved with 8,045,156.75 votes in favor, 602,226 against, 8,827 abstentions, and 2,515,352 non-votes. The filing was dated February 2, 2022.",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Owens",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Construction Materials",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:21:31.920182+00:00",
+    "feature_available_at": "2026-11-12T07:22:14.672929+00:00",
+    "availability_basis": "extraction"
+  }
+}

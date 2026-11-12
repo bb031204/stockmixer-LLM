@@ -1,0 +1,31 @@
+{
+  "source_id": "6cae59ec8a94d7971087eda9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-22-020808-index.html",
+  "title": "8-K",
+  "时间": "2022-01-28",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Medallion Financial Corp",
+    "Financial Services",
+    "Regulation FD Disclosure"
+  ],
+  "主要内容": "Medallion Financial Corp, through its subsidiary Medallion Bank, issued a press release on January 28, 2022, announcing its results for the quarter and year ended December 31, 2021. The press release is attached as Exhibit 99.1 and is incorporated by reference. The information is being furnished, not filed, under Item 7.01 of Regulation FD Disclosure. The press release will not be incorporated by reference into any registration statement under the Securities Act of 1933, unless specifically identified as such.",
+  "股票实体": [
+    {
+      "名称": "Medallion Financial Corp",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:58.999365+00:00",
+    "fetched_at": "2026-11-12T06:34:12.954671+00:00",
+    "feature_available_at": "2026-11-12T06:34:27.758538+00:00",
+    "availability_basis": "extraction"
+  }
+}

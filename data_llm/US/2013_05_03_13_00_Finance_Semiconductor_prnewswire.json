@@ -1,0 +1,36 @@
+{
+  "source_id": "6ab88cab24ade2460db499ed",
+  "url": "https://www.prnewswire.com/news-releases/global-semiconductor-sales-outpace-last-year-through-first-quarter-of-2013-205938521.html",
+  "title": "Global Semiconductor Sales Outpace Last Year through First Quarter of 2013",
+  "时间": "2013-05-03T13:00:00+01:00",
+  "分类": "Finance",
+  "关键词": [
+    "Semiconductor Industry Association (SIA)",
+    "Global Semiconductor Sales",
+    "March 2013",
+    "Asia Pacific",
+    "Europe",
+    "Americas",
+    "Japan"
+  ],
+  "主要内容": "Global semiconductor sales rose 1.1% in March 2013 to $23.48 billion, up from $23.23 billion in February. Year-over-year, sales increased 0.9% compared to March 2012. First-quarter sales also rose 0.9% from the same period in 2012. Asia Pacific and Europe saw growth of 6.9% and 0.7%, respectively, while the Americas declined 1.5% and Japan fell sharply by 18%. The Japanese yen's devaluation contributed to the decline in Japan. Europe's sales increased 5.7% month-over-month, the largest sequential rise since March 2010. The Semiconductor Industry Association (SIA) highlighted the importance of the semiconductor industry in driving economic growth and innovation.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:18.026664+00:00",
+    "fetched_at": "2026-11-12T04:09:03.278230+00:00",
+    "feature_available_at": "2026-11-12T04:09:48.830476+00:00",
+    "availability_basis": "extraction"
+  }
+}

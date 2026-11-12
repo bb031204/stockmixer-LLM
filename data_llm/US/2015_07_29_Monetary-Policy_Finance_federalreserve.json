@@ -1,0 +1,35 @@
+{
+  "source_id": "fd8e54b94922b635e892201f",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20150729a.htm",
+  "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+  "时间": "2015-07-29",
+  "分类": "Monetary Policy",
+  "关键词": [
+    "Federal Reserve",
+    "FOMC",
+    "Monetary Policy",
+    "Interest Rates",
+    "Economic Growth",
+    "Inflation",
+    "Labor Market",
+    "Federal Funds Rate"
+  ],
+  "主要内容": "On July 29, 2015, the Federal Reserve issued a FOMC statement indicating that economic activity had been expanding moderately. Household spending growth remained moderate, while the housing sector showed additional improvement. Business fixed investment and net exports remained soft, but the labor market continued to improve with solid job gains and declining unemployment. Inflation remained below the Committee's longer-run objective, partly due to earlier energy price declines and decreasing non-energy import prices. The Committee emphasized its commitment to fostering maximum employment and price stability, expecting economic activity to expand at a moderate pace with labor market indicators moving toward levels consistent with its dual mandate. The Committee views risks to the outlook as nearly balanced, with inflation anticipated to remain near its recent low level in the near term but expected to rise gradually toward 2 percent over the medium term as the labor market improves and transitory effects of earlier energy and import price declines dissipate. The Committee reaffirmed its view that the current 0 to 1/4 percent target range for the federal funds rate remains appropriate.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:30:00.943467+00:00",
+    "fetched_at": "2026-11-12T06:05:21.112980+00:00",
+    "feature_available_at": "2026-11-12T06:06:02.390362+00:00",
+    "availability_basis": "extraction"
+  }
+}

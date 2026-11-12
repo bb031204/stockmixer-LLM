@@ -1,0 +1,25 @@
+{
+  "source_id": "f2461526ea4cc0a1ebb814d5",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001307942-14-000020-index.html",
+  "title": null,
+  "时间": "2014-05-27",
+  "分类": "corporate_action",
+  "关键词": [
+    "BLONDER TONGUE LABORATORIES INC",
+    "Medical Devices",
+    "Corporate Action"
+  ],
+  "主要内容": "On March 31, 2014, the record date for the Annual Meeting, 6,216,372 shares of the Company’s common stock were outstanding and entitled to one vote per share upon all matters submitted at the 2014 Annual Meeting. The matters voted on at the 2014 Annual Meeting and the voting results for each matter are set forth below.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T14:13:00.805974+00:00",
+    "feature_available_at": "2026-11-12T14:13:40.776016+00:00",
+    "availability_basis": "extraction"
+  }
+}

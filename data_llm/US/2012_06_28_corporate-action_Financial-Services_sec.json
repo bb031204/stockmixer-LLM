@@ -1,0 +1,32 @@
+{
+  "source_id": "57b70151eacef1a1a2fccf69",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-12-288003-index.html",
+  "title": null,
+  "时间": "2012-06-28",
+  "分类": "corporate_action",
+  "关键词": [
+    "Medallion Financial Corp",
+    "Financial Services",
+    "portfolio acquisition",
+    "taxi medallion loans"
+  ],
+  "主要内容": "On June 25, 2012, Medallion Financial Corp issued a press release announcing a portfolio acquisition of taxi medallion loans by its wholly-owned subsidiary Medallion Bank. The press release is attached as Exhibit 99.1 and incorporated by reference.",
+  "股票实体": [
+    {
+      "名称": "Medallion Financial Corp",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T07:46:09.731852+00:00",
+    "feature_available_at": "2026-11-12T07:46:21.964535+00:00",
+    "availability_basis": "extraction"
+  }
+}

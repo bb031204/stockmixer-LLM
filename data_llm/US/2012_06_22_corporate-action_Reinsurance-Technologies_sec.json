@@ -1,0 +1,48 @@
+{
+  "source_id": "bfa5f008e505d6ea57e1da64",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000285/0001144204-12-035998-index.html",
+  "title": null,
+  "时间": "2012-06-22",
+  "分类": "corporate_action",
+  "关键词": [
+    "Reinsurance Technologies Ltd.",
+    "Reinsurance Technologies",
+    "ReTech Solutions, Inc.",
+    "Ludvik Holdings, Inc.",
+    "Merger Agreement"
+  ],
+  "主要内容": "Reinsurance Technologies Ltd. amended the Merger Agreement dated March 31, 2012, extending the due diligence period for Ludvik from June 30, 2012 to July 31, 2012. The merger is contingent upon satisfactory completion of due diligence by Ludvik.",
+  "股票实体": [
+    {
+      "名称": "Reinsurance Technologies Ltd.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "ReTech Solutions, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Ludvik Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Reinsurance Technologies",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T08:44:58.636924+00:00",
+    "feature_available_at": "2026-11-12T08:45:12.405937+00:00",
+    "availability_basis": "extraction"
+  }
+}

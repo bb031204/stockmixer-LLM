@@ -1,0 +1,36 @@
+{
+  "source_id": "b534c07f4a23698472ddceba",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-15-000855-index.html",
+  "title": null,
+  "时间": "2015-05-19",
+  "分类": "financial",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Class A Limited Voting Shares",
+    "normal course issuer bid",
+    "Toronto Stock Exchange",
+    "NYSE",
+    "TSX",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. announced on May 19, 2015, that it has received approval from the Toronto Stock Exchange for its proposed normal course issuer bid to purchase up to 83,848,184 Class A Limited Voting Shares, representing 10% of the public float of the company’s outstanding Class A Shares. The bid period will extend from May 21, 2015, to May 20, 2016, or an earlier date if purchases are completed. Purchases will be made through TSX, NYSE, and any alternative Canadian trading platform. Shares purchased will be cancelled or purchased by a non-independent trustee under a long-term incentive plan. Brookfield is renewing its normal course issuer bid, believing that the market price of its Class A Shares may not fully reflect its business value and future prospects. The company plans to enter an automatic purchase plan around June 22, 2015. Under its prior bid, Brookfield purchased 1,612,000 Class A Shares on the TSX and 1,289,000 on the NYSE, with an average price of US$53.61 per share. The bid aims to invest excess cash for a risk-adjusted return. Securities explicitly mentioned in the source include Brookfield Asset Management Inc. (BAM).",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.667499+00:00",
+    "fetched_at": "2026-11-12T17:41:43.562400+00:00",
+    "feature_available_at": "2026-11-12T17:42:39.792985+00:00",
+    "availability_basis": "extraction"
+  }
+}

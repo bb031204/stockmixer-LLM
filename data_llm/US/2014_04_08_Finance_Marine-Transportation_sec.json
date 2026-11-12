@@ -1,0 +1,39 @@
+{
+  "source_id": "ab081901519365935f634f48",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000177/0000919574-14-002539-index.html",
+  "title": null,
+  "时间": "2014-04-08",
+  "分类": "Finance",
+  "关键词": [
+    "NORDIC AMERICAN TANKERS Ltd",
+    "common shares",
+    "Morgan Stanley & Co. LLC",
+    "Global Hunter Securities, LLC",
+    "vessel acquisitions",
+    "SEC filings"
+  ],
+  "主要内容": "NORDIC AMERICAN TANKERS Ltd announced a public offering of 10,000,000 common shares, with Morgan Stanley & Co. LLC as the bookrunning manager and Global Hunter Securities, LLC as the co-manager. The underwriters have a 30-day option to purchase up to 15% of the offered shares. The offering was upsized to 12,000,000 common shares at $8.62 per share, with the underwriters having a 30-day option to purchase up to 1,800,000 additional shares. The company plans to use the net proceeds for vessel acquisitions and general corporate purposes. The offering is subject to regulatory compliance and is expected to close on April 11, 2014. The company disclosed factors that could affect its results, including global economic conditions, market fluctuations, OPEC production levels, and regulatory changes.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Marine Transportation",
+      "依据": "inferred"
+    },
+    {
+      "名称": "shipping",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.456109+00:00",
+    "fetched_at": "2026-11-12T12:43:00.029407+00:00",
+    "feature_available_at": "2026-11-12T12:44:23.779766+00:00",
+    "availability_basis": "extraction"
+  }
+}

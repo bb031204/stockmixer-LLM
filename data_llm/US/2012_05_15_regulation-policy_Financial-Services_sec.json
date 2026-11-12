@@ -1,0 +1,27 @@
+{
+  "source_id": "d050f7dc93aacbf07e51a89f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001171/0001193125-12-234809-index.html",
+  "title": null,
+  "时间": "2012-05-15",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Broadway Financial Corp",
+    "Financial Services",
+    "Press Release",
+    "earnings",
+    "quarter ended March 31, 2012"
+  ],
+  "主要内容": "On May 15, 2012, Broadway Financial Corporation issued a Press Release on earnings for the quarter ended March 31, 2012. A copy of the Press Release is attached as Exhibit 99.1.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.070830+00:00",
+    "fetched_at": "2026-11-12T09:36:35.366347+00:00",
+    "feature_available_at": "2026-11-12T09:36:47.017356+00:00",
+    "availability_basis": "extraction"
+  }
+}

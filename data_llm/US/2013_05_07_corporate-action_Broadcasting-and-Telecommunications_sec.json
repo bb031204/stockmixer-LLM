@@ -1,0 +1,36 @@
+{
+  "source_id": "f27a3beb198bfc65555fcd24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-13-037815-index.html",
+  "title": null,
+  "时间": "2013-05-07",
+  "分类": "corporate_action",
+  "关键词": [
+    "DISH Network CORP",
+    "Broadcasting and Telecommunications",
+    "KPMG LLP"
+  ],
+  "主要内容": "DISH Network CORP announced on May 7, 2013, the ratification of the appointment of KPMG LLP as its independent registered public accounting firm for the fiscal year ending December 31, 2013. The company also amended and restated its Employee Stock Purchase Plan. The voting results showed strong support for both proposals, with over 2.5 billion votes in favor of the KPMG LLP appointment and over 2.5 billion votes in favor of the amendment to the Employee Stock Purchase Plan.",
+  "股票实体": [
+    {
+      "名称": "KPMG LLP",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting and Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T12:04:46.271733+00:00",
+    "feature_available_at": "2026-11-12T12:05:03.879206+00:00",
+    "availability_basis": "extraction"
+  }
+}

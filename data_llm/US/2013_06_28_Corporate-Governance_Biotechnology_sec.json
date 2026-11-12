@@ -1,0 +1,54 @@
+{
+  "source_id": "e4a7ed93e19d8477ba9df72e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-13-037260-index.html",
+  "title": null,
+  "时间": "2013-06-28",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Novavax, Inc.",
+    "Barclay A \"Buck\" Phillips",
+    "Chief Financial Officer",
+    "employment agreement",
+    "base salary",
+    "performance bonus",
+    "stock options",
+    "confidentiality",
+    "non-competition",
+    "Micromet, Inc.",
+    "Amgen"
+  ],
+  "主要内容": "On June 24, 2013, Novavax, Inc. appointed Barclay A \"Buck\" Phillips as Chief Financial Officer and entered into an employment agreement effective from the same date. The agreement outlines a base salary of $300,000, a target performance bonus of 35% of his base salary, and stock options for 300,000 shares. It also includes confidentiality and non-competition provisions. Phillips terminates his employment for good reason, he is entitled to a lump sum payment equal to twelve months of his then effective salary.",
+  "股票实体": [
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Micromet, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Amgen",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T11:39:18.292385+00:00",
+    "feature_available_at": "2026-11-12T11:39:51.127778+00:00",
+    "availability_basis": "extraction"
+  }
+}

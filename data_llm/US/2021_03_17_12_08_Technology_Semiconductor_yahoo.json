@@ -1,0 +1,60 @@
+{
+  "source_id": "fcc44259ddc39fd81f31b4c2",
+  "url": "https://finance.yahoo.com/news/market-semiconductor-lithography-equipment-expected-120800620.html",
+  "title": "The market for semiconductor lithography equipment is expected to grow at a CAGR of 10.2 % over the forecast period (2021 - 2026)",
+  "时间": "2021-03-17T12:08:00+00:00",
+  "分类": "Technology",
+  "关键词": [
+    "semiconductor lithography equipment",
+    "CAGR 10.2%",
+    "EUV technology",
+    "ASML",
+    "China",
+    "SMEE",
+    "28nm lithography machine",
+    "Imec",
+    "Canon",
+    "Shanghai Micro Electronics Equipment (Group) Co (SMEE)"
+  ],
+  "主要内容": "The semiconductor lithography equipment market is projected to grow at a compound annual growth rate (CAGR) of 10.2% from 2021 to 2026. Lithography machines are essential in chip manufacturing, enabling the printing of minute circuits on semiconductors, which support information-oriented societies. These systems are crucial for producing semiconductor devices used in cameras, smartphones, and automobiles. The evolution of lithography technology includes g-line, i-line, and excimer laser (KrF/ArF) steppers. EUVL, a next-generation lithography technology, is being developed for ultra-fine exposure. Critical Dimension Process Control equipment is also in high demand. Companies like Imec and ASML are collaborating to advance EUV lithography for high-volume production. The outbreak of the novel coronavirus is expected to negatively impact silicon wafer sales in the second half of 2020, potentially affecting price negotiations in 2021. Consumer electronics sales are forecast to decline due to shifting consumer preferences, which may reduce the usage of semiconductor lithography equipment.",
+  "股票实体": [
+    {
+      "名称": "ASML",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Imec",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Canon",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Shanghai Micro Electronics Equipment (Group) Co (SMEE)",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor Equipment",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:48.119092+00:00",
+    "fetched_at": "2026-11-12T04:40:24.504402+00:00",
+    "feature_available_at": "2026-11-12T04:42:37.753011+00:00",
+    "availability_basis": "extraction"
+  }
+}

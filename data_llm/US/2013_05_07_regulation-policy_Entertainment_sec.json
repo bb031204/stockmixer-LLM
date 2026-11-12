@@ -1,0 +1,30 @@
+{
+  "source_id": "b7bb4ee9eab23a2631c8653b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001039/0001001039-13-000079-index.html",
+  "title": null,
+  "时间": "2013-05-07",
+  "分类": "regulation_policy",
+  "关键词": [
+    "WALT DISNEY CO",
+    "Entertainment",
+    "8-K"
+  ],
+  "主要内容": "The Walt Disney Company filed an 8-K on May 7, 2013, disclosing its quarterly results for the period ended March 30, 2013. The filing includes a press release detailing the financial performance for the quarter, which is attached as Exhibit 99.1.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Entertainment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T12:00:55.959363+00:00",
+    "feature_available_at": "2026-11-12T12:01:09.457071+00:00",
+    "availability_basis": "extraction"
+  }
+}

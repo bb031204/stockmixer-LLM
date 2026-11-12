@@ -1,0 +1,62 @@
+{
+  "source_id": "c1c369f5a65b341c3f766fa2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/0001193125-12-227527-index.html",
+  "title": null,
+  "时间": "2012-05-11",
+  "分类": "corporate_action",
+  "关键词": [
+    "WATERS CORP /DE/",
+    "Water Treatment",
+    "Share Repurchase",
+    "Edward Conard",
+    "Laurie H. Glimcher, M.D.",
+    "Christopher A. Kuebler",
+    "William J. Miller",
+    "JoAnn A. Reed",
+    "Thomas P. Salice"
+  ],
+  "主要内容": "WATERS CORP /DE/ — 8-K — 2012-05-11: The Board of Directors authorized the repurchase of up to $750,000,000 of its outstanding common stock over a 2-year period (the May 2012 program). As of May 9, 2012, $80,862,000 remains authorized for future repurchases under the February 2011 program. The Company intends to complete the February 2011 program before repurchasing additional common stock under the May 2012 program.",
+  "股票实体": [
+    {
+      "名称": "Edward Conard",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Laurie H. Glimcher, M.D.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Christopher A. Kuebler",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "William J. Miller",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "JoAnn A. Reed",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Thomas P. Salice",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T09:18:10.961297+00:00",
+    "feature_available_at": "2026-11-12T09:18:38.272881+00:00",
+    "availability_basis": "extraction"
+  }
+}

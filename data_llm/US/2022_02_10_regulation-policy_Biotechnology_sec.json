@@ -1,0 +1,39 @@
+{
+  "source_id": "a456c3245e166f88398b82b2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001104659-22-019409-index.html",
+  "title": null,
+  "时间": "2022-02-10",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Novavax, Inc.",
+    "Biotechnology",
+    "Conference Call",
+    "PREVENT-19 Phase 3 trial",
+    "NVX-Cov2373"
+  ],
+  "主要内容": "On February 10, 2022, Novavax, Inc. announced it will host a conference call to discuss the results of the pediatric expansion of its PREVENT-19 Phase 3 trial of NVX-Cov2373, its recombinant nanoparticle protein-based COVID-19 vaccine candidate. The company also provided an Investor Presentation and a press release related to the event.",
+  "股票实体": [
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T07:03:10.329800+00:00",
+    "feature_available_at": "2026-11-12T07:03:27.306648+00:00",
+    "availability_basis": "extraction"
+  }
+}

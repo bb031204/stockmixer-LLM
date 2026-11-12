@@ -1,0 +1,48 @@
+{
+  "source_id": "7255b35124a60899dc963e2c",
+  "url": "https://finance.yahoo.com/news/global-semiconductor-foundry-market-2020-114356859.html",
+  "title": "Global Semiconductor Foundry Market (2020 to 2025) - Industry Trends, Share, Size, Growth, Opportunity and Forecast",
+  "时间": "2020-05-05T11:43:56+00:00",
+  "分类": "Technology",
+  "关键词": [
+    "Semiconductor Foundry Market",
+    "Integrated Circuits (ICs)",
+    "Cree, Inc.",
+    "SiC Technology",
+    "IoT-Enabled Devices",
+    "200mm SiC Wafer Fabrication Facility",
+    "Marce, NY",
+    "Empire State Development",
+    "CAGR 9%"
+  ],
+  "主要内容": "The global semiconductor foundry market is experiencing significant growth, driven by increasing demand for integrated circuits (ICs) in various applications such as automobiles, consumer electronics, medical devices, military equipment, and smart home appliances. The market is also influenced by the rising adoption of IoT-enabled devices, which require ICs for processing information and connecting devices to the internet. Cree, Inc., a leader in silicon carbide (SiC) technology, has partnered with the New York Center for Research, Economic Advancement, Technology, Engineering, and Science (NY CREATES) to develop the world's first 200mm SiC wafer fabrication facility in Marcy, near Utica. The project, which will receive a $1 billion investment, including a $500 million grant from Empire State Development, is expected to contribute to the market's growth, which is projected to expand at a CAGR of around 9% during 2020-2025.",
+  "股票实体": [
+    {
+      "名称": "Cree, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Semiconductor Foundry",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:44.082692+00:00",
+    "fetched_at": "2026-11-12T04:34:45.127557+00:00",
+    "feature_available_at": "2026-11-12T04:36:40.438401+00:00",
+    "availability_basis": "extraction"
+  }
+}

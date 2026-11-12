@@ -1,0 +1,36 @@
+{
+  "source_id": "8ab85b9606c126ae721768ab",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001193125-13-156554-index.html",
+  "title": null,
+  "时间": "2013-04-16",
+  "分类": "corporate_action",
+  "关键词": [
+    "Optical Cable Corporation",
+    "Communication Equipment",
+    "dividend"
+  ],
+  "主要内容": "On April 16, 2013, Optical Cable Corporation (the Company or OCC®) issued a press release announcing that the Board of Directors declared a cash dividend of $0.02 per share on the Companys common stock effective April 15, 2013. The Companys Board of Directors declared that the dividend would be paid on or about May 15, 2013 to shareholders of record on April 29, 2013.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Communication Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.291562+00:00",
+    "fetched_at": "2026-11-12T10:45:31.926416+00:00",
+    "feature_available_at": "2026-11-12T10:45:47.850155+00:00",
+    "availability_basis": "extraction"
+  }
+}

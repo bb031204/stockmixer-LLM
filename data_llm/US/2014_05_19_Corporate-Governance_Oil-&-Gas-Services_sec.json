@@ -1,0 +1,42 @@
+{
+  "source_id": "c6eb44b99645964833103d67",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-14-000074-index.html",
+  "title": null,
+  "时间": "2014-05-19",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "2014 Annual Meeting",
+    "Shareholder Approval",
+    "Repurchase Authority",
+    "PricewaterhouseCoopers LLP",
+    "Nonemployee Director Stock Incentive Plan",
+    "Long-Term Incentive Plan",
+    "Preemptive Rights Limitation"
+  ],
+  "主要内容": "Core Laboratories N.V. approved several corporate actions during its 2014 Annual Meeting of Shareholders. The company extended the authority to repurchase up to 10% of issued share capital for 18 months until November 13, 2015. It also ratified PricewaterhouseCoopers LLP as independent registered public accountants for the year ending December 31, 2014. Additionally, the company approved the extension of the 2006 Nonemployee Director Stock Incentive Plan through May 12, 2024, and amended and restated the 2007 Long-Term Incentive Plan to increase authorized shares and extend the term through May 12, 2024. These approvals were achieved with a majority vote, as over 50% of issued shares were present. The company also approved the extension of preemptive rights limitation up to 10% of outstanding shares per annum until November 13, 2015, with 36,753,595 votes in favor and 2,120,271 votes against. The 2014 Nonemployee Director Stock Incentive Plan and the 2014 Long-Term Incentive Plan were also approved, extending terms to May 12, 2024, with the 2014 LTIP increasing authorized shares by 1,100,000.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "PricewaterhouseCoopers LLP",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T13:16:27.518127+00:00",
+    "feature_available_at": "2026-11-12T13:17:32.604218+00:00",
+    "availability_basis": "extraction"
+  }
+}

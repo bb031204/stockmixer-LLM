@@ -1,0 +1,36 @@
+{
+  "source_id": "987bb518f7e3186cf93b1557",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-13-026843-index.html",
+  "title": null,
+  "时间": "2013-05-07",
+  "分类": "corporate_action",
+  "关键词": [
+    "Novavax, Inc.",
+    "Biotechnology",
+    "Financial Results"
+  ],
+  "主要内容": "On May 7, 2013, Novavax, Inc. issued a press release announcing its financial results for the three months ended March 31, 2013 and conducted a previously announced, publicly available conference call to discuss those results as well as to provide an update on the status of the Company's business operations.",
+  "股票实体": [
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T11:35:34.310896+00:00",
+    "feature_available_at": "2026-11-12T11:35:51.729425+00:00",
+    "availability_basis": "extraction"
+  }
+}

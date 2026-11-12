@@ -1,0 +1,68 @@
+{
+  "source_id": "f947e93fed419cfd8bfc66bd",
+  "url": "https://finance.yahoo.com/news/short-semiconductor-stocks-two-etfs-140002113.html",
+  "title": "Short Semiconductor Stocks With These Two ETFs",
+  "时间": "2019-08-06T14:00:02+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "Semiconductor",
+    "U.S.",
+    "China",
+    "Trade War",
+    "Philadelphia Semiconductor Index",
+    "AMD",
+    "QCOM",
+    "WDC",
+    "ON",
+    "Semiconductor Industry Association",
+    "Gartner",
+    "iShares PHLX Semiconductor ETF (SOXX)",
+    "ProShares UltraShort Semiconductors ETF (SSG)",
+    "Direxion Daily Semiconductor Bear 3x Shares",
+    "Advanced Micro Devices",
+    "Qualcomm",
+    "Western Digital",
+    "ON Semiconductor"
+  ],
+  "主要内容": "The semiconductor sector has been severely impacted by the U.S.-China trade war. The Philadelphia Semiconductor Index declined 3.6% on Aug 5, marking the longest losing streak since October. The U.S. imposed a 10% tariff on $300 billion of Chinese goods, expected to rise beyond 25%, affecting smartphones, laptops, and clothing. China retaliated by devaluing the yuan and halting U.S. agricultural imports. Semiconductor companies like AMD, QCOM, WDC, and ON reported weak earnings and outlook, with ON experiencing its largest one-day drop since 2015. Global chip sales fell 16.8% YoY in June and 14.5% in H1 2019, according to the Semiconductor Industry Association. Gartner expects worldwide semiconductor revenues to drop 9.6% to $429 billion this year, citing a weaker pricing environment for memory and some other chips types, and lower growth in major applications including smartphones, servers and PCs. The iShares PHLX Semiconductor ETF (SOXX) pulled out nearly $162 million in a one-week period through Aug 2. The fund is down nearly 11% over the past five days.",
+  "股票实体": [
+    {
+      "名称": "Advanced Micro Devices",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Qualcomm",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Western Digital",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "ON Semiconductor",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:40.791736+00:00",
+    "fetched_at": "2026-11-12T04:33:19.924518+00:00",
+    "feature_available_at": "2026-11-12T04:34:26.378522+00:00",
+    "availability_basis": "extraction"
+  }
+}

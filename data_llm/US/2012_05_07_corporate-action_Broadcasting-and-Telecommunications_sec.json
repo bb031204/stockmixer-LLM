@@ -1,0 +1,38 @@
+{
+  "source_id": "8483866a027e13d6407aee83",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-12-033572-index.html",
+  "title": null,
+  "时间": "2012-05-07",
+  "分类": "corporate_action",
+  "关键词": [
+    "DISH Network Corporation",
+    "DISH DBS Corporation",
+    "Broadcasting and Telecommunications",
+    "senior notes offering"
+  ],
+  "主要内容": "DISH Network Corporation and its subsidiary, DISH DBS Corporation, announced plans to issue senior notes, subject to market conditions, to qualified institutional buyers under Rule 144A and Regulation S. The offering aims to raise funds for general corporate purposes. The interest rate and terms will be determined at pricing. The press release is attached as Exhibit 99.2 to the Form 8-K filing.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DISH DBS Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T09:22:26.285401+00:00",
+    "feature_available_at": "2026-11-12T09:22:49.634239+00:00",
+    "availability_basis": "extraction"
+  }
+}

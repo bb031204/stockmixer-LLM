@@ -1,0 +1,42 @@
+{
+  "source_id": "93435754c0319b4cc9bfb337",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000177/0000919574-13-002615-index.html",
+  "title": null,
+  "时间": "2013-04-02",
+  "分类": "Finance",
+  "关键词": [
+    "NORDIC AMERICAN TANKERS Ltd",
+    "NORDIC FUTURE",
+    "Marine Transportation",
+    "Morgan Stanley & Co. LLC"
+  ],
+  "主要内容": "NORDIC AMERICAN TANKERS Ltd announced a public offering of $87 million in common shares, underwritten by Morgan Stanley & Co. LLC and other co-managers. The Company's Chairman, Herbjørn Hansson, is expected to purchase $1.5 million worth of shares. The underwriters have a 30-day option to buy an additional $13.05 million. Proceeds will be used for acquisitions and general corporate purposes. The company has 20 double-hull Suezmax tankers in its fleet and has entered into a preliminary agreement to acquire the Nordic Future, a modern double-hull Suezmax tanker, expected to be delivered by May 2013. The company is also reviewing potential vessel acquisitions for the near future.",
+  "股票实体": [
+    {
+      "名称": "Morgan Stanley & Co. LLC",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Marine Transportation",
+      "依据": "inferred"
+    },
+    {
+      "名称": "shipping",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.290563+00:00",
+    "fetched_at": "2026-11-12T09:53:20.615532+00:00",
+    "feature_available_at": "2026-11-12T09:54:04.470290+00:00",
+    "availability_basis": "extraction"
+  }
+}

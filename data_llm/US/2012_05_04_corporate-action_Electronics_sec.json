@@ -1,0 +1,36 @@
+{
+  "source_id": "db1d3fca531aa82bf11d6a20",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001181431-12-027576-index.html",
+  "title": null,
+  "时间": "2012-05-04",
+  "分类": "corporate_action",
+  "关键词": [
+    "OYO Geospace Corporation",
+    "Electronics",
+    "Order"
+  ],
+  "主要内容": "OYO Geospace Corporation announced the receipt of an order to purchase 8,000 single-channel wireless data acquisition units and 3,000 three-channel wireless data acquisition units on May 3, 2012.",
+  "股票实体": [
+    {
+      "名称": "OYO Geospace Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.070830+00:00",
+    "fetched_at": "2026-11-12T09:34:00.388302+00:00",
+    "feature_available_at": "2026-11-12T09:34:09.462750+00:00",
+    "availability_basis": "extraction"
+  }
+}

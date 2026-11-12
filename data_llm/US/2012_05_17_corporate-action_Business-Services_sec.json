@@ -1,0 +1,36 @@
+{
+  "source_id": "f7d6656f6343f469796fe032",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001140361-12-025997-index.html",
+  "title": null,
+  "时间": "2012-05-17",
+  "分类": "corporate_action",
+  "关键词": [
+    "Insperity, Inc.",
+    "Business Services",
+    "2012 Incentive Plan"
+  ],
+  "主要内容": "Insperity, Inc. announced the approval of its 2012 Incentive Plan during a shareholder meeting on May 17, 2012. The plan received 16,873,734 votes in favor, 5,333,251 against, and 5,917 abstentions. Additionally, the company received 1,564,379 broker non-votes. The vote was part of the company's annual shareholder meeting, where other proposals, including executive compensation and auditor ratification, were also considered.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T09:20:06.173487+00:00",
+    "feature_available_at": "2026-11-12T09:20:24.290753+00:00",
+    "availability_basis": "extraction"
+  }
+}

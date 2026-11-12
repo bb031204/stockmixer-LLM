@@ -1,0 +1,40 @@
+{
+  "source_id": "78eb55bc658bbe0cbb76d88f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-22-000007-index.html",
+  "title": "nsp-20220210",
+  "时间": "2022-02-10",
+  "分类": "Financial",
+  "关键词": [
+    "Insperity, Inc.",
+    "SEC filing",
+    "Form 8-K",
+    "New York Stock Exchange",
+    "Delaware",
+    "IRS EIN 76-0479645",
+    "Kingwood, Texas"
+  ],
+  "主要内容": "Insperity, Inc. filed a Form 8-K with the SEC on February 10, 2022, to report its latest filing under the Securities Exchange Act of 1934. The filing includes details about the company's common stock with a par value of $0.01 per share and its registration on the New York Stock Exchange. The report outlines the company's legal and financial information, including its incorporation in Delaware and its IRS Employer Identification Number (EIN) of 76-0479645. The filing also specifies the company's principal executive offices in Kingwood, Texas, and its contact number. This report is part of the company's compliance with U.S. securities regulations.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T07:05:22.453791+00:00",
+    "feature_available_at": "2026-11-12T07:05:56.843970+00:00",
+    "availability_basis": "extraction"
+  }
+}

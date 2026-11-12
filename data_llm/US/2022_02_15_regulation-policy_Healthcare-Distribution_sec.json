@@ -1,0 +1,36 @@
+{
+  "source_id": "64cdb4dd6517e42f2b437e6b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001000228-22-000013-index.html",
+  "title": null,
+  "时间": "2022-02-15",
+  "分类": "regulation_policy",
+  "关键词": [
+    "HENRY SCHEIN, INC.",
+    "Healthcare Distribution",
+    "Financial Results"
+  ],
+  "主要内容": "HENRY SCHEIN, INC. issued a press release reporting the financial results for the three months and full year ended December 25, 2021. The full text of the press release is attached as Exhibit 99.1 and is incorporated by reference. The information in this Item 2.02 and the press release are considered furnished to the Securities and Exchange Commission and are not deemed filed for purposes of Section 18 of the Securities Exchange Act of 1934, as amended.",
+  "股票实体": [
+    {
+      "名称": "HENRY SCHEIN, INC.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare Distribution",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:58.999365+00:00",
+    "fetched_at": "2026-11-12T06:35:41.651874+00:00",
+    "feature_available_at": "2026-11-12T06:35:53.636090+00:00",
+    "availability_basis": "extraction"
+  }
+}

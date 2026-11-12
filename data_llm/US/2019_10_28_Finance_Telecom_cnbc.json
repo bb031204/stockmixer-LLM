@@ -1,0 +1,45 @@
+{
+  "source_id": "77045612b175ed143e78cb77",
+  "url": "https://www.cnbc.com/2019/10/28/att-t-earnings-q3-2019.html",
+  "title": "AT&T bows to pressure from activist investor Elliott, CEO will stay on through 2020",
+  "时间": "2019-10-28",
+  "分类": "Finance",
+  "关键词": [
+    "AT&T",
+    "T",
+    "Elliott Management",
+    "Time Warner",
+    "debt",
+    "revenue",
+    "shareholder value"
+  ],
+  "主要内容": "AT&T (T) announced plans to add two new board members and sell up to $10 billion in non-core businesses next year, responding to pressure from activist investor Elliott Management. The company also aims to pay off all debt from the Time Warner acquisition. Elliott Management, which holds a $3.2 billion stake, has been urging cost cuts and management changes. AT&T expects CEO Randall Stephenson to remain through at least 2020. The strategic plan was supported by Elliott, which praised the steps for creating shareholder value. AT&T reported third-quarter revenue of $44.59 billion, below analysts' estimate of $45 billion. Excluding items, it earned 94 cents per share, above the 93 cents expected. The company reduced net debt by $12.7 billion this year and expects to generate $14 billion through asset sales. It sold Puerto Rico assets to Liberty Latin America for $1.95 billion and plans to exit CME ownership through a $2.1 billion deal. AT&T added 101,000 net new phone subscribers, exceeding Wall Street's estimate of 61,000. Shares rose slightly to $37.50 pre-market.",
+  "股票实体": [
+    {
+      "名称": "AT&T",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecommunications",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Telecom",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:30:20.005603+00:00",
+    "fetched_at": "2026-11-12T06:16:50.449339+00:00",
+    "feature_available_at": "2026-11-12T06:17:29.484576+00:00",
+    "availability_basis": "extraction"
+  }
+}

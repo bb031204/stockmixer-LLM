@@ -1,0 +1,39 @@
+{
+  "source_id": "e1a7497edd36b6176bff2eb8",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-12-000032-index.html",
+  "title": null,
+  "时间": "2012-05-07",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Oil & Gas Services",
+    "dual-listing",
+    "NYSE Euronext",
+    "Netherlands Authority for the Financial Markets"
+  ],
+  "主要内容": "On May 7, 2012, Core Laboratories N.V. announced that its prospectus for dual-listing its shares on NYSE Euronext in Amsterdam has been approved by the Netherlands Authority for the Financial Markets. The dual-listing will not involve the issuance of new shares. The listing on NYSE Euronext Amsterdam will be effective on May 16, 2012, under the symbol 'CLB.'",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T08:11:12.681653+00:00",
+    "feature_available_at": "2026-11-12T08:11:28.171440+00:00",
+    "availability_basis": "extraction"
+  }
+}

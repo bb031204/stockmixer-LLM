@@ -1,0 +1,30 @@
+{
+  "source_id": "bca70a8b74df42f489fcb98c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-15-200111-index.html",
+  "title": null,
+  "时间": "2015-05-26",
+  "分类": "corporate_action",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "Technology",
+    "Amended and Restated Indemnity Agreement"
+  ],
+  "主要内容": "On May 7, 2015, Geospace Technologies Corporation approved an amended indemnity agreement for its directors and officers, effective after its reincorporation from Delaware to Texas. The agreement indemnifies directors and officers to the fullest extent permitted by Texas law, covering litigation costs and losses, with exceptions for knowingly fraudulent acts. The agreement outlines mechanisms for the company to assume defense of indemnified claims and settlements. It retains most provisions from prior agreements, with changes only to governing law and references to Texas statutes. The agreement is filed as Exhibit 10.1.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.667499+00:00",
+    "fetched_at": "2026-11-12T17:45:27.461819+00:00",
+    "feature_available_at": "2026-11-12T17:45:44.033705+00:00",
+    "availability_basis": "extraction"
+  }
+}

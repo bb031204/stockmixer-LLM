@@ -1,0 +1,33 @@
+{
+  "source_id": "c3dcf1d7149a9964cdb41d47",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000232/0001000232-13-000006-index.html",
+  "title": null,
+  "时间": "2013-05-15",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "KENTUCKY BANCSHARES INC /KY/",
+    "Annual Meeting of Shareholders",
+    "Crowe Horwath LLP",
+    "Common Shares",
+    "Board of Directors",
+    "compensation paid to named executive officers"
+  ],
+  "主要内容": "KENTUCKY BANCSHARES INC /KY/ held its 2013 Annual Meeting of Shareholders on May 15, 2013. Shareholders voted on three matters: (1) ratification of the Board's selection of Crowe Horwath LLP as the Company's independent registered public accounting firm for the ensuing year, (2) election of directors, and (3) a non-binding advisory vote on the compensation paid to its named executive officers. The total number of Common Shares outstanding as of March 20, 2013, was 2,724,829. Shareholders voted on three matters: 1) Ratification of the Board's selection of Crowe Horwath LLP as the Company's independent registered public accounting firm for the ensuing year, with 2,035,833 votes for and 492 against. 2) Election of three nominees to the Board of Directors, with votes for ranging from 1,474,113 to 1,491,627 and votes withheld from 17,744 to 250. 3) A non-binding advisory vote on the compensation paid to named executive officers, with 1,391,939 votes for and 61,926 against. The following directors have terms continuing after the Annual Meeting: Henry Hinkle, Theodore Kuster, Betty J. Long, Ted McClain, Edwin S. Saunier, Robert Thompson, and Buckner Woodford, IV.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.291562+00:00",
+    "fetched_at": "2026-11-12T10:58:06.979592+00:00",
+    "feature_available_at": "2026-11-12T10:58:46.070811+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source_id": "d30e8efad52a69c0e532d5be",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-22-013188-index.html",
+  "title": "8-K",
+  "时间": "2022-01-20",
+  "分类": "corporate_action",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "Technology",
+    "first quarter 2022 results"
+  ],
+  "主要内容": "Geospace Technologies Corporation issued a press release announcing its first quarter 2022 results and conference call schedule on January 19, 2022. The press release is attached as Exhibit 99.1. The company's CFO, Robert L. Curda, signed the report on January 20, 2022.",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:21:16.132765+00:00",
+    "feature_available_at": "2026-11-12T07:21:27.817794+00:00",
+    "availability_basis": "extraction"
+  }
+}

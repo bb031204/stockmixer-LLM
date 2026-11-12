@@ -1,0 +1,45 @@
+{
+  "source_id": "5cce05f568d3a8e709a0368f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001233/0001628280-22-007438-index.html",
+  "title": "sgmo-20220322",
+  "时间": "2022-03-28",
+  "分类": "healthcare",
+  "关键词": [
+    "Sangamo Therapeutics, Inc.",
+    "TX20",
+    "CAR-Treg cell therapy",
+    "HLA-A2 mismatched kidney transplants",
+    "STEADFAST clinical study",
+    "Sangamo"
+  ],
+  "主要内容": "Sangamo Therapeutics, Inc. dosed the first patient in its Phase 1/2 STEADFAST clinical study evaluating TX20, a CAR-Treg cell therapy for preventing immune-mediated rejection in HLA-A2 mismatched kidney transplants. TX20 is composed of autologous Treg cells engineered to express an HLA-A2 CAR, which may reduce inflammation and promote immunological tolerance to the graft. Patients undergo leukapheresis to collect white blood cells, which are then isolated, engineered, and cryopreserved before transplantation. Dosing occurs several months after enrollment. Sangamo expects to dose a second patient in the STEADFAST study in the middle of 2022. The company is also developing CAR-Treg cell therapy candidates in preclinical studies for potential use in treating multiple sclerosis and inflammatory bowel disorders. The report includes forward-looking statements regarding the therapeutic potential of TX20, the Phase 1/2 STEADFAST study design, and plans for dosing additional patients. Risks include the impact of the evolving COVID-19 pandemic, challenges in clinical trial enrollment and operations, and uncertainties in the development and regulatory approval process for its product candidates.",
+  "股票实体": [
+    {
+      "名称": "Sangamo Therapeutics, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Sangamo",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:26:14.048105+00:00",
+    "feature_available_at": "2026-11-12T07:26:49.122182+00:00",
+    "availability_basis": "extraction"
+  }
+}

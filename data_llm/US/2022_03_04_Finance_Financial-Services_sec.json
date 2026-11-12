@@ -1,0 +1,38 @@
+{
+  "source_id": "f2c9565303110e4cc1ba3b5e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-22-010671-index.html",
+  "title": null,
+  "时间": "2022-03-04",
+  "分类": "Finance",
+  "关键词": [
+    "Blonder Tongue Laboratories Inc",
+    "BLONDER TONGUE LABORATORIES INC",
+    "Loan and Security Agreement",
+    "Eighth Amendment",
+    "Borrowing Base",
+    "Form 8-K",
+    "Current Report"
+  ],
+  "主要内容": "Blonder Tongue Laboratories Inc, along with its subsidiaries and MidCap Business Credit LLC, entered into a Loan and Security Agreement (All Assets) in 2019, which was amended multiple times up to 2022. On March 3, 2022, BLONDER TONGUE LABORATORIES INC entered into an Eighth Amendment to Loan Agreement to modify the Loan Agreement's definition of \"Borrowing Base.\" All other substantive terms of the Loan Agreement remain in effect. The Eighth Amendment is attached as Exhibit 10.1 to the Current Report on Form 8-K. The Original Agreement and prior amendments are also referenced in the filing.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Medical Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T07:01:23.578436+00:00",
+    "feature_available_at": "2026-11-12T07:01:54.352209+00:00",
+    "availability_basis": "extraction"
+  }
+}

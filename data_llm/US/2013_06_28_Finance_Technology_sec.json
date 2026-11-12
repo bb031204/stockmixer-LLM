@@ -1,0 +1,42 @@
+{
+  "source_id": "c5b5d35a881b734a612445a7",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000184/0001193125-13-277279-index.html",
+  "title": null,
+  "时间": "2013-06-28",
+  "分类": "Finance",
+  "关键词": [
+    "SAP AG",
+    "Cloud Business",
+    "Europe",
+    "2013",
+    "constant currencies",
+    "10%-14%",
+    "€750 million"
+  ],
+  "主要内容": "SAP AG confirmed its Cloud Business in Europe grew in triple digits during the first quarter of 2013. The company's co-CEO, Bill McDermott, stated during an interview on CNBC on June 25, 2013, that the Cloud Business in Europe is growing in triple digits. SAP also reiterated its expectation to grow the company 10%-14% in constant currencies, maintaining its leadership position and gaining market share. SAP clarified its statement regarding the 2013 Outlook, stating that the Interview was intended to articulate management's goal of achieving the 2013 Outlook, not as a statement of anticipated second quarter 2013 results. The 2013 Outlook included expectations for non-IFRS software and cloud subscription revenue to increase by 14%-20% at constant currencies, with cloud subscription and support revenue expected to be around €750 million. SAP also noted that the Current Report on Form 6-K does not restate, modify, or update the 2013 Outlook.",
+  "股票实体": [
+    {
+      "名称": "SAP AG",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Information Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.291562+00:00",
+    "fetched_at": "2026-11-12T10:04:39.181204+00:00",
+    "feature_available_at": "2026-11-12T10:05:31.520970+00:00",
+    "availability_basis": "extraction"
+  }
+}

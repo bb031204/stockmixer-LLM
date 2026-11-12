@@ -1,0 +1,40 @@
+{
+  "source_id": "61ca36026da19134855e3e78",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-13-035206-index.html",
+  "title": null,
+  "时间": "2013-06-17",
+  "分类": "corporate_action",
+  "关键词": [
+    "Novavax, Inc.",
+    "Biotechnology",
+    "Registration Statement",
+    "Form S-4",
+    "SEC",
+    "Isconova AB"
+  ],
+  "主要内容": "On June 17, 2013, Novavax, Inc. filed a Registration Statement on Form S-4 with the Securities and Exchange Commission (SEC). This filing relates to the company's previously announced offer for the shares and warrants of Isconova AB. Isconova AB also filed a press release announcing Novavax's intent to file the Registration Statement. The press release is attached as Exhibit 99.1.",
+  "股票实体": [
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Isconova AB",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T11:39:00.877676+00:00",
+    "feature_available_at": "2026-11-12T11:39:15.795562+00:00",
+    "availability_basis": "extraction"
+  }
+}

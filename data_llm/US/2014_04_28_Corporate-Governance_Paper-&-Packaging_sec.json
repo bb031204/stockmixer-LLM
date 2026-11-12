@@ -1,0 +1,40 @@
+{
+  "source_id": "c2e299644454c58f48ffcd9e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000623/0001000623-14-000059-index.html",
+  "title": null,
+  "时间": "2014-04-28",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Schweitzer Mauduit International Inc",
+    "Annual Incentive Plan",
+    "2014 Proxy Statement",
+    "Proposal Two",
+    "Compensation Committee",
+    "Deloitte & Touche LLP",
+    "Schweitzer-Mauduit International, Inc."
+  ],
+  "主要内容": "Schweitzer Mauduit International Inc approved its Annual Incentive Plan, subject to stockholder approval. The plan aims to align the interests of stockholders and key executives by setting company objectives and providing cash incentive awards based on performance goals. The plan will be administered by the Compensation Committee, comprised of independent directors. Participation is open to all officers and employees, with awards contingent on achieving specific performance goals established by the committee. The plan was disclosed in the 2014 Proxy Statement under 'Proposal Two - Approval of Annual Incentive Plan.' It was approved by shareholders at the 2014 Annual Meeting with 25,377,544 votes in favor and 1,936,925 against. The plan is attached as Exhibit 10.1 and incorporated by reference. The company also approved an advisory vote on named executive officer compensation and ratified the appointment of Deloitte & Touche LLP as its independent registered public accounting firm.",
+  "股票实体": [
+    {
+      "名称": "Schweitzer-Mauduit International, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Industrial Manufacturing",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T13:58:24.080705+00:00",
+    "feature_available_at": "2026-11-12T13:59:06.420440+00:00",
+    "availability_basis": "extraction"
+  }
+}

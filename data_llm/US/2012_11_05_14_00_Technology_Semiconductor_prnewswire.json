@@ -1,0 +1,50 @@
+{
+  "source_id": "87e96ae2218bd1cd45114082",
+  "url": "https://www.prnewswire.com/news-releases/synopsys-announces-adoption-of-its-tetramax-atpg-and-yield-explorer-tools-by-stmicroelectronics-as-essential-enablers-of-rapid-yield-ramp-177246511.html",
+  "title": "Synopsys Announces Adoption of its TetraMAX ATPG and Yield Explorer Tools by STMicroelectronics as Essential Enablers of Rapid Yield Ramp",
+  "时间": "2012-11-05T14:00:00+00:00",
+  "分类": "Technology",
+  "关键词": [
+    "Synopsys",
+    "STMicroelectronics",
+    "TetraMAX ATPG",
+    "Yield Explorer",
+    "Semiconductor",
+    "SNPS"
+  ],
+  "主要内容": "Synopsys announced that STMicroelectronics has adopted its TetraMAX ATPG and Yield Explorer tools to enable faster yield ramp. The tools help identify systematic failure mechanisms and improve yield by analyzing defect locations and correlating them with design data. This integration has shortened root cause analysis time and accelerated yield improvement for new IC designs. Synopsys emphasized the need for complex analyses incorporating design data to address systematic yield loss due to design-process interactions. STMicroelectronics' Andrea Burri highlighted the flexibility and customization of Yield Explorer for various data types and analysis preferences. Synopsys, Inc. (Nasdaq:SNPS) is a leader in electronic design automation (EDA) and semiconductor IP, providing software, IP, and services to address design, verification, system, and manufacturing challenges.",
+  "股票实体": [
+    {
+      "名称": "Synopsys",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "STMicroelectronics",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "SNPS",
+      "交易所": "Nasdaq"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:15.561350+00:00",
+    "fetched_at": "2026-11-12T04:06:51.296706+00:00",
+    "feature_available_at": "2026-11-12T04:07:40.347792+00:00",
+    "availability_basis": "extraction"
+  }
+}

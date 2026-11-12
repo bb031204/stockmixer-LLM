@@ -1,0 +1,37 @@
+{
+  "source_id": "57bfec1dcf0789c728daddce",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-22-003985-index.html",
+  "title": null,
+  "时间": "2022-01-27",
+  "分类": "corporate_action",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "Corporate Action",
+    "Board of Directors",
+    "Retirement"
+  ],
+  "主要内容": "On January 25, 2022, James H. Williams, a member of the board of directors of Blonder Tongue Laboratories, Inc., informed the Company that he will retire from the board of directors and will not stand for reelection at the Company’s 2022 Annual Meeting of Stockholders. His retirement will become effective immediately following the Annual Meeting. Mr. Williams has served as a director since February 2015 and also previously served as a director from November 1988 to May 2006, including serving as Chairman from November 1988 until November 1994.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T07:00:06.046091+00:00",
+    "feature_available_at": "2026-11-12T07:00:19.690719+00:00",
+    "availability_basis": "extraction"
+  }
+}

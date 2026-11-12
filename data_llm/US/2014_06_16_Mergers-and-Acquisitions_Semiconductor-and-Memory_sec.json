@@ -1,0 +1,49 @@
+{
+  "source_id": "a45c72de142c3a05da6dbf14",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000180/0001104659-14-046272-index.html",
+  "title": null,
+  "时间": "2014-06-16",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "SanDisk Corporation",
+    "Fusion-io, Inc.",
+    "Semiconductor and Memory",
+    "Fusion-io"
+  ],
+  "主要内容": "On June 16, 2014, SanDisk Corporation entered into an Agreement and Plan of Merger with Fusion-io, Inc. The merger involves SanDisk acquiring Fusion-io, a Delaware corporation. The transaction is part of SanDisk's strategy to expand its presence in the semiconductor and memory industry. SanDisk Corp has agreed to commence a cash tender offer to purchase all of the issued and outstanding shares of the common stock of Fusion-io at a price of $11.25 per share. The offer will expire at midnight New York time on the 20th business day following the commencement date. If successful, the offer will be followed by a merger of Purchaser with and into Fusion-io, with Fusion-io continuing as the surviving corporation and a subsidiary of SanDisk. The agreement includes a termination fee of $42 million if the merger is not completed by October 16, 2014. SanDisk also signed support agreements with certain stockholders of Fusion-io, requiring them to tender their shares, which represent approximately 7% of outstanding shares.",
+  "股票实体": [
+    {
+      "名称": "SanDisk Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Fusion-io, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Fusion-io",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor & Memory",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.456109+00:00",
+    "fetched_at": "2026-11-12T12:48:18.552222+00:00",
+    "feature_available_at": "2026-11-12T12:49:37.993532+00:00",
+    "availability_basis": "extraction"
+  }
+}

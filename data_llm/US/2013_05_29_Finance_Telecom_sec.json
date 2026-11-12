@@ -1,0 +1,62 @@
+{
+  "source_id": "9f7f9ec01dc5597735871bea",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-13-045364-index.html",
+  "title": null,
+  "时间": "2013-05-29",
+  "分类": "Finance",
+  "关键词": [
+    "DISH Network CORP",
+    "DISH DBS Corporation",
+    "Notes",
+    "Sprint Nextel Corporation",
+    "Regulation S",
+    "Rule 144A",
+    "escrow",
+    "merger",
+    "DISH Network Corporation",
+    "Wells Fargo Bank, National Association",
+    "2017 Notes",
+    "2023 Notes"
+  ],
+  "主要内容": "On May 28, 2013, DISH DBS Corporation, an indirect wholly-owned subsidiary of DISH Network Corporation, issued $1.25 billion aggregate principal amount of its 5% Senior Notes due 2017 at an issue price of 100% of the principal amount. The Company also issued $1.35 billion aggregate principal amount of its 6.25% Senior Notes due 2023 under a separate indenture. The Notes were issued at par value to finance DISH Network's proposed merger with Sprint Nextel Corporation. The Notes were sold in a private placement under Regulation S and Rule 144A. The net proceeds were placed into escrow and will be used to make a cash distribution to DISH Network. If the merger does not occur or the cash consideration is less than $2.6 billion by May 28, 2014, the Company will redeem the Notes at 100% or 101% of their principal amount, plus accrued interest. The 2017 Notes have a 5% annual interest rate and mature on May 15, 2017. The 2023 Notes have a 6.25% annual interest rate and mature on May 15, 2023.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Wells Fargo Bank, National Association",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "2017 Notes",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "2023 Notes",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T12:07:06.683277+00:00",
+    "feature_available_at": "2026-11-12T12:08:40.909122+00:00",
+    "availability_basis": "extraction"
+  }
+}

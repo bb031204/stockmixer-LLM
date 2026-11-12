@@ -1,0 +1,31 @@
+{
+  "source_id": "ae1501491926d8f883e5172c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000184/0001193125-12-177169-index.html",
+  "title": null,
+  "时间": "2012-04-24",
+  "分类": "corporate_action",
+  "关键词": [
+    "SAP AG",
+    "IT Services",
+    "Global Managing Board"
+  ],
+  "主要内容": "On April 20, 2012, SAP AG announced the creation of a Global Managing Board to lead the company. The company also appointed Lars Dalgaard to the SAP Executive Board. These changes were communicated through a press release attached as Exhibit 99.1.",
+  "股票实体": [
+    {
+      "名称": "SAP AG",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T07:44:16.358549+00:00",
+    "feature_available_at": "2026-11-12T07:44:35.493710+00:00",
+    "availability_basis": "extraction"
+  }
+}

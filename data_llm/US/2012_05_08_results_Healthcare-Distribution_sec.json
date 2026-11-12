@@ -1,0 +1,36 @@
+{
+  "source_id": "d487a74ecde4fcfa439e9c49",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001000228-12-000018-index.html",
+  "title": null,
+  "时间": "2012-05-08",
+  "分类": "results",
+  "关键词": [
+    "HENRY SCHEIN, INC.",
+    "Healthcare Distribution",
+    "financial results"
+  ],
+  "主要内容": "HENRY SCHEIN, INC. issued a press release reporting the financial results for the three months ended March 31, 2012. The full text of the press release is attached hereto as Exhibit 99.1 and is incorporated herein by reference.",
+  "股票实体": [
+    {
+      "名称": "HENRY SCHEIN, INC.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare Distribution",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T08:00:53.762962+00:00",
+    "feature_available_at": "2026-11-12T08:01:04.453964+00:00",
+    "availability_basis": "extraction"
+  }
+}

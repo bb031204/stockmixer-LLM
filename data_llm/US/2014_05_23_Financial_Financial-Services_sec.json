@@ -1,0 +1,35 @@
+{
+  "source_id": "62f0ea7d749999a245b9525b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001193125-14-211634-index.html",
+  "title": null,
+  "时间": "2014-05-23",
+  "分类": "Financial",
+  "关键词": [
+    "Nicholas Financial, Inc.",
+    "NASDAQ",
+    "delisting",
+    "appeal",
+    "annual meeting",
+    "proxy statement"
+  ],
+  "主要内容": "Nicholas Financial, Inc. appealed the NASDAQ's decision to delist its shares from the NASDAQ Global Select Market. On May 20, 2014, NASDAQ informed the company that its appeal was granted, contingent on the company informing the panel by August 31, 2014, that it had solicited proxies and held an annual shareholder meeting. The company plans to hold its annual general meeting on July 30, 2014, with a record date of June 24, 2014. It expects to mail proxy materials to shareholders by June 30, 2014.",
+  "股票实体": [
+    {
+      "名称": "Nicholas Financial, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.456109+00:00",
+    "fetched_at": "2026-11-12T12:29:58.025503+00:00",
+    "feature_available_at": "2026-11-12T12:30:21.200955+00:00",
+    "availability_basis": "extraction"
+  }
+}

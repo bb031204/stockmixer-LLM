@@ -1,0 +1,50 @@
+{
+  "source_id": "fd6ca2af9073744cb229cfff",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000298/0001104659-13-039593-index.html",
+  "title": null,
+  "时间": "2013-05-09",
+  "分类": "Finance",
+  "关键词": [
+    "Impac Mortgage Holdings Inc",
+    "Mortgage",
+    "Executive Compensation",
+    "Bonuses",
+    "Severance",
+    "Claw Back",
+    "Employment Agreements",
+    "Impac Mortgage Holdings, Inc."
+  ],
+  "主要内容": "Impac Mortgage Holdings Inc (IMPC) disclosed executive compensation details, including base salaries of $600,000 annually for Joseph R. Tomkinson and William S. Ashmore, with annual bonuses of 7.5% of adjusted net earnings, capped at 2.5 times base salary or 5.0% if elected. Bonuses are paid in two installments: 80% within 10 days after adjusted net earnings are determined, and 20% after audited financial statements are released, by December 31 of the following year. The company outlined mechanisms for addressing underpaid or overpaid bonuses, including payment within 15 days, offsetting overpayment, or requiring repayment. Officers are eligible for paid vacation, car allowances, and benefits. Claw back policies apply as required by listing standards. Severance terms include base salary, prorated annual bonus, expense reimbursements, and accrued paid time off for termination for cause, voluntary resignation, death, mutual agreement, or legal incompetence. For termination without cause or resignation with good reason, officers receive 18 months of severance including base salary, incentive compensation, and health insurance benefits.",
+  "股票实体": [
+    {
+      "名称": "Impac Mortgage Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Real Estate",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Mortgage",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.291562+00:00",
+    "fetched_at": "2026-11-12T11:06:53.822934+00:00",
+    "feature_available_at": "2026-11-12T11:08:29.057180+00:00",
+    "availability_basis": "extraction"
+  }
+}

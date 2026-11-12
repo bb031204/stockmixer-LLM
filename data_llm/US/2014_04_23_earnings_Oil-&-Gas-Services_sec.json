@@ -1,0 +1,36 @@
+{
+  "source_id": "f59b37ee1280f47510545b09",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-14-000065-index.html",
+  "title": null,
+  "时间": "2014-04-23",
+  "分类": "earnings",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Oil & Gas Services",
+    "earnings"
+  ],
+  "主要内容": "On April 23, 2014, Core Laboratories N.V. issued a press release announcing its financial results for the first quarter of 2014. The full text of the press release is set forth in Exhibit 99.1 attached hereto.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T13:16:00.651926+00:00",
+    "feature_available_at": "2026-11-12T13:16:11.067971+00:00",
+    "availability_basis": "extraction"
+  }
+}

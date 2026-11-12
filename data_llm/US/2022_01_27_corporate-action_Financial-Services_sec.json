@@ -1,0 +1,36 @@
+{
+  "source_id": "c793831520d43e5b0fab8ac6",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001140361-22-002899-index.html",
+  "title": null,
+  "时间": "2022-01-27",
+  "分类": "corporate_action",
+  "关键词": [
+    "CREDICORP LTD",
+    "Financial Services",
+    "Annual General Meeting"
+  ],
+  "主要内容": "Credicorp Ltd. (‘Credicorp’) notifies you as a Material Event that, in its session held on January 27, 2022, Credicorp’s Board of Directors unanimously agreed on the following: 1. To set the date for the Annual General Meeting of Shareholders for Tuesday, March 29, 2022, at 3:00 p. m. (Peru time), in a pure virtual meeting through a web portal. In accordance with Credicorp’s Bye-Laws, if the required quorum is not met in the first instance, the meeting will be postponed until Tuesday, April 5, 2022, at the same place (web portal) and time. The Board has established that those shareholders who are officially registered as shareholders of Credicorp as of Friday, February 11, 2022 (‘Record Date’) will be entitled to attend and vote in the above-mentioned meeting.",
+  "股票实体": [
+    {
+      "名称": "CREDICORP LTD",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.001361+00:00",
+    "fetched_at": "2026-11-12T07:29:51.825314+00:00",
+    "feature_available_at": "2026-11-12T07:30:12.813482+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "d39fab43eb1ba2150fe09d06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000234/0000927089-12-000076-index.html",
+  "title": null,
+  "时间": "2012-06-11",
+  "分类": "banking",
+  "关键词": [
+    "Imperial Capital Bancorp, Inc.",
+    "IMPERIAL CAPITAL BANCORP, INC.",
+    "Chapter 11",
+    "Bankruptcy Court",
+    "Southern District of California",
+    "Case No. 09-19431-LA11",
+    "reorganization plan",
+    "Form 15",
+    "Securities Exchange Act of 1934"
+  ],
+  "主要内容": "On June 8, 2012, the Bankruptcy Court confirmed the reorganization plan filed by Imperial Capital Bancorp, Inc. and Holdco Advisors L.P. The plan became effective on June 8, 2012, and all equity interests in the company were cancelled. The company will file Form 15 to terminate registration under the Securities Exchange Act of 1934 and cease to be a reporting company. Imperial Capital Bancorp, Inc. had previously filed a voluntary petition under Chapter 11 of Title 11 of the United States Code in the United States Bankruptcy Court, Southern District of California, Case No. 09-19431-LA11.",
+  "股票实体": [
+    {
+      "名称": "Imperial Capital Bancorp, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T08:34:39.709751+00:00",
+    "feature_available_at": "2026-11-12T08:35:04.158158+00:00",
+    "availability_basis": "extraction"
+  }
+}

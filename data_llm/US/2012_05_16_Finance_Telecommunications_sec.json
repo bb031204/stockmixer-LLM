@@ -1,0 +1,56 @@
+{
+  "source_id": "d537e75221eba15faf371af5",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-12-037860-index.html",
+  "title": null,
+  "时间": "2012-05-16",
+  "分类": "Finance",
+  "关键词": [
+    "DISH Network CORP",
+    "DISH DBS Corporation",
+    "4.625% Senior Notes",
+    "5.875% Senior Notes",
+    "2017 Notes",
+    "2022 Notes",
+    "Wells Fargo Bank, National Association",
+    "Indenture",
+    "Regulation S",
+    "Rule 144A",
+    "DISH Network Corporation",
+    "Notes"
+  ],
+  "主要内容": "On May 16, 2012, DISH DBS Corporation, an indirect wholly-owned subsidiary of DISH Network Corporation, entered into an indenture relating to the issuance of $900,000,000 aggregate principal amount of its 4.625% Senior Notes due 2017 at an issue price of 100%. The Company also entered into an indenture relating to the issuance of $1,000,000,000 aggregate principal amount of its 5.875% Senior Notes due 2022 at an issue price of 100%. Wells Fargo Bank, National Association, as trustee, was involved in both indentures. DISH Network CORP issued Notes in a private placement, complying with Regulation S and Rule 144A. The 2017 Notes carry a 4.625% annual interest rate, maturing on July 15, 2017, while the 2022 Notes have a 5.875% rate, maturing on July 15, 2022. Interest is paid semi-annually. The Indentures include covenants limiting the Company’s ability to incur debt, pay dividends, make investments, and engage in certain transactions. Notes may be redeemed at a price equal to the principal plus accrued interest and a make-whole premium.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Wells Fargo Bank, National Association",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Notes",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting & Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.070830+00:00",
+    "fetched_at": "2026-11-12T09:23:44.111547+00:00",
+    "feature_available_at": "2026-11-12T09:24:42.726130+00:00",
+    "availability_basis": "extraction"
+  }
+}

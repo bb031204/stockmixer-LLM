@@ -1,0 +1,51 @@
+{
+  "source_id": "fb087d2836386cc4afc99d4f",
+  "url": "https://www.prnewswire.com/news-releases/synopsys-and-gowin-semiconductor-ink-multi-year-oem-agreement-for-fpga-design-software-684059495.html",
+  "title": "Synopsys and Gowin Semiconductor Ink Multi-Year OEM Agreement for FPGA Design Software",
+  "时间": "2014-10-27T13:00:00+00:00",
+  "分类": "Technology",
+  "关键词": [
+    "Synopsys",
+    "Gowin Semiconductor",
+    "FPGA design software",
+    "OEM agreement",
+    "GW2A/3S FPGAs",
+    "Synplify Pro",
+    "SNPS"
+  ],
+  "主要内容": "Synopsys and Gowin Semiconductor signed a multi-year OEM agreement for FPGA design software. The agreement enables Gowin customers to improve synthesis runtimes and achieve higher quality of results for timing, area, and power for GW2A/3S FPGAs. Synplify Pro is optimized for Gowin's GW2A FPGAs to deliver fast time-to-results with area optimization for cost and power. The integration with GOWIN design suite provides a unified design flow for FPGA implementation. Synplify Pro for Gowin FPGA devices is available now from Gowin Semiconductor. Securities explicitly mentioned in the source include SNPS.",
+  "股票实体": [
+    {
+      "名称": "Synopsys",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Gowin Semiconductor",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "SNPS",
+      "交易所": "Nasdaq"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:21.074947+00:00",
+    "fetched_at": "2026-11-12T04:10:41.766354+00:00",
+    "feature_available_at": "2026-11-12T04:11:18.722959+00:00",
+    "availability_basis": "extraction"
+  }
+}

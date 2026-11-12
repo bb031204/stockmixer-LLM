@@ -1,0 +1,44 @@
+{
+  "source_id": "a6841543cbc11780bf043405",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001140361-22-007778-index.html",
+  "title": null,
+  "时间": "2022-03-04",
+  "分类": "regulation_policy",
+  "关键词": [
+    "CREDICORP LTD",
+    "Financial Services",
+    "regulation_policy",
+    "Banco de Credito del Peru"
+  ],
+  "主要内容": "CREDICORP LTD submitted audited consolidated financial statements for the fiscal year ended December 31, 2021, including the external auditors' report approved by the Board of Directors on February 24, 2022, to be presented at the Annual General Meeting on March 29, 2022.",
+  "股票实体": [
+    {
+      "名称": "CREDICORP LTD",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Banco de Credito del Peru",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.002365+00:00",
+    "fetched_at": "2026-11-12T07:30:45.263223+00:00",
+    "feature_available_at": "2026-11-12T07:31:05.010205+00:00",
+    "availability_basis": "extraction"
+  }
+}

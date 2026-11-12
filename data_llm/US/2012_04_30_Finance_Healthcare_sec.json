@@ -1,0 +1,82 @@
+{
+  "source_id": "c1b0c3e54f2145ebc5087921",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-12-194096-index.html",
+  "title": null,
+  "时间": "2012-04-30",
+  "分类": "Finance",
+  "关键词": [
+    "Henry Schein Inc",
+    "HENRY SCHEIN INC",
+    "MetLife",
+    "Prudential",
+    "NY Life",
+    "Private Placement Shelf Agreement",
+    "Master Note Facility",
+    "Senior Promissory Notes",
+    "Fixed Rate",
+    "Unsecured Notes",
+    "Working Capital",
+    "Capital Expenditures",
+    "Refinancing Debt",
+    "Acquisitions",
+    "Covenants",
+    "Debt Limitations",
+    "Liens",
+    "Asset Dispositions",
+    "Affiliate Transactions",
+    "Mergers",
+    "Henry Schein, Inc.",
+    "Prudential Investment Management, Inc.",
+    "New York Life Investment Management LLC"
+  ],
+  "主要内容": "On April 27, 2012, Henry Schein, Inc. (HENRY SCHEIN INC) entered into a $200 million private placement shelf agreement with MetLife, allowing future fundraising through private placements. The facility permits the issuance of unsecured senior promissory notes at fixed rates, with terms ranging from five to fifteen years, and an average life of no longer than twelve years. The notes will be issued during a three-year period until April 26, 2015. Proceeds will be used for general corporate purposes, including working capital, capital expenditures, refinancing existing debt, and potential acquisitions. The facility includes covenants limiting the Company's ability to incur additional debt, liens, asset dispositions, affiliate transactions, and mergers. On the same date, Henry Schein Inc. amended its Private Shelf Agreement with Prudential, increasing the principal amount from $250 million to $350 million and extending the issuance period to April 26, 2015. The company also amended its Master Note Facility with NY Life, increasing the principal amount from $150 million to $225 million and extending the issuance period to April 26, 2015. As of the filing date, $100 million in notes had been issued under both facilities.",
+  "股票实体": [
+    {
+      "名称": "Henry Schein, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "MetLife",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Prudential Investment Management, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "New York Life Investment Management LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "NY Life",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Healthcare Distribution",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T07:59:15.373305+00:00",
+    "feature_available_at": "2026-11-12T08:00:50.418630+00:00",
+    "availability_basis": "extraction"
+  }
+}

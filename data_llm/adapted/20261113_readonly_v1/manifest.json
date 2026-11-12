@@ -1,0 +1,106 @@
+{
+  "schema_version": "stockmixer_source_adapter_v1",
+  "kind": "adapted_collector_snapshot",
+  "created_at": "2026-11-12T18:29:46.466794+00:00",
+  "source_root": "D:\\financial_data_project2",
+  "source_read_only": true,
+  "input_physical_files": {
+    "GLOBAL": 34,
+    "US": 1431
+  },
+  "snapshot_policy": "frozen_input_file_list; included files must not change; later additions are excluded",
+  "new_source_files_outside_snapshot_at_verification": 0,
+  "unique_articles": 1431,
+  "ready_articles": 1431,
+  "review_required": 0,
+  "duplicate_views_removed": 34,
+  "content_duplicate_groups": 2,
+  "deduplication": "source_id+identical_record_hash; distinct IDs are never globally merged using future evidence",
+  "language_basis_counts": {
+    "legacy_audit_verified_unchanged_summary": 1175,
+    "matching_current_audit": 256
+  },
+  "audit_family_counts": {
+    "enriched": 1175,
+    "production": 256
+  },
+  "source_availability_basis_counts": {
+    "migration": 1175,
+    "extraction": 256
+  },
+  "canonical_availability_basis_counts": {
+    "migration": 1175,
+    "verified_audit": 255,
+    "extraction": 1
+  },
+  "llm_time_known": 850,
+  "upstream_observed_evidence_complete": 255,
+  "warning_counts": {
+    "first_seen_at:unknown": 3,
+    "feature_available_at_raised_to_latest_evidence": 1,
+    "llm_inferred_at:unknown": 1
+  },
+  "error_counts": {},
+  "datasets": {
+    "NASDAQ": {
+      "first_date": "2013-01-02",
+      "last_date": "2017-12-08",
+      "publication_in_range": 699,
+      "availability_within_dataset_end_upper_bound": 0,
+      "date_only_with_next_dataset_session": 634,
+      "full_observed_pit_ready": false,
+      "reason": "FinBERT/model/mapping availability and verified decision schedule still required",
+      "session_assignment": "date-only uses strictly next session; exact-time cutoff not guessed"
+    },
+    "NYSE": {
+      "first_date": "2013-01-02",
+      "last_date": "2017-12-08",
+      "publication_in_range": 699,
+      "availability_within_dataset_end_upper_bound": 0,
+      "date_only_with_next_dataset_session": 634,
+      "full_observed_pit_ready": false,
+      "reason": "FinBERT/model/mapping availability and verified decision schedule still required",
+      "session_assignment": "date-only uses strictly next session; exact-time cutoff not guessed"
+    },
+    "SP500": {
+      "first_date": "2016-01-04",
+      "last_date": "2022-05-25",
+      "publication_in_range": 796,
+      "availability_within_dataset_end_upper_bound": 0,
+      "date_only_with_next_dataset_session": 700,
+      "full_observed_pit_ready": false,
+      "reason": "FinBERT/model/mapping availability and verified decision schedule still required",
+      "session_assignment": "date-only uses strictly next session; exact-time cutoff not guessed"
+    }
+  },
+  "model_inference_run": false,
+  "baseline_modified": false,
+  "source_modules_imported": false,
+  "source_snapshot_hash": "ab65a64ddd1a113aed3fa1a4eca470b89ef9509be2e664c755440035853b1deb",
+  "axis_file_sha256": {
+    "NASDAQ": "fbb581a3429390ddcbc02f453fe9274fc65b4f25a528bd861a2322ba5ba0d316",
+    "NYSE": "95395338539dc76d478e2f83f598392f5dd4a4970000daafb23b8c1adc3bf6e2",
+    "SP500": "8c41c152e03aee9e26642f6f65636817384eda585ce4d37beb43d8a9accbdfb2"
+  },
+  "adapter_code_sha256": {
+    "dataset.py": "087b926fe16fa84d8690c411d526f08fe7b349241d7fc02b5493ace14351f9d8",
+    "encoder.py": "3b4b1890a9d16d6c091097bcb7f884b644240cf117c8e296d594ce4c3273c2ef",
+    "fusion.py": "dea2f0758fb4bbfc97e20948ba174703da6a0a5f0dcda25cd9e58e7608caeb64",
+    "inputs.py": "11a80e40f485bd8bbd7b07c6dcbc15d29c0430d524540a4402899893589b34ac",
+    "io.py": "e981edbe142328c7b4f3058c2e62f4f9c39138d36e9d34abd9f5d9880cc1d455",
+    "panel.py": "2d957e42b6b1e33e7ce68648172be74017cc9f4d2cbc3cab082c56202ac11c7a",
+    "source_adapter.py": "2f9cc2947510f1cbd5d535fc6ce6bf5290878c1fbe4b2434253718e6d5bdd925",
+    "time_axis.py": "c51b7627a20a2be72174548783f414bf8d0a8e5ad02769747b4bf6d72d5bd7be",
+    "__init__.py": "db177b378f26848c2720c4545e7d6c7f085acee1c8c093672be08454a03fe14b",
+    "__main__.py": "2a8da4430bd2c54dca396e43bee5ddac29d2dde59df45ea146a37301d84ba677"
+  },
+  "historical_security_or_industry_mapping_created": false,
+  "files": {
+    "articles.jsonl": "0354d3e1d4a095328d11c94690fbfc8766ce48bcafaead2d2c56f1c1f17a8632",
+    "duplicate_content_groups.jsonl": "3839ff8f10325cea26eaf31ca730461ee685962c57b99b6b4393cff43b1e2f38",
+    "provenance.jsonl": "e7c0a3b0f0b44e0d00c44fe744b5a756423f4610489719ba0c4e49c83527214c",
+    "review_records.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "source_snapshot.json": "daced4044d452590830cafa0a51d81db2b31750218f0de76bd710398a1db5df6",
+    "time_checks.jsonl": "b06f0708abb4b589652c6aa36f94c289b17d8a06dec66327b50812ea542ffccc"
+  }
+}

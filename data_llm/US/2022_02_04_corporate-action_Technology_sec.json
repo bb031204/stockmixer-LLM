@@ -1,0 +1,31 @@
+{
+  "source_id": "e279d9858e562ccab6d7bfe6",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-22-005516-index.html",
+  "title": null,
+  "时间": "2022-02-04",
+  "分类": "corporate_action",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "Technology",
+    "compensation changes"
+  ],
+  "主要内容": "Blonder Tongue Laboratories, Inc. approved changes to director compensation for the first half of 2022. Instead of continuing to compensate directors through a combination of cash payments and common stock grants as in 2021, during the first six months of 2022 directors will be compensated through grants of options to purchase shares of the Company's common stock. The options will vest on September 30, 2022, have a 10-year term, and be granted as of the fifth trading day after the trading day on which the Company’s earnings for the year ended December 31, 2021 have been released to the public. The Board intends to reevaluate director compensation in advance of July 1, 2022.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T07:00:22.250243+00:00",
+    "feature_available_at": "2026-11-12T07:00:35.321055+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "source_id": "58dd0940db1460506b66d403",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000180/0001000180-12-000035-index.html",
+  "title": null,
+  "时间": "2012-06-13",
+  "分类": "corporate_action",
+  "关键词": [
+    "Sandisk Corp",
+    "Semiconductor & Memory"
+  ],
+  "主要内容": "Sandisk Corp shareholders voted to elect eight individuals for the upcoming year and until their successors are elected and qualified. The results for each candidate were as follows: Michael E. Marks (For: 170,943,872, Against: 6,839,619, Abstain: 669,798, Broker Non-Votes: 24,729,663), Kevin DeNuccio (For: 173,753,909, Against: 4,158,693, Abstain: 540,687, Broker Non-Votes: 24,729,663), and others. Shareholders also ratified the selection of Ernst & Young LLP as the independent registered public accounting firm for the fiscal year ending December 30, 2012. Additionally, they approved the advisory resolution on executive compensation.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor & Memory",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T07:42:49.382348+00:00",
+    "feature_available_at": "2026-11-12T07:43:08.260659+00:00",
+    "availability_basis": "extraction"
+  }
+}

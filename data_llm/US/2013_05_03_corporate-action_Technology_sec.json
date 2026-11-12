@@ -1,0 +1,33 @@
+{
+  "source_id": "5d1e85544ccb1cc682499a93",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001181431-13-024922-index.html",
+  "title": null,
+  "时间": "2013-05-03",
+  "分类": "corporate_action",
+  "关键词": [
+    "Geospace Technologies Corp",
+    "Technology",
+    "Corporate Action",
+    "Geokinetics Inc"
+  ],
+  "主要内容": "On May 2, 2013, Geospace Technologies Corp appointed Mr. Richard F. Miles to fill a vacancy on the Board of Directors. Mr. Miles was previously the Chief Executive Officer and a member of the Board of Directors of Geokinetics Inc, a customer of the Company. Between October 1, 2011, and the date of Mr. Miles' retirement from Geokinetics, the Company sold an aggregate amount of $3.8 million of equipment to Geokinetics in 139 separate transactions, and the Company rented equipment to Geokinetics in 7 separate transactions with an aggregate rental fee of $7.1 million. As a director, Mr. Miles is eligible to receive compensation in the amount of $85,000 annually.",
+  "股票实体": [
+    {
+      "名称": "Geokinetics Inc",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.293585+00:00",
+    "fetched_at": "2026-11-12T12:22:19.084639+00:00",
+    "feature_available_at": "2026-11-12T12:22:39.822416+00:00",
+    "availability_basis": "extraction"
+  }
+}

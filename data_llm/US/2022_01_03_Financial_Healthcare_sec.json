@@ -1,0 +1,44 @@
+{
+  "source_id": "569ca1d6e39e1608bafd724f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-22-000002-index.html",
+  "title": "nsp-20220103",
+  "时间": "2022-01-03",
+  "分类": "Financial",
+  "关键词": [
+    "Insperity, Inc.",
+    "UnitedHealthcare",
+    "medical coverage",
+    "dental coverage",
+    "administrative costs",
+    "exclusivity provisions"
+  ],
+  "主要内容": "Insperity, Inc. filed a Form 8-K with the SEC on January 3, 2022, to report its latest filing under the Securities Exchange Act of 1934. The filing includes details about the company's common stock, with a par value of $0.01 per share, and its registration on the New York Stock Exchange. The report outlines the company's legal and financial information, including its incorporation in Delaware and its IRS Employer Identification Number. The filing does not include any new financial results or operational updates, but it serves as a regulatory compliance document. On December 28, 2021, Insperity, Inc. entered into an amendment to its arrangement with UnitedHealthcare related to medical and dental coverage. The amendment extended medical coverage through 2026, dental coverage through 2024, reduced certain administrative costs payable by the Company upon achievement of prescribed thresholds, and modified exclusivity provisions to provide Insperity with greater flexibility in certain markets. The other previously disclosed material terms remain unchanged.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "UnitedHealthcare",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T07:04:38.429405+00:00",
+    "feature_available_at": "2026-11-12T07:05:18.749557+00:00",
+    "availability_basis": "extraction"
+  }
+}

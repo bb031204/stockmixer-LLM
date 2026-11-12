@@ -1,0 +1,44 @@
+{
+  "source_id": "80a86e65010742700c052c37",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001316/0001558370-22-000026-index.html",
+  "title": null,
+  "时间": "2022-01-04",
+  "分类": "Finance",
+  "关键词": [
+    "TG Therapeutics Inc.",
+    "Hercules Capital, Inc.",
+    "Loan and Security Agreement",
+    "Biotechnology",
+    "Hercules"
+  ],
+  "主要内容": "TG Therapeutics Inc. entered into an Amended and Restated Loan and Security Agreement with Hercules Capital, Inc. on December 30, 2021. The agreement increased the loan principal from $60.0 million to $200.0 million, with a first advance of $70.0 million. The loan will fund research, development, and commercialization activities. Tranche 2, 3, and 4 amounts were increased based on performance milestones and Hercules’ approval. The amendment also includes financial covenants requiring the company to maintain certain levels of unrestricted cash and market capitalization. A warrant was issued to Hercules to purchase 115,042 shares of common stock at $17.95 per share, exercisable for seven years.",
+  "股票实体": [
+    {
+      "名称": "TG Therapeutics Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Hercules Capital, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Hercules",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.002365+00:00",
+    "fetched_at": "2026-11-12T07:36:05.199665+00:00",
+    "feature_available_at": "2026-11-12T07:36:47.700365+00:00",
+    "availability_basis": "extraction"
+  }
+}

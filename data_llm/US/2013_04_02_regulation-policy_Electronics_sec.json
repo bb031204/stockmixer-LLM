@@ -1,0 +1,30 @@
+{
+  "source_id": "7961666d775c195ef4ed1a23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001307942-13-000006-index.html",
+  "title": null,
+  "时间": "2013-04-02",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "Electronics",
+    "SEC filing"
+  ],
+  "主要内容": "Blonder Tongue Laboratories, Inc. issued a press release on April 2, 2013, announcing its financial results for the fourth quarter and year ended December 31, 2012. The press release is attached as Exhibit 99.1 and incorporated by reference.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T11:25:29.441056+00:00",
+    "feature_available_at": "2026-11-12T11:25:40.264375+00:00",
+    "availability_basis": "extraction"
+  }
+}

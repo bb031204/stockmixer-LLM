@@ -1,0 +1,31 @@
+{
+  "source_id": "84bbe455a0d233b957285c65",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-22-001692-index.html",
+  "title": null,
+  "时间": "2022-02-02",
+  "分类": "regulation_policy",
+  "关键词": [
+    "ROYAL BANK OF CANADA",
+    "Banking",
+    "Credit ratings"
+  ],
+  "主要内容": "On January 27, 2022, Moody’s upgraded the Royal Bank of Canada’s legacy senior long-term debt rating to Aa1 from Aa2 and its senior long-term debt rating to A1 from A2. The short-term debt rating was affirmed as P-1, and the ratings outlook was revised to stable from under review.",
+  "股票实体": [
+    {
+      "名称": "ROYAL BANK OF CANADA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:58.999365+00:00",
+    "fetched_at": "2026-11-12T06:46:55.258137+00:00",
+    "feature_available_at": "2026-11-12T06:47:08.423667+00:00",
+    "availability_basis": "extraction"
+  }
+}

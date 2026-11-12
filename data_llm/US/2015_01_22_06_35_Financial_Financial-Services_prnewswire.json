@@ -1,0 +1,48 @@
+{
+  "source_id": "ee1d077a242cc31b62b48bd8",
+  "url": "https://www.prnewswire.com/news-releases/aviva-investors-and-virtus-investment-partners-announce-agreement-to-offer-outcome-oriented-strategies-in-us-mutual-funds-300024477.html",
+  "title": "Aviva Investors and Virtus Investment Partners Announce Agreement To Offer Outcome-Oriented Strategies in U.S. Mutual Funds",
+  "时间": "2015-01-22T06:35:00+00:00",
+  "分类": "Financial",
+  "关键词": [
+    "Aviva Investors",
+    "Virtus Investment Partners",
+    "U.S. retail market",
+    "open-end mutual funds",
+    "outcome-oriented strategies",
+    "Virtus Multi-Strategy Target Return Fund",
+    "U.S. Securities and Exchange Commission",
+    "VRTS"
+  ],
+  "主要内容": "Aviva Investors and Virtus Investment Partners announced a collaboration to develop open-end mutual funds for the U.S. retail market. Virtus will offer Aviva's strategies in U.S. mutual funds, starting with the Virtus Multi-Strategy Target Return Fund. The fund seeks to achieve a long-term total return target through a fundamental research strategy, constructing an unconstrained portfolio of global equities, bonds, and derivatives. The fund is intended to address substantial investor interest in outcome-oriented solutions. Virtus has filed a registration with the U.S. Securities and Exchange Commission for the Virtus Multi-Strategy Target Return Fund, expected to be available in Q2 2015, subject to regulatory approval. Investors should carefully consider the investment objectives, risks, charges, and expenses of any Virtus Mutual Fund before investing. Securities explicitly mentioned in the source include Virtus Investment Partners (VRTS).",
+  "股票实体": [
+    {
+      "名称": "Aviva Investors",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Virtus Investment Partners",
+      "股票代码": "VRTS",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:28:04.758168+00:00",
+    "fetched_at": "2026-11-12T05:07:29.377567+00:00",
+    "feature_available_at": "2026-11-12T05:08:36.355757+00:00",
+    "availability_basis": "extraction"
+  }
+}

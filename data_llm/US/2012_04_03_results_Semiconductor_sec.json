@@ -1,0 +1,31 @@
+{
+  "source_id": "9b5a413ec5ceedce3dcf6a4a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000180/0001000180-12-000021-index.html",
+  "title": null,
+  "时间": "2012-04-03",
+  "分类": "results",
+  "关键词": [
+    "SanDisk Corporation",
+    "Semiconductor",
+    "Preliminary financial results"
+  ],
+  "主要内容": "SanDisk Corporation issued a press release to report certain preliminary financial results for its first quarter ended April 1, 2012.",
+  "股票实体": [
+    {
+      "名称": "SanDisk Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T07:41:54.355460+00:00",
+    "feature_available_at": "2026-11-12T07:42:07.713927+00:00",
+    "availability_basis": "extraction"
+  }
+}

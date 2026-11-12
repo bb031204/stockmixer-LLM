@@ -1,0 +1,33 @@
+{
+  "source_id": "d02ae6d3da9f9b998e935ae1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-22-007900-index.html",
+  "title": null,
+  "时间": "2022-02-15",
+  "分类": "Finance",
+  "关键词": [
+    "Blonder Tongue Laboratories Inc",
+    "BLONDER TONGUE LABORATORIES INC",
+    "Loan and Security Agreement",
+    "Amendments",
+    "Borrowing Base",
+    "Availability Block"
+  ],
+  "主要内容": "Blonder Tongue Laboratories Inc, along with its subsidiaries and MidCap Business Credit LLC, entered into a Loan and Security Agreement (All Assets) in 2019, which was amended multiple times up to December 2021. The amendments include the First Amendment in April 2020, the Second Amendment in January 2021, the Third Amendment in June 2021, the Fourth Amendment in July 2021, the Fifth Amendment in August 2021, and the Sixth Amendment in December 2021. On February 11, 2022, the company entered into a Seventh Amendment to Loan Agreement to modify the Loan Agreement’s definitions of 'Borrowing Base' and 'Availability Block.' All other substantive terms of the Loan Agreement continue in full force and effect.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:59.000366+00:00",
+    "fetched_at": "2026-11-12T07:00:49.268154+00:00",
+    "feature_available_at": "2026-11-12T07:01:19.774535+00:00",
+    "availability_basis": "extraction"
+  }
+}

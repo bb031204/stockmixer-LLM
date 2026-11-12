@@ -1,0 +1,46 @@
+{
+  "source_id": "6c51daa6c68a0a789cb3cc98",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-13-029126-index.html",
+  "title": null,
+  "时间": "2013-04-15",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "DISH Network Corporation",
+    "Sprint Nextel Corporation",
+    "Broadcasting & Telecommunications",
+    "merger proposal",
+    "25.5 billion",
+    "2013-04-15"
+  ],
+  "主要内容": "DISH Network Corporation submitted a merger proposal to the Board of Directors of Sprint Nextel Corporation on April 15, 2013. The proposal includes a total consideration of $25.5 billion, consisting of $17.3 billion in cash and $8.2 billion in stock. Sprint shareholders would receive $7.00 per share, based upon DISH’s closing price on Friday, April 12, 2013. This consists of $4.76 per share in cash and 0.05953 DISH shares per Sprint share. The equity portion represents approximately 32% ownership in the combined DISH/Sprint. The merger was announced in a press release dated April 15, 2013, and was part of the company's corporate action. The merger proposal was included in the exhibit section of the 8-K filing. The merger was a significant event for the Broadcasting & Telecommunications industry.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Sprint Nextel Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting & Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T12:04:02.264685+00:00",
+    "feature_available_at": "2026-11-12T12:04:42.916765+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source_id": "7036e87bfbf1cd41464fb5f2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001039/0001001039-15-000176-index.html",
+  "title": null,
+  "时间": "2015-06-30",
+  "分类": "executive_appointments",
+  "关键词": [
+    "The Walt Disney Company",
+    "Christine M. McCarthy",
+    "Kevin A. Mayer",
+    "Entertainment"
+  ],
+  "主要内容": "The Walt Disney Company (the “Company”) announced June 30, 2015, that it has appointed Christine M. McCarthy as Senior Executive Vice President and Chief Financial Officer and Kevin A. Mayer as Senior Executive Vice President and Chief Strategy Officer, effective July 1, 2015. The Employment Agreements state that both will receive an annual salary of $1,250,000 starting July 1, 2015, with future salaries determined at the Company’s discretion but not less than $1,250,000. Additionally, they are eligible for annual performance-based bonuses under the Company’s Management Incentive Bonus Program, with target bonuses set by the Compensation Committee at not less than 200% of their annual base salary.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Entertainment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:26:43.678689+00:00",
+    "feature_available_at": "2026-11-12T17:27:45.882937+00:00",
+    "availability_basis": "extraction"
+  }
+}

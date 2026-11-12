@@ -1,0 +1,44 @@
+{
+  "source_id": "5cd8deaaac7138b93a5c62e1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-15-000031-index.html",
+  "title": null,
+  "时间": "2015-04-24",
+  "分类": "corporate_action",
+  "关键词": [
+    "Insperity, Inc.",
+    "Business Services",
+    "Board of Directors",
+    "Michelle McKenna-Doyle",
+    "Class I director",
+    "restricted Common Stock",
+    "3-year vesting schedule",
+    "Starboard Value LP",
+    "NSP",
+    "RingCentral, Inc.",
+    "RNG"
+  ],
+  "主要内容": "Insperity, Inc. approved an increase in the size of the Board of Directors from 10 to 11 directors and appointed Michelle McKenna-Doyle to fill the newly created directorship. Ms. McKenna-Doyle will serve as a Class I director with an initial term expiring on the date of the Company’s annual meeting of stockholders in 2017. She will be awarded shares of restricted Common Stock with a grant date value equal to $75,000, with a three-year vesting schedule. The appointment was made in accordance with the Agreement dated as of March 21, 2015, by and among Insperity, Inc. and Starboard Value LP and certain of its affiliates. Securities explicitly mentioned in the source include Insperity, Inc. (NSP), RingCentral, Inc. (RNG).",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": "NSP",
+      "交易所": "NYSE"
+    },
+    {
+      "名称": "RingCentral, Inc.",
+      "股票代码": "RNG",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:21:37.394590+00:00",
+    "feature_available_at": "2026-11-12T17:22:42.678674+00:00",
+    "availability_basis": "extraction"
+  }
+}

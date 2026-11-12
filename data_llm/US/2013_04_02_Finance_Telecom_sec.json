@@ -1,0 +1,44 @@
+{
+  "source_id": "aa4f4a392e5c9c27f2107f24",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-13-026351-index.html",
+  "title": null,
+  "时间": "2013-04-02",
+  "分类": "Finance",
+  "关键词": [
+    "DISH Network Corporation",
+    "DISH DBS Corporation",
+    "senior notes",
+    "wireless",
+    "spectrum"
+  ],
+  "主要内容": "On April 2, 2013, DISH Network Corporation announced that its subsidiary, DISH DBS Corporation, intends to offer approximately $1.0 billion aggregate principal amount of its senior notes. The offering is subject to market and other conditions and will be made to qualified institutional buyers under Rule 144A and Regulation S. The proceeds are intended for general corporate purposes, including wireless and spectrum-related strategic transactions.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DISH DBS Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting and Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T12:01:14.587100+00:00",
+    "feature_available_at": "2026-11-12T12:01:39.775490+00:00",
+    "availability_basis": "extraction"
+  }
+}

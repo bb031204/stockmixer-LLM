@@ -1,0 +1,40 @@
+{
+  "source_id": "6c808a89372c4e0dc47d1271",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-15-000049-index.html",
+  "title": null,
+  "时间": "2015-05-20",
+  "分类": "corporate_action",
+  "关键词": [
+    "Insperity, Inc.",
+    "Business Services",
+    "Rule 10b5-1",
+    "trading plans",
+    "67,557 shares",
+    "10%",
+    "May 2015"
+  ],
+  "主要内容": "Insperity, Inc. announced that its President, Mr. Rawson, established new structured, prearranged trading plans to sell a portion of his beneficially owned shares of Insperity common stock over a six-month period in accordance with Rule 10b5-1 of the Securities Exchange Act of 1934. The plans allow Mr. Rawson to sell a maximum of 67,557 shares, representing approximately 10% of his current common stock holdings. The plans were initiated during the company's open window for insider transactions. Rule 10b5-1 permits insiders to implement written plans for selling stock at times when they are not in possession of material nonpublic information, enabling regular and non-discretionary sales regardless of subsequent material nonpublic information.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:15.666498+00:00",
+    "fetched_at": "2026-11-12T17:24:16.246061+00:00",
+    "feature_available_at": "2026-11-12T17:24:42.875209+00:00",
+    "availability_basis": "extraction"
+  }
+}

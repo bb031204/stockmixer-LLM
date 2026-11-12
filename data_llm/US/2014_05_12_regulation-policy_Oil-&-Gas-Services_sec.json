@@ -1,0 +1,36 @@
+{
+  "source_id": "953729e2d947e42e627acade",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-14-000072-index.html",
+  "title": null,
+  "时间": "2014-05-12",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Oil & Gas Services",
+    "Earnings Guidance"
+  ],
+  "主要内容": "On May 12, 2014, Core Laboratories N.V. issued a press release announcing revisions to previously issued earnings guidance for its 2014 second quarter and full year 2014. The full text of the press release is set forth in Exhibit 99.1 attached hereto.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T13:16:13.710741+00:00",
+    "feature_available_at": "2026-11-12T13:16:24.750896+00:00",
+    "availability_basis": "extraction"
+  }
+}

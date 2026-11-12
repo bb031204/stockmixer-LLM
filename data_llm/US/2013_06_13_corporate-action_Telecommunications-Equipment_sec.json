@@ -1,0 +1,36 @@
+{
+  "source_id": "d49331afd469c8e1e2a92f0d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001193125-13-257384-index.html",
+  "title": null,
+  "时间": "2013-06-13",
+  "分类": "corporate_action",
+  "关键词": [
+    "Optical Cable Corporation",
+    "Telecommunications Equipment",
+    "Second Quarter of Fiscal Year 2013"
+  ],
+  "主要内容": "On June 12, 2013, Optical Cable Corporation issued a press release announcing its second quarter of fiscal year 2013 financial results. Also on June 12, 2013, Optical Cable Corporation held an earnings call. The press release is attached hereto as Exhibit 99.1 and the transcript for the earnings call is attached as Exhibit 99.2.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecommunications Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.291562+00:00",
+    "fetched_at": "2026-11-12T10:45:50.991588+00:00",
+    "feature_available_at": "2026-11-12T10:46:04.088204+00:00",
+    "availability_basis": "extraction"
+  }
+}

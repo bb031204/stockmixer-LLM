@@ -1,0 +1,34 @@
+{
+  "source_id": "d244e1c72b1fbbdec1dbb6ef",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-12-269649-index.html",
+  "title": null,
+  "时间": "2012-06-13",
+  "分类": "corporate_action",
+  "关键词": [
+    "MEDALLION FINANCIAL CORP",
+    "Financial Services",
+    "Board of Directors",
+    "Independent Registered Public Accounting Firm",
+    "Executive Compensation"
+  ],
+  "主要内容": "On June 13, 2012, MEDALLION FINANCIAL CORP shareholders approved several corporate actions. The Board of Directors elected Stanley Kreitman, Frederick A. Menowitz, and David L. Rudick as Class I Directors. Shareholders ratified the appointment of WeiserMazars LLP as the independent registered public accounting firm. They also approved a non-binding advisory resolution to approve executive compensation and voted in favor of conducting advisory votes every year on executive compensation frequency.",
+  "股票实体": [
+    {
+      "名称": "MEDALLION FINANCIAL CORP",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.068820+00:00",
+    "fetched_at": "2026-11-12T07:45:48.192512+00:00",
+    "feature_available_at": "2026-11-12T07:46:06.440616+00:00",
+    "availability_basis": "extraction"
+  }
+}

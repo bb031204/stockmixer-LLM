@@ -1,0 +1,38 @@
+{
+  "source_id": "a4a051899fa7aa5ccbc6c948",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001307942-14-000026-index.html",
+  "title": null,
+  "时间": "2014-06-20",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "BLONDER TONGUE LABORATORIES, INC.",
+    "Executive Stock Purchase Plan",
+    "NYSE MKT",
+    "2014-06-20"
+  ],
+  "主要内容": "On June 16, 2014, the Board of Directors of Blonder Tongue Laboratories, Inc. adopted the Executive Stock Purchase Plan. The plan allows executive officers to purchase common stock in lieu of receiving their salary. The maximum number of shares that can be purchased by all participants is 250,000 shares. Shares are purchased directly from the Company at the fair market value of the Company’s common stock on the date of purchase, based on selling prices reported on NYSE MKT. The plan is filed as Exhibit 99.1 to this Current Report on Form 8-K. Shares are purchased on the payroll date when the salary is withheld.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T14:13:47.830270+00:00",
+    "feature_available_at": "2026-11-12T14:14:14.356509+00:00",
+    "availability_basis": "extraction"
+  }
+}

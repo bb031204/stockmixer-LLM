@@ -1,0 +1,46 @@
+{
+  "source_id": "b76f4b08ad6d6398ae136aae",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-22-002148-index.html",
+  "title": "Form 8-K",
+  "时间": "2022-01-05",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Henry Schein, Inc.",
+    "HSIC",
+    "Nasdaq Global Select Market",
+    "SEC filing",
+    "Form 8-K",
+    "Steven Paladino",
+    "Ronald N. South",
+    "Olga Timoshkina",
+    "Compliance",
+    "Securities Exchange Act of 1934",
+    "Commission File Number 0-27078",
+    "IRS Employer Identification Number 11-3136595"
+  ],
+  "主要内容": "Henry Schein, Inc. filed a Form 8-K with the SEC on January 4, 2022, to report its compliance with regulatory requirements. The filing includes details about the company's registration under the Securities Exchange Act of 1934, with a Commission File Number of 0-27078 and an IRS Employer Identification Number of 11-3136595. The company is registered on the Nasdaq Global Select Market under the ticker symbol HSIC. The filing does not include any new financial results or operational updates, but confirms the company's ongoing compliance with U.S. securities regulations. On January 5, 2022, Henry Schein, Inc. announced that Steven Paladino will retire as Executive Vice President and Chief Financial Officer, effective April 29, 2022. Paladino will remain on the Board of Directors and is expected to be re-elected at the annual meeting in May 2022. Ronald N. South was appointed as Senior Vice President and Chief Financial Officer, effective April 29, 2022. Olga Timoshkina will succeed South as Vice President, Corporate Finance and Chief Accounting Officer.",
+  "股票实体": [
+    {
+      "名称": "Henry Schein, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:55:58.999365+00:00",
+    "fetched_at": "2026-11-12T06:34:51.447964+00:00",
+    "feature_available_at": "2026-11-12T06:35:39.001646+00:00",
+    "availability_basis": "extraction"
+  }
+}

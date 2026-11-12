@@ -1,0 +1,47 @@
+{
+  "source_id": "73ade842c82b16bf4cdb41ba",
+  "url": "https://www.bls.gov/bls/changes-to-dol-media-lockup-effective-march-1-2020.htm",
+  "title": "Changes to Department of Labor Media Lockup",
+  "时间": "2020-01-16",
+  "分类": "Regulatory",
+  "关键词": [
+    "U.S. Department of Labor",
+    "media lock-ups",
+    "Bureau of Labor Statistics",
+    "Employment and Training Administration",
+    "data security",
+    "economic data"
+  ],
+  "主要内容": "The U.S. Department of Labor announced on January 16, 2020, that it will permanently discontinue media lock-ups for all releases starting June 3, 2020, regardless of ongoing pandemic-related restrictions. This decision follows earlier suspensions due to the COVID-19 pandemic, which were temporary measures to protect staff and reporters. The DOL emphasized that this change represents a permanent policy shift, not a temporary adjustment. The U.S. Bureau of Labor Statistics and the Department of Labor’s Employment and Training Administration (ETA) will continue to release data to the public immediately at 8:30 AM Eastern Time. The discontinuation of the media lock-up aligns with the Office of Management and Budget guidance, ensuring equitable and timely dissemination. The DOL Inspector General has raised concerns about the lock-up process, noting it may create an unfair competitive advantage for certain news organizations. These entities can profit by selling high-speed data feeds to traders for algorithmic trading.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Labor Statistics",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Media",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Statistics",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Economic Data Reporting",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:28:27.132641+00:00",
+    "fetched_at": "2026-11-12T05:13:00.617562+00:00",
+    "feature_available_at": "2026-11-12T05:15:28.666183+00:00",
+    "availability_basis": "extraction"
+  }
+}

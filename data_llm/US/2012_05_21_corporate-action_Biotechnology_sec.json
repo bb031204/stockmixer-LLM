@@ -1,0 +1,30 @@
+{
+  "source_id": "c67e7c8f9803696d5cdc0a00",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-12-030933-index.html",
+  "title": null,
+  "时间": "2012-05-21",
+  "分类": "corporate_action",
+  "关键词": [
+    "NOVAVAX INC",
+    "Biotechnology",
+    "corporate_action"
+  ],
+  "主要内容": "On May 18, 2012, NOVAVAX INC agreed to sell 10,000,000 shares of its common stock, par value $0.01 per share, to one or more affiliates of RA Capital Management, LLC at $1.22 per share. The proceeds to the company, before expenses, will be approximately $12.2 million. Total expenses of this offering are estimated at $100,000. The company is filing legal opinion and consent documents, as well as a press release, as exhibits to this Current Report on Form 8-K.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T09:13:09.796305+00:00",
+    "feature_available_at": "2026-11-12T09:13:30.445738+00:00",
+    "availability_basis": "extraction"
+  }
+}

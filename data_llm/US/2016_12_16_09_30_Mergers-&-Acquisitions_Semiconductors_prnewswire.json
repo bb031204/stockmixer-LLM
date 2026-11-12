@@ -1,0 +1,48 @@
+{
+  "source_id": "9f715d41c204d077a3266c06",
+  "url": "https://www.prnewswire.com/news-releases/actions-semiconductor-announces-completion-of-going-private-transaction-300379908.html",
+  "title": "Actions Semiconductor Announces Completion of Going Private Transaction",
+  "时间": "2016-12-16T09:30:00+00:00",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Actions Semiconductor",
+    "Starman Limited",
+    "Supernova Investment Ltd.",
+    "going private",
+    "NASDAQ",
+    "Form 25",
+    "SEC",
+    "Form 15",
+    "JPMorgan Chase Bank, N.A."
+  ],
+  "主要内容": "Actions Semiconductor completed its merger with Starman Limited, a subsidiary of Supernova Investment Ltd., as part of a previously announced agreement. The merger resulted in the Company continuing as the surviving entity and being wholly owned by the Buyer Group. Additionally, Actions Semiconductor completed its going private transaction, with all outstanding shares canceled in exchange for cash payments. Ordinary shares received $0.366 per share, while American Depositary Shares (ADS) received $2.20 per ADS. Certain shares owned by Rollover Shareholders, the Company, its subsidiaries, and Dissenting Shares were excluded from cancellation and retained or received fair value payments. The Company requested NASDAQ to file a Form 25 with the SEC to notify of the delisting of its ADSs and deregistration of its registered securities. The deregistration will become effective 90 days after the filing of the Form 25 or such shorter period as may be determined by the SEC. The Company intends to suspend its reporting obligations under the Securities Exchange Act of 1934 by filing a Form 15 with the SEC.",
+  "股票实体": [
+    {
+      "名称": "Actions Semiconductor",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "JPMorgan Chase Bank, N.A.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:27:29.874867+00:00",
+    "fetched_at": "2026-11-12T04:15:34.445300+00:00",
+    "feature_available_at": "2026-11-12T04:16:33.647226+00:00",
+    "availability_basis": "extraction"
+  }
+}

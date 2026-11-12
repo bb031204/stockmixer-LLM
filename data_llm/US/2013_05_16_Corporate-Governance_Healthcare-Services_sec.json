@@ -1,0 +1,48 @@
+{
+  "source_id": "f038739da2c848f213984a9f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-13-224319-index.html",
+  "title": null,
+  "时间": "2013-05-16",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Henry Schein Inc",
+    "Section 162(m) Cash Bonus Plan",
+    "1994 Stock Incentive Plan",
+    "2013 Stock Incentive Plan",
+    "Corporate Governance",
+    "Share Reserve",
+    "Performance Goals",
+    "Dividends",
+    "Say-on-Pay",
+    "Henry Schein, Inc."
+  ],
+  "主要内容": "On May 14, 2013, Henry Schein, Inc. stockholders approved amendments to the Section 162(m) Cash Bonus Plan, extending its term to December 31, 2017, and re-approved performance goals. They also approved the amendment and restatement of the 1994 Stock Incentive Plan, renaming it the 2013 Stock Incentive Plan. The plan now includes an increased share reserve of 31,229,270 shares, with a 4,150,000 share addition. Minimum vesting standards for new awards of options and SARs were enhanced to at least three years, with no more than 1/3 of awards vesting on each of the first three anniversaries. Dividends on performance-based restricted stock were also limited. The updated 2013 Incentive Plan, effective May 16, 2013, requires dividends from restricted stock awards made on or after the restatement date to meet performance goals. It also prohibits buyouts of options and SARs for cash or other awards with lower exercise prices. The plan eliminates single-trigger accelerated vesting upon a change of control and extends the term until May 14, 2023. The changes reflect legal and equity compensation developments without requiring stockholder approval.",
+  "股票实体": [
+    {
+      "名称": "Henry Schein, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare Distribution",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Healthcare Equipment & Supplies",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.291562+00:00",
+    "fetched_at": "2026-11-12T10:22:52.272705+00:00",
+    "feature_available_at": "2026-11-12T10:24:19.066047+00:00",
+    "availability_basis": "extraction"
+  }
+}

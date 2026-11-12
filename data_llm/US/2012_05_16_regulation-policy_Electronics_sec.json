@@ -1,0 +1,30 @@
+{
+  "source_id": "a47153bab3ca882eb041371f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001307942-12-000016-index.html",
+  "title": null,
+  "时间": "2012-05-16",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "Electronics",
+    "8-K"
+  ],
+  "主要内容": "Blonder Tongue Laboratories, Inc. issued a press release on May 16, 2012, announcing its unaudited financial results for the first quarter ended March 31, 2012. The press release is attached as Exhibit 99.1 and incorporated by reference.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:03.069829+00:00",
+    "fetched_at": "2026-11-12T09:02:02.437935+00:00",
+    "feature_available_at": "2026-11-12T09:02:16.896207+00:00",
+    "availability_basis": "extraction"
+  }
+}

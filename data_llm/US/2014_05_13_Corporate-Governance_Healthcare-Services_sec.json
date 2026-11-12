@@ -1,0 +1,37 @@
+{
+  "source_id": "83d2c1a5506f1e28cf91c9b0",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-14-197315-index.html",
+  "title": null,
+  "时间": "2014-05-13",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Karyn Mashima",
+    "Henry Schein, Inc.",
+    "2014 Annual Meeting of Stockholders",
+    "Strategic Advisory Committee"
+  ],
+  "主要内容": "On May 12, 2014, Karyn Mashima informed Henry Schein, Inc. of her decision not to seek re-election to the board of directors at its 2014 Annual Meeting of Stockholders. She will continue to serve as a director and a member of the Strategic Advisory Committee until May 28, 2014. The Board’s Nominating and Governance Committee did not recommend, and the Board does not intend to nominate, a replacement for Ms. Mashima to stand for election as a director at the Annual Meeting. The vacancy will be filled in due course.",
+  "股票实体": [
+    {
+      "名称": "Henry Schein, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare Distribution",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.456109+00:00",
+    "fetched_at": "2026-11-12T13:07:18.676680+00:00",
+    "feature_available_at": "2026-11-12T13:07:39.327686+00:00",
+    "availability_basis": "extraction"
+  }
+}

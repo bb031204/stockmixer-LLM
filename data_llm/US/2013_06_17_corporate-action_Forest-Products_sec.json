@@ -1,0 +1,37 @@
+{
+  "source_id": "e280ed285d2412d37b7da09d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-13-000489-index.html",
+  "title": null,
+  "时间": "2013-06-17",
+  "分类": "corporate_action",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Forest Products",
+    "Corporate Action"
+  ],
+  "主要内容": "BROOKFIELD ASSET MANAGEMENT INC. announced the sale of LONGVIEW TIMBER AND LONGVIEW FIBRE PAPER AND PACKAGING for $3.675 billion. The transaction was signed on June 16, 2013, by B. D. Lawson, Managing Partner & CFO.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Forest Products",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.293585+00:00",
+    "fetched_at": "2026-11-12T12:13:38.680741+00:00",
+    "feature_available_at": "2026-11-12T12:13:51.920872+00:00",
+    "availability_basis": "extraction"
+  }
+}

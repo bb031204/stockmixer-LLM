@@ -1,0 +1,40 @@
+{
+  "source_id": "ac3742a7e02a887cf8b144ef",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000180/0001000180-13-000019-index.html",
+  "title": null,
+  "时间": "2013-04-17",
+  "分类": "Financial",
+  "关键词": [
+    "SanDisk Corporation",
+    "8-K filing",
+    "first-quarter financial results",
+    "non-GAAP financial measures",
+    "March 31, 2013"
+  ],
+  "主要内容": "SanDisk Corporation reported its first-quarter financial results for the period ended March 31, 2013, in a press release attached as Exhibit 99.1. The company disclosed in its 8-K filing that it provides non-GAAP financial measures to enhance understanding of its financial performance. These measures exclude certain expenses, gains, and losses, such as share-based compensation, amortization of acquisition-related intangible assets, and non-cash economic interest expenses. The company believes these non-GAAP results are consistent with financial models used by analysts and help management assess performance and plan for the future.",
+  "股票实体": [
+    {
+      "名称": "SanDisk Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.290563+00:00",
+    "fetched_at": "2026-11-12T10:01:14.810044+00:00",
+    "feature_available_at": "2026-11-12T10:01:51.337548+00:00",
+    "availability_basis": "extraction"
+  }
+}

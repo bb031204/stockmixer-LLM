@@ -1,0 +1,52 @@
+{
+  "source_id": "7b97652e6e352b712f795838",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-13-033098-index.html",
+  "title": null,
+  "时间": "2013-06-04",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "NOVAVAX INC",
+    "Isconova AB",
+    "biotechnology",
+    "tender offer",
+    "stock options",
+    "adjuvant technology",
+    "vaccine development",
+    "Isconova"
+  ],
+  "主要内容": "On June 4, 2013, Novavax, Inc. announced a public tender offer to acquire all outstanding shares and warrants of Isconova AB, a Swedish biotechnology company. The offer includes 1.2388 shares of Novavax common stock for each Isconova share and SEK 0.74 for each 2005-I warrant and SEK 3.78 for each 2005-II warrant. Isconova has also announced a private stock option exchange offer, where employees and board members holding vested and unvested stock options will receive 0.6232 shares of common stock for each option. The board has recommended acceptance of the offer, which is expected to result in current shareholders holding 91.1% of the combined entity. The offer is set for completion in the fiscal third quarter. The company is developing vaccines for influenza, RSV, and rabies, with adjuvant testing ongoing. In 2012, the company published successful results from a Phase I trial using a third-party saponin-based adjuvant. The company believes its adjuvant technology will complement its vaccine programs.",
+  "股票实体": [
+    {
+      "名称": "Isconova AB",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Isconova",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    },
+    {
+      "名称": "life science",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T11:35:54.100599+00:00",
+    "feature_available_at": "2026-11-12T11:37:40.753028+00:00",
+    "availability_basis": "extraction"
+  }
+}

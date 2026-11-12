@@ -1,0 +1,36 @@
+{
+  "source_id": "97d195f11620af415480041b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001140361-13-021362-index.html",
+  "title": null,
+  "时间": "2013-05-16",
+  "分类": "Finance",
+  "关键词": [
+    "Insperity, Inc.",
+    "The Receivables Exchange",
+    "Financial Services"
+  ],
+  "主要内容": "On May 16, 2013, Insperity, Inc. announced an impairment related to its minority investment in The Receivables Exchange. The company expects to record a non-cash impairment charge in the second quarter of 2013, up to $2.8 million or $0.11 per share. Due to federal income tax limitations on capital losses, no tax benefit is expected to be recognized in the second quarter of 2013. On May 14, 2013, Insperity, Inc. held its annual meeting of stockholders at its corporate headquarters in Kingwood, Texas. The results of the matters submitted to a vote of the stockholders included the election of Class III directors, an advisory vote on executive compensation, ratification of Ernst & Young LLP as the independent registered public accounting firm, and a non-binding stockholder proposal on majority voting in director elections.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:07.292569+00:00",
+    "fetched_at": "2026-11-12T11:59:35.463636+00:00",
+    "feature_available_at": "2026-11-12T12:00:26.250607+00:00",
+    "availability_basis": "extraction"
+  }
+}

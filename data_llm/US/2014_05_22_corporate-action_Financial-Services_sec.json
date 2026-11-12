@@ -1,0 +1,25 @@
+{
+  "source_id": "8192d27c46c54bce1faf2fbd",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000232/0001000232-14-000005-index.html",
+  "title": null,
+  "时间": "2014-05-22",
+  "分类": "corporate_action",
+  "关键词": [
+    "KENTUCKY BANCSHARES INC /KY/",
+    "Financial Services",
+    "Corporate Action"
+  ],
+  "主要内容": "KENTUCKY BANCSHARES INC /KY/ reported results for the Annual Meeting of Shareholders on May 22, 2014. The total number of Common Shares outstanding as of March 20, 2014, was 2,721,114. Shareholders voted on three matters: 1) Ratification of the Board's selection of Crowe Horwath LLP as the Company's independent registered public accounting firm for the ensuing year, with 2,080,355 votes for and 1,014 against. 2) Election of directors, with Henry Hinkle receiving 1,398,385 votes for and 48,957 withheld, Theodore Kuster 1,443,742 for and 3,600 withheld, and Robert G. Thompson 1,444,242 for and 3,100 withheld. 3) A non-binding advisory vote on executive compensation, with 1,426,530 votes for and 3,297 against, with 17,515 abstentions. The following directors have continuing terms: B. Proctor Caudill, Jr., Betty J. Long, Ted McClain, Louis Prichard, Edwin S. Saunier, Woodford Van Meter, and Buckner Woodford, IV.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T04:56:11.457107+00:00",
+    "fetched_at": "2026-11-12T13:40:06.234133+00:00",
+    "feature_available_at": "2026-11-12T13:40:39.199382+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "source_id": "e99a90baa187d050e65fd6fe",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20160908b.htm",
+  "title": "Federal Reserve Board - Federal Reserve Board approves final policy statement detailing framework for setting Countercyclical Capital Buffer",
+  "时间": "2016-09-08",
+  "分类": "regulatory",
+  "关键词": [
+    "Federal Reserve Board",
+    "Countercyclical Capital Buffer",
+    "banking organizations"
+  ],
+  "主要内容": "The Federal Reserve Board approved a final policy statement outlining the framework for setting the Countercyclical Capital Buffer (CCyB). The CCyB aims to help banking organizations absorb shocks from declining credit conditions and moderate credit supply fluctuations. The policy statement highlights factors the Board may consider, including leverage in financial and nonfinancial sectors, maturity and liquidity transformation, and asset valuation pressures. The Board expects to activate the CCyB when systemic vulnerabilities are above normal and to gradually increase it. It also plans to remove or reduce the CCyB when conditions improve and financial stability is promoted. The CCyB applies to banking organizations with over $250 billion in assets or $10 billion in foreign exposures. The Board Vote was unanimous.",
+  "股票实体": [
+    {
+      "名称": "Federal Reserve Board",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:30:04.923930+00:00",
+    "fetched_at": "2026-11-12T06:10:42.854381+00:00",
+    "feature_available_at": "2026-11-12T06:11:19.904872+00:00",
+    "availability_basis": "extraction"
+  }
+}
