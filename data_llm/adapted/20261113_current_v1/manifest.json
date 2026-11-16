@@ -1,0 +1,45 @@
+{
+  "schema_version": "stockmixer_current_snapshot_v1",
+  "kind": "frozen_current_selection",
+  "created_at": "2026-11-13T05:38:54.578294+00:00",
+  "source_read_only": true,
+  "source_root": "D:\\finance\\model\\StockMixer+llm\\data_llm",
+  "parent_source_root": "D:\\financial_data_project2",
+  "ready_articles": 1423,
+  "parent_manifest_sha256": "ed3b50983ddf2d6461d9c90e61bf48b75e67f4647a8582bbff6322de6d4fcd1b",
+  "articles": 1423,
+  "raw_files": 1423,
+  "excluded_parent_articles": 8,
+  "source_membership_hash": "57605903fbf013abe28bbbf4a0b2b237ac281da2d1c5d1b4e71c474155ea97fd",
+  "selected_article_hash": "b305db576100e00274586b6fbda4a9c957682c4ac786bdb301be7d94967e7e78",
+  "language_basis_counts": {
+    "legacy_audit_verified_unchanged_summary": 1175,
+    "matching_current_audit": 248
+  },
+  "time_mode": "retrospective",
+  "model_inference_run": false,
+  "historical_observed_pit_ready": false,
+  "publication_range": [
+    "2012-01-03",
+    "2022-05-19T13:30:00+01:00"
+  ],
+  "code_sha256": {
+    "snapshot.py": "060df6e4be2b2ea8d563e1d3a7eea7230701ca49bcba7e59a0baa9d95f670ebc",
+    "source_adapter.py": "2f9cc2947510f1cbd5d535fc6ce6bf5290878c1fbe4b2434253718e6d5bdd925",
+    "inputs.py": "88d08691442d1951add1cd7d26e0fb119dc2a4437d4d3025f06c54260e1727cb",
+    "io.py": "61f423b8a8b25acdbca8985b55786da66ac1e479ebfcda2eaa5c2ae1095662da"
+  },
+  "files": {
+    "articles.jsonl": "e50f4d853806202818ab25465963a5bead60d19263d7cf52d8a945f905386f05",
+    "duplicate_content_groups.jsonl": "4b161e7b8b0b825a99ad48578e2c52acfb3001fe464e436c13b81a0420e66273",
+    "excluded_parent_articles.jsonl": "b65cf147c0ef6876260217136e5590203d4e78f91f82768a988421d87ce73fb1",
+    "excluded_parent_provenance.jsonl": "9e13c0dd4f3039edd0da8be1e4a51ca045f496d6e0e9fe4e3e2429bf93fd13dc",
+    "parent_artifact.zip": "071b9f067a81812cdc06aa324f239ad8c8eff817ee91ef2d964ed31e723fcf11",
+    "provenance.jsonl": "8ca771b2f4c90b0b09adce5b20b6ffb5c733dcc226aa8c2de27564c16866e35d",
+    "raw_index.jsonl": "9288f0810fe24b3567acfc8a8d4fea7f5cdf26064b71a9ec3d88be5fc116b323",
+    "raw_news.zip": "fcf5253363ce803671f0c1acbc840f3b5ab6b780aef81438b2c596feb7719341",
+    "selection.json": "1c862de7d9c6ab47cd66c5d21e18a53c5f90bb3b1bb49958c7dbbc366a0e8fc8",
+    "selection_ledger.jsonl": "595dc95e1c20233c5ddea8c8ccfc1b168af7b4d3c110aa9a7dac59ea59515ebf",
+    "time_checks.jsonl": "009db52876cd3937186803e6cd6ac65db347e4630e9b25e0eae5c6937534a62c"
+  }
+}

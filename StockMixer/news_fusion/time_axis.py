@@ -1,10 +1,12 @@
 """Trading dates come from the dataset; decision cutoffs require an explicit calendar."""
 from dataclasses import dataclass
+from datetime import date as date_type
 import json
 from pathlib import Path
 import numpy as np
 import pandas as pd
 from .io import digest
+from .validation import integer, finite_number
 
 MODES=("observed_pit","simulated_pit","retrospective")
 
@@ -33,10 +35,17 @@ class Axis:
         raw=json.loads(Path(path).read_text(encoding="utf-8"))
         axis=cls(raw["dataset"],raw["stock_uids"],raw["trading_dates"],
             raw["train_end_idx"],raw["valid_end_idx"],raw)
-        if not axis.stock_uids or len(set(axis.stock_uids))!=len(axis.stock_uids):
+        if not isinstance(axis.stock_uids,list) or not axis.stock_uids or not all(isinstance(s,str) and s.strip() for s in axis.stock_uids) or len(set(axis.stock_uids))!=len(axis.stock_uids):
             raise ValueError("Stock identities must be nonempty and unique.")
-        if not axis.dates or axis.dates!=sorted(set(axis.dates)):
+        if not isinstance(axis.dates,list) or not axis.dates or not all(isinstance(d,str) for d in axis.dates) or axis.dates!=sorted(set(axis.dates)):
             raise ValueError("Dates must be strictly increasing and unique.")
+        try:
+            if any(date_type.fromisoformat(day).isoformat()!=day for day in axis.dates):
+                raise ValueError("Noncanonical trading date.")
+        except ValueError:
+            raise ValueError("Trading dates must be valid ISO calendar dates.") from None
+        integer(axis.train_end,"train_end",1)
+        integer(axis.valid_end,"valid_end",1)
         if not 0<axis.train_end<axis.valid_end<len(axis.dates):
             raise ValueError("Invalid dataset split boundaries.")
         return axis
@@ -63,7 +72,8 @@ class Schedule:
         self.records=records
 
     def first_session(self,article,mode,latency_seconds=0):
-        if mode not in MODES or latency_seconds<0:
+        finite_number(latency_seconds,"simulated latency",minimum=0)
+        if mode not in MODES:
             raise ValueError("Invalid time mode or simulated latency.")
         value=article.get("published_at")
         if not isinstance(value,str):
@@ -89,8 +99,8 @@ class Schedule:
                 raise ValueError("llm_completion_unknown")
             if additional:
                 threshold=max([threshold]+additional)
-        side="right" if mode=="observed_pit" and article.get("availability_comparison")=="strictly_before_cutoff" else "left"
-        return int(np.searchsorted(self.ns,threshold.value,side=side))
+        # Equality at the cutoff is excluded in every mode, including retrospective replay.
+        return int(np.searchsorted(self.ns,threshold.value,side="right"))
 
 def export_schedule(axis,output):
     """Use exchange-calendars including early closes; no hardcoded 16:00 fallback."""

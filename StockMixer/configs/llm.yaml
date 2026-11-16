@@ -1,0 +1,36 @@
+﻿# LLM市场信息的离线处理、特征面板及融合配置。
+schema_version: stockmixer_llm_config_v1
+news_root: ../data_llm  # 原始US/GLOBAL只读；不在训练循环内运行Qwen或FinBERT。
+adapted_snapshot: outputs/artifacts/news/adapted/20261113_current_v1
+baseline_checkpoint: null  # 开启融合前填写同数据、同original/strict协议的正式E0 best_model.pt。
+panels:
+  NASDAQ: null
+  NYSE: null
+  SP500: null  # 填已通过身份、时间、真实FinBERT及市场路由核验的面板目录。
+finbert:
+  model_id: ProsusAI/finbert
+  model_dir: null  # 本地模型目录；先离线编码，训练不加载该模型。
+  local_files_only: true
+  max_length: 512
+  batch_size: 16
+  pooling: cls_last_hidden
+  supported_languages: [en]
+  device: cpu
+  output_format: jsonl
+panel:
+  decision_lookback: 16
+  mode: retrospective  # 不冒充历史observed PIT；保留真实可用时间。
+  projection: pca
+  projection_seed: 1234
+  lookback_sessions: 5
+  decay_tau_sessions: 3.0
+  simulated_latency_seconds: 300
+fusion:
+  enabled_channels: [market]  # 公司/行业通道暂不启用；缺失通道修正严格为0。
+  news_dim: 40
+  hidden_dim: 32
+  dropout: 0.0
+  freeze_backbone: true
+training:
+  epochs: 100  # 仅融合分支的训练；原始E0参数在stockmixer.yaml。
+  learning_rate: 0.001

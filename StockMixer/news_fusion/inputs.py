@@ -1,12 +1,35 @@
 """Read formal title/summary only; never infer tickers, language or timestamps."""
 import re
 import unicodedata
+import math
 from datetime import date, datetime
 from collections import Counter
 from .io import digest, read_records
 
 def text(value):
     return re.sub(r"\s+", " ", unicodedata.normalize("NFKC", value)).strip() if isinstance(value, str) else ""
+
+def metadata(value):
+    """Preserve structured routing evidence through JSON/Parquet type adaptation."""
+    if value is None or isinstance(value,(str,bool,int)):
+        return value
+    if isinstance(value,(date,datetime)):
+        return value.isoformat()
+    if isinstance(value,float):
+        if math.isnan(value):
+            return None  # nullable Parquet metadata; never a fabricated confidence score
+        if not math.isfinite(value):
+            raise ValueError("Nonfinite structured article metadata.")
+        return value
+    if isinstance(value,dict):
+        if not all(isinstance(key,str) for key in value):
+            raise ValueError("Structured metadata keys must be strings.")
+        return {key:metadata(item) for key,item in value.items()}
+    if isinstance(value,(list,tuple)):
+        return [metadata(item) for item in value]
+    if hasattr(value,"tolist"):
+        return metadata(value.tolist())
+    raise ValueError("Unsupported structured article metadata type.")
 
 def normalize_article(row):
     source = row.get("source_id")
@@ -45,6 +68,12 @@ def normalize_article(row):
                 "analysis_method", "source_verification", "adapter_status", "adapter_errors"):
         if key in row:
             result[key]=row[key]
+    # These fields are evidence for offline routing, not extra text for FinBERT.
+    # Dropping them also hid conflicting same-ID enrichment versions during deduplication.
+    for key in ("entities","industries","events","industry_impacts","affected_markets","industry_codes",
+                "security_ids","market_scope","scope_evidence"):
+        if key in row:
+            result[key]=metadata(row[key])
     if result["published_at"] is None and isinstance(row.get("时间"),str):
         result["published_at"]=row["时间"]
     result.update(source_id=source.strip(), title=title, summary=summary, language=language,

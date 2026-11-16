@@ -1,4 +1,0 @@
-interface:
-  display_name: "stockmixer+llm"
-  short_description: "修改 StockMixer 适配版及比较实验结果时，对照原始代码、论文与结果图片"
-  default_prompt: "使用 $stockmixer-llm，参考原始 StockMixer 代码、论文和实验结果图片，完成当前适配版的修改或对比分析。"

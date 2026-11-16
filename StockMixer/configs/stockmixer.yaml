@@ -1,0 +1,41 @@
+﻿# StockMixer主配置。唯一入口：python src/train_strict.py
+schema_version: stockmixer_config_v2
+market_name: SP500  # NASDAQ / NYSE / SP500；其余市场参数自动取下表。
+llm:
+  enabled: false  # false=原始StockMixer；true=冻结同协议E0并融合离线市场信息。
+  config: llm.yaml  # 相对本配置文件所在目录；关闭开关时不会读取此文件。
+
+lookback_length: 16
+steps: 1
+fea_num: 5
+scale_factor: 3  # 官方构造函数接收但未使用，网络仍为16+16+8=40。
+activation: GELU  # 官方记录值；特征MLP用GELU，股票混合用Hardswish。
+datasets:
+  NASDAQ: {stock_num: 1026, market_num: 20, valid_index: 756, test_index: 1008}
+  NYSE:   {stock_num: 1737, market_num: 25, valid_index: 756, test_index: 1008}
+  SP500:  {stock_num: 474, market_num: 8, valid_index: 1006, test_index: 1259}
+data:
+  protocol: original  # original=原始数据尺度+原始随机候选窗口；strict=此前合法窗口/训练期缩放。
+  # 原始模式每轮打乱0..valid_index-1，取前valid_index-lookback_length个。
+  # NYSE/NASDAQ可能使用目标日期索引756..771的验证标签；用于原始代码复现，不能称为无泄漏协议。
+  dataset_root: dataset
+  axis_dir: news_assets/axes
+  identity_mapping: docs/stock_identity_mapping.csv
+  processed_csv_root: D:/finance/model/StockMixer/Temporal_Relational_Stock_Ranking-master/data/2013-01-01
+  prepared_root: null  # 自动按protocol隔离到outputs/artifacts/market_original或market。
+  prepare_if_missing: true
+training:
+  epochs: 100
+  learning_rate: 0.001
+  alpha: 0.1
+  numpy_seed: 123456789
+  torch_seed: 12345678
+  device: auto
+  # 与官方一致：每轮验证和测试，按最低验证loss记录best及对应test。
+output:
+  directory: null  # YYYYMMDD_HHMMSS_数据集_E0或fusion；自定义名称自动作为后缀，目录须在outputs内且不存在。
+  smoke: false
+prediction:
+  enabled: true
+  as_of: latest  # 历史数据末日；指定日期时加引号，如"2017-12-08"。
+  allow_in_sample_replay: false

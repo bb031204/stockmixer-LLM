@@ -3,6 +3,7 @@ import json
 import os
 import shutil
 import uuid
+import re
 from contextlib import contextmanager
 from datetime import datetime, timezone
 from pathlib import Path
@@ -72,7 +73,16 @@ def file_manifest(directory):
     return {p.name: digest_file(p) for p in Path(directory).iterdir()
             if p.is_file() and p.name != "manifest.json"}
 
-def verify_files(directory, manifest):
-    for name, expected in manifest["files"].items():
-        if Path(name).name != name or digest_file(Path(directory)/name) != expected:
+def verify_files(directory, manifest, required=()):
+    files=manifest.get("files")
+    if not isinstance(files,dict) or not files or not set(required)<=set(files):
+        raise ValueError("Artifact manifest omits required file hashes.")
+    root=Path(directory).resolve()
+    for name, expected in files.items():
+        if not isinstance(name,str) or name in (".","..","") or Path(name).name!=name:
+            raise ValueError("Invalid artifact filename.")
+        path=(root/name).resolve()
+        if path.parent!=root or not isinstance(expected,str) or re.fullmatch(r"[0-9a-f]{64}",expected) is None:
+            raise ValueError("Invalid artifact file hash/path: "+name)
+        if digest_file(path) != expected:
             raise ValueError("Artifact file hash mismatch: " + Path(name).name)

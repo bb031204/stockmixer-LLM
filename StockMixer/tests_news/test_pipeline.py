@@ -9,11 +9,16 @@ import torch
 from news_fusion.encoder import LocalFinBert, encode_articles, validate_outputs
 from news_fusion.inputs import load_articles, normalize_article
 from news_fusion.io import digest, read_records, write_json, write_records
-from news_fusion.panel import build_panel, compress, load_features, relationship_valid
+from news_fusion.panel import build_panel as _build_panel, compress, load_features, relationship_valid
 from news_fusion.time_axis import Axis, Schedule
 from news_fusion.dataset import NewsPanel
 
 DATES=["2020-03-05","2020-03-06","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-16"]
+
+def build_panel(*args,**kwargs):
+    # Synthetic eight-day fixtures use two input days; production defaults to sixteen.
+    kwargs.setdefault("decision_lookback",2)
+    return _build_panel(*args,**kwargs)
 
 def make_axis(root):
     raw={"dataset":"TEST","stock_uids":["TEST:A","TEST:B"],"trading_dates":DATES,

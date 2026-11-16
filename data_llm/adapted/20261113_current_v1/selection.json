@@ -1,0 +1,27 @@
+{
+  "current_source_root": "D:\\finance\\model\\StockMixer+llm\\data_llm",
+  "parent_directory": "D:\\finance\\model\\StockMixer+llm\\data_llm\\adapted\\20261113_readonly_v1",
+  "parent_manifest_sha256": "ed3b50983ddf2d6461d9c90e61bf48b75e67f4647a8582bbff6322de6d4fcd1b",
+  "parent_articles": 1431,
+  "selected_articles": 1423,
+  "excluded_parent_ids": [
+    "47df634c9ff52c5f7b8c046a",
+    "51f3924dd7586ad38d384929",
+    "53cf2d36bfe3c47fc6688ea0",
+    "5411f33d3aced1e3e47ec206",
+    "544328b63d225e6528ab0539",
+    "cd7c78fbf8b833435c76946f",
+    "dd3164c1ccfa0b01e055d336",
+    "ecd4ec5dfb37ac3f73d1c55a"
+  ],
+  "new_current_ids": [],
+  "changed_current_ids": [],
+  "raw_files": 1423,
+  "physical_market_files": {
+    "US": 1423,
+    "GLOBAL": 0
+  },
+  "selection_rule": "current membership AND exact producer source_record_hash; no text-only matching",
+  "evidence_basis": "inherited intact parent artifact; upstream external files are referenced, not newly re-authenticated",
+  "time_policy": "all inherited timestamps unchanged; frozen_at is not historical feature availability"
+}

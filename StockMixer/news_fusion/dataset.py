@@ -9,12 +9,15 @@ from .time_axis import Axis
 class NewsPanel:
     def __init__(self,directory,verify_hashes=True):
         directory=Path(directory)
+        self.directory=directory.resolve()
         self.manifest=json.loads((directory/"manifest.json").read_text(encoding="utf-8"))
         m=self.manifest
         if m.get("schema_version")!=SCHEMA or m.get("kind")!="daily_news_panel" or m.get("feature_dim")!=40:
             raise ValueError("Unsupported panel schema.")
         if verify_hashes:
-            verify_files(directory,m)
+            required=["axis.json","trading_dates.npy","embedding_transform.npz","decision_schedule.jsonl","provenance.jsonl"]
+            required += [c+suffix for c in ("company","industry","market") for suffix in ("_news_daily.npy","_news_mask.npy")]
+            verify_files(directory,m,required=required)
         self.axis=Axis.load(directory/"axis.json")
         if self.axis.stock_hash!=m["stock_axis_hash"] or self.axis.date_hash!=m["trading_dates_hash"]:
             raise ValueError("Manifest axis hash mismatch.")
@@ -46,6 +49,20 @@ class NewsPanel:
         if digest(list(stock_uids))!=self.axis.stock_hash or digest(list(dates))!=self.axis.date_hash:
             raise ValueError("Market and news stock/date order mismatch; do not reorder silently.")
 
+    def assert_experiment(self,axis,mode,lookback=16):
+        self.assert_compatible((len(axis.stock_uids),len(axis.dates),5),axis.stock_uids,axis.dates)
+        if self.axis.dataset!=axis.dataset or self.axis.train_end!=axis.train_end or self.axis.valid_end!=axis.valid_end:
+            raise ValueError("News panel split differs from the training experiment; rebuild its PCA/panel.")
+        transform=self.manifest.get("transform",{})
+        if transform.get("training_decision_end_exclusive")!=axis.train_end-1:
+            raise ValueError("News transform fitting boundary differs from training decisions.")
+        if transform.get("training_decision_start_inclusive")!=lookback-1:
+            raise ValueError("News transform fitting start differs from actual training decisions; rebuild panel.")
+        if self.manifest.get("mode")!=mode:
+            raise ValueError("News panel time mode mismatch.")
+        if self.manifest.get("availability_comparison")!="strictly_before_cutoff":
+            raise ValueError("Rebuild panel with strict cutoff comparison.")
+
     def window(self,offset,lookback=16,steps=1):
         if steps!=1:
             raise ValueError("This news feature version supports steps=1 only; no labels are silently changed.")
@@ -56,7 +73,15 @@ class NewsPanel:
         target=decision+steps
         if target>=len(self.axis.dates):
             raise IndexError("Target is outside the dataset.")
-        result={"decision_idx":decision,"target_idx":target}
+        result=self.decision(decision)
+        result["target_idx"]=target
+        return result
+
+    def decision(self,decision):
+        """Read features at an input date without requiring a future label."""
+        if isinstance(decision,bool) or not isinstance(decision,Integral) or not 0<=decision<len(self.axis.dates):
+            raise IndexError("Decision is outside the news date axis.")
+        result={"decision_idx":int(decision)}
         for channel in ("company","industry","market"):
             if channel=="market":
                 feature=self.features[channel][decision]

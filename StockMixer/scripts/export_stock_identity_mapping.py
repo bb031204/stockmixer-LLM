@@ -234,7 +234,7 @@ assert sp500.iloc[0]["ticker"] == "POOL"
 - 当前数值输入：`dataset/NASDAQ/eod_data.pkl`、`dataset/NYSE/eod_data.pkl`、`dataset/SP500/SP500.npy`。
 - NASDAQ/NYSE 股票列表与 QID：`../Temporal_Relational_Stock_Ranking-master/data/*_tickers_qualify_dr-0.98_min-5_smooth.csv`、`*_wiki.csv`；路径相对于 StockMixer 项目根目录。
 - SP500 顺序：`dataset/SP500/baseline_data_sp500.npy`；名称：`dataset/SP500/sp500_ticker.csv`。
-- 当前实现：`src/load_data.py`、`src/train.py`、`src/model.py`。主干不接收名称或 QID，本文提供的是文本扩展的对齐元数据，不修改训练逻辑或数据数组。
+- 当前实现：`src/load_data.py`、`src/train_strict.py`、`src/model.py`。主干不接收名称或 QID，本文提供的是文本扩展的对齐元数据，不修改训练逻辑或数据数组。
 - [机器可读 CSV](stock_identity_mapping.csv)：完整 3237 行，包含名称来源状态、QID 状态、数据日期范围。
 - [核验清单与输入文件 SHA256](stock_identity_mapping_validation.json)：用于确认该映射属于哪一版数组。
 - 复现：在项目根目录的 stockmixer 环境运行 `python scripts/export_stock_identity_mapping.py`。

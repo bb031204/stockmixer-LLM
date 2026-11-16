@@ -7,6 +7,8 @@ from pathlib import Path
 import yaml
 from .io import digest_file, read_records
 from .time_axis import Axis, Schedule, export_schedule
+from .outputs import destination
+from .configuration import load_llm_config
 
 def main():
     parser=argparse.ArgumentParser(description="Standalone FinBERT/news panels; original StockMixer remains unchanged.")
@@ -16,37 +18,46 @@ def main():
     commands.add_parser("inspect")
     adapt=commands.add_parser("adapt",help="Read-only collector JSON/audit adaptation; no model inference.")
     adapt.add_argument("--source-root",type=Path,required=True)
-    adapt.add_argument("--output",type=Path,required=True)
+    adapt.add_argument("--output",type=Path)
     adapt.add_argument("--markets",nargs="+",choices=("US","GLOBAL"),default=["GLOBAL","US"])
     adapted=commands.add_parser("validate-adapted",help="Verify adapted artifact and unchanged producer inputs.")
     adapted.add_argument("--artifact",type=Path,required=True)
     adapted.add_argument("--source-root",type=Path)
     encoder=commands.add_parser("encode")
-    encoder.add_argument("--model-dir",type=Path,required=True)
-    encoder.add_argument("--output",type=Path,required=True)
-    encoder.add_argument("--cache",type=Path,required=True)
+    encoder.add_argument("--model-dir",type=Path)
+    encoder.add_argument("--output",type=Path)
+    encoder.add_argument("--cache",type=Path)
     encoder.add_argument("--input",type=Path,nargs="+")
-    encoder.add_argument("--device",default="cpu")
+    encoder.add_argument("--device",default=None)
     encoder.add_argument("--limit",type=int)
-    encoder.add_argument("--format",choices=("jsonl","parquet"),default="jsonl")
+    encoder.add_argument("--format",choices=("jsonl","parquet"),default=None)
     encoder.add_argument("--model-available-at",default=None)
     calendar=commands.add_parser("schedule")
     calendar.add_argument("--dataset",choices=("NASDAQ","NYSE","SP500"),required=True)
-    calendar.add_argument("--output",type=Path,required=True)
+    calendar.add_argument("--output",type=Path)
     build=commands.add_parser("build")
     build.add_argument("--dataset",choices=("NASDAQ","NYSE","SP500"),required=True)
     build.add_argument("--features",type=Path,required=True)
     build.add_argument("--schedule",type=Path,required=True)
     build.add_argument("--links",type=Path)
     build.add_argument("--memberships",type=Path)
-    build.add_argument("--output",type=Path,required=True)
+    build.add_argument("--output",type=Path)
     build.add_argument("--projection",choices=("pca","random_projection"),default=None)
     check=commands.add_parser("validate")
     check.add_argument("--panel",type=Path,required=True)
     args=parser.parse_args()
     project=args.project_root.resolve()
-    config_path=args.config or project/"configs/news_pipeline.yaml"
-    config=yaml.safe_load(config_path.read_text(encoding="utf-8"))
+    if args.command in ("adapt","encode","schedule","build"):
+        category={"adapt":"artifacts/news/adapted","encode":"artifacts/news/article_features",
+                  "schedule":"artifacts/schedules","build":"artifacts/news/panels"}[args.command]
+        args.output=destination(project,args.output,dataset=getattr(args,"dataset",None),kind=args.command,
+            category=category,suffix=".jsonl" if args.command=="schedule" else "")
+    if args.command=="encode":
+        args.cache=destination(project,args.cache or project/"outputs/artifacts/news/cache",kind="cache")
+    config_path=args.config or project/"configs/llm.yaml"
+    if not config_path.is_absolute():
+        config_path=project/config_path
+    config=load_llm_config(config_path)
     if args.command=="adapt":
         from .source_adapter import adapt_snapshot
         result=adapt_snapshot(args.source_root,args.output,project/"news_assets/axes",args.markets,
@@ -85,9 +96,15 @@ def main():
             if args.limit<1:
                 raise ValueError("limit must be positive.")
             articles=articles[:args.limit]
-        backend=LocalFinBert(args.model_dir,args.device,config["finbert"]["max_length"],args.model_available_at)
+        model_dir=args.model_dir or config["finbert"]["model_dir"]
+        if not model_dir:
+            raise ValueError("Configure finbert.model_dir in configs/llm.yaml before offline encoding.")
+        model_dir=Path(model_dir)
+        if not model_dir.is_absolute():
+            model_dir=project/model_dir
+        backend=LocalFinBert(model_dir,args.device or config["finbert"]["device"],config["finbert"]["max_length"],args.model_available_at)
         result=encode_articles(articles,backend,args.output,args.cache,
-            batch_size=config["finbert"]["batch_size"],table_format=args.format)
+            batch_size=config["finbert"]["batch_size"],table_format=args.format or config["finbert"]["output_format"])
         print(json.dumps({"input_counts":counts,"successful":result["successful"],"status_counts":result["status_counts"]},indent=2))
     elif args.command in ("schedule","build"):
         axis=Axis.load(project/"news_assets/axes"/(args.dataset+".json"))
@@ -105,7 +122,8 @@ def main():
                 read_records(args.links) if args.links else [],read_records(args.memberships) if args.memberships else [],
                 args.output,mode=settings["mode"],projection=args.projection or settings["projection"],
                 lookback_sessions=settings["lookback_sessions"],tau=settings["decay_tau_sessions"],
-                latency_seconds=settings["simulated_latency_seconds"],seed=settings["projection_seed"])
+                latency_seconds=settings["simulated_latency_seconds"],seed=settings["projection_seed"],
+                decision_lookback=settings.get("decision_lookback",16))
             print(json.dumps({"dataset":result["dataset"],"mode":result["mode"],"coverage":result["coverage"]},indent=2))
     else:
         from .dataset import NewsPanel

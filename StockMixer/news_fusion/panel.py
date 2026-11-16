@@ -1,11 +1,13 @@
 """Causal, independently masked company/industry/market panels; no training code."""
 import json
+from datetime import date as date_type, datetime
 from collections import Counter, defaultdict
 from pathlib import Path
 import numpy as np
 from .encoder import validate_outputs
 from .io import SCHEMA, digest, digest_file, file_manifest, new_artifact, now, read_records, verify_files, write_json, write_records
 from .time_axis import timestamp
+from .validation import integer, finite_number
 
 FEATURE_NAMES=["p_positive","p_negative","p_neutral"]+[f"embedding_{i}" for i in range(32)]+[
     "log1p_article_count","mean_age_sessions","inferred_share","mean_importance","importance_available_ratio"]
@@ -16,32 +18,53 @@ def load_features(directory):
     manifest=json.loads((directory/"manifest.json").read_text(encoding="utf-8"))
     if manifest.get("schema_version")!=SCHEMA or manifest.get("kind")!="article_features":
         raise ValueError("Unsupported article feature schema.")
-    verify_files(directory,manifest)
+    verify_files(directory,manifest,required=(manifest.get("record_table",""),"article_embeddings_fp16.npy"))
     records=read_records(directory/manifest["record_table"])
     if len({r['source_id'] for r in records})!=len(records):
         raise ValueError("Duplicate source_id in feature table.")
     vectors=np.load(directory/"article_embeddings_fp16.npy",mmap_mode="r",allow_pickle=False)
     success=[r for r in records if r["finbert_status"]=="success"]
+    if manifest.get("articles")!=len(records) or manifest.get("successful")!=len(success):
+        raise ValueError("Article feature manifest counts differ from its record table.")
+    for row in success:
+        value=row.get("embedding_row")
+        if isinstance(value,bool) or not isinstance(value,(int,float,np.integer,np.floating)) or not np.isfinite(value) or int(value)!=value:
+            raise ValueError("Embedding row must be a finite integer index.")
+        row["embedding_row"]=int(value)
     if vectors.shape!=(len(success),768) or sorted(r["embedding_row"] for r in success)!=list(range(len(success))):
         raise ValueError("Embedding row/index mismatch.")
     for r in success:
-        if r["model_revision"]!=manifest["encoder"]["model_revision"]:
+        if r["model_revision"]!=manifest["encoder"]["model_revision"] or r.get("model_id")!=manifest["encoder"].get("model_id"):
             raise ValueError("Mixed model revisions in one article feature artifact.")
-        probs=np.array([[r["p_positive"],r["p_negative"],r["p_neutral"]]])
+        probs=np.array([[r["p_positive"],r["p_negative"],r["p_neutral"]]],dtype=np.float32)
         validate_outputs(probs,np.asarray(vectors[r["embedding_row"]])[None],1)
     return records,vectors,manifest
 
 def relationship_valid(link,date,published_date,cutoff,mode):
     if link.get("verification_status")!="verified" or not link.get("mapping_source"):
         return False
-    start,end=link.get("valid_from"),link.get("valid_to")
+    def day(value):
+        if value is None or (isinstance(value,str) and not value):
+            return None
+        if isinstance(value,(date_type,datetime)):
+            return value.isoformat()[:10]
+        return value
+    start,end=day(link.get("valid_from")),day(link.get("valid_to"))
     if not isinstance(start,str) or len(start)!=10:
+        return False
+    try:
+        date_type.fromisoformat(start)
+        if end is not None:
+            if not isinstance(end,str) or len(end)!=10:
+                return False
+            date_type.fromisoformat(end)
+    except ValueError:
         return False
     if not (start<=date and start<=published_date and (not end or (date<end and published_date<end))):
         return False
     if mode=="observed_pit":
         try:
-            if timestamp(link.get("known_from"))>cutoff:
+            if timestamp(link.get("known_from"))>=cutoff:
                 return False
             if link.get("known_to") and cutoff>=timestamp(link["known_to"]):
                 return False
@@ -69,11 +92,13 @@ def compress(vectors,eligible,components=32,method="pca",seed=1234):
     return mean,matrix,{"fit_mode":"train_only_pca","fitted_articles":len(selected)}
 
 def build_panel(axis,schedule,feature_dir,links,memberships,output,mode="retrospective",
-                projection="pca",lookback_sessions=5,tau=3.0,latency_seconds=0,seed=1234):
+                projection="pca",lookback_sessions=5,tau=3.0,latency_seconds=0,seed=1234,decision_lookback=16):
     if schedule.axis.stock_hash!=axis.stock_hash or schedule.axis.date_hash!=axis.date_hash:
         raise ValueError("Schedule belongs to another axis.")
-    if lookback_sessions<1 or tau<=0 or not np.isfinite(tau):
-        raise ValueError("Positive lookback_sessions and finite tau required.")
+    integer(lookback_sessions,"lookback_sessions",1)
+    integer(decision_lookback,"decision_lookback",1,axis.train_end-1)
+    finite_number(tau,"decay tau",strictly_positive=True)
+    finite_number(latency_seconds,"simulated latency",minimum=0)
     articles,vectors,feature_manifest=load_features(feature_dir)
     if not len(vectors):
         raise ValueError("No successfully encoded articles; a real panel cannot be built.")
@@ -128,7 +153,7 @@ def build_panel(axis,schedule,feature_dir,links,memberships,output,mode="retrosp
             channel=link.get("channel")
             if channel=="company" and link.get("dataset")==axis.dataset and link.get("stock_uid") in stock_index:
                 relations.append(("company",stock_index[link["stock_uid"]],link,link))
-            elif channel=="industry" and link.get("verification_status")=="verified":
+            elif channel=="industry" and link.get("dataset") in (None,axis.dataset) and link.get("verification_status")=="verified":
                 key=tuple(link.get(k) for k in ("industry_standard","industry_version","industry_code"))
                 if all(key) and link.get("evidence_type") in ("explicit","inferred"):
                     for member in by_industry.get(key,[]):
@@ -162,7 +187,7 @@ def build_panel(axis,schedule,feature_dir,links,memberships,output,mode="retrosp
                 groups[key][content_hash]=entry
                 accepted_ids.add(a["source_id"])
                 # Last training label is train_end-1; its decision is train_end-2 for steps=1.
-                if t<axis.train_end-1:
+                if decision_lookback-1<=t<axis.train_end-1:
                     eligible.add(a["embedding_row"])
     if not groups:
         raise ValueError("No eligible article-channel pairs for this dataset/time mode; no empty real panel is published.")
@@ -215,11 +240,15 @@ def build_panel(axis,schedule,feature_dir,links,memberships,output,mode="retrosp
         write_json(directory/"axis.json",axis.source)
         write_records(directory/"decision_schedule.jsonl",schedule.records)
         transform_info.update(dataset=axis.dataset,training_decision_end_exclusive=axis.train_end-1,
+            training_decision_start_inclusive=decision_lookback-1,
             eligible_training_articles=len(eligible),fit_source_ids_hash=digest(sorted(a["source_id"] for a in articles
                 if a.get("embedding_row") in eligible)))
         manifest={"schema_version":SCHEMA,"kind":"daily_news_panel","created_at":now(),
             "dataset":axis.dataset,"stock_axis_hash":axis.stock_hash,"trading_dates_hash":axis.date_hash,
             "mode":mode,"historical_model_replay":mode!="observed_pit","feature_names":FEATURE_NAMES,
+            "availability_comparison":"strictly_before_cutoff",
+            "article_encoder":feature_manifest["encoder"],
+            "market_routing_verified":False,
             "feature_dim":40,"n_stocks":n,"n_dates":total,"coverage":coverage,
             "lookback_sessions":lookback_sessions,"decay_tau_sessions":tau,"simulated_latency_seconds":latency_seconds,
             "age_basis":"first publication-eligible session, not delayed encoding completion",
