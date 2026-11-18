@@ -1,0 +1,54 @@
+{
+  "source_id": "f2de8e2aba6ceaab0d389517",
+  "url": "https://www.prnewswire.com/news-releases/entremed-completes-strategic-financing-138769619.html",
+  "title": "EntreMed Completes Strategic Financing",
+  "时间": "2012-02-06T12:00:00+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "EntreMed, Inc.",
+    "ENMD",
+    "Celgene Corporation",
+    "Biotechnology",
+    "EntreMed",
+    "Celgene"
+  ],
+  "主要内容": "EntreMed, Inc. (ENMD) announced it has received approximately $9.3 million in strategic financing, as previously announced on January 23, 2012. The Company expects to receive the remaining funds on or about February 10, 2012. The financing was led by IDG-Accel China Growth Fund II L.P. and joined by other accredited investors, including Emerging Technology Partners, LLC, and Dr. Tak W. Mak. The Company has satisfied all closing conditions in the transaction agreement, including an agreement from Celgene Corporation to vote in favor of the transaction at the 2012 stockholder meeting and to waive all accrued dividends on the preferred stock, convert all of its outstanding preferred stock into common stock, and eliminate all preferences associated with the preferred stock. EntreMed completed a strategic financing, which included terminating its Standby Equity Distribution Agreement with Yorkville Advisors. Michael Tarnow and Donald Brooks resigned from the Board of Directors, with Tarnow providing consulting services until May 31, 2012. Wei-Wu He joined as Executive Chairman, and Dr. Tak W. Mak was elected to the Board.",
+  "股票实体": [
+    {
+      "名称": "EntreMed",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Celgene",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "ENMD",
+      "交易所": "Nasdaq"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Pharmaceuticals",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-10T18:37:23.494631+00:00",
+    "fetched_at": "2026-11-13T02:11:43.378098+00:00",
+    "feature_available_at": "2026-11-13T02:12:27.470532+00:00",
+    "availability_basis": "extraction"
+  }
+}

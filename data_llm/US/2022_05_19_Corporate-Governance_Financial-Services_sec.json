@@ -1,0 +1,38 @@
+{
+  "source_id": "d06d4b9a2093c82867486922",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001140361-22-019956-index.html",
+  "title": null,
+  "时间": "2022-05-19",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Credicorp Ltd",
+    "common shares",
+    "beneficial ownership",
+    "employee shares",
+    "long-term compensation"
+  ],
+  "主要内容": "As of December 31, 2021, Luis Enrique Romero B. was the beneficial owner of 11,800,147 common shares of Credicorp Ltd, representing 12.50% of the outstanding shares. Other directors and senior management did not hold any beneficial ownership of common shares. The report also noted that common shares held by directors and senior management do not have voting rights different from those held by other shareholders. Additionally, no stock options were granted by Credicorp to acquire its outstanding common shares as of December 31, 2021. Credicorp’s employees, excluding the senior management, own 677,969 Credicorp shares (granted by Credicorp as part of Credicorp’s long-term compensation program for its key employees and purchased by Credicorp’s employees), which represents 0.72% of our total outstanding shares.",
+  "股票实体": [
+    {
+      "名称": "Credicorp Ltd",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.698894+00:00",
+    "fetched_at": "2026-11-14T08:15:24.200687+00:00",
+    "feature_available_at": "2026-11-14T08:16:31.093626+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "source_id": "b19093e1af754fcf67dcff56",
+  "url": "https://www.cnbc.com/2017/08/04/us-army-bans-chinese-made-drone-citing-cyber-vulnerabilities.html",
+  "title": "US Army reportedly bans Chinese-made drone, citing 'cyber vulnerabilities'",
+  "时间": "2017-08-04",
+  "分类": "security",
+  "关键词": [
+    "DJI",
+    "US Army",
+    "cyber vulnerabilities",
+    "drone ban",
+    "security risks"
+  ],
+  "主要内容": "The U.S. Army banned Chinese-made DJI drones due to 'cyber vulnerabilities,' citing increased awareness of security risks. The directive, issued by Lt. Gen. Joseph H. Anderson, orders service members to cease using DJI products, uninstall applications, and secure equipment. The ban follows concerns over potential data exposure and was confirmed by Defense One and two Army officials. DJI drones were reportedly used by the US Army Corps of Engineers for flooding operations and at the request of FEMA. The US Air Force also used DJI drones in conjunction with other military technology. The decision was made without consulting DJI Technology, the manufacturer of the affected drones. DJI's spokesperson expressed surprise and disappointment, stating the company was not involved in the decision-making process.",
+  "股票实体": [
+    {
+      "名称": "DJI",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Aerospace & Defense",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T17:09:21.552394+00:00",
+    "fetched_at": "2026-11-13T21:42:19.308055+00:00",
+    "feature_available_at": "2026-11-13T21:43:06.247450+00:00",
+    "availability_basis": "extraction"
+  }
+}

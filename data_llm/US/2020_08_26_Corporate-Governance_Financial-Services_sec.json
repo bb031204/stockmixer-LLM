@@ -1,0 +1,50 @@
+{
+  "source_id": "70292fa598bb7949823311fc",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-20-006090-index.html",
+  "title": null,
+  "时间": "2020-08-26",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Mark Carney",
+    "ESG",
+    "renewable energy",
+    "sustainability",
+    "Brookfield Asset Management",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. appointed Mark Carney as Vice Chair and Head of ESG and Impact Fund Investing on August 26, 2020. Carney, former Governor of the Bank of England and Bank of Canada, will oversee ESG-focused investment strategies. The appointment aims to expand ESG investing capabilities by developing funds that combine positive social and environmental outcomes with strong risk-adjusted returns. Carney emphasized the importance of transitioning to a net zero economy and leveraging Brookfield’s leadership in renewable energy and sustainability. The move reflects Brookfield’s long-term commitment to ESG principles and its position as a leading player in the renewable energy sector. The company undertakes no obligation to publicly update or revise any forward-looking statements or information. Securities explicitly mentioned in the source include Brookfield Asset Management (BAM).",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Brookfield Asset Management",
+      "股票代码": "BAM",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Renewable Energy",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:15.795112+00:00",
+    "fetched_at": "2026-11-14T17:05:20.741888+00:00",
+    "feature_available_at": "2026-11-14T17:06:24.393664+00:00",
+    "availability_basis": "extraction"
+  }
+}

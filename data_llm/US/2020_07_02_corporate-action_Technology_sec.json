@@ -1,0 +1,36 @@
+{
+  "source_id": "807867a132578092c74fa093",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-20-186922-index.html",
+  "title": null,
+  "时间": "2020-07-02",
+  "分类": "corporate_action",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "Technology",
+    "Director Resignation"
+  ],
+  "主要内容": "On June 30, 2020, Charles H. Still notified the Chairman of the Board of Directors (the Board) of Geospace Technologies Corporation (the Company) of his decision to resign from his position as a member of the Board, effective immediately for personal reasons. Gary Owens, Chairman of the Board, commented we will miss Hanks friendship and counsel.",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:15.795703+00:00",
+    "fetched_at": "2026-11-14T18:44:27.465263+00:00",
+    "feature_available_at": "2026-11-14T18:44:46.510990+00:00",
+    "availability_basis": "extraction"
+  }
+}

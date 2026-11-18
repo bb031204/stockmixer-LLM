@@ -1,0 +1,45 @@
+{
+  "source_id": "ec3dda3eddbc7d04eaf10def",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001307942-17-000004-index.html",
+  "title": null,
+  "时间": "2017-03-30",
+  "分类": "Finance",
+  "关键词": [
+    "Blonder Tongue Laboratories Inc",
+    "R. L. Drake Holdings, LLC",
+    "Sterling National Bank",
+    "Loan and Security Agreement",
+    "First Amendment",
+    "Blonder Tongue Laboratories, Inc."
+  ],
+  "主要内容": "On March 30, 2017, Blonder Tongue Laboratories Inc, along with its subsidiaries, entered into a First Amendment to Loan and Security Agreement with Sterling National Bank. The amendment revised the fixed charge coverage ratio, deferred the first measurement period of financial covenants until January 31, 2017, and modified permitted investments. The amendment's effectiveness depends on conditions, including acknowledgment by subordinated lenders and a $15,000 fee to Sterling. The amendment also modifies the Loan Agreement with R. L. Drake Holdings, LLC as a Borrower, Blonder Tongue Far East, LLC as a Guarantor and Credit Party, and Sterling National Bank as Administrative Agent and Lender. The amendment allows Sterling to pursue its rights under the Loan Agreement in case of default, including non-payment of principal or interest.",
+  "股票实体": [
+    {
+      "名称": "Sterling National Bank",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "R. L. Drake Holdings, LLC",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:10.446085+00:00",
+    "fetched_at": "2026-11-13T04:41:42.233806+00:00",
+    "feature_available_at": "2026-11-13T04:42:25.434715+00:00",
+    "availability_basis": "extraction"
+  }
+}

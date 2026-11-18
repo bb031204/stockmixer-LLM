@@ -1,0 +1,49 @@
+{
+  "source_id": "bd6464442939b9225498943a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-20-175618-index.html",
+  "title": "8-K",
+  "时间": "2020-06-22",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Henry Schein, Inc.",
+    "SEC filing datePublished=2020-06-22",
+    "Healthcare Distribution",
+    "Henry Schein",
+    "Bergman"
+  ],
+  "主要内容": "Henry Schein, Inc. is continuing cost reduction measures, including payroll reductions, as part of its long-term business health and financial flexibility efforts amid the ongoing impact of the COVID-19 pandemic. The company is also extending Stanley M. Bergman’s temporary salary reduction agreement until the end of its fourth fiscal quarter or an earlier date determined by the Compensation Committee. Henry Schein’s Chief Financial Officer and other top executives will experience temporary salary reductions of 37.5% from June 29, 2020, until a later date. This reduction replaces the original 50% cut during the Prior Period. Non-employee directors will also see a 18.75% reduction in cash retainer, down from 25% previously. Bergman confirmed that his salary reduction does not constitute a breach or good reason under his employment agreement. The reductions apply to various levels of management, including Vice Presidents, with 7.5% cuts for those holding that title. These changes do not affect the calculation of incentive awards or severance for executives.",
+  "股票实体": [
+    {
+      "名称": "Henry Schein, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Henry Schein",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Bergman",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.474770+00:00",
+    "fetched_at": "2026-11-13T00:27:14.644026+00:00",
+    "feature_available_at": "2026-11-13T00:27:57.538181+00:00",
+    "availability_basis": "extraction"
+  }
+}

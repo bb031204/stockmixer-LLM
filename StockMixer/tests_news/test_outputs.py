@@ -87,7 +87,8 @@ class OutputLayoutTests(unittest.TestCase):
                 verify_bundle(root)
 
     def test_cli_train_and_prediction_do_not_require_an_explicit_output(self):
-        with contextlib.redirect_stdout(io.StringIO()),patch.object(experiment,"train",return_value={}) as train:
+        from tests_news.baseline_fixture import configuration
+        with contextlib.redirect_stdout(io.StringIO()),patch.object(experiment,"configuration",configuration),patch.object(experiment,"train",return_value={}) as train:
             experiment.main(["--dataset","NYSE","train","--data","prepared"])
             output=train.call_args.args[3]
             self.assertEqual(output.parent.name,"outputs")

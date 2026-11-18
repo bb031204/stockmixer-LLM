@@ -1,0 +1,46 @@
+{
+  "source_id": "ffe7595bc72ac39924d7989e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-18-287452-index.html",
+  "title": null,
+  "时间": "2018-09-28",
+  "分类": "Legal & Risk",
+  "关键词": [
+    "HENRY SCHEIN INC",
+    "legal case",
+    "settlement",
+    "court approval",
+    "risk factors",
+    "competitive market",
+    "third-party suppliers",
+    "regulatory compliance",
+    "global operations",
+    "financial volatility",
+    "healthcare changes",
+    "acquisitions",
+    "litigation",
+    "cybersecurity",
+    "tax changes",
+    "spin-off",
+    "merger"
+  ],
+  "主要内容": "HENRY SCHEIN INC agreed to a $38.5 million settlement in a legal case, though it denies all allegations, with court approval pending. The company also disclosed risk factors, including competitive market conditions, reliance on third-party suppliers, sales personnel, and regulatory compliance. Risks related to global operations, financial market volatility, and healthcare industry changes were highlighted. Additional risks include acquisitions, joint ventures, litigation, product development, third-party dependencies, competition, information system disruptions, cybersecurity, governance provisions, tax changes, and uncertainties in the spin-off and merger of its animal health business with Direct Vet Marketing, Inc. (d/b/a Vets First Choice).",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:08.109393+00:00",
+    "fetched_at": "2026-11-14T08:23:02.231951+00:00",
+    "feature_available_at": "2026-11-14T08:23:56.075815+00:00",
+    "availability_basis": "extraction"
+  }
+}

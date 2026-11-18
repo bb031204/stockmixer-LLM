@@ -1,0 +1,54 @@
+{
+  "source_id": "8be0beaa4cdde239558f2f85",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-17-128090-index.html",
+  "title": null,
+  "时间": "2017-04-19",
+  "分类": "Finance",
+  "关键词": [
+    "Henry Schein Inc",
+    "HENRY SCHEIN INC",
+    "Healthcare Distribution",
+    "Credit Agreement",
+    "Revolving Credit Facility",
+    "JPMorgan Chase Bank, N.A.",
+    "U.S. Bank National Association",
+    "Working Capital",
+    "Capital Expenditures",
+    "Stock Repurchases",
+    "Acquisitions",
+    "HSIC"
+  ],
+  "主要内容": "On April 18, 2017, Henry Schein, Inc. entered into a new $750 million revolving credit agreement, replacing its previous $500 million facility set to mature in September 2019. The agreement, maturing in April 2022, is led by JPMorgan Chase Bank, N.A. and U.S. Bank National Association. It is intended for working capital, general corporate purposes, including capital expenditures, stock repurchases, and potential acquisitions. The Credit Agreement includes customary covenants and exceptions for liens, indebtedness, corporate changes, dispositions, and restrictive agreements. Henry Schein Inc amended its revolving credit facility, increasing the maximum borrowing amount from $500 million to $750 million and extending the facility through September 2022. JP Morgan Securities LLC and U.S. Bank NA served as Joint Lead Arrangers for the new facility. The company, the world's largest provider of healthcare products and services to dental, animal health, and medical practitioners, enhanced its flexibility for acquisition, share repurchase, working capital, and general corporate purposes. The move supports long-term growth strategies while maintaining a strong capital structure. Securities explicitly mentioned in the source include HSIC.",
+  "股票实体": [
+    {
+      "名称": null,
+      "股票代码": "HSIC",
+      "交易所": "Nasdaq"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare Distribution",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Healthcare",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Healthcare Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.722748+00:00",
+    "fetched_at": "2026-11-12T20:28:34.046462+00:00",
+    "feature_available_at": "2026-11-12T20:30:05.333849+00:00",
+    "availability_basis": "extraction"
+  }
+}

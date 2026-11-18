@@ -1,0 +1,43 @@
+{
+  "source_id": "e45798854801ea233e41d5c9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-20-009598-index.html",
+  "title": "occ20200505_8k.htm",
+  "时间": "2020-05-06",
+  "分类": "Finance",
+  "关键词": [
+    "Optical Cable Corporation",
+    "Pinnacle Bank",
+    "Eleventh Loan Modification Agreement",
+    "Credit Agreement",
+    "refinancing"
+  ],
+  "主要内容": "On April 30, 2020, Optical Cable Corporation entered into an Eleventh Loan Modification Agreement with Pinnacle Bank, a Tennessee banking corporation, as successor in interest by name change and by merger with the Bank of North Carolina. The agreement modifies the terms of the Loan, which remains secured by the Company’s land, buildings, and personal property. The Loan was previously subject to refinancing requirements under the Credit Agreement, which were removed through the Agreement. The Eleventh Loan, dated April 30, 2020, is attached as Exhibit 4.1.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Pinnacle Bank",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Communication Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.474770+00:00",
+    "fetched_at": "2026-11-13T00:37:22.015095+00:00",
+    "feature_available_at": "2026-11-13T00:38:07.579573+00:00",
+    "availability_basis": "extraction"
+  }
+}

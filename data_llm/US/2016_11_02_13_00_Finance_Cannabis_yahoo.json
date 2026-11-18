@@ -1,0 +1,54 @@
+{
+  "source_id": "d656145d47f75d7671a38fde",
+  "url": "https://finance.yahoo.com/news/finore-mining-provides-california-cannabis-130000452.html",
+  "title": "Finore Mining Provides Update on California Cannabis Product Offerings and Name Change to Kushtown USA LLC",
+  "时间": "2016-11-02T13:00:00+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "Finore Mining Inc.",
+    "Kushtown USA LLC",
+    "Cannabis",
+    "Shares",
+    "CSE",
+    "Kushtown USA, LLC"
+  ],
+  "主要内容": "Finore Mining Inc. signed an Assignment Agreement with a British Columbia company, transferring rights and obligations from a Letter Agreement with Kushtown USA LLC. Kushtown USA LLC, a California-based cannabis-infused products company, markets 20 varieties of medicated sodas, including carbonated and non-carbonated beverages with THC tinctures. The company has been a leader in marijuana beverages and edible products in California since 2000, with sales to over 200 medical marijuana dispensaries. Kushtown USA LLC plans to expand its brand into the recreational cannabis market across North America, pending the November 8, 2016 vote in California and other states to legalize recreational marijuana. Finore Mining aims to restructure its management team to focus on developing Kushtown USA product lines into a national retail brand, similar to competitors like Red Bull Energy, Monster Energy Drinks, and Rockstar Energy. Peter Moret, founder of Kushtown USA, will join the new management team.",
+  "股票实体": [
+    {
+      "名称": "Finore Mining Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Kushtown USA, LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Kushtown USA LLC",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Cannabis",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Cannabis beverages and edibles",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:12:05.620890+00:00",
+    "fetched_at": "2026-11-14T04:04:04.338603+00:00",
+    "feature_available_at": "2026-11-14T04:28:06.667849+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source_id": "a1831edc5960c1d1c7360693",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-17-132054-index.html",
+  "title": null,
+  "时间": "2017-04-21",
+  "分类": "corporate_action",
+  "关键词": [
+    "Geospace Technologies",
+    "GEOS",
+    "Oil and Gas Equipment"
+  ],
+  "主要内容": "Geospace Technologies (NASDAQ: GEOS) announced it will release second quarter fiscal year 2017 financial results on May 4, 2017, following the market close. The company also scheduled a conference call for May 5, 2017 at 10:00 a.m. Eastern Time. The event is related to its financial reporting and investor communication. The company operates in the oil and gas equipment industry, providing instruments and equipment for seismic data acquisition and reservoir monitoring.",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies",
+      "股票代码": "GEOS",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.723748+00:00",
+    "fetched_at": "2026-11-12T21:18:55.853241+00:00",
+    "feature_available_at": "2026-11-12T21:19:22.106799+00:00",
+    "availability_basis": "extraction"
+  }
+}

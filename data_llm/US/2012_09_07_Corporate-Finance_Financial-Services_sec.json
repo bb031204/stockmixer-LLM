@@ -1,0 +1,45 @@
+{
+  "source_id": "95a88691be0513ef4a7fa20b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-12-000737-index.html",
+  "title": null,
+  "时间": "2012-09-07",
+  "分类": "Corporate Finance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "medium term note offering",
+    "8.95% notes",
+    "redeem or repurchase",
+    "general corporate purposes",
+    "forward-looking statements",
+    "risks and uncertainties",
+    "financial market behavior",
+    "interest rate fluctuations",
+    "equity and debt financing",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. is considering a medium term note offering under its base shelf prospectus. The proceeds would be used to redeem or repurchase part of its 8.95% notes maturing on June 2, 2014, and for general corporate purposes. The filing highlights that forward-looking statements, such as those related to the proposed offering and the use of proceeds, are subject to risks and uncertainties. These statements are based on assumptions and expectations but may differ materially from actual results due to various factors. The filing highlights key risks and uncertainties affecting Brookfield Asset Management Inc.'s operations, including economic and financial conditions, financial market behavior, interest and exchange rate fluctuations, and availability of equity and debt financing. Securities explicitly mentioned in the source include Brookfield Asset Management Inc. (BAM).",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.921255+00:00",
+    "fetched_at": "2026-11-14T14:44:14.398992+00:00",
+    "feature_available_at": "2026-11-14T14:45:12.487830+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "source_id": "e1f7488b179a196dab73ddd5",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000623/0001000623-16-000160-index.html",
+  "title": null,
+  "时间": "2016-04-27",
+  "分类": "corporate_action",
+  "关键词": [
+    "Schweitzer-Mauduit International Inc",
+    "Textiles",
+    "2015 Long-Term Incentive Plan"
+  ],
+  "主要内容": "Schweitzer-Mauduit International Inc confirmed and ratified the 2015 Long-Term Incentive Plan at its 2016 Annual Meeting. The plan was previously approved by the Board of Directors in February 2015 and by stockholders in April 2015. The decision was made to secure more favorable tax treatment under the Macron Law, which was passed in the second half of 2015. The Macron Law reforms the legal, tax, and social security regimes governing stock and performance awards in France, reducing employer taxes and abolishing certain taxes applicable to award-beneficiaries.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.424607+00:00",
+    "fetched_at": "2026-11-12T19:38:47.196735+00:00",
+    "feature_available_at": "2026-11-12T19:39:17.369073+00:00",
+    "availability_basis": "extraction"
+  }
+}

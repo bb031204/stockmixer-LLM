@@ -50,7 +50,14 @@ def original_fixture(root):
 def public_config():
     config=yaml.safe_load((PROJECT/'configs/stockmixer.yaml').read_text(encoding='utf-8-sig'))
     config['market_name']='NYSE'
+    config['llm']['enabled']=False
     return config
+
+
+def baseline_configuration(dataset=None):
+    # Baseline tests must not depend on the user's current fusion switch.
+    from news_fusion.configuration import compile_config
+    return PROJECT,compile_config(PROJECT,PROJECT/'configs/stockmixer.yaml',public_config(),dataset)
 
 
 class TwoConfigTests(unittest.TestCase):
@@ -105,7 +112,7 @@ class TwoConfigTests(unittest.TestCase):
 
     def test_dataset_switch_uses_corresponding_original_artifact(self):
         for name in ('NASDAQ','NYSE','SP500'):
-            _,c=configuration(dataset=name)
+            _,c=baseline_configuration(dataset=name)
             self.assertEqual(c['dataset'],name)
             self.assertEqual(Path(c['workflow']['prepared_data'][name]).name,name)
             self.assertIn('market_original',c['workflow']['prepared_data'][name])
@@ -132,7 +139,7 @@ class OriginalFunctionTests(unittest.TestCase):
         loop=next(n for n in source.body if isinstance(n,ast.For) and isinstance(n.target,ast.Name) and n.target.id=='epoch')
         with temporary_project() as tmp:
             root=Path(tmp);data_dir=original_fixture(root/'data');data=OriginalMarketData(data_dir)
-            _,config=configuration(dataset="NYSE");config['training']['device']='cpu';config['training']['epochs']=2
+            _,config=baseline_configuration(dataset="NYSE");config['training']['device']='cpu';config['training']['epochs']=2
             torch.manual_seed(config['training']['torch_seed']);np.random.seed(config['training']['numpy_seed'])
             model=e.make_model(data,config,torch.device('cpu'));optimizer=torch.optim.Adam(model.parameters(),lr=.001)
             _,get_loss=e.model_api()
@@ -161,7 +168,7 @@ class OriginalFunctionTests(unittest.TestCase):
 
     def test_original_and_strict_data_cannot_be_silently_mixed(self):
         with temporary_project() as tmp:
-            root=Path(tmp);original_fixture(root/'data');_,config=configuration(dataset="NYSE")
+            root=Path(tmp);original_fixture(root/'data');_,config=baseline_configuration(dataset="NYSE")
             config['data']['preprocessing']='train_max_ratio'
             with self.assertRaisesRegex(ValueError,'protocol differs'):
                 e.train(root,config,root/'data',root/'bad',epochs=1,smoke=True)

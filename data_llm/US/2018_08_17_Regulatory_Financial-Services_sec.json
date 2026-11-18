@@ -1,0 +1,32 @@
+{
+  "source_id": "7e7782e230938c0b534252ea",
+  "url": "https://www.sec.gov/newsroom/press-releases/2018-156",
+  "title": "SEC Adopts Amendments to Simplify and Update Disclosure Requirements",
+  "时间": "2018-08-17",
+  "分类": "Regulatory",
+  "关键词": [
+    "SEC",
+    "GAAP",
+    "Regulation S-K",
+    "FAST Act",
+    "Disclosure Requirements"
+  ],
+  "主要内容": "The U.S. Securities and Exchange Commission (SEC) adopted amendments to simplify and update disclosure requirements for public companies. The changes aim to reduce regulatory burden while ensuring investors receive clear and relevant information. The rulemaking was finalized on August 17, 2018, and applies to all public companies subject to SEC regulations. The amendments address duplicative, overlapping, or outdated rules in light of GAAP and changes in the information environment. SEC Chairman Jay Clayton emphasized the importance of evolving regulations to align with capital markets. The amendments will take effect 30 days after publication in the Federal Register. The SEC also refers certain disclosure requirements to FASAP for potential incorporation into GAAP. These changes are part of the Division of Corporation Finance's initiative to improve disclosure standards for investors and issuers, and align with the FAST Act's mandate to eliminate redundant or outdated Regulation S-K provisions.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:41:35.744936+00:00",
+    "fetched_at": "2026-11-14T01:05:55.242227+00:00",
+    "feature_available_at": "2026-11-14T01:06:50.212214+00:00",
+    "availability_basis": "extraction"
+  }
+}

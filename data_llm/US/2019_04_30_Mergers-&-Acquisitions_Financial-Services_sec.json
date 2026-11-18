@@ -1,0 +1,52 @@
+{
+  "source_id": "84b86329e22b93b88b6c5b7d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001564590-19-014255-index.html",
+  "title": null,
+  "时间": "2019-04-30",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Nicholas Financial, Inc.",
+    "NASDAQ: NICK",
+    "Metrolina Credit Company",
+    "Automobile Financing",
+    "Carolinas",
+    "NICK",
+    "Alt Ridge Capital, LLC",
+    "Metrolina"
+  ],
+  "主要内容": "On April 30, 2019, Nicholas Financial, Inc. (NASDAQ: NICK) announced the acquisition of substantially all of the assets of ML Credit Group, LLC (d/b/a Metrolina Credit Company). Metrol, which provides automobile financing to consumers through direct loans and purchases of retail installment sales contracts from automobile dealers in North Carolina and South Carolina, adds over 3,000 accounts and over $22 million in net receivables to Nicholas Financial's operations in the Carolinas. The CEO, Douglas Marohn, noted his familiarity with Metrolina's operations and expressed excitement about consolidating the two companies due to their alignment. Alt Ridge Capital, LLC and LEHNS Capital Advisory, LLC served as financial advisors, while Dechert LLP provided legal counsel. Metrolina was a portfolio investment for Comstock Capital & Advisory Group, LLC and other investors. Barnes & Thornburg, LP acted as legal advisor to Metrolina. The acquisition is expected to enhance the company's scale and operational capacity in the region.",
+  "股票实体": [
+    {
+      "名称": "Nicholas Financial, Inc.",
+      "股票代码": "NICK",
+      "交易所": "NASDAQ"
+    },
+    {
+      "名称": "Alt Ridge Capital, LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Metrolina",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.102123+00:00",
+    "fetched_at": "2026-11-12T23:03:19.698916+00:00",
+    "feature_available_at": "2026-11-12T23:04:21.458505+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "source_id": "e3e7f5cd8019e56472597630",
+  "url": "https://www.prnewswire.com/news-releases/ar-capital-announces-suspension-of-capital-raising-activities-for-certain-of-its-investment-programs-due-to-regulatory-and-market-uncertainty-300179032.html",
+  "title": "AR Capital Announces Suspension of Capital Raising Activities for Certain of its Investment Programs Due to Regulatory and Market Uncertainty",
+  "时间": "2015-11-16T11:00:00+00:00",
+  "分类": "Financial",
+  "关键词": [
+    "AR Capital",
+    "investment programs",
+    "regulatory uncertainty",
+    "capital raising",
+    "SRP"
+  ],
+  "主要内容": "AR Capital, LLC suspended capital raising for certain investment programs due to regulatory and market uncertainties. The firm cited the Department of Labor's fiduciary standard and FINRA's 15-02 directive as contributing factors. Affected programs include Business Development Corporation of America II, ARC Healthcare Trust III, New York City REIT II, ARC Hospitality Trust, and ARC Global Trust II. AR Capital will continue to manage its $19 billion in investment programs. The Dividend Reinvestment Program and Share Repurchase Plan (SRP) remain active. The firm will accept subscriptions for open programs through year-end 2015 and allow subscriptions in process for up to 45 days after the suspension. Realty Capital Securities was directed to discontinue proxy activities for sponsored companies following Massachusetts actions.",
+  "股票实体": [
+    {
+      "名称": "AR Capital",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Real Estate Investment Trusts (REITs)",
+      "依据": "inferred"
+    },
+    {
+      "名称": "alternative investment",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Real Estate",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T17:41:22.486300+00:00",
+    "fetched_at": "2026-11-13T20:30:31.141026+00:00",
+    "feature_available_at": "2026-11-13T20:31:35.649192+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "source_id": "6bb13b9fd5f1ae2c82602c3c",
+  "url": "https://www.prnewswire.com/news-releases/mergers-and-acquisitions-trends-in-the-global-property-and-casualty-insurance-industry-243316021.html",
+  "title": "Mergers and Acquisitions Trends in the Global Property and Casualty Insurance Industry",
+  "时间": "2014-02-03T13:41:00+00:00",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "P&C insurance",
+    "M&A activity",
+    "hard market cycle",
+    "catastrophic losses",
+    "cross-selling",
+    "regulatory changes",
+    "QBE Insurance Group Ltd.",
+    "Brown & Brown Inc.",
+    "China Taiping Insurance Holdings Company Limited",
+    "Arthur J Gallagher & Co.",
+    "AmTrust Financial Services, Inc."
+  ],
+  "主要内容": "In 2013, M&A activity in the P&C insurance industry saw a decline in deal volume but an increase in average deal value. Improved industry performance, renewed investor confidence, better reserves, and the start of a hard market cycle (with higher premiums) contributed to this trend. The year also had fewer catastrophic losses than previous years, enhancing merger prospects globally. European P&C insurers were restructuring globally and active in outbound deals, especially in the Middle East and Africa. Asia-Pacific, Latin America, and the Caribbean saw domestic merger activity as developed insurers sought to strengthen distribution in low-penetration markets. Notable deals included Jabez Partners acquiring Green non-life insurance co. ltd for $X million and The Travelers Companies purchasing The Dominion of Canada General Insurance company for $X million. Active buyers included the US, UK, Bermuda, Canada, Germany, France, Russia, Australia, Japan, and Spain, with sectors such as property and casualty insurance, insurance brokers, and reinsurance being prominent.",
+  "股票实体": [
+    {
+      "名称": "QBE Insurance Group Ltd.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Brown & Brown Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "China Taiping Insurance Holdings Company Limited",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Arthur J Gallagher & Co.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "AmTrust Financial Services, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Property and Casualty Insurance",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-10T18:39:04.445344+00:00",
+    "fetched_at": "2026-11-13T02:51:11.582286+00:00",
+    "feature_available_at": "2026-11-13T02:52:37.242587+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "source_id": "f7afff0a59bede2366da2394",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001144204-19-024566-index.html",
+  "title": null,
+  "时间": "2019-05-09",
+  "分类": "dividends",
+  "关键词": [
+    "CREDICORP LTD",
+    "Financial Services",
+    "dividends"
+  ],
+  "主要内容": "CREDICORP LTD announced the weighted exchange rate of S/3.3150 per US Dollar for dividend calculation on May 10, 2019. The dividend per share is US$6.0332, equivalent to S/20.00 per share. The decision was made by the Board of Directors on February 27, 2019.",
+  "股票实体": [
+    {
+      "名称": "CREDICORP LTD",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.107122+00:00",
+    "fetched_at": "2026-11-13T00:04:50.508930+00:00",
+    "feature_available_at": "2026-11-13T00:05:03.527555+00:00",
+    "availability_basis": "extraction"
+  }
+}

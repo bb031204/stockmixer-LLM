@@ -1,0 +1,45 @@
+{
+  "source_id": "de7928509adb6ab804614d67",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000298/0001104659-18-035991-index.html",
+  "title": null,
+  "时间": "2018-05-25",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Impac Mortgage Holdings, Inc.",
+    "Todd Taylor",
+    "Brian Kuelbs",
+    "Chief Financial Officer",
+    "Executive Vice President",
+    "SEC filing date",
+    "2018-05-25",
+    "IMPAC MORTGAGE HOLDINGS, INC."
+  ],
+  "主要内容": "On May 21, 2018, Todd Taylor, Chief Financial Officer of Impac Mortgage Holdings, Inc., notified the company that he would step down effective that day. He will remain until June 30, 2018, to ensure a smooth transition. Brian Kuelbs was appointed as Executive Vice President and Chief Financial Officer on the same date. Mr. Kuelbs previously held roles at Banc of California, Inc. and Home Point Financial Corporation, where he led acquisition due diligence, transaction structuring, and business strategy. He will be eligible for a discretionary bonus, with the first $250,000 paid in cash and any amount above that split between cash and restricted shares. Upon termination or change of control, unvested shares will vest immediately. He will also receive 30,000 stock options at the first Board meeting after employment starts, and a matching grant of up to 20,000 options if the President receives options in 2018. Additional benefits include medical, dental, life, 401K matches, and disability insurance.",
+  "股票实体": [
+    {
+      "名称": "IMPAC MORTGAGE HOLDINGS, INC.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Mortgage",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.879895+00:00",
+    "fetched_at": "2026-11-12T22:19:13.173271+00:00",
+    "feature_available_at": "2026-11-12T22:20:38.548985+00:00",
+    "availability_basis": "extraction"
+  }
+}

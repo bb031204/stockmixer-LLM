@@ -1,0 +1,36 @@
+{
+  "source_id": "f9535f1f35fef53501daf988",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-19-305684-index.html",
+  "title": null,
+  "时间": "2019-12-04",
+  "分类": "regulation_policy",
+  "关键词": [
+    "ROYAL BANK OF CANADA",
+    "Banking",
+    "Iranian Embassy"
+  ],
+  "主要内容": "ROYAL BANK OF CANADA reported that dollar denominated accounts for the Embassy of the Islamic Republic of Iran in Canada (the Iranian Embassy) are frozen by Ontario court order in connection with civil litigation. In fiscal 2019, these accounts generated less than $3,000 in gross revenue and less than $3,000 in net income. The report was filed on December 4, 2019, and signed by David I. McKay, President and Chief Executive Officer.",
+  "股票实体": [
+    {
+      "名称": "ROYAL BANK OF CANADA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T17:10:12.991552+00:00",
+    "fetched_at": "2026-11-14T09:32:14.847144+00:00",
+    "feature_available_at": "2026-11-14T09:33:23.612116+00:00",
+    "availability_basis": "extraction"
+  }
+}

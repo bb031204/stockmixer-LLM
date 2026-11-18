@@ -1,0 +1,36 @@
+{
+  "source_id": "6eff828e62c6919399dc39dc",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001233/0001193125-17-196078-index.html",
+  "title": null,
+  "时间": "2017-06-06",
+  "分类": "corporate_action",
+  "关键词": [
+    "Sangamo Therapeutics, Inc.",
+    "Biotechnology",
+    "Corporate Action"
+  ],
+  "主要内容": "Sangamo Therapeutics, Inc. ratified the appointment of Ernst & Young LLP as its independent registered public accounting firm for the fiscal year ending December 31, 2017. The vote results were: For 61,872,171, Against 1,793,130, Abstain 225,684, Broker Non-Votes 0. The report was signed by Alexander D. Macrae, President and Chief Executive Officer, on June 6, 2017.",
+  "股票实体": [
+    {
+      "名称": "Sangamo Therapeutics, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.724747+00:00",
+    "fetched_at": "2026-11-12T21:31:42.071881+00:00",
+    "feature_available_at": "2026-11-12T21:32:10.088637+00:00",
+    "availability_basis": "extraction"
+  }
+}

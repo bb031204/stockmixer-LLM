@@ -1,0 +1,50 @@
+{
+  "item": 3,
+  "checked_at": "2026-11-18T10:51:41+08:00",
+  "report": {
+    "NASDAQ": {
+      "passed": true,
+      "issues": {},
+      "company_links": 17,
+      "industry_links": 29,
+      "industry_membership_rows": 30,
+      "market_routes": 120,
+      "market_scopes": {
+        "legacy_reviewed_US_whole_pool": 120
+      },
+      "market_layout": "shared_date",
+      "dictionary_sha256": "0a2ff3ea0ccfcc93c928c40a72f59d11f8d096204bcea7db6eba6abf60272758",
+      "relations_manifest_sha256": "6e1aa6302a7adbe3f18a68e7f77124f96771fc5d23b8c49e62563eff7452fe5d"
+    },
+    "NYSE": {
+      "passed": true,
+      "issues": {},
+      "company_links": 19,
+      "industry_links": 29,
+      "industry_membership_rows": 22,
+      "market_routes": 120,
+      "market_scopes": {
+        "legacy_reviewed_US_whole_pool": 120
+      },
+      "market_layout": "shared_date",
+      "dictionary_sha256": "0a2ff3ea0ccfcc93c928c40a72f59d11f8d096204bcea7db6eba6abf60272758",
+      "relations_manifest_sha256": "254631a31ef02f6cef4f3ee1e75a9360077d5e9511dc6812e25de4bde660f5ca"
+    },
+    "SP500": {
+      "passed": true,
+      "issues": {},
+      "company_links": 9,
+      "industry_links": 29,
+      "industry_membership_rows": 10,
+      "market_routes": 120,
+      "market_scopes": {
+        "legacy_reviewed_US_whole_pool": 120
+      },
+      "market_layout": "shared_date",
+      "dictionary_sha256": "0a2ff3ea0ccfcc93c928c40a72f59d11f8d096204bcea7db6eba6abf60272758",
+      "relations_manifest_sha256": "917c5b3966c89959612dd35a1fbbdcb7110d6a4d29c0a2262931a26f20a25437"
+    }
+  },
+  "text": "结论：以下结果验证已发布映射的结构、冻结证据和可重放性；不等于全部新闻完成了人工语义审核，也不代表覆盖充分。\nNASDAQ：通过。冻结源文件哈希、数据集/股票轴、公司历史身份与字面提及、SEC-SIC字典代码/版本、行业成员关系重新解析、市场路由审核绑定及实际传播对象均已复核。Company链接17条，Industry链接29条，历史成员30条，已发布Market路由120条；以上为链接/路由条数，并非第1项的有效去重新闻篇数。\n  市场范围：{\"legacy_reviewed_US_whole_pool\": 120}，布局shared_date。现有路由是旧版已审核US全市场路由，兼容规则按US_EQUITY全池处理；不是新scope_claims字段已全部补齐。若有NASDAQ_LISTED/NYSE_LISTED必须按历史上市成员逐股传播，不能直接全池广播。\nNYSE：通过。冻结源文件哈希、数据集/股票轴、公司历史身份与字面提及、SEC-SIC字典代码/版本、行业成员关系重新解析、市场路由审核绑定及实际传播对象均已复核。Company链接19条，Industry链接29条，历史成员22条，已发布Market路由120条；以上为链接/路由条数，并非第1项的有效去重新闻篇数。\n  市场范围：{\"legacy_reviewed_US_whole_pool\": 120}，布局shared_date。现有路由是旧版已审核US全市场路由，兼容规则按US_EQUITY全池处理；不是新scope_claims字段已全部补齐。若有NASDAQ_LISTED/NYSE_LISTED必须按历史上市成员逐股传播，不能直接全池广播。\nSP500：通过。冻结源文件哈希、数据集/股票轴、公司历史身份与字面提及、SEC-SIC字典代码/版本、行业成员关系重新解析、市场路由审核绑定及实际传播对象均已复核。Company链接9条，Industry链接29条，历史成员10条，已发布Market路由120条；以上为链接/路由条数，并非第1项的有效去重新闻篇数。\n  市场范围：{\"legacy_reviewed_US_whole_pool\": 120}，布局shared_date。现有路由是旧版已审核US全市场路由，兼容规则按US_EQUITY全池处理；不是新scope_claims字段已全部补齐。若有NASDAQ_LISTED/NYSE_LISTED必须按历史上市成员逐股传播，不能直接全池广播。\n限制：当前主要依据存储摘要及有限SEC历史观察。自动审核、证据重放通过不等于金融语义准确率100%；未匹配实体、未验证行业及pending市场路由继续排除。\n映射源与证据均在第1项各面板目录的 relation_*、relations_manifest.json、market_route_*、market_routing_manifest.json 内冻结；具体代码/来源哈希见本项JSON证据。",
+  "document_before_sha256": "2a6ce25ddee3d08bea960663421dca66cb7b2f62c880120afafe425b7c4cbb9a"
+}

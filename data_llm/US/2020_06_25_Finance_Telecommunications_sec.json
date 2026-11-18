@@ -1,0 +1,44 @@
+{
+  "source_id": "8e87e5d477983b1c84c1b02a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-20-076637-index.html",
+  "title": null,
+  "时间": "2020-06-25",
+  "分类": "Finance",
+  "关键词": [
+    "DISH Network Corporation",
+    "DISH DBS Corporation",
+    "7.375% Senior Notes",
+    "2028",
+    "US",
+    "DISH"
+  ],
+  "主要内容": "On June 25, 2020, DISH Network Corporation announced that its subsidiary, DISH DBS Corporation, priced $1,000,000,000 aggregate principal amount of 8-year, 7.375% Senior Notes due 2028. The Notes will mature on July 1, 2028, with interest paid semi-annually on January 1 and July 1, starting from January 1, 2021. The offering was placed in a private placement under Rule 144A and Regulation S. The net proceeds are intended for general corporate purposes. The offering was expected to close on July 1, 2020, subject to customary conditions.",
+  "股票实体": [
+    {
+      "名称": "DISH DBS Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "DISH",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.477289+00:00",
+    "fetched_at": "2026-11-13T01:27:50.769493+00:00",
+    "feature_available_at": "2026-11-13T01:28:44.426716+00:00",
+    "availability_basis": "extraction"
+  }
+}

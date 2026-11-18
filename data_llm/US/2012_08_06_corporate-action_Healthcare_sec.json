@@ -1,0 +1,26 @@
+{
+  "source_id": "fa35c1966d5c36bff8aeae02",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-12-000046-index.html",
+  "title": null,
+  "时间": "2012-08-06",
+  "分类": "corporate_action",
+  "关键词": [
+    "CORE LABORATORIES N V",
+    "Healthcare",
+    "advisory vote",
+    "executive compensation"
+  ],
+  "主要内容": "CORE LABORATORIES N V announced that its Board of Supervisory Directors decided to include an advisory vote on executive compensation annually in its future proxy materials until a future shareholder advisory vote on the frequency of such a vote results in a different outcome. The Company does not plan to submit the advisory vote on the frequency of executive compensation in its 2013 proxy materials.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.919267+00:00",
+    "fetched_at": "2026-11-14T04:41:54.123151+00:00",
+    "feature_available_at": "2026-11-14T04:42:17.863091+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "source_id": "57bc5a0eb3001be89c547085",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-16-135922-index.html",
+  "title": null,
+  "时间": "2016-08-02",
+  "分类": "Finance",
+  "关键词": [
+    "DISH Network",
+    "Convertible Notes",
+    "Wireless",
+    "Spectrum",
+    "Hedge",
+    "Warrant",
+    "Class A Common Stock",
+    "DISH Network Corporation",
+    "DISH"
+  ],
+  "主要内容": "DISH Network Corporation announced on August 2, 2016, its plan to offer $2 billion aggregate principal amount of convertible notes, subject to market and other conditions. The offering will be made to qualified institutional buyers under Rule 144A. The net proceeds are intended for strategic transactions, including wireless and spectrum-related deals, and other general corporate purposes. The company also expects to grant an option to the initial purchaser to purchase up to an additional $400 million aggregate principal amount of the notes. The notes will be unsecured obligations of DISH Network, and upon conversion, the company will settle its conversion obligation in cash, shares of its Class A Common Stock, or a combination of both. The terms of the notes, including the interest rate and initial conversion rate, will be determined through negotiations with the initial purchaser.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "DISH",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting & Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:01.342941+00:00",
+    "fetched_at": "2026-11-14T15:45:14.775816+00:00",
+    "feature_available_at": "2026-11-14T15:47:09.164165+00:00",
+    "availability_basis": "extraction"
+  }
+}

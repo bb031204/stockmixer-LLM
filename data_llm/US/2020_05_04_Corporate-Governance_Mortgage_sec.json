@@ -1,0 +1,55 @@
+{
+  "source_id": "dacb468eb071e2f62fc69e85",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000298/0001104659-20-056269-index.html",
+  "title": null,
+  "时间": "2020-05-04",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Impac Mortgage Holdings Inc (IMH)",
+    "Paul Licon",
+    "Chief Financial Officer",
+    "2020-05-01",
+    "Mortgage",
+    "Common Stock, $0.01 par value",
+    "Preferred Stock Purchase Rights",
+    "Impac Mortgage Holdings, Inc."
+  ],
+  "主要内容": "Impac Mortgage Holdings Inc (IMH) announced that Paul Licon has assumed the role of Chief Financial Officer effective May 1, 2020. Mr. Licon, 39, has been serving as Chief Accounting Officer since May 2019 and Principal Accounting Officer since August 2019. Prior to joining Impac in April 2016, he worked as a Senior Manager at KPMG, LLP from January 2015 to April 2016 and as an auditor at Squar Milner, LLP from May 2007 to December 2014. The Company began transitioning these responsibilities to Mr. Licon when he was appointed Chief Accounting Officer on May 1, 2019.",
+  "股票实体": [
+    {
+      "名称": "Common Stock, $0.01 par value",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Preferred Stock Purchase Rights",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Impac Mortgage Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Mortgage",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.474770+00:00",
+    "fetched_at": "2026-11-13T00:45:15.892161+00:00",
+    "feature_available_at": "2026-11-13T00:46:01.418415+00:00",
+    "availability_basis": "extraction"
+  }
+}

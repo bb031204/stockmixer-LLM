@@ -1,0 +1,39 @@
+{
+  "source_id": "c5d15dfca52c47d99eeb4bad",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-17-000083-index.html",
+  "title": null,
+  "时间": "2017-09-06",
+  "分类": "financial",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Hurricane Harvey",
+    "revenue impact",
+    "financial guidance",
+    "operational disruption"
+  ],
+  "主要内容": "Core Laboratories N.V. revised its third-quarter 2017 earnings guidance due to Hurricane Harvey's impact on operations. The hurricane caused closures and halted operations at locations accounting for approximately 10% to 12% of total revenues. The company experienced adverse revenue effects and significant decremental margins due to the inability to adjust its cost structure during the hurricane. Based on an early assessment, Core Laboratories N.V. projected third-quarter 2017 revenue of approximately $161,000,000 and EPS of $0.44. These estimates are subject to change as more information becomes available. The hurricane also affected clients in the U.S. Gulf Coast and Gulf of Mexico regions, limiting their ability to submit work to Core Lab.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.016472+00:00",
+    "fetched_at": "2026-11-14T08:01:16.502740+00:00",
+    "feature_available_at": "2026-11-14T08:02:12.257674+00:00",
+    "availability_basis": "extraction"
+  }
+}

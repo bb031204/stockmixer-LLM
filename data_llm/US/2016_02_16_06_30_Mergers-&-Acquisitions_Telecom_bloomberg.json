@@ -1,0 +1,47 @@
+{
+  "source_id": "85ac6fcfde7c71ad399e0263",
+  "url": "https://www.bloomberg.com/news/articles/2016-02-16/orange-earnings-rise-as-bouygues-telecom-deal-talks-prolonged",
+  "title": "Orange Says Bouygues Deal Needs More Time Amid Talks With Rivals",
+  "时间": "2016-02-16T06:30:00.009000+00:00",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Orange SA",
+    "Bouygues Telecom",
+    "Bouygues SA",
+    "French telecoms industry"
+  ],
+  "主要内容": "Orange SA stated that negotiations to acquire Bouygues Telecom in France are proving difficult, and it will take several more weeks to agree on a deal structure with both seller Bouygues SA and rivals interested in purchasing some of its assets. The company emphasized that the Bouygues deal requires more time amid discussions with competitors. Finance Chief Ramon Fernandez noted that there is a collective will to find a solution in the French telecoms industry, but the process is time-consuming. Reaching an agreement involves settling on a structure that satisfies all four key players involved.",
+  "股票实体": [
+    {
+      "名称": "Orange SA",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Bouygues SA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecom",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Telecoms",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-13T21:41:46.779584+00:00",
+    "feature_available_at": "2026-11-13T21:42:16.929684+00:00",
+    "availability_basis": "extraction"
+  }
+}

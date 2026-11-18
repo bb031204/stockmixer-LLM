@@ -1,0 +1,41 @@
+{
+  "source_id": "7cc3ec885f6606f11287e9fd",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000298/0001104659-17-024188-index.html",
+  "title": null,
+  "时间": "2017-04-18",
+  "分类": "Finance",
+  "关键词": [
+    "Impac Mortgage Holdings, Inc.",
+    "IMH",
+    "Mortgage",
+    "Securities Purchase Agreement",
+    "Common Stock",
+    "Financial Advisory Agreement",
+    "JMP Securities LLC"
+  ],
+  "主要内容": "On April 18, 2017, Impac Mortgage Holdings, Inc. (NYSE MKT: IMH) entered into a securities purchase agreement with certain purchasers, resulting in the sale of $56.0 million worth of common stock at $12.66 per share. The offering included the issuance of 4,423,381 shares. The net proceeds to the company are expected to be approximately $55.4 million after deducting financial advisory fees and offering expenses. The Company intends to use the net proceeds from the Offering for general corporate purposes, including general administrative expenses, working capital, capital expenditures, development costs, strategic investments, or possible acquisitions. The Company has no present understandings, commitments, or agreements to enter into any acquisitions. The Company also entered into a Financial Advisory Agreement with JMP Securities LLC, agreeing to pay JMP an advisory fee in connection with the Offering.",
+  "股票实体": [
+    {
+      "名称": "Impac Mortgage Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Mortgage",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.722748+00:00",
+    "fetched_at": "2026-11-12T20:46:35.179013+00:00",
+    "feature_available_at": "2026-11-12T20:47:48.732742+00:00",
+    "availability_basis": "extraction"
+  }
+}

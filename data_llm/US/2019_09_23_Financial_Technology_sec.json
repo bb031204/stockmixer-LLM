@@ -1,0 +1,47 @@
+{
+  "source_id": "6ee104bc3abd20f5471b47a2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-19-018665-index.html",
+  "title": null,
+  "时间": "2019-09-23",
+  "分类": "Financial",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "Sterling National Bank",
+    "Loan and Security Agreement",
+    "Third Amendment"
+  ],
+  "主要内容": "On September 19, 2019, Blonder Tongue Laboratories, Inc. (the 'Company'), R. L. Drake Holdings, LLC, Blonder Tongue Far East, LLC, and Sterling National Bank executed a Third Amendment to Loan and Security Agreement. The amendment revised provisions of the Loan and Security Agreement dated December 28, 2016, as amended by previous agreements. The amendment added definitions to Section 1.1, permitting bill-and-hold arrangements and updating definitions of 'Eligible Accounts' and inventory sales restrictions. The amendment was part of the company's ongoing financial management activities. Upon default, including non-payment of principal or interest, obligations may be accelerated, and Sterling may pursue its rights under the Amended Loan Agreement.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Sterling National Bank",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Medical Devices",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:11.709092+00:00",
+    "fetched_at": "2026-11-14T12:32:11.684696+00:00",
+    "feature_available_at": "2026-11-14T12:33:12.256187+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "source_id": "833f0ec7d85d4b4d35856eab",
+  "url": "https://finance.yahoo.com/news/us-prosecutors-ask-pause-sec-194500968.html",
+  "title": "US Prosecutors Ask to Pause SEC Action Against Alleged Crypto Scammer",
+  "时间": "2020-04-08T19:45:00+00:00",
+  "分类": "Legal",
+  "关键词": [
+    "Blockchain Terminal",
+    "Manor",
+    "SEC",
+    "Wire Fraud",
+    "Securities Fraud",
+    "Pardo"
+  ],
+  "主要内容": "U.S. prosecutors have requested a temporary pause in SEC actions against alleged crypto scammers Manor and Pardo. The request follows a grand jury indictment for wire fraud and securities fraud prior to the SEC complaint. Civil and criminal charges were filed on January 17, with prosecutors arguing that proceeding with the SEC case would allow the defendants to delay and weaken the criminal process. Pardo pleaded not guilty on January 22, while Manor remains at large. The case overlaps with a criminal investigation into the fraudulent BCT token offering, which raised $30 million for digital securities hedge fund technology in 2017-2018. Manor, who was convicted of breach of trust in 2011 related to the Portus hedge fund, later moved to the U.S. to launch Blockchain Terminal. The Block's 2018 investigation revealed that \"Shaun MacDonald\" leading Blockchain Terminal was actually Manor in disguise. The 275 U.S. investors in the BCT ICO were unaware of Manor's criminal past.",
+  "股票实体": [
+    {
+      "名称": "Blockchain Terminal",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Manor",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Pardo",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Cryptocurrency",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:07:03.988852+00:00",
+    "fetched_at": "2026-11-14T00:30:51.023975+00:00",
+    "feature_available_at": "2026-11-14T00:31:35.867831+00:00",
+    "availability_basis": "extraction"
+  }
+}

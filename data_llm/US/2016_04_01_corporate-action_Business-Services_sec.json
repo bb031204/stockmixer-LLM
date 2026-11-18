@@ -1,0 +1,31 @@
+{
+  "source_id": "9c225b8d5ec279bef1dbc37a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-16-000085-index.html",
+  "title": null,
+  "时间": "2016-04-01",
+  "分类": "corporate_action",
+  "关键词": [
+    "Insperity, Inc.",
+    "Business Services",
+    "Incentive Plan Amendment"
+  ],
+  "主要内容": "On March 29, 2016, the Board of Directors of Insperity, Inc. approved the adoption of the Third Amendment to the 2012 Incentive Plan. The amendment modifies the terms related to the determination of the 'Incumbent Board'. The Compensation Committee introduced a new restricted stock award agreement with a double trigger vesting requirement upon a change-in-control. This applies to all executive officers, including the annual bonus program and Long-Term Incentive Program (LTIP) awards. The changes are detailed in Exhibits 10.1, 10.2, and 10.3 of the Form 8-K filing.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.424607+00:00",
+    "fetched_at": "2026-11-12T19:51:31.034350+00:00",
+    "feature_available_at": "2026-11-12T19:51:58.353028+00:00",
+    "availability_basis": "extraction"
+  }
+}

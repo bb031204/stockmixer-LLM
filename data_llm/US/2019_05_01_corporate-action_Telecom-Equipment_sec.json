@@ -1,0 +1,37 @@
+{
+  "source_id": "7e1197a61d0c8f82571d3ba7",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-19-008399-index.html",
+  "title": null,
+  "时间": "2019-05-01",
+  "分类": "corporate_action",
+  "关键词": [
+    "Optical Cable Corporation",
+    "Telecom Equipment",
+    "Sixth Loan Modification Agreement",
+    "Pinnacle Bank"
+  ],
+  "主要内容": "On April 30, 2019, Optical Cable Corporation (the “Company”) and Pinnacle Bank, a Tennessee banking corporation, as successor in interest by name change and by merger with the Bank of North Carolina (the “Lender”) entered into a Sixth Loan Modification Agreement (the “Agreement”) to modify the Credit Agreement dated April 26, 2016. The purpose of the Agreement was to extend the current Revolving Loan expiration date to June 30, 2020.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Pinnacle Bank",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.105123+00:00",
+    "fetched_at": "2026-11-12T23:17:59.148263+00:00",
+    "feature_available_at": "2026-11-12T23:18:24.383549+00:00",
+    "availability_basis": "extraction"
+  }
+}

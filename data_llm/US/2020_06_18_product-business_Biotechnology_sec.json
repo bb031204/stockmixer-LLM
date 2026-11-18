@@ -1,0 +1,30 @@
+{
+  "source_id": "fca63becd2830f1003e39186",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001104659-20-074714-index.html",
+  "title": null,
+  "时间": "2020-06-18",
+  "分类": "product_business",
+  "关键词": [
+    "NOVAVAX INC",
+    "Biotechnology",
+    "product_business"
+  ],
+  "主要内容": "NanoFlu™, its quadrivalent influenza nanoparticle vaccine, met all primary objectives in its pivotal Phase 3 clinical trial in older adults. Both vaccine candidates incorporate Novavax’ proprietary saponin-based Matrix-M™ adjuvant in order to enhance the immune response and stimulate high levels of neutralizing antibodies.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.476279+00:00",
+    "fetched_at": "2026-11-13T01:11:38.332785+00:00",
+    "feature_available_at": "2026-11-13T01:12:26.640853+00:00",
+    "availability_basis": "extraction"
+  }
+}

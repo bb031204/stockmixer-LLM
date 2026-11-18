@@ -1,0 +1,37 @@
+{
+  "source_id": "a0ded86ab22139a251328ca9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-14-065663-index.html",
+  "title": null,
+  "时间": "2014-09-10",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "DISH Network Corporation",
+    "Afshin Mohebbi",
+    "Board of Directors",
+    "Amended and Restated Bylaws"
+  ],
+  "主要内容": "On September 8, 2014, DISH Network Corporation appointed Afshin Mohebbi as an independent member of the Board, effective from the same date. The appointment followed the recommendation of the Nominating Committee, and Mr. Mohebbi will serve on the Audit, Executive Compensation, and Nominating Committees. Additionally, the Board approved an amendment to its Amended and Restated Bylaws, adjusting the number of directors to not less than three (3) nor more than eleven (11). The amendment is detailed in Exhibit 99.1 and incorporated by reference.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecommunications",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.188502+00:00",
+    "fetched_at": "2026-11-14T14:17:01.358318+00:00",
+    "feature_available_at": "2026-11-14T14:39:39.358460+00:00",
+    "availability_basis": "extraction"
+  }
+}

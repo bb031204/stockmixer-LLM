@@ -1,0 +1,36 @@
+{
+  "source_id": "fc167ffcb99dbf9a76dfe7ef",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-15-321507-index.html",
+  "title": null,
+  "时间": "2015-09-16",
+  "分类": "Stock Repurchase",
+  "关键词": [
+    "Medallion Financial Corp",
+    "Stock Repurchase Program",
+    "Financial Services"
+  ],
+  "主要内容": "On July 28, 2015, Medallion Financial Corp authorized management to repurchase up to $26,000,000 of its common stock. From September 11, 2015, through September 16, 2015, the company purchased 243,397 shares at $6.58 per share, totaling $1,601,885. As of September 16, 2015, $16,908,349 remained available for future repurchases. Additionally, since the inception of its original stock repurchase program in November 2003, a total of 2,569,951 shares were repurchased at a cost of $23,063,624, for an average cost of $8.97 per share. The repurchase program reflects the company's commitment to returning value to shareholders.",
+  "股票实体": [
+    {
+      "名称": "Medallion Financial Corp",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.872809+00:00",
+    "fetched_at": "2026-11-14T05:45:11.472926+00:00",
+    "feature_available_at": "2026-11-14T05:45:56.181053+00:00",
+    "availability_basis": "extraction"
+  }
+}

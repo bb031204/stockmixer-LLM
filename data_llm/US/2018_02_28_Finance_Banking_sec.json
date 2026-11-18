@@ -1,0 +1,41 @@
+{
+  "source_id": "e9bb6a97121424e0895a77fc",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001144204-18-011840-index.html",
+  "title": null,
+  "时间": "2018-02-28",
+  "分类": "Finance",
+  "关键词": [
+    "Credicorp Ltd.",
+    "Peru",
+    "Banking",
+    "Dividend",
+    "Audit",
+    "Reserves",
+    "CREDICORP LTD"
+  ],
+  "主要内容": "Credicorp Ltd. approved its audited consolidated financial statements for the year ended December 31, 2017, including the report of independent auditors Gaveglio, Aparicio y Asociados Sociedad de Responsabilidad Limitada, members of PricewaterhouseCoopers in Perú. The audited financial statements will be submitted for evaluation and approval at the Annual General Meeting of Shareholders on March 28, 2018. The Board of Directors also agreed to recommend the reappointment of Gaveglio, Aparicio y Asociados Sociedad de Responsabilidad Limitada as independent auditors for the 2018 financial year, with prior authorization from the Audit Committee. Additionally, the Board agreed to assign the approval of the independent auditors’ fees to the Audit Committee. The Board also unanimously approved a cash dividend of S/1,337,642,825.91, equivalent to S/14.1726 per share, for 94,382,317 outstanding shares. The dividend will be paid on May 11, 2018, to shareholders of record on April 18, 2018, in US Dollars using the weighted exchange rate from the Superintendencia de Banca, Seguros y AFP for transactions on May 9, 2018.",
+  "股票实体": [
+    {
+      "名称": "CREDICORP LTD",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:15.048576+00:00",
+    "fetched_at": "2026-11-13T05:01:07.382400+00:00",
+    "feature_available_at": "2026-11-13T05:02:20.449435+00:00",
+    "availability_basis": "extraction"
+  }
+}

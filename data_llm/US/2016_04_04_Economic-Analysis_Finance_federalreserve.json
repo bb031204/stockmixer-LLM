@@ -1,0 +1,38 @@
+{
+  "source_id": "e531aeb9170a80cc9ddfda29",
+  "url": "https://www.federalreserve.gov/econresdata/notes/feds-notes/2016/has-the-inflation-risk-premium-fallen-is-it-now-negative-20160404.html",
+  "title": "FRB: FEDS Notes: Has the inflation risk premium fallen? Is it now negative?",
+  "时间": "2016-04-04",
+  "分类": "Economic Analysis",
+  "关键词": [
+    "Federal Reserve",
+    "inflation risk premium",
+    "TIPS",
+    "FEDS Notes",
+    "zero-coupon nominal yields",
+    "PCE index",
+    "CPI"
+  ],
+  "主要内容": "The Federal Reserve Board's FEDS Notes examine whether the inflation risk premium has fallen and may now be negative. Inflation compensation, defined as the extra yield investors require for holding nominal assets exposed to inflation risk compared to inflation-adjusted returns like TIPS, has declined significantly since August 2014. Market-based measures of inflation compensation, calculated as the difference between zero-coupon nominal and T,IPS yields, have remained below 2 percent, the long-term inflation target of the FOMC. The analysis suggests that a long-term decline in the inflation risk premium may explain a significant portion of the recent reduction in inflation compensation. The FEDS Notes highlight that the decline in far-forward inflation compensation may reflect a decrease in the inflation risk premium rather than a drop in expected inflation rates. The VIX, a measure of equity market risk premium, has increased slightly over the past year as betas have declined, indicating a more negative inflation risk premium.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Finance",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T17:06:57.071659+00:00",
+    "fetched_at": "2026-11-14T07:14:39.434999+00:00",
+    "feature_available_at": "2026-11-14T07:24:16.254737+00:00",
+    "availability_basis": "extraction"
+  }
+}

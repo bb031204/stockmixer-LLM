@@ -1,0 +1,49 @@
+{
+  "source_id": "950daff0f6d58bbf4166231b",
+  "url": "https://www.bloomberg.com/news/articles/2016-02-05/alba-startup-said-to-work-with-goldman-morgan-stanley-on-ipo",
+  "title": "Jessica Alba’s Honest Co. Is Working With Banks on an IPO",
+  "时间": "2016-02-05T16:32:30.197000+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "Honest Co.",
+    "Consumer Goods",
+    "IPO",
+    "Goldman Sachs Group Inc.",
+    "Morgan Stanley"
+  ],
+  "主要内容": "Honest Co., an online shopping startup co-founded by actress Jessica Alba, is working with Goldman Sachs Group Inc. and Morgan Stanley on an initial public offering, according to people familiar with the matter. The recent rocky market for tech IPOs will be a factor in when Honest Co. decides to go public, said one of the people, who requested not to be named because the plans are private. Brian Lee, the chief executive officer and co-founder, has been discussing his interest in taking the company public since at least 2014.",
+  "股票实体": [
+    {
+      "名称": "Honest Co.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Goldman Sachs Group Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Morgan Stanley",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Consumer Goods",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-14T02:30:52.764311+00:00",
+    "feature_available_at": "2026-11-14T02:31:09.421802+00:00",
+    "availability_basis": "extraction"
+  }
+}

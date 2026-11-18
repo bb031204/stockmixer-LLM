@@ -1,0 +1,59 @@
+{
+  "source_id": "b131f7aea9a0784bd1388b06",
+  "url": "https://finance.yahoo.com/news/mitchell-acquire-integrated-prescription-solutions-130000777.html",
+  "title": "Mitchell to Acquire Integrated Prescription Solutions",
+  "时间": "2016-11-02T13:00:00+00:00",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Mitchell International",
+    "Integrated Prescription Solutions",
+    "Pharmacy Benefit Management",
+    "Workers' Compensation",
+    "Mitchell",
+    "Integrated Prescription Solutions, Inc."
+  ],
+  "主要内容": "Mitchell International announced the acquisition of Integrated Prescription Solutions, a pharmacy benefit management (PBM) company for the workers' compensation industry. The acquisition strengthens Mitchell's ScriptAdvisor™ PBM solution and adds over 70 new customers. Integrated Prescription Solutions' specialty offerings will be integrated into Mitchell's Script, expanding its full end-to-end pharmacy benefit management solution for insurers, third party administrators, self-insured entities, and state funds. The acquisition aims to enhance customer outcomes and build on existing services. Integrated Prescription Solutions offers customizable first fill programs, out-of-network bill processing, electronic claims processing, and durable medical equipment services. Mitchell International, based in San Diego, is celebrating its 70th anniversary of enabling better business outcomes for its customers.",
+  "股票实体": [
+    {
+      "名称": "Mitchell",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Integrated Prescription Solutions",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Mitchell International",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Integrated Prescription Solutions, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Healthcare IT",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:12:05.620890+00:00",
+    "fetched_at": "2026-11-14T02:42:22.546680+00:00",
+    "feature_available_at": "2026-11-14T02:43:24.749833+00:00",
+    "availability_basis": "extraction"
+  }
+}

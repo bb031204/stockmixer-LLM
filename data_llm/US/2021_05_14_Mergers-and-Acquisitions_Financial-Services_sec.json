@@ -1,0 +1,37 @@
+{
+  "source_id": "fcb39bada1ffb9197b575a63",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000232/0001558370-21-007191-index.html",
+  "title": null,
+  "时间": "2021-05-14",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "Kentucky Bancshares Inc.",
+    "Stock Yards Bancorp, Inc.",
+    "Merger Agreement",
+    "Shareholder Meeting",
+    "Executive Compensation",
+    "Proxy Solicitation"
+  ],
+  "主要内容": "On May 13, 2021, Kentucky Bancshares Inc. held a special shareholder meeting to vote on its proposed merger with Stock Yards Bancorp, Inc. A quorum was achieved, with shareholders representing a majority of outstanding shares present or represented by proxy. Shareholders approved the Merger Agreement dated January 27, 2021, by and among the Company, Stock Yards, and H. Meyer Merger Subsidiary, Inc. The merger will result in the Company becoming a wholly-owned subsidiary of Stock Yards. During the Special Meeting, shareholders voted on three proposals. Proposal 2, regarding executive compensation related to the merger, was approved by 3,304,864 votes, with 278,800 votes against and 52,858 abstentions. Proposal 3, to adjourn the meeting for further proxy solicitation, was also approved, but the adjournment was not necessary as Proposal 1 (the merger proposal) was already approved.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:47.199645+00:00",
+    "fetched_at": "2026-11-14T16:13:28.464707+00:00",
+    "feature_available_at": "2026-11-14T16:14:21.771936+00:00",
+    "availability_basis": "extraction"
+  }
+}

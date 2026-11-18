@@ -1,0 +1,59 @@
+{
+  "source_id": "9a77818df54ced370bcad45c",
+  "url": "https://www.prnewswire.com/news-releases/deloitte-corporate-finance-llc-advises-airborn-inc-on-its-financing-with-goldman-sachs-specialty-lending-group-261655821.html",
+  "title": "Deloitte Corporate Finance LLC Advises AirBorn, Inc. on its Financing with Goldman Sachs Specialty Lending Group",
+  "时间": "2014-06-03T14:05:00+01:00",
+  "分类": "Finance",
+  "关键词": [
+    "AirBorn, Inc.",
+    "Deloitte Corporate Finance LLC",
+    "Goldman Sachs Specialty Lending Group",
+    "Financing",
+    "ESOP",
+    "Leveraged",
+    "GSSLG",
+    "Middle Market"
+  ],
+  "主要内容": "Deloitte Corporate Finance LLC advised AirBorn, Inc. on its financing with Goldman Sachs Specialty Lending Group. The transaction aimed to provide liquidity for shareholder-related matters and flexibility for corporate growth initiatives. DCF leveraged its ESOP experience to analyze the Company's future cash needs, including obligations related to its S-Corp ESOP structure and synthetic equity positions. The deal supports AirBorn's strategy to enhance financial flexibility and capitalize on growth opportunities. AirBorn, Inc. secured financing through Goldman Sachs Specialty Lending Group, advised by Deloitte Corporate Finance LLC. The transaction involved a junior security, leveraging Deloit, ESOP advisory experience. AirBorn, an employee-owned manufacturer, operates in aerospace, defense, medical, industrial automation, and energy sectors. The financing is part of GSSLG's investment platform, which provides solutions for middle market companies in the US and Canada. The transaction supports leveraged and management buyouts, recapitalizations, expansion, and growth financings. Deloitte Corporate Finance LLC is an SEC-registered broker-dealer and member of FINRA, offering financial advisory services to large corporations, middle-market firms, and private equity entities.",
+  "股票实体": [
+    {
+      "名称": "AirBorn, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Deloitte Corporate Finance LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Goldman Sachs Specialty Lending Group",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Aerospace & Defense",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Aerospace",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T17:41:15.207165+00:00",
+    "fetched_at": "2026-11-13T22:33:11.045293+00:00",
+    "feature_available_at": "2026-11-13T22:34:22.302240+00:00",
+    "availability_basis": "extraction"
+  }
+}

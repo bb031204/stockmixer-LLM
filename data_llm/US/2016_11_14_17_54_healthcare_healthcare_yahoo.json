@@ -1,0 +1,45 @@
+{
+  "source_id": "9d92be93d4e3d547ebc80bee",
+  "url": "https://finance.yahoo.com/news/newyork-presbyterian-launches-nyp-ventures-175424040.html",
+  "title": "NewYork-Presbyterian Launches NYP Ventures with Telehealth Investment",
+  "时间": "2016-11-14T17:54:24+00:00",
+  "分类": "healthcare",
+  "关键词": [
+    "NewYork-Presbyterian",
+    "NYP Ventures",
+    "Avizia",
+    "telehealth",
+    "digital healthcare",
+    "NYP Innovation Center"
+  ],
+  "主要内容": "NewYork-Presbyterian launched NYP Ventures, a strategic investment fund focused on digital healthcare innovation. The fund made its first investment in Avizia, a telehealth solutions provider. The initiative aims to enhance patient experience through technological advancements in healthcare. NewYork-Presbyterian has previously focused on advanced technologies and digital services to enhance healthcare delivery, including the 2014 launch of the NYP Innovation Center. NYP Ventures and the NYP Innovation Center are currently located in New York City, with plans to open a second office in Silicon Valley this winter.",
+  "股票实体": [
+    {
+      "名称": "NewYork-Presbyterian",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Avizia",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:12:05.620890+00:00",
+    "fetched_at": "2026-11-14T02:51:01.822064+00:00",
+    "feature_available_at": "2026-11-14T02:51:50.778959+00:00",
+    "availability_basis": "extraction"
+  }
+}

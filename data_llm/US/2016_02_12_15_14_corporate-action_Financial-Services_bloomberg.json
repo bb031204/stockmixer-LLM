@@ -1,0 +1,37 @@
+{
+  "source_id": "c6f997b1b92aa523db004a44",
+  "url": "https://www.bloomberg.com/news/articles/2016-02-12/blackrock-s-1-9-billion-credit-hedge-fund-suffers-worst-january",
+  "title": "BlackRock's $1.9 Billion Credit Hedge Fund Suffers Worst January",
+  "时间": "2016-02-12T15:14:36.883000+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "BlackRock Inc.",
+    "Financial Services",
+    "global credit hedge fund"
+  ],
+  "主要内容": "BlackRock Inc.’s global credit hedge fund suffered its worst January performance in its 19-year history, falling 4 percent due to a selloff in bonds amid falling oil prices and rising recession concerns. The $1.9 billion Obsidian fund failed to anticipate the extent to which markets would trade in lockstep with commodities, according to an investor update. The fund lost money from corporate credit and global-rate strategies.",
+  "股票实体": [
+    {
+      "名称": "BlackRock Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-14T02:10:00.855643+00:00",
+    "feature_available_at": "2026-11-14T02:10:16.121711+00:00",
+    "availability_basis": "extraction"
+  }
+}

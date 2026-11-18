@@ -1,0 +1,39 @@
+{
+  "source_id": "b38b4668cf4356cef2baa0b7",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-17-005733-index.html",
+  "title": null,
+  "时间": "2017-09-25",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Financial Services",
+    "U.S.$15,000,000,000",
+    "covered bond programme",
+    "regulation_policy"
+  ],
+  "主要内容": "Royal Bank of Canada (the “Bank”) and RBC Covered Bond Guarantor Limited Partnership (the “Guarantor LP,” and together with the Bank, the “Registrants”) have filed a U.S.$15,000,000,000 global covered bond programme shelf registration statement on Form F-3 (File Nos. 333-203567 and 203567-01). The Registrants have amended and restated certain Program transaction agreements in connection with filing a renewal prospectus with the United Kingdom Listing Authority. The Trust Deed, amended and restated as of September 8, 2017, by and among the Bank, the Guarantor LP and Computershare Trust Company of Canada, is included as Exhibit 4.1.",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.016472+00:00",
+    "fetched_at": "2026-11-14T09:31:21.179200+00:00",
+    "feature_available_at": "2026-11-14T09:32:08.947166+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "source_id": "fbea5e9e50551a6d34b4e130",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-16-003296-index.html",
+  "title": null,
+  "时间": "2016-08-15",
+  "分类": "Financial",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Preferred Shares",
+    "Normal Course Issuer Bid",
+    "TSX",
+    "Share Repurchase",
+    "BAM",
+    "BAM.PR.B",
+    "BAM.PR.C"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. (NYSE: BAM; TSX: BAM.A; Euronext: BAMA) received approval from the Toronto Stock Exchange for its proposed normal course issuer bid to repurchase up to 10% of the public float of each series of its outstanding Class A Preference Shares listed on the TSX. The repurchase period is from August 17, 2016, to August 16, 2017, or earlier if completed. The company believes that the Preferred Shares may trade in price ranges that do not fully reflect their value, and considers acquiring these shares a desirable use of its available funds. The bid aims to enhance shareholder value by acquiring shares at potentially undervalued prices. The company executed a similar bid from August 12, 2015, to August 11, 2016, repurchasing various series of preferred shares at weighted average prices ranging from C$14.19 to C$18.86 per share. The company will enter into an automatic purchase plan on or about the week of September 26, 2016, to repurchase Preferred Shares subject to certain trading parameters.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": null
+    },
+    {
+      "名称": "BAM.PR.B",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "BAM.PR.C",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:01.342941+00:00",
+    "fetched_at": "2026-11-14T17:01:18.932338+00:00",
+    "feature_available_at": "2026-11-14T17:02:58.870577+00:00",
+    "availability_basis": "extraction"
+  }
+}

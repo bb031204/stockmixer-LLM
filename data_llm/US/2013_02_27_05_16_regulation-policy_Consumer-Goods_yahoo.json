@@ -1,0 +1,48 @@
+{
+  "source_id": "5411f33d3aced1e3e47ec206",
+  "url": "https://finance.yahoo.com/news/5-big-name-bankruptcies-2012-103030991.html",
+  "title": "5 Big-Name Bankruptcies of 2012",
+  "时间": "2013-02-27T05:16:08+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Hostess Brands",
+    "Eastman Kodak Company",
+    "American Suzuki Motor Corporation",
+    "Consumer Goods"
+  ],
+  "主要内容": "Hostess Brands, Kodak, and American Suzuki Motor Corporation filed for bankruptcy protection in 2012. Kodak sought Chapter 11 reorganization to repay debts, with an $830 million agreement approved, pending sale of its digital imaging patents. American Suzuki planned to realign its business by ceasing new car sales and focusing on parts and motorcycle/ATV/marine divisions.",
+  "股票实体": [
+    {
+      "名称": "Hostess Brands",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Eastman Kodak Company",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "American Suzuki Motor Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Consumer Goods",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:09:20.143586+00:00",
+    "fetched_at": "2026-11-12T18:17:18.807604+00:00",
+    "feature_available_at": "2026-11-12T18:17:34.248008+00:00",
+    "availability_basis": "extraction"
+  }
+}

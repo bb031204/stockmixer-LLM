@@ -1,0 +1,31 @@
+{
+  "source_id": "97bb9be39e5ff3cf86d555f1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-13-005248-index.html",
+  "title": null,
+  "时间": "2013-09-16",
+  "分类": "corporate_action",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Banking",
+    "Credit Commitment"
+  ],
+  "主要内容": "Royal Bank of Canada (the “Issuer”) and RBC Covered Bond Guarantor Limited Partnership (the “Guarantor LP”) executed the Agreement to (i) increase the total credit commitment under the agreement from $25 billion to $40 billion, and (ii) provide for the full amount of the total credit commitment under the agreement to be available to the Guarantor LP on a revolving basis.",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.153580+00:00",
+    "fetched_at": "2026-11-14T07:32:20.146693+00:00",
+    "feature_available_at": "2026-11-14T07:32:42.679114+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "source_id": "56e0167ed39fbb0c7a7c5991",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001316/0001654954-19-003766-index.html",
+  "title": null,
+  "时间": "2019-04-01",
+  "分类": "pharmaceutical",
+  "关键词": [
+    "TG Therapeutics",
+    "NASDAQ: TGTX",
+    "marginal zone lymphoma",
+    "umbralisib",
+    "clinical trial",
+    "overall response rate",
+    "Breakthrough Therapy Designation",
+    "TG Therapeutics, Inc.",
+    "TGTX"
+  ],
+  "主要内容": "TG Therapeutics, Inc. (NASDAQ: TGTX) reported interim data from its Phase 2b clinical trial UNITY-NHL at the 2019 AACR Annual Meeting. The trial enrolled 69 patients with relapsed or refractory marginal zone lymphoma (MZL) who had received prior treatment with one or more lines of therapy, including at least one anti-CD20 regimen. Interim data showed an overall response rate (ORR) of 52% (N=42), with a complete response (CR) rate of 19% and a partial response rate of 33%. Safety data indicated no unexpected toxicities, with common adverse events including diarrhea, nausea, and fatigue. Grade 3 or higher events included neutropenia, diarrhea, and ALT/AST increases in 13%, 10%, and 10% of patients, respectively. The company highlighted the risk that final results may show lower ORR and/or increased toxicities, which could prevent regulatory filing.",
+  "股票实体": [
+    {
+      "名称": "TG Therapeutics, Inc.",
+      "股票代码": "TGTX",
+      "交易所": "NASDAQ"
+    },
+    {
+      "名称": "TG Therapeutics",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Biopharmaceuticals",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.107122+00:00",
+    "fetched_at": "2026-11-13T00:05:09.475093+00:00",
+    "feature_available_at": "2026-11-13T00:08:53.106763+00:00",
+    "availability_basis": "extraction"
+  }
+}

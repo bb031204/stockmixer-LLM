@@ -1,0 +1,54 @@
+{
+  "source_id": "87669fa05f915bf1e22359a0",
+  "url": "https://www.prnewswire.com/news-releases/synopsys-acquires-rsoft-design-group-150674315.html",
+  "title": "Synopsys Acquires RSoft Design Group",
+  "时间": "2012-05-08T10:33:00+01:00",
+  "分类": "M&A",
+  "关键词": [
+    "Synopsys",
+    "RSoft Design Group",
+    "EDA",
+    "Optical Design",
+    "Photonic Technologies",
+    "SNPS"
+  ],
+  "主要内容": "Synopsys completed the acquisition of RSoft Design Group, a provider of photonics design and simulation software. The acquisition extends Synopsys' platform to provide optical solutions and supports new technologies. The deal terms were not disclosed. Synopsys acquired RSoft to expand its presence in optical design and photonic technologies. The acquisition complements Synopsys' TCAD Sentaurus portfolio by adding capabilities in optical waveguide modeling and other photonic areas. RSoft's software is used for designing and optimizing optical telecommunications components and systems. It also models nano-scale optical structures to improve light extraction efficiency in applications like LED structures, displays, and solar cells, as well as increase optical data storage capacity. Synopsys is a global leader in electronic design automation (EDA), providing software, IP, and services for semiconductor design, verification, and manufacturing. The acquisition is expected to strengthen Synopsys' position in optical design and support its growth strategy. Securities explicitly mentioned in the source include SNPS.",
+  "股票实体": [
+    {
+      "名称": "Synopsys",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "RSoft Design Group",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "SNPS",
+      "交易所": "Nasdaq"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor & Design Software",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Semiconductor",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:07:16.553901+00:00",
+    "fetched_at": "2026-11-13T21:25:49.357035+00:00",
+    "feature_available_at": "2026-11-13T21:27:08.201394+00:00",
+    "availability_basis": "extraction"
+  }
+}

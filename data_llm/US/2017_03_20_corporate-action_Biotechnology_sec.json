@@ -1,0 +1,25 @@
+{
+  "source_id": "c551113c0d31adba0bffad31",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001233/0001193125-17-089495-index.html",
+  "title": null,
+  "时间": "2017-03-20",
+  "分类": "corporate_action",
+  "关键词": [
+    "Sangamo Therapeutics, Inc.",
+    "Biotechnology",
+    "Severance Benefits"
+  ],
+  "主要内容": "Sangamo Therapeutics, Inc. announced severance benefits for eligible employees, including cash payments ranging from 6 to 12 months of base salary and COBRA reimbursement for health care coverage. The Chief Executive Officer, Sandy Macrae, is eligible for 18 months of base salary and target bonus, payable over 12 months, along with 12 months of COBRA reimbursement and full acceleration of equity awards in case of involuntary termination during the Change in Control Period. The Chief Financial Officer, Kathy Yi, is also eligible for similar benefits.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:10.447076+00:00",
+    "fetched_at": "2026-11-13T04:46:54.991027+00:00",
+    "feature_available_at": "2026-11-13T04:47:31.918050+00:00",
+    "availability_basis": "extraction"
+  }
+}

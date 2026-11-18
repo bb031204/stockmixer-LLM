@@ -1,0 +1,38 @@
+{
+  "source_id": "a97334851a5eb89c5118deda",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-16-012220-index.html",
+  "title": null,
+  "时间": "2016-06-16",
+  "分类": "corporate_action",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Banking",
+    "Asset Monitor",
+    "PricewaterhouseCoopers LLP"
+  ],
+  "主要内容": "Royal Bank of Canada (the “Bank”) and RBC Covered Bond Guarantor Limited Partnership (collectively, the “Registrants”) have amended and restated Exhibit 4.4 to reflect the appointment of a new Asset Monitor for their U.S.$ $15,000,000,000 global covered bond programme. Deloitte LLP resigned as Asset Monitor effective May 31, 2016, and PricewaterhouseCoopers LLP was appointed as the new Asset Monitor on substantially the same terms and conditions. The amended and restated asset monitor agreement was dated May 31, 2016, and amends the original agreement made on October 25, 2007.",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.423609+00:00",
+    "fetched_at": "2026-11-12T19:34:19.644540+00:00",
+    "feature_available_at": "2026-11-12T19:35:05.758532+00:00",
+    "availability_basis": "extraction"
+  }
+}

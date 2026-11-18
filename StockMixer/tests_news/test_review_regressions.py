@@ -16,7 +16,8 @@ import torch
 
 from news_fusion import experiment
 from news_fusion.io import digest, digest_file, file_manifest, verify_files, write_json
-from news_fusion.protocol import MarketData, TargetSplit, backbone_contract, configuration, positive_train_scale, validate_config
+from news_fusion.protocol import MarketData, TargetSplit, backbone_contract, positive_train_scale, validate_config
+from tests_news.baseline_fixture import configuration
 from news_fusion.time_axis import Axis, Schedule
 
 
@@ -206,7 +207,7 @@ class CliAndCheckpointRegressionTests(unittest.TestCase):
         with contextlib.redirect_stdout(io.StringIO()),patch.object(experiment,"predict",return_value={}) as predict:
             experiment.main(["--dataset","SP500","predict","--checkpoint","a","--output","b"])
             self.assertEqual(predict.call_args.kwargs["dataset"],"SP500")
-        with contextlib.redirect_stdout(io.StringIO()),patch.object(experiment,"train",return_value={}) as train:
+        with contextlib.redirect_stdout(io.StringIO()),patch.object(experiment,"configuration",configuration),patch.object(experiment,"train",return_value={}) as train:
             experiment.main(["train","--data","a","--output","b","--baseline=c"],required_mode="fusion")
             self.assertEqual(train.call_args.args[-2],Path("c"))
 

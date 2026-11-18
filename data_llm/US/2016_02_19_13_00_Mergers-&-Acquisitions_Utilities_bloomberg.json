@@ -1,0 +1,39 @@
+{
+  "source_id": "ab5bb4942d8fd7fc27061894",
+  "url": "https://www.bloomberg.com/opinion/articles/2016-02-19/cleco-deal-shows-plight-of-infrastructure-investors-in-america",
+  "title": "Forlorn in the U.S.A.",
+  "时间": "2016-02-19T13:00:15.887000+00:00",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Cleco",
+    "Louisiana",
+    "takeover",
+    "infrastructure investors",
+    "state-approved transactions"
+  ],
+  "主要内容": "The pending takeover of Louisiana utility Cleco highlights the challenges faced by infrastructure investors in the U.S., emphasizing the need for long-term commitment when dealing with state-approved transactions. The $3.4 billion take-private deal, announced in October 2014, has not closed as planned, with a targeted closure date in the second half of 2015. The Louisiana Public Service Commission could decide its fate as soon as Wednesday.",
+  "股票实体": [
+    {
+      "名称": "Cleco",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "utilities",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-14T05:13:55.799384+00:00",
+    "feature_available_at": "2026-11-14T05:14:18.029499+00:00",
+    "availability_basis": "extraction"
+  }
+}

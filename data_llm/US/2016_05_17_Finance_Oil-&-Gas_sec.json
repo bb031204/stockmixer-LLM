@@ -1,0 +1,38 @@
+{
+  "source_id": "746c5d7b924a33b926e28290",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001193125-16-592857-index.html",
+  "title": null,
+  "时间": "2016-05-17",
+  "分类": "Finance",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Credit Suisse Securities (USA) LLC",
+    "Underwriting Agreement",
+    "Firm Share Offering",
+    "revolving credit facility"
+  ],
+  "主要内容": "On May 11, 2016, Core Laboratories N.V. entered into an Underwriting Agreement with Credit Suisse Securities (USA) LLC. The Company granted the Underwriter a 30-day option to purchase up to 221,250 additional shares of its common stock at the Purchase Price. The Company intends to use the estimated net proceeds from the Firm Share Offering of approximately $171.4 million to repay a portion of the outstanding borrowings under the Company’s revolving credit facility. The Firm Share Offering closed on May 17, 2016.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Credit Suisse Securities (USA) LLC",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.423609+00:00",
+    "fetched_at": "2026-11-12T19:20:39.793657+00:00",
+    "feature_available_at": "2026-11-12T19:21:19.995960+00:00",
+    "availability_basis": "extraction"
+  }
+}

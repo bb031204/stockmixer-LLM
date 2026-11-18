@@ -1,0 +1,37 @@
+{
+  "source_id": "f12723c884d9e2e46698defc",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-16-002836-index.html",
+  "title": null,
+  "时间": "2016-05-20",
+  "分类": "financial",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "NYSE: BAM",
+    "TSX: BAM.A",
+    "Euronext: BAMA",
+    "Class A Limited Voting Shares",
+    "normal course issuer bid",
+    "public float",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. (NYSE: BAM; TSX: BAM.A; Euronext: BAMA) received approval from the Toronto Stock Exchange for its proposed normal course issuer bid to purchase up to 83,751,863 Class A Limited Voting Shares, representing 10% of the public float. The bid period will extend from May 24, 2016, to May 23, 2017, or an earlier date if purchases are completed. All shares acquired will be cancelled or purchased by a non-independent trustee under a long-term incentive plan. As of May 9, 2016, the total number of Class A Shares issued and outstanding was 986,983,551, with 837,518,635 shares representing the public float. The company plans to enter an automatic purchase plan around June 27, 2016, to buy shares during periods when it would otherwise not be active in the market. The weighted average price paid per share under the bid was US$31.64.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.425606+00:00",
+    "fetched_at": "2026-11-12T20:08:23.426467+00:00",
+    "feature_available_at": "2026-11-12T20:09:24.431314+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "source_id": "f2503e7c792743c58526044e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001039/0001104659-17-043240-index.html",
+  "title": null,
+  "时间": "2017-07-03",
+  "分类": "Finance",
+  "关键词": [
+    "The Walt Disney Company",
+    "Notes Due 2027",
+    "2.950%",
+    "Senior Debt Securities Indenture",
+    "Form S-3",
+    "Wells Fargo Bank, National Association"
+  ],
+  "主要内容": "The Walt Disney Company issued $250,000,000 in 2.950% Notes Due 2027, fungible with previously issued Existing Notes. The New Notes were offered at 99.163% of par, with net proceeds of 98.893% of par after underwriting discounts. The issuance is part of a $750,000,000 aggregate principal amount of 2.950% Notes Due 2027. The notes were issued under a Senior Debt Securities Indenture dated September 24, 2001, and registered under the Securities Act of 1933, as amended. The issuance was supported by an opinion from White & Case LLP, and the terms agreement was dated June 29, 2017.",
+  "股票实体": [
+    {
+      "名称": "The Walt Disney Company",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Wells Fargo Bank, National Association",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Entertainment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.016472+00:00",
+    "fetched_at": "2026-11-14T13:18:13.695778+00:00",
+    "feature_available_at": "2026-11-14T13:18:54.982906+00:00",
+    "availability_basis": "extraction"
+  }
+}

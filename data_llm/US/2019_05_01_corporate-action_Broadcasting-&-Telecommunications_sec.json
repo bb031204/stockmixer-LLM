@@ -1,0 +1,37 @@
+{
+  "source_id": "9061711d27fd0e1971e1409f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001001082-19-000006-index.html",
+  "title": null,
+  "时间": "2019-05-01",
+  "分类": "corporate_action",
+  "关键词": [
+    "DISH Network CORP",
+    "Broadcasting & Telecommunications",
+    "KPMG LLP",
+    "2019 Stock Incentive Plan"
+  ],
+  "主要内容": "DISH Network CORP announced on May 1, 2019, the ratification of the appointment of KPMG LLP as its auditor, with 2,594,489,370 votes in favor, 1,025,740 against, and 107,909 abstentions. The company also approved the 2019 Stock Incentive Plan, receiving 2,454,052,186 votes in favor, 128,821,106 against, and 70,854 abstentions. The report was signed by Timothy A. Messner, Executive Vice President and General Counsel.",
+  "股票实体": [
+    {
+      "名称": "KPMG LLP",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "2019 Stock Incentive Plan",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.106122+00:00",
+    "fetched_at": "2026-11-12T23:40:11.086319+00:00",
+    "feature_available_at": "2026-11-12T23:40:40.375757+00:00",
+    "availability_basis": "extraction"
+  }
+}

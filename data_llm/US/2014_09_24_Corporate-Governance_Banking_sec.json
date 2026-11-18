@@ -1,0 +1,39 @@
+{
+  "source_id": "acd9d7b1846650b4b7b6e726",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001171/0001104659-14-067974-index.html",
+  "title": null,
+  "时间": "2014-09-24",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Broadway Financial Corporation",
+    "Ruth McCloud",
+    "Senior Vice President",
+    "Chief Retail Banking Officer",
+    "Banking",
+    "Southern California"
+  ],
+  "主要内容": "Broadway Financial Corporation (NASDAQ Capital Market: BYFC) announced that Ruth McCloud has joined the Company and the Bank as Senior Vice President, Chief Retail Banking Officer. Wayne-Kent Bradshaw, President and Chief Executive Officer, stated that Ruth McCloud has an outstanding track record of success and a wealth of experience that will complement the expertise of the other members of the team. Broadway Financial Corporation operates through its wholly-owned subsidiary, Broadway Federal Bank, f.s.b., which is the leading community-oriented savings bank in Southern California serving low-to-moderate income communities. The Bank operates three full service branches, two in the city of Los Angeles, and one located in the nearby city of Inglewood, California.",
+  "股票实体": [
+    {
+      "名称": "Broadway Financial Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.192430+00:00",
+    "fetched_at": "2026-11-14T16:05:52.945417+00:00",
+    "feature_available_at": "2026-11-14T16:06:35.284899+00:00",
+    "availability_basis": "extraction"
+  }
+}

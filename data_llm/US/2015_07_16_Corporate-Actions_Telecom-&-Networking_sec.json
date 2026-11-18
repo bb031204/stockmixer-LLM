@@ -1,0 +1,40 @@
+{
+  "source_id": "9e591363252af0c9899a3279",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-15-013639-index.html",
+  "title": null,
+  "时间": "2015-07-16",
+  "分类": "Corporate Actions",
+  "关键词": [
+    "Optical Cable Corporation",
+    "OCC",
+    "dividend",
+    "quarterly",
+    "cash",
+    "common stock",
+    "financial position"
+  ],
+  "主要内容": "On July 16, 2015, Optical Cable Corporation (OCC) declared a regular quarterly cash dividend of $0.02 per share on its common stock, effective July 15, 2015. The dividend will be paid on or about August 14, 2015 to shareholders of record on July 29, 2015, implying an annual cash dividend of $0.08 per common share. The dividend announcement is part of the company's regular corporate actions and reflects its financial position at the time of the filing. The company's Senior Vice President and Chief Financial Officer, Tracy G. Smith, signed the report on July 16, 2015. OCC provides a wide range of products for various applications, including commercial, enterprise network, datacenter, residential, and campus installations, as well as customized solutions for specialty applications and harsh environments such as military, industrial, mining, petrochemical, wireless carrier, and broadcast sectors.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecom Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.872809+00:00",
+    "fetched_at": "2026-11-14T07:27:32.390880+00:00",
+    "feature_available_at": "2026-11-14T07:28:30.049876+00:00",
+    "availability_basis": "extraction"
+  }
+}

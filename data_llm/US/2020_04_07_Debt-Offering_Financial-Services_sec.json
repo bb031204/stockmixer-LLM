@@ -1,0 +1,46 @@
+{
+  "source_id": "cbb88f48c84663e483f33f1d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-20-002461-index.html",
+  "title": null,
+  "时间": "2020-04-07",
+  "分类": "Debt Offering",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Brookfield Finance Inc.",
+    "US$600 million",
+    "notes due 2030",
+    "4.350% coupon",
+    "4.362% effective yield",
+    "April 9, 2020"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. announced the pricing of a US$600 million debt offering of notes due 2030 with a coupon of 4.350% and an effective yield of 4.362%. The notes will be issued by Brookfield Finance Inc., an indirect subsidiary, and fully guaranteed by Brookfield. The offering is expected to close on or about April 9, 2020. Brookfield Finance Inc. is offering notes under its existing base shelf prospectus filed in the United States and Canada. In the U.S., the offering is pursuant to an effective registration statement filed with the SEC on January 31, 2020, amended on February 11, 2020. The offering will be made only through a prospectus supplement. Investors may obtain documents for free on EDGAR or SEDAR. This release does not constitute an offer to sell or the solicitation of an offer to buy the notes, nor shall there be any sale in jurisdictions where such offer, solicitation, or sale would be unlawful prior to registration or qualification under the securities laws of such jurisdiction.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Brookfield Finance Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.477289+00:00",
+    "fetched_at": "2026-11-13T01:30:58.012282+00:00",
+    "feature_available_at": "2026-11-13T01:31:49.577306+00:00",
+    "availability_basis": "extraction"
+  }
+}

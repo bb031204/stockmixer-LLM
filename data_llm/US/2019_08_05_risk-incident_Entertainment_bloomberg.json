@@ -1,0 +1,36 @@
+{
+  "source_id": "65cd2bfbc4d3e5d03a31bb00",
+  "url": "https://www.bloomberg.com/news/articles/2019-08-05/luxury-movie-theater-chain-ipic-files-for-chapter-11-bankruptcy",
+  "title": "Luxury Movie Theater Chain IPic Files Chapter 11 Bankruptcy",
+  "时间": "2019-08-05",
+  "分类": "risk_incident",
+  "关键词": [
+    "iPic Entertainment Inc.",
+    "Entertainment",
+    "bankruptcy"
+  ],
+  "主要内容": "iPic Entertainment Inc. filed for bankruptcy in Delaware and may sell itself less than two years after its initial public offering. The Boca Raton, Florida-based chain owes about $205 million under a secured credit line and as much as $15 million to various vendors, suppliers and other unsecured creditors, proposed financial adviser David M. Baker of Aurora Management Partners said in a Chapter 11 declaration. The company lost about $57 million in 2018, filings show.",
+  "股票实体": [
+    {
+      "名称": "iPic Entertainment Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Entertainment",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:10:07.358739+00:00",
+    "fetched_at": "2026-11-12T18:37:54.039249+00:00",
+    "feature_available_at": "2026-11-12T18:38:08.782778+00:00",
+    "availability_basis": "extraction"
+  }
+}

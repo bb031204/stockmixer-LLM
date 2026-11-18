@@ -1,0 +1,59 @@
+{
+  "source_id": "b6a2f60bca04a3211fdecc50",
+  "url": "https://investorplace.com/2016/03/3-stocks-to-watch-on-thursday-fedex-corporation-fdx-jabil-circuit-inc-jbl-and-williams-sonoma-inc-wsm/",
+  "title": "3 Stocks to Watch on Thursday: FedEx Corporation (FDX), Jabil Circuit, Inc. (JBL) and Williams-Sonoma, Inc. (WSM)",
+  "时间": "2016-03-17T11:53:00+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "FedEx Corporation",
+    "Williams-Sonoma, Inc.",
+    "Logistics",
+    "Consumer Goods",
+    "FDX",
+    "WSM",
+    "JBL"
+  ],
+  "主要内容": "FedEx Corporation (FDX) shares rose on Wednesday following the release of better-than-expected fiscal third-quarter results. The company reported earnings per share of $2.51 on revenue of $12.7 billion, exceeding Wall Street estimates of $2.34 per share on $12.38 billion. The revenue growth was driven by increased demand for its services, strong sales in its ground business, and lower fuel and currency exchange rates. FDX shares were expected to open 5% higher on Thursday, continuing a 10% rebound from a mid-February decline. Williams-Sonoma, Inc. (WSM) shares also declined in premarket action due to earnings performance. The company reported fourth-quarter earnings of $1.55 per share and revenue of $1.59 billion, both slightly below estimates of $1.58 per share and $1.62 billion, respectively. First-quarter earnings guidance of 48 to 52 cents per share also missed the Street's expectation of 55 cents. Securities explicitly mentioned in the source include JBL.",
+  "股票实体": [
+    {
+      "名称": "FedEx Corporation",
+      "股票代码": "FDX",
+      "交易所": null
+    },
+    {
+      "名称": "Williams-Sonoma, Inc.",
+      "股票代码": "WSM",
+      "交易所": "NYSE"
+    },
+    {
+      "名称": null,
+      "股票代码": "JBL",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Logistics",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Consumer Discretionary",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Retail",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T02:42:32.827331+00:00",
+    "fetched_at": "2026-11-13T20:16:06.027717+00:00",
+    "feature_available_at": "2026-11-13T20:16:53.300868+00:00",
+    "availability_basis": "extraction"
+  }
+}

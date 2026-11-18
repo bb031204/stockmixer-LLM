@@ -1,0 +1,30 @@
+{
+  "source_id": "b8e2ca11a3eef5df241c499b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-18-007195-index.html",
+  "title": null,
+  "时间": "2018-06-04",
+  "分类": "corporate_action",
+  "关键词": [
+    "Blonder Tongue Laboratories Inc",
+    "Electronics",
+    "Termination of a Material Definitive Agreement"
+  ],
+  "主要内容": "Blonder Tongue Laboratories Inc received notice on May 29, 2018, that Mountainblue Jake Brown Realty LLC was exercising its right to terminate the previously-announced Agreement of Sale between the parties. The Sale Agreement involved the sale of the Company’s Old Bridge, New Jersey facility and a leaseback arrangement for a portion of the facility. The Company intends to continue pursuing the sale of the Old Bridge Facility through a sale/leaseback or outright sale transaction.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.880895+00:00",
+    "fetched_at": "2026-11-12T22:28:06.186374+00:00",
+    "feature_available_at": "2026-11-12T22:28:20.501358+00:00",
+    "availability_basis": "extraction"
+  }
+}

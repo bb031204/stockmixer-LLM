@@ -1,0 +1,47 @@
+{
+  "source_id": "acd17d6cb9d34294167cd0de",
+  "url": "https://finance.yahoo.com/news/discount-coupons-changes-name-company-171615722.html",
+  "title": "Discount Coupons Changes Name of The Company to Ecom Products Group",
+  "时间": "2016-11-11T17:16:15+00:00",
+  "分类": "Corporate Restructuring",
+  "关键词": [
+    "Discount Coupons Corporation",
+    "Ecom Products Group",
+    "Daily Deal",
+    "Product Distribution",
+    "CPA Marketing Model"
+  ],
+  "主要内容": "Discount Coupons Corporation announced a name change to Ecom Products Group, reflecting a shift from a daily deal business to a product offering company. The change was approved by Florida and the company is updating regulatory agencies and applying for a new ticker symbol. The company has shifted its core focus to product distribution relationships that align with customers. It operates in two segments: daily deal site management and full-service digital marketing agency services. Daily deal websites sell discounted vouchers to consumers, typically at 50% off retail pricing, which are redeemed at websites or local businesses. Businesses benefit from a Cost Per Acquisition (CPA) marketing model where they pay a set fee per voucher sold.",
+  "股票实体": [
+    {
+      "名称": "Discount Coupons Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Ecom Products Group",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "E-commerce",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Internet marketing",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:12:05.620221+00:00",
+    "fetched_at": "2026-11-14T00:57:08.896251+00:00",
+    "feature_available_at": "2026-11-14T00:57:48.321910+00:00",
+    "availability_basis": "extraction"
+  }
+}

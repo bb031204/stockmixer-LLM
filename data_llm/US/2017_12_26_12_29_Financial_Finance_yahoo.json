@@ -1,0 +1,47 @@
+{
+  "source_id": "de28c058e41bcc2441059193",
+  "url": "https://finance.yahoo.com/news/2017-year-financial-crisis-officially-ended-122917711.html",
+  "title": "2017 is the year the financial crisis officially ended",
+  "时间": "2017-12-26T12:29:17+00:00",
+  "分类": "Financial",
+  "关键词": [
+    "Federal Reserve",
+    "interest rates",
+    "asset purchases",
+    "Trump administration",
+    "banking regulations",
+    "stock market",
+    "cryptocurrencies",
+    "labor market",
+    "unemployment rate",
+    "consumer confidence",
+    "corporate tax cut",
+    "economic expansion",
+    "European Central Bank",
+    "monetary policy",
+    "yield curve"
+  ],
+  "主要内容": "The Federal Reserve raised interest rates three times in 2017 and began winding down its crisis-era asset purchases. The Trump administration discussed rolling back post-crisis banking regulations. The stock market reached record highs, with cryptocurrencies experiencing significant growth. The labor market continued to expand, with the unemployment rate at a 17-year low of 4.1%. Consumer and business confidence reached cycle highs. Congress approved a major corporate tax cut. The Fed expects to raise interest rates three times in 2018, shifting its policy stance from normalizing rates to tightening. The European Central Bank plans to slow its asset purchases, marking a shift in global credit dynamics. A new era of monetary policy is emerging, with stocks rallying to records and cryptocurrencies growing. However, potential economic downturns and a flattening or inverting yield curve are expected to be major market stories in 2018.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Finance",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T17:43:36.947397+00:00",
+    "fetched_at": "2026-11-13T19:25:22.146816+00:00",
+    "feature_available_at": "2026-11-13T19:26:07.873379+00:00",
+    "availability_basis": "extraction"
+  }
+}

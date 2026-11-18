@@ -1,0 +1,31 @@
+{
+  "source_id": "8922a7cd36cfb372ef61c479",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001307942-16-000054-index.html",
+  "title": null,
+  "时间": "2016-05-27",
+  "分类": "corporate_action",
+  "关键词": [
+    "BLONDER TONGUE LABORATORIES INC",
+    "Healthcare",
+    "Convertible indebtedness",
+    "Private Placement"
+  ],
+  "主要内容": "Stockholders approved a proposal to permit the issuance of shares of the Company’s common stock upon conversion of certain convertible indebtedness pursuant to the requirements of the NYSE MKT “Private Placement” Rule FOR AGAINST ABSTAIN 3,656,182 488,790 700 2 (vi) Advisory vote on executive compensation. Stockholders passed an advisory resolution to approve the Company’s executive compensation. FOR AGAINST ABSTAIN 3,101,443 742,929 301,300 (vii) Ratification of Independent Registered Public Accounting Firm. Stockholders approved a proposal to ratify the appointment of Marcum LLP, certified public accountants, as the Company’s independent registered public accounting firm for the fiscal year ending December 31, 2016. FOR AGAINST ABSTAIN 5,732,158 500,137 15,377 3",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.424607+00:00",
+    "fetched_at": "2026-11-12T19:43:44.600005+00:00",
+    "feature_available_at": "2026-11-12T19:44:12.330954+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source_id": "bd2c3d0595ff5f890bd592b8",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-16-531992-index.html",
+  "title": null,
+  "时间": "2016-04-06",
+  "分类": "corporate_action",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Banking",
+    "Appointment of Auditor"
+  ],
+  "主要内容": "Royal Bank of Canada appointed PricewaterhouseCoopers LLP as its auditor. Shareholders voted overwhelmingly in favor of the appointment, with 99.70% of votes cast in favor. The vote for the auditor received 781,644,227 votes in favor and 2,371,293 votes withheld. Other shareholder votes included advisory votes on executive compensation, amendments to by-laws regarding board compensation, and proposals on financial reporting simplification.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.423609+00:00",
+    "fetched_at": "2026-11-12T19:28:54.566429+00:00",
+    "feature_available_at": "2026-11-12T19:29:16.061214+00:00",
+    "availability_basis": "extraction"
+  }
+}

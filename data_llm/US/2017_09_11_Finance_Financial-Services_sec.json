@@ -1,0 +1,39 @@
+{
+  "source_id": "640b9d9b5e6358c81352b8c6",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-17-005483-index.html",
+  "title": null,
+  "时间": "2017-09-11",
+  "分类": "Finance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Brookfield Finance Inc.",
+    "US$500 million",
+    "notes due 2047",
+    "Deutsche Bank Securities Inc.",
+    "HSBC Securities (USA) Inc."
+  ],
+  "主要内容": "Brookfield Asset Management Inc. filed Form 6-K with the SEC on September 11, 2017, as part of its regulatory reporting obligations under the Securities Exchange Act of 1934. The filing includes documents related to the company's regulatory compliance and disclosures, signed by Brian D. Lawson on behalf of Brookfield Asset Management Inc. The company also announced a proposed public offering of US$500 million in notes due 2047, issued by Brookfield Finance Inc., a subsidiary of Brookfield, with full and unconditional guarantee from Brookfield. The net proceeds will be used for general corporate purposes. Deutsche Bank Securities Inc. and HSBC Securities (USA) Inc. are acting as joint book-running managers for the offering. The notes will be offered under Brookfield Finance Inc.’s existing base shelf prospectus filed in the United States and Canada.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.017470+00:00",
+    "fetched_at": "2026-11-14T16:27:58.337313+00:00",
+    "feature_available_at": "2026-11-14T16:36:58.764823+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "source_id": "5a0fe380f8369ff38b5f698f",
+  "url": "https://www.bloomberg.com/news/articles/2016-02-04/tableau-software-shares-plummet-as-license-revenue-falls-short",
+  "title": "Tableau's Plunge Drags Salesforce, Workday on Growth Concern",
+  "时间": "2016-02-04T22:09:31.468000+00:00",
+  "分类": "stock",
+  "关键词": [
+    "Tableau Software Inc.",
+    "Workday",
+    "software",
+    "stock",
+    "decline",
+    "Salesforce.com Inc.",
+    "Adobe Systems Inc.",
+    "Workday Inc.",
+    "Adobe"
+  ],
+  "主要内容": "Tableau Software Inc. experienced a significant drop in its value after failing to meet fourth-quarter estimates, which led to a broader decline in the software sector. The company's license revenue fell below expectations for the first time since its 2013 initial public offering, according to Abhey Lamba, an analyst at Mizuho Securities USA Inc. This underperformance triggered a sharp decline in shares of major software companies, including Workday, which saw its stock drop by 16 percent, marking its largest single-day decline since October 2012. Salesforce.com and Adobe Systems also faced substantial declines, with Salesforce falling 13 percent and Adobe dropping 8.3 percent.",
+  "股票实体": [
+    {
+      "名称": "Tableau Software Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Salesforce.com Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Adobe Systems Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Workday Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Workday",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Adobe",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Software",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-13T22:25:47.943921+00:00",
+    "feature_available_at": "2026-11-13T22:56:10.241086+00:00",
+    "availability_basis": "extraction"
+  }
+}

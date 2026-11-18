@@ -1,0 +1,43 @@
+{
+  "source_id": "ce5855b55b26ecdd8a955b88",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001564590-21-032560-index.html",
+  "title": null,
+  "时间": "2021-06-11",
+  "分类": "Corporate Action",
+  "关键词": [
+    "Nicholas Financial, Inc.",
+    "Boise, Idaho",
+    "branch expansion",
+    "corporate strategy",
+    "market presence",
+    "NICK"
+  ],
+  "主要内容": "Nicholas Financial, Inc. (NASDAQ: NICK) announced the expansion of its branch network in Boise, Idaho, as part of its corporate strategy to enhance market presence. The company opened its first Idaho branch on June 15, 2021, with a grand opening event including an open house and ribbon-cutting ceremony. The branch is located at 950 Fairview, Suite 170, Meridian, ID. The CEO expressed enthusiasm for the Boise market's growth and the company's commitment to expanding its branch network. Nicholas Financial, Inc. also noted its licensing in Arizona, New Mexico, and Texas, with expansion efforts underway in those states.",
+  "股票实体": [
+    {
+      "名称": "Nicholas Financial, Inc.",
+      "股票代码": "NICK",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Auto Lending",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Consumer Finance",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:47.198638+00:00",
+    "fetched_at": "2026-11-14T11:47:55.724467+00:00",
+    "feature_available_at": "2026-11-14T11:48:37.861135+00:00",
+    "availability_basis": "extraction"
+  }
+}

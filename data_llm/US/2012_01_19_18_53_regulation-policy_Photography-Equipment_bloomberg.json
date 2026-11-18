@@ -1,0 +1,37 @@
+{
+  "source_id": "dd3164c1ccfa0b01e055d336",
+  "url": "https://www.bloomberg.com/news/articles/2012-01-19/kodak-photography-pioneer-files-for-bankruptcy-protection-1-",
+  "title": "Kodak Files for Bankruptcy as Digital Era Spells End to Film",
+  "时间": "2012-01-19T18:53:45.959000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Eastman Kodak Co.",
+    "Photography Equipment",
+    "Bankruptcy"
+  ],
+  "主要内容": "Eastman Kodak Co., the photography pioneer that introduced the Brownie Camera more than a century ago, filed for bankruptcy after consumers embraced digital cameras, a technology Kodak invented and failed to commercialize. The Rochester, New York-based company, which traces its roots to 1880, listed assets of $5.1 billion and debt of $6.8 billion in Chapter 11 documents filed in U.S. Bankruptcy Court in Manhattan.",
+  "股票实体": [
+    {
+      "名称": "Eastman Kodak Co.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Photography Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:09:17.368890+00:00",
+    "fetched_at": "2026-11-12T18:16:37.831089+00:00",
+    "feature_available_at": "2026-11-12T18:16:51.032517+00:00",
+    "availability_basis": "extraction"
+  }
+}

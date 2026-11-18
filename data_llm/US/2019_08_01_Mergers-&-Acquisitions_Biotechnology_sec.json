@@ -1,0 +1,51 @@
+{
+  "source_id": "98901f542937ab236f097292",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-19-037216-index.html",
+  "title": null,
+  "时间": "2019-08-01",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Catalent Biologics",
+    "Novavax",
+    "Paragon Bioservices",
+    "biomanufacturing",
+    "clinical trials",
+    "Paragon Gene Therapy",
+    "NVAX"
+  ],
+  "主要内容": "On June 26, 2019, Novavax, Inc. entered into an asset purchase agreement with Paragon Bioservices, Inc., a unit of Catalent Biologics, to sell certain assets related to its biomanufacturing and development activities. The transaction was consummated on July 31, 2019, with Paragon purchasing Novavax manufacturing equipment and related assets for approximately $18 million, assuming property leases for two Novavax product development and manufacturing facilities, and hiring over 100 of Novavax’ highly qualified manufacturing and quality employees. The deal reduces Novavax’s operating costs while preserving its proprietary manufacturing capabilities. Projected cost savings from personnel and lease transfers, along with cash infusion from asset purchases, will allow Novavax to conduct a pivotal Phase 3 clinical trial for NanoFlu, scheduled to start in Q3 2019. Securities explicitly mentioned in the source include NVAX.",
+  "股票实体": [
+    {
+      "名称": "Catalent Biologics",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Paragon Gene Therapy",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "NVAX",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:11.709092+00:00",
+    "fetched_at": "2026-11-14T13:21:12.701129+00:00",
+    "feature_available_at": "2026-11-14T13:29:59.312563+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source_id": "b4fb9e2812420cd1db121b69",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001193125-17-231164-index.html",
+  "title": null,
+  "时间": "2017-07-19",
+  "分类": "corporate_action",
+  "关键词": [
+    "Nicholas Financial Inc",
+    "Financial Services",
+    "Director Resignation"
+  ],
+  "主要内容": "On July 13, 2017, Todd Pfister informed Nicholas Financial, Inc. that he will not be standing for reelection as a director at the upcoming 2017 Annual General Meeting of Shareholders. Mr. Pfister will continue to serve as a director until such meeting. The Nominating/Corporate Governance Committee of the Board of Directors of the Company is in the process of evaluating a potential replacement for Mr. Pfister.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.015462+00:00",
+    "fetched_at": "2026-11-14T03:29:16.216138+00:00",
+    "feature_available_at": "2026-11-14T03:29:38.232232+00:00",
+    "availability_basis": "extraction"
+  }
+}

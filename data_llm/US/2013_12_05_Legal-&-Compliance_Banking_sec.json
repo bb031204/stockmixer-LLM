@@ -1,0 +1,38 @@
+{
+  "source_id": "b08753f87167212f9124bd0a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-13-462793-index.html",
+  "title": null,
+  "时间": "2013-12-05",
+  "分类": "Legal & Compliance",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Iran-related activities",
+    "economic sanctions compliance program",
+    "non-U.S. dollar denominated accounts",
+    "Ontario court order",
+    "civil litigation"
+  ],
+  "主要内容": "Royal Bank of Canada disclosed Iran-related activities under the Securities Exchange Act of 1934. The bank maintains a robust economic sanctions compliance program and has been in compliance with relevant legislation throughout fiscal 2013. It holds non-U.S. dollar denominated accounts for the Embassy of the Islamic Republic of Iran in Canada, which generated less than $7,000 in gross revenues and less than $4,000 in net income during fiscal 2013. Certain accounts are frozen by Ontario court order in connection with civil litigation. The bank is considering options for discontinuing the accounts, subject to court obligations.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:25.714283+00:00",
+    "fetched_at": "2026-11-14T11:32:00.962431+00:00",
+    "feature_available_at": "2026-11-14T11:33:22.454082+00:00",
+    "availability_basis": "extraction"
+  }
+}

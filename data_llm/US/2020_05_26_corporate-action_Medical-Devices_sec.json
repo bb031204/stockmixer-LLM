@@ -1,0 +1,33 @@
+{
+  "source_id": "b29d4c4613ad914fd7a2c834",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-20-013457-index.html",
+  "title": null,
+  "时间": "2020-05-26",
+  "分类": "corporate_action",
+  "关键词": [
+    "BLONDER TONGUE LABORATORIES, INC.",
+    "Medical Devices",
+    "employment",
+    "compensation",
+    "25 hours per week"
+  ],
+  "主要内容": "BLONDER TONGUE LABORATORIES, INC. announced on May 26, 2020, that Mr. Pallé’s compensation under the Agreement will consist of a salary of $152,000 per year plus commissions based on net sales of certain products to specified customers. His employment will be on an “at will” basis, and he will be required to devote no more than 25 hours per week to fulfilling his duties. The health, life and disability insurance and other benefits currently in effect for Mr. Pallé will continue through December 31, 2020, assuming he remains eligible. The parties anticipate that Mr. Pallé’s employment will terminate on Dec 31, 2020 unless otherwise extended.",
+  "股票实体": [
+    {
+      "名称": "BLONDER TONGUE LABORATORIES, INC.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.476279+00:00",
+    "fetched_at": "2026-11-13T01:01:12.185097+00:00",
+    "feature_available_at": "2026-11-13T01:01:40.653979+00:00",
+    "availability_basis": "extraction"
+  }
+}

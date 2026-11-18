@@ -1,0 +1,58 @@
+{
+  "source_id": "93ed0e1aa5841d1763108319",
+  "url": "https://www.cnbc.com/2017/08/22/defense-stocks-rise-pakistan-shares-drop-after-trumps-afghanistan-speech.html",
+  "title": "Defense stocks rise, Pakistan shares drop after Trump's Afghanistan speech",
+  "时间": "2017-08-22",
+  "分类": "Market",
+  "关键词": [
+    "Lockheed Martin",
+    "Defense stocks",
+    "Trump",
+    "Afghanistan",
+    "Pakistan",
+    "KSE 100",
+    "Northrop Grumman",
+    "Boeing",
+    "Northrop"
+  ],
+  "主要内容": "Defense stocks rose following remarks from Trump's Afghanistan speech, while Pakistani stocks fell, with the KSE 100 index dropping 2.2 percent on Tuesday. Trump warned of a 'vacuum' created by a swift U.S. troop withdrawal and criticized Pakistan for harboring militants. U.S. defense companies saw gains, with Lockheed Martin and Boeing advancing over 0.7%. The U.S. can no longer be silent about Pakistan's safe havens for terrorist organizations, the Taliban and others, that pose a threat to the region and beyond.",
+  "股票实体": [
+    {
+      "名称": "Lockheed Martin",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Northrop Grumman",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Boeing",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Northrop",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Defense",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T17:09:21.552394+00:00",
+    "fetched_at": "2026-11-13T22:26:01.040410+00:00",
+    "feature_available_at": "2026-11-13T22:26:41.963147+00:00",
+    "availability_basis": "extraction"
+  }
+}

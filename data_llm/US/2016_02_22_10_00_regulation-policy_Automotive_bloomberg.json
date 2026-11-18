@@ -1,0 +1,37 @@
+{
+  "source_id": "5c7d863a745cc6016f86fd0c",
+  "url": "https://www.bloomberg.com/news/articles/2016-02-22/vw-may-be-forced-to-clean-the-air-its-diesel-cars-polluted",
+  "title": "VW May Be Forced to Clean the Air Its Diesel Cars Polluted",
+  "时间": "2016-02-22T10:00:00.003000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Volkswagen AG",
+    "Automotive",
+    "emissions-cheating scandal"
+  ],
+  "主要内容": "Volkswagen AG may have to do more than fix half-a-million cars implicated in an emissions-cheating scandal: It also could be forced to undo the environmental damage. Environmental and consumer groups are pushing the federal government to consider a long list of possible reparations, from a VW-funded program to build the infrastructure to power electric cars to high fines to cleaning up five times the amount of pollution released by the dirty diesel engines.",
+  "股票实体": [
+    {
+      "名称": "Volkswagen AG",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Automotive",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-14T00:38:20.681120+00:00",
+    "feature_available_at": "2026-11-14T00:38:33.367759+00:00",
+    "availability_basis": "extraction"
+  }
+}

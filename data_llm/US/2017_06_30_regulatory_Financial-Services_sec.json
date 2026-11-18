@@ -1,0 +1,42 @@
+{
+  "source_id": "bbc39ef96c5e7a61fc077d8f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001171/0001104659-17-042929-index.html",
+  "title": null,
+  "时间": "2017-06-30",
+  "分类": "regulatory",
+  "关键词": [
+    "Broadway Financial Corporation",
+    "BYFC",
+    "Broadway Federal Bank",
+    "U.S. Treasury",
+    "Pacific Western Bank",
+    "Community Bank",
+    "Financial Services"
+  ],
+  "主要内容": "Broadway Financial Corporation (NASDAQ Capital Market: BYFC), parent company of Broadway Federal Bank, f.s.b., has been informed that the United States Department of the Treasury has sold its shares to two Southern California based banks. The sale is part of the U.S. Treasury's broader effort to divest its holdings in financial institutions. The event is reported in a SEC filing dated June 30, 2017. The sale reduced the U.S. Treasury’s ownership from 19.83% of the Company’s total shares to 13.15%, and from 29.12% of the voting shares to 19.32%. The Company is a community-oriented savings bank in Southern California serving low-to-moderate income communities.",
+  "股票实体": [
+    {
+      "名称": "Broadway Financial Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.724747+00:00",
+    "fetched_at": "2026-11-12T21:24:38.861672+00:00",
+    "feature_available_at": "2026-11-12T21:26:03.396473+00:00",
+    "availability_basis": "extraction"
+  }
+}

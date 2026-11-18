@@ -1,0 +1,38 @@
+{
+  "source_id": "b10b67e62ce902591c3362b9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-22-024296-index.html",
+  "title": null,
+  "时间": "2022-05-05",
+  "分类": "Financial",
+  "关键词": [
+    "BLONDER TONGUE LABORATORIES, INC.",
+    "Loan Agreement",
+    "MidCap Business Credit LLC",
+    "Tenth Amendment",
+    "Minimum EBITDA Covenant Trigger Event"
+  ],
+  "主要内容": "Blonder Tongue Laboratories, Inc. entered into a Tenth Amendment to Loan Agreement dated May 5, 2022, to modify the Loan Agreement's definition of 'Minimum EBITDA Covenant Trigger Event,' effective retroactively from January 1, 2022. All other substantive terms of the Loan Agreement remain in full force and effect. The company disclosed that in the event of a default under the Loan Agreement, including non-payment of principal or interest, the borrower's obligations may be accelerated, and MidCap may pursue its rights under the Loan Agreement and related agreements.",
+  "股票实体": [
+    {
+      "名称": "BLONDER TONGUE LABORATORIES, INC.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Medical Devices",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.697810+00:00",
+    "fetched_at": "2026-11-14T12:33:48.960379+00:00",
+    "feature_available_at": "2026-11-14T12:34:50.389005+00:00",
+    "availability_basis": "extraction"
+  }
+}

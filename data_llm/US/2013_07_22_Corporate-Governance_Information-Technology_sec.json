@@ -1,0 +1,40 @@
+{
+  "source_id": "55e6a04e6943ebec3fc014d2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000184/0001193125-13-296504-index.html",
+  "title": null,
+  "时间": "2013-07-22",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "SAP AG",
+    "Jim Hagemann Snabe",
+    "Supervisory Board",
+    "Co-CEO",
+    "Leadership Transition",
+    "SAP"
+  ],
+  "主要内容": "SAP AG (NYSE: SAP) announced that the SAP Supervisory Board has agreed to propose that Co-CEO Jim Hagemann Snabe be elected to the SAP Supervisory Board at the Annual General Meeting of Shareholders in May 2014. The proposal requires support from at least 25% of shareholders. Snabe will transition from his role as co-CEO and member of the Executive Board following the meeting in May 2014. Co-CEO Jim Hagemann Snabe announced his decision to step away from his role at SAP, citing personal reasons related to family. He praised the SAP team's achievements since 2010 and the momentum driving industry transformation. He expressed willingness to remain involved as a member of the Supervisory Board. The statement highlights the leadership transition and the company's progress under co-CEOs Jim Hagemann Snabe and Bill McDermott.",
+  "股票实体": [
+    {
+      "名称": "SAP AG",
+      "股票代码": "SAP",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Information Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.153005+00:00",
+    "fetched_at": "2026-11-14T02:06:45.749756+00:00",
+    "feature_available_at": "2026-11-14T02:14:58.514919+00:00",
+    "availability_basis": "extraction"
+  }
+}

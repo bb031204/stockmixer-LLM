@@ -1,0 +1,44 @@
+{
+  "source_id": "a77d41acfec1c9cb763c15a4",
+  "url": "https://www.bloomberg.com/news/articles/2018-05-09/california-votes-to-require-rooftop-solar-power-on-new-homes",
+  "title": "California Becomes First State to Order Solar on New Homes",
+  "时间": "2018-05-09T18:54:59.452000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "California",
+    "Renewable Energy",
+    "Solar Industry",
+    "Homebuilders"
+  ],
+  "主要内容": "California became the first U.S. state to require solar panels on almost all new homes, effective after January 1, 2020. The California Energy Commission mandated solar systems as part of new home standards. Critics warned the policy could increase home purchase costs by nearly $10,000. Solar shares rose, while homebuilders saw declines.",
+  "股票实体": [
+    {
+      "名称": "Solar Industry",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Homebuilders",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Renewable Energy",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T01:31:52.734922+00:00",
+    "fetched_at": "2026-11-13T04:30:08.387987+00:00",
+    "feature_available_at": "2026-11-13T04:30:25.874094+00:00",
+    "availability_basis": "extraction"
+  }
+}

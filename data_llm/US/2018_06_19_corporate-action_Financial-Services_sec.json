@@ -1,0 +1,31 @@
+{
+  "source_id": "99ab5c6f689303b2baee404e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-18-196390-index.html",
+  "title": null,
+  "时间": "2018-06-19",
+  "分类": "corporate_action",
+  "关键词": [
+    "MEDALLION FINANCIAL CORP",
+    "Financial Services",
+    "Equity Incentive Plan"
+  ],
+  "主要内容": "The Company’s shareholders approved the adoption of the Medallion Financial Corp. 2018 Equity Incentive Plan by the following votes: VOTES FOR VOTES AGAINST VOTES ABSTAINED BROKER NON-VOTES 7,193,208 1,406,634 86,727 12,877,663 3",
+  "股票实体": [
+    {
+      "名称": "MEDALLION FINANCIAL CORP",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.878895+00:00",
+    "fetched_at": "2026-11-12T21:46:09.221176+00:00",
+    "feature_available_at": "2026-11-12T21:46:37.357665+00:00",
+    "availability_basis": "extraction"
+  }
+}

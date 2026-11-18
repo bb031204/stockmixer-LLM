@@ -10,7 +10,8 @@ from unittest.mock import patch
 import numpy as np
 import torch
 from news_fusion import experiment as e
-from news_fusion.protocol import configuration,validate_config
+from news_fusion.protocol import validate_config
+from tests_news.baseline_fixture import configuration
 from tests_news.test_workflow import temporary_project,setup_project,ToyModel
 
 

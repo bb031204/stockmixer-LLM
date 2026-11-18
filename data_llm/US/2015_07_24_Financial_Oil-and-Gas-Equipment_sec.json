@@ -1,0 +1,39 @@
+{
+  "source_id": "ba99d5b46cd670bd4f5daffa",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-15-262542-index.html",
+  "title": null,
+  "时间": "2015-07-24",
+  "分类": "Financial",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "oil and gas industry",
+    "seismic data",
+    "non-seismic products",
+    "Geospace Technologies",
+    "GEOS"
+  ],
+  "主要内容": "On July 24, 2015, Geospace Technologies Corporation issued a press release announcing its third quarter 2015 earnings and conference call schedule. The press release is attached as Exhibit 99.1. The company designs and manufactures instruments and equipment used by the oil and gas industry to acquire seismic data for hydrocarbon reservoirs. It also produces non-seismic products such as industrial equipment, offshore cables, thermal printers, and film. The press release includes forward-looking statements under U.S. securities laws. A replay of the live call will be available for approximately 60 days. Securities explicitly mentioned in the source include Geospace Technologies (GEOS).",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies",
+      "股票代码": "GEOS",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.874807+00:00",
+    "fetched_at": "2026-11-14T17:16:46.217586+00:00",
+    "feature_available_at": "2026-11-14T17:17:23.747338+00:00",
+    "availability_basis": "extraction"
+  }
+}

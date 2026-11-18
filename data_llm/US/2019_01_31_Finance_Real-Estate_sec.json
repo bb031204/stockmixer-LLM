@@ -1,0 +1,47 @@
+{
+  "source_id": "a87ec6f12889fe1111e1fc56",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-19-000628-index.html",
+  "title": null,
+  "时间": "2019-01-31",
+  "分类": "Finance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Brookfield Property Partners L.P.",
+    "BSREP III",
+    "real estate",
+    "US$15 billion",
+    "US$3.75 billion",
+    "BAM",
+    "BPY"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. announced the closing of its latest flagship global private real estate fund, Brookfield Strategic Real Estate Partners III (BSREP III), with total equity commitments of US$15 billion. This fund significantly exceeded its original fundraising target of $10 billion, reflecting strong investor demand. BSREP III is Brookfield’s largest private fund to date. Brookfield Asset Management Inc. and Brookfield Property Partners L.P. (Nasdaq: BPY, TSX: BPY.UN) have committed US$3.75 billion in aggregate to BSREP III, aligning the organization’s interests with those of the Fund’s investors. BSREP III focuses on acquiring high-quality real estate assets on a value basis. To date, the Fund has made 10 investments around the world totaling more than US$5 billion. Securities explicitly mentioned in the source include Brookfield Asset Management Inc. (BAM).",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": null
+    },
+    {
+      "名称": "Brookfield Property Partners L.P.",
+      "股票代码": "BPY",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Real Estate",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:19.618622+00:00",
+    "fetched_at": "2026-11-13T05:23:20.399536+00:00",
+    "feature_available_at": "2026-11-13T05:23:56.344306+00:00",
+    "availability_basis": "extraction"
+  }
+}

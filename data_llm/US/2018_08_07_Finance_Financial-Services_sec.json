@@ -1,0 +1,38 @@
+{
+  "source_id": "f6c029dc93abac55bb8ecb11",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-18-240459-index.html",
+  "title": null,
+  "时间": "2018-08-07",
+  "分类": "Finance",
+  "关键词": [
+    "MEDALLION FINANCIAL CORP",
+    "Loan Modification Agreement",
+    "Sterling National Bank",
+    "Medallion Funding LLC"
+  ],
+  "主要内容": "On August 3, 2018, MEDALLION FINANCIAL CORP entered into a Loan Modification Agreement with Medallion Funding LLC and Sterling National Bank. The agreement extended the maturity date of the facility to November 30, 2018, to allow sufficient time to document an approved extension to June 30, 2019. The amendment also included other technical changes beneficial to the company. The agreement was signed on August 7, 2018, by Larry D. Hall, Chief Financial Officer of the company. The filing is part of the company's SEC reporting obligations under the Securities Exchange Act of 1934.",
+  "股票实体": [
+    {
+      "名称": "MEDALLION FINANCIAL CORP",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Sterling National Bank",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:08.108400+00:00",
+    "fetched_at": "2026-11-14T05:53:03.514162+00:00",
+    "feature_available_at": "2026-11-14T06:13:45.486956+00:00",
+    "availability_basis": "extraction"
+  }
+}

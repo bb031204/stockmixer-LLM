@@ -1,0 +1,133 @@
+{
+  "schema_version": "stockmixer_source_adapter_v1",
+  "kind": "adapted_collector_snapshot",
+  "created_at": "2026-11-18T05:59:09.275307+00:00",
+  "source_root": "D:\\financial_data_project2\\data_enriched\\retraced\\20261118_121127_US_GLOBAL_v3\\adapted",
+  "source_read_only": true,
+  "input_physical_files": {
+    "US": 238
+  },
+  "snapshot_policy": "frozen_input_file_list; included files must not change; later additions are excluded",
+  "new_source_files_outside_snapshot_at_verification": 0,
+  "unique_articles": 238,
+  "ready_articles": 228,
+  "review_required": 10,
+  "duplicate_views_removed": 0,
+  "content_duplicate_groups": 0,
+  "deduplication": "source_id+identical_record_hash; distinct IDs are never globally merged using future evidence",
+  "language_basis_counts": {
+    "matching_current_audit": 238
+  },
+  "audit_family_counts": {
+    "retraced": 238
+  },
+  "source_availability_basis_counts": {
+    "retrospective_retrace_current_inference_not_historical_PIT": 238
+  },
+  "canonical_availability_basis_counts": {
+    "retrospective_retrace_current_inference_not_historical_PIT": 238
+  },
+  "llm_time_known": 238,
+  "upstream_observed_evidence_complete": 0,
+  "warning_counts": {
+    "first_seen_at:unknown": 2
+  },
+  "error_counts": {
+    "canonical_market_conflicts_with_views": 10
+  },
+  "datasets": {
+    "NASDAQ": {
+      "first_date": "2013-01-02",
+      "last_date": "2017-12-08",
+      "publication_in_range": 104,
+      "availability_within_dataset_end_upper_bound": 0,
+      "date_only_with_next_dataset_session": 92,
+      "full_observed_pit_ready": false,
+      "reason": "FinBERT/model/mapping availability and verified decision schedule still required",
+      "session_assignment": "date-only uses strictly next session; exact-time cutoff not guessed"
+    },
+    "NYSE": {
+      "first_date": "2013-01-02",
+      "last_date": "2017-12-08",
+      "publication_in_range": 104,
+      "availability_within_dataset_end_upper_bound": 0,
+      "date_only_with_next_dataset_session": 92,
+      "full_observed_pit_ready": false,
+      "reason": "FinBERT/model/mapping availability and verified decision schedule still required",
+      "session_assignment": "date-only uses strictly next session; exact-time cutoff not guessed"
+    },
+    "SP500": {
+      "first_date": "2016-01-04",
+      "last_date": "2022-05-25",
+      "publication_in_range": 142,
+      "availability_within_dataset_end_upper_bound": 0,
+      "date_only_with_next_dataset_session": 115,
+      "full_observed_pit_ready": false,
+      "reason": "FinBERT/model/mapping availability and verified decision schedule still required",
+      "session_assignment": "date-only uses strictly next session; exact-time cutoff not guessed"
+    }
+  },
+  "model_inference_run": false,
+  "baseline_modified": false,
+  "source_modules_imported": false,
+  "source_snapshot_hash": "25ae9fb3fe87ce7b299c063dcf2b7666359df4c1c5675a285327828c92ef2fa9",
+  "axis_file_sha256": {
+    "NASDAQ": "fbb581a3429390ddcbc02f453fe9274fc65b4f25a528bd861a2322ba5ba0d316",
+    "NYSE": "95395338539dc76d478e2f83f598392f5dd4a4970000daafb23b8c1adc3bf6e2",
+    "SP500": "8c41c152e03aee9e26642f6f65636817384eda585ce4d37beb43d8a9accbdfb2"
+  },
+  "adapter_code_sha256": {
+    "auto_review.py": "36ac41bbe7215df152e91a72d55e5388cd5eb8602da831cb71517b63029f7303",
+    "configuration.py": "0ef12a535ffe555a6a10979009d8f8c7a180f82a50f767cf818c14c1130a0d99",
+    "console.py": "61525ce845ebe5bb42f13a4afcac239703e6848d599187c973dfd8428efea613",
+    "dataset.py": "8427610b19eb70158b957a715492ad7908c5951008615289d0d0c4050309dfeb",
+    "encoder.py": "7ea6fbee36cdab62ca32097623555f25b098a3ed450e94be67d9a31c3b9b5154",
+    "experiment.py": "8f19ce2cd908b5ba7513ced0115d41a0d3fad2ea3daa7e3781eb92594297f7ac",
+    "fusion.py": "dea2f0758fb4bbfc97e20948ba174703da6a0a5f0dcda25cd9e58e7608caeb64",
+    "industry_dictionary.py": "deeb66e88262f1497a13df8977210dcb58335b0007ee9cd61b8da8aee56c6dea",
+    "industry_mapping.py": "e3d8a3efb369583db3387c82df7603f965623dd04b5dbffc61fe6502b4feaa4d",
+    "industry_review.py": "e95ac433ed0e5755a984b3d7326e2ee2b1af6cbe9361682baf8c470490a02984",
+    "industry_scope_review.py": "7e4f79553d3c725fc3d8101cf639c65e2dcd5842d42dabf25c442a32e032f301",
+    "inputs.py": "c9e84de13d0784578dcba5e8588948626c33ca29cf1d63d59e96617b6f4a9e50",
+    "io.py": "1e8688cb6f198fa99bc59fd1f0b06fa823868804498b1bf266c1f3ebd1247af5",
+    "legacy_industry.py": "266cd4d72f5bea95dc059867899e54d36a2d2834c22567a8e73dace01878ca8d",
+    "mapping_audit.py": "eb61d171705e402664300767049688bc89a2fbd100e7f2ce34924f224a377686",
+    "market_evaluation.py": "aef2e1c0e045dfe9a9fa968031ebca47f5ddcced0a9fb63626f0c3e025284d55",
+    "market_quality.py": "43de40381ea40451d46caa87570759a134d9167794d6778f43fbc7e767334275",
+    "market_review_completion.py": "c7ecbe275d584fa2d4205cb17e8bd1ea42ff297e43fcf3a76ce8701fe1b1788d",
+    "master_data.py": "5304d7a53b290205068c223c639afe22cebb19622e79f2ac221971d219ea2ea9",
+    "official_events.py": "ac15e3896b48e53fd11a0675fe6fb24b02841861150f54aca198d3e7e043199e",
+    "offline_inputs.py": "57e4de18947728b3d923dbba75157930dd5b80e361abfe3df51c5ddac17ea28a",
+    "original.py": "7edc8d0f2acc336204d892e06e959a18757dea390d316cedb50540fa619b278e",
+    "original_evaluator.py": "0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60",
+    "outputs.py": "9319648e32cf898922891132697baab64c76eee56a47f0c08e51a47f142a4db9",
+    "panel.py": "dd5ed6707a439fa1fe5cebb0a9ca8465e3f13dd549a9b9faa525fbd31889264d",
+    "pipeline.py": "c38e8fcf6b75288cd370196fd08d53900c5a1ab7324af5a2896e2e4246058f05",
+    "protocol.py": "9d162f0f6bcd8b7f45c7867e9c2420d802dfedb66a3cfd03150e16ce6909c5a4",
+    "reference_membership.py": "25fb61db697caa270b83035bb6d5a3e7c53448ff3c60d89f2c71eae22ef18571",
+    "relations.py": "c4051ab6a181afb69020b73668e5cf4167c4c3338da0e2b8d4dce3ebf38bed64",
+    "retrace_adapter.py": "b64e4083830d321375315109755b709ceeab495a4ac0bbaaa3558ca4bb09a887",
+    "review_reuse.py": "50a59d3062103f121a085826bf20519cdd93f28fa0f913fa75254c4b4d49cecf",
+    "routing.py": "af0512c3fbc02f38a7ed45cc7b619fc5ceefd69a9f35841e9955a2235d10d76e",
+    "semantic_review.py": "2ed2b681980a271f911a8104f906b4f9b1cc3762919fc18351e8ebd66354d4ec",
+    "setup_news.py": "d26876c4cf2de9ca0b5a2e1ee926b3209cbc8e369f6f22f06ae2f1b959a0e19f",
+    "snapshot.py": "31722e0ceb03ef0b9dc7f93baecf9fe980f1b8a0e9114ae41e84fb40e7fd12bf",
+    "source_adapter.py": "181a85f0f9f15c69e254464519a359eb0faa00eba042c933dabaabc3da1b145d",
+    "source_proof.py": "9ef8473c5b51c3c159b2cc5426a7d2581a3d93093e645a759d5e7b6b57a45180",
+    "time_axis.py": "feb5b38b6ad46be32d15154e548d5158418d0eb3de239f3a514f084d72de9f2c",
+    "upstream.py": "bff7b61f575979b8c281ed16d770a45129d6eeb55b3367952868a6d22cb31fe2",
+    "validation.py": "40a5e94375011861be579bebd3bed7c6d90eeac094c053baf0a6b0a82e52c909",
+    "workflow.py": "06770f8bf23eec790948ed88e51f11fadb36f65fb19524ab4376af874cc6a8eb",
+    "__init__.py": "db177b378f26848c2720c4545e7d6c7f085acee1c8c093672be08454a03fe14b",
+    "__main__.py": "d93d9621c0c9e64db07c4f9fad24538d35b2a14be7a65af2822a23d589bc2380"
+  },
+  "historical_security_or_industry_mapping_created": false,
+  "files": {
+    "articles.jsonl": "d95e223c08eba977ae1fd24a8ad5a9d0f5d37c8186cd954b1558bfc7fa471087",
+    "duplicate_content_groups.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "provenance.jsonl": "cb56d3dcfae6f1bbf66690ec21b9800ccd97aefbda8bc34321f28044c667199c",
+    "review_records.jsonl": "265647ee87af0f5608849611023413d0f101ddb3b9052372d04118c93f53d23e",
+    "source_snapshot.json": "3705b37d5da1b830f2ab8641a5b5e0b114aea79d4bbdc70f365eb25fbf88d0be",
+    "time_checks.jsonl": "0630d1e60693b18b52e295df427d382231a92ccd65c75135c56805a3fb93ad56"
+  }
+}

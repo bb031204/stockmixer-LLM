@@ -1,0 +1,36 @@
+{
+  "source_id": "7e4d346181b87c8583ad6beb",
+  "url": "https://dbrs.morningstar.com/research/391114/arbor-realty-commercial-real-estate-notes-2022-fl1-ltd-presale-report",
+  "title": "Arbor Realty Commercial Real Estate Notes 2022-FL1, Ltd.: Presale Report",
+  "时间": "2022-01-21T22:39:00+00:00",
+  "分类": "securities",
+  "关键词": [
+    "Arbor Realty Commercial Real Estate Notes 2022-FL1, Ltd.",
+    "Real Estate",
+    "Presale Report"
+  ],
+  "主要内容": "DBRS, Inc. (DBRS Morningstar) assigned provisional ratings to the classes of notes to be issued by Arbor Realty Commercial Real Estate Notes 2022-FL1, Ltd. The report is part of Morningstar DBRS Research, focusing on commercial real estate notes. The provisional ratings are assigned to the notes before their issuance, indicating the credit risk assessment of the underlying assets.",
+  "股票实体": [
+    {
+      "名称": "Arbor Realty Commercial Real Estate Notes 2022-FL1, Ltd.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Real Estate",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T17:39:25.579833+00:00",
+    "fetched_at": "2026-11-13T19:23:38.287724+00:00",
+    "feature_available_at": "2026-11-13T19:23:49.276636+00:00",
+    "availability_basis": "extraction"
+  }
+}

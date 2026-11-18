@@ -1,0 +1,41 @@
+{
+  "source_id": "cc769d210be1ca7f42e40984",
+  "url": "https://www.sec.gov/Archives/edgar/data/100122/0000100122-17-000010-index.html",
+  "title": null,
+  "时间": "2017-05-05",
+  "分类": "Financial",
+  "关键词": [
+    "Tucson Electric Power Co",
+    "UN S Energy Corporation",
+    "Fortis Inc",
+    "Audit Committee",
+    "Deloitte & Touche LLP",
+    "Ernst & Young LLP",
+    "Independent Registered Public Accounting Firm"
+  ],
+  "主要内容": "On May 4, 2017, Tucson Electric Power Co (TEP) and its parent UNS Energy Corporation, indirect wholly-owned subsidiaries of Fortis Inc, dismissed Ernst & Young LLP as their independent registered public accounting firm. The decision followed the recommendation of the Audit and Risk Committee of UNS Energy. EY reviewed the audited financial statements for the years ended December 31, 2015 and 2016, without issuing an adverse opinion, disclaimer, or qualified opinion. There were no disagreements with EY on accounting principles, financial disclosures, or audit scope. TEP engaged Deloitte & Touche LLP as its independent registered public accounting firm, effective immediately. The selection was confirmed by a shareholder vote at the Fortis Annual General Meeting on May 4, 2017. The Audit Committee of Fortis completed a competitive process to select an independent registered public accounting firm for Fortis and its subsidiaries for the quarters ending June 30, 2017, and September 30, 2017, and the year ending December 31, 2017.",
+  "股票实体": [
+    {
+      "名称": "Fortis Inc",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Utilities",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.724747+00:00",
+    "fetched_at": "2026-11-12T21:28:11.013830+00:00",
+    "feature_available_at": "2026-11-12T21:29:07.799021+00:00",
+    "availability_basis": "extraction"
+  }
+}

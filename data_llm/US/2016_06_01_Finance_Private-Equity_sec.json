@@ -1,0 +1,38 @@
+{
+  "source_id": "679a21b836e06998c44a2b8c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-16-002907-index.html",
+  "title": null,
+  "时间": "2016-06-01",
+  "分类": "Finance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "BCP IV",
+    "Private Equity",
+    "Fundraising"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. announced the final close of Brookfield Capital Partners IV (\"BCP IV\" or the \"Fund\") with US$4 billion in equity commitments. The Fund exceeded its original US$3.5 billion fundraising target, reflecting strong investor demand. Brookfield committed US$1 billion to the Fund, ensuring alignment of interests with other Fund investors. Cyrus Madon, head of Brookfield's private equity business, stated that the global team of investment professionals is dedicated to prudently deploying capital on behalf of investors, acquiring businesses with strong cash flow potential. To date, the Fund has invested over US$1 billion in businesses consistent with the Fund's investment strategy, including a leading integrated facilities management company, a global graphite electrode manufacturer, and an Australian offshore oil and gas producer.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Private Equity",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.425606+00:00",
+    "fetched_at": "2026-11-12T20:16:22.278479+00:00",
+    "feature_available_at": "2026-11-12T20:16:47.843092+00:00",
+    "availability_basis": "extraction"
+  }
+}

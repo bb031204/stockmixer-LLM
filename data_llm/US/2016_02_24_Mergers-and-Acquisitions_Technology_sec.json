@@ -1,0 +1,64 @@
+{
+  "source_id": "fb1c7f8ddf08bb87b9e21cfa",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000180/0001104659-16-099327-index.html",
+  "title": null,
+  "时间": "2016-02-24",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "Western Digital Corporation",
+    "SanDisk Corporation",
+    "Unis Union Information System Ltd.",
+    "Stock Purchase Agreement",
+    "Mergers and Acquisitions",
+    "Regulatory Approvals",
+    "Stockholder Approvals",
+    "Western Digital",
+    "SanDisk"
+  ],
+  "主要内容": "Western Digital Corporation reaffirmed its commitment to its acquisition of SanDisk Corporation and announced the termination of the Stock Purchase Agreement by Unis Union Information System Ltd. The consideration to be paid to SanDisk stockholders per share of SanDisk common stock will consist of $67.50 in cash and 0.2387 shares of Western Digital common stock. Western Digital and SanDisk have received regulatory approval from the U.S., European Union, Singapore, Japan, Taiwan, South Korea, and Turkey. The transaction remains subject to regulatory approvals from China and South Africa, stockholder approvals, and other customary closing conditions. The proposed merger faces risks including the inability to complete the merger due to failure to obtain stockholder or regulatory approvals, uncertainties regarding the timing of the merger, and potential disruptions to operations. The merger may affect key personnel retention, competitive responses, and integration challenges. Legislative, regulatory, and economic developments could further impact the merger's outcome.",
+  "股票实体": [
+    {
+      "名称": "Western Digital Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "SanDisk Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Unis Union Information System Ltd.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Western Digital",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "SanDisk",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Semiconductor & Storage",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-10T18:42:04.846742+00:00",
+    "fetched_at": "2026-11-13T04:07:07.406034+00:00",
+    "feature_available_at": "2026-11-13T04:08:07.290974+00:00",
+    "availability_basis": "extraction"
+  }
+}

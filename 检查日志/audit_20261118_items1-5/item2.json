@@ -1,0 +1,138 @@
+{
+  "item": 2,
+  "checked_at": "2026-11-18T10:50:08+08:00",
+  "report": {
+    "features": {
+      "path": "D:\\finance\\model\\StockMixer+llm\\StockMixer\\outputs\\artifacts\\news\\pipelines\\20261117_194036_NASDAQ_NYSE_SP500_preparation\\article_features",
+      "articles": 1903,
+      "successful": 1903
+    },
+    "NASDAQ": {
+      "verified_identity_stocks": 9,
+      "industry_master_stocks": 9,
+      "total_stocks": 1026,
+      "date_range": [
+        "2013-01-02",
+        "2017-12-08"
+      ],
+      "source_publication_date_buckets": {
+        "after": 774,
+        "within_calendar_date_range": 917,
+        "before": 212
+      },
+      "panel_rejections": {
+        "available_after_dataset": 773,
+        "semantic_quarantine": 2,
+        "publication_before_dataset_start": 212,
+        "unmapped_article": 849,
+        "invalid_or_unavailable_membership": 165
+      },
+      "relation_counts": {
+        "unverified_or_unmatched_identity": 4129,
+        "company_links": 17,
+        "semantic_quarantine": 2,
+        "industry_links": 29
+      },
+      "unmatched_reason_counts": {
+        "unverified_or_unmatched_identity": 4129,
+        "semantic_quarantine": 2
+      },
+      "market_router": {
+        "manifest_sha256": "1a8c1b638445bf68d263a73498760d462a0dfc3be7534261179160f67fa07f75",
+        "source_snapshot_manifest_sha256": "5f5d3ae0f798596c561959cb9403f5d6111e4dee5d7ce8a07b6929f6789b4ac3",
+        "accepted_routes": 120,
+        "decisions": {
+          "exclude": 1212,
+          "pending": 571,
+          "include": 120
+        }
+      },
+      "continuous_history_complete": false
+    },
+    "NYSE": {
+      "verified_identity_stocks": 3,
+      "industry_master_stocks": 3,
+      "total_stocks": 1737,
+      "date_range": [
+        "2013-01-02",
+        "2017-12-08"
+      ],
+      "source_publication_date_buckets": {
+        "after": 774,
+        "within_calendar_date_range": 917,
+        "before": 212
+      },
+      "panel_rejections": {
+        "available_after_dataset": 773,
+        "semantic_quarantine": 2,
+        "publication_before_dataset_start": 212,
+        "unmapped_article": 851,
+        "invalid_or_unavailable_membership": 20
+      },
+      "relation_counts": {
+        "unverified_or_unmatched_identity": 4127,
+        "semantic_quarantine": 2,
+        "company_links": 19,
+        "industry_links": 29
+      },
+      "unmatched_reason_counts": {
+        "unverified_or_unmatched_identity": 4127,
+        "semantic_quarantine": 2
+      },
+      "market_router": {
+        "manifest_sha256": "489558844bac2c6e88217f1686cf1912e69ec49298db23cb0683fdccb731f5ac",
+        "source_snapshot_manifest_sha256": "5f5d3ae0f798596c561959cb9403f5d6111e4dee5d7ce8a07b6929f6789b4ac3",
+        "accepted_routes": 120,
+        "decisions": {
+          "exclude": 1212,
+          "pending": 571,
+          "include": 120
+        }
+      },
+      "continuous_history_complete": false
+    },
+    "SP500": {
+      "verified_identity_stocks": 2,
+      "industry_master_stocks": 2,
+      "total_stocks": 474,
+      "date_range": [
+        "2016-01-04",
+        "2022-05-25"
+      ],
+      "source_publication_date_buckets": {
+        "within_calendar_date_range": 1146,
+        "before": 757
+      },
+      "panel_rejections": {
+        "semantic_quarantine": 2,
+        "publication_before_dataset_start": 756,
+        "available_after_dataset": 1,
+        "unmapped_article": 1060,
+        "invalid_or_unavailable_membership": 15
+      },
+      "relation_counts": {
+        "unverified_or_unmatched_identity": 4137,
+        "semantic_quarantine": 2,
+        "company_links": 9,
+        "industry_links": 29
+      },
+      "unmatched_reason_counts": {
+        "unverified_or_unmatched_identity": 4137,
+        "semantic_quarantine": 2
+      },
+      "market_router": {
+        "manifest_sha256": "5c299ee1e5a8041fc54a4a36289a5e6b3e2363328feee1a80f0d92ca92901cc6",
+        "source_snapshot_manifest_sha256": "5f5d3ae0f798596c561959cb9403f5d6111e4dee5d7ce8a07b6929f6789b4ac3",
+        "accepted_routes": 120,
+        "decisions": {
+          "exclude": 1212,
+          "pending": 571,
+          "include": 120
+        }
+      },
+      "continuous_history_complete": false
+    }
+  },
+  "text": "结论：第2项尚未解决。已有字典、有限历史主数据及路由产物，但不等于历史新闻与历史成员覆盖充分；本次仅核实，不启动采集、Qwen、FinBERT或训练。\n真实FinBERT缓存：1903篇，成功1903篇；有向量不代表能落入目标年份并匹配股票。\nNASDAQ：股票池1026只，历史身份有证据股票9只、历史行业有证据股票9只（仅观察日期，不是连续历史）；行情日期2013-01-02～2017-12-08。\n  面板构建排除计数：{\"available_after_dataset\": 773, \"semantic_quarantine\": 2, \"publication_before_dataset_start\": 212, \"unmapped_article\": 849, \"invalid_or_unavailable_membership\": 165}；其中membership等计数可为文章×日期×成员，不能当去重新闻篇数相加。\n  市场路由决策：{\"exclude\": 1212, \"pending\": 571, \"include\": 120}；pending未发布，include也不等于都处于行情日期内。\n  历史关系未匹配原因：{\"unverified_or_unmatched_identity\": 4129, \"semantic_quarantine\": 2}（实体候选级计数）。\nNYSE：股票池1737只，历史身份有证据股票3只、历史行业有证据股票3只（仅观察日期，不是连续历史）；行情日期2013-01-02～2017-12-08。\n  面板构建排除计数：{\"available_after_dataset\": 773, \"semantic_quarantine\": 2, \"publication_before_dataset_start\": 212, \"unmapped_article\": 851, \"invalid_or_unavailable_membership\": 20}；其中membership等计数可为文章×日期×成员，不能当去重新闻篇数相加。\n  市场路由决策：{\"exclude\": 1212, \"pending\": 571, \"include\": 120}；pending未发布，include也不等于都处于行情日期内。\n  历史关系未匹配原因：{\"unverified_or_unmatched_identity\": 4127, \"semantic_quarantine\": 2}（实体候选级计数）。\nSP500：股票池474只，历史身份有证据股票2只、历史行业有证据股票2只（仅观察日期，不是连续历史）；行情日期2016-01-04～2022-05-25。\n  面板构建排除计数：{\"semantic_quarantine\": 2, \"publication_before_dataset_start\": 756, \"available_after_dataset\": 1, \"unmapped_article\": 1060, \"invalid_or_unavailable_membership\": 15}；其中membership等计数可为文章×日期×成员，不能当去重新闻篇数相加。\n  市场路由决策：{\"exclude\": 1212, \"pending\": 571, \"include\": 120}；pending未发布，include也不等于都处于行情日期内。\n  历史关系未匹配原因：{\"unverified_or_unmatched_identity\": 4137, \"semantic_quarantine\": 2}（实体候选级计数）。\n已具备：统一SEC-SIC行业字典、数据集股票轴、证据约束映射及待匹配清单；仍缺：目标历史年份的更多可靠原文、更多股票的历史身份/行业有效期、待审路由的逐条证据。\n补齐顺序：先按各数据集真实训练/验证/测试年份补采原文并保留发布时间与采集时间；再补有来源的历史身份/行业区间；复核pending市场/行业作用域；生成新快照与新面板后重做本27组统计。\n禁止为增加条数而放宽实体核验、把今日行业回填历史、延长单日SEC观察有效期，或把同一新闻多日聚合当新增新闻。本次没有实际补采，故不能标记覆盖率已提升。",
+  "document_before_sha256": "4fbdde9e3ff564e1be1ebd395ef3ea6fa2532c65efdc3c4ffcc4cb9cbee46fb9"
+}

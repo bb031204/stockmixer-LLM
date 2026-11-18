@@ -1,0 +1,43 @@
+{
+  "source_id": "645a0a2e72042805520684b9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-15-013583-index.html",
+  "title": null,
+  "时间": "2015-07-14",
+  "分类": "Financial",
+  "关键词": [
+    "Optical Cable Corporation",
+    "OCC",
+    "fiber optic",
+    "copper cabling",
+    "data communication"
+  ],
+  "主要内容": "On July 14, 2015, Optical Cable Corporation (OCC) and BB&T Capital Markets executed an agreement to repurchase up to 400,000 shares of its common stock, representing approximately 6% of the current shares outstanding. The repurchase plan, approved by the Board of Directors, is expected to be executed over the next 24 to 36 months. The program allows the company to buy shares in open market transactions, with the timing and amount determined by management based on market conditions and capital allocation. Purchases will only occur during periods when management and the Board are not aware of material inside information that could influence a seller’s decision. No shares had been repurchased as of the filing date. As of July 14, 2015, Optical Cable Corporation had approximately 7.1 million common shares outstanding. The company is a leading manufacturer of fiber optic and copper data communication cabling and connectivity solutions primarily for the enterprise market, offering an integrated suite of high quality products that operate as a system solution or seamlessly integrate with other providers’ offerings.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecom Equipment",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Communication Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.872809+00:00",
+    "fetched_at": "2026-11-14T07:13:07.496742+00:00",
+    "feature_available_at": "2026-11-14T07:14:37.267975+00:00",
+    "availability_basis": "extraction"
+  }
+}

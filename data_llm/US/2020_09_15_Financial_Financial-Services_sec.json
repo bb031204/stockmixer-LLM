@@ -1,0 +1,52 @@
+{
+  "source_id": "ba8bbc3fc836c664af9eaf4d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001564590-20-043626-index.html",
+  "title": "mfin-8k_20200914.htm",
+  "时间": "2020-09-15",
+  "分类": "Financial",
+  "关键词": [
+    "Freshstart Venture Capital Corp.",
+    "Medallion Financial Corp",
+    "MFIN",
+    "MFINL",
+    "U.S. Small Business Administration",
+    "Loan Agreement",
+    "Amendment",
+    "SEC filing",
+    "Freshstart Venture Capital Corp"
+  ],
+  "主要内容": "On September 14, 2020, Freshstart Venture Capital Corp. entered into a material definitive agreement with the U.S. Small Business Administration. The agreement was amended on the same date. The document was signed on September 15, 2020, by Larry D. Hall, Chief Financial Officer of Medallion Financial Corp. Medallion Financial Corp. also entered into amendments to the Loan Agreement and Note with the U.S. Small Business Administration, extending the maturity date to September 23, 2020. These amendments were part of ongoing processes to finalize additional changes to the Loan Agreement and Note. Freshstart Venture Capital Corp. is registered under the Securities Act of 1933 and the Securities Exchange Act of 1934, and is listed on the NASDAQ Global Select Market under the ticker symbols MFIN and MFINL. The company is not an emerging growth company and has not elected to use the extended transition period for financial accounting standards.",
+  "股票实体": [
+    {
+      "名称": "Freshstart Venture Capital Corp.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Medallion Financial Corp",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Freshstart Venture Capital Corp",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:15.794004+00:00",
+    "fetched_at": "2026-11-14T07:49:53.344130+00:00",
+    "feature_available_at": "2026-11-14T07:50:47.846451+00:00",
+    "availability_basis": "extraction"
+  }
+}

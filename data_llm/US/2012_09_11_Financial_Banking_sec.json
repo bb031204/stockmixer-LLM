@@ -1,0 +1,53 @@
+{
+  "source_id": "e27b8c0f14184c30f374a9d3",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-12-387790-index.html",
+  "title": null,
+  "时间": "2012-09-11",
+  "分类": "Financial",
+  "关键词": [
+    "Royal Bank of Canada",
+    "RBC",
+    "Investor & Treasury Services",
+    "Personal & Commercial Banking",
+    "Capital Markets",
+    "Wealth Management",
+    "Insurance",
+    "Harry Samuel",
+    "Doug McGregor",
+    "Mark Standish",
+    "José Placido",
+    "Dave McKay",
+    "Jim Westlake",
+    "Neil Skelding",
+    "George Lewis"
+  ],
+  "主要内容": "Royal Bank of Canada announced restructuring of its business segments, effective October 31, 2012. The new segments include Investor & Treasury Services, Personal & Commercial Banking, Capital Markets, Wealth Management, and Insurance. Investor & Treasury Services is a newly created segment that will include RBC Investor Services, Global Financial Institutions, and Treasury Services. Harry Samuel will lead the segment, reporting to Doug McGregor and Mark Standish. José Placido will continue as CEO of RBC Investor Services. The Personal & Commercial Banking segment will include Canadian banking businesses, Caribbean Banking, and U.S. Banking, with Dave McKay overseeing the latter two regions. Royal Bank of Canada announced management changes, including the retirement of Jim Westlake, group head of International Banking and Insurance, after 17 years with the bank. Neil Skelding will continue as president and CEO of RBC Insurance, reporting to George Lewis. Westlake will support the transition of International Banking and Insurance to other segments by October 31, 2012.",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.920284+00:00",
+    "fetched_at": "2026-11-14T08:19:49.667102+00:00",
+    "feature_available_at": "2026-11-14T08:37:13.245858+00:00",
+    "availability_basis": "extraction"
+  }
+}

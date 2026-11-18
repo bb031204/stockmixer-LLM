@@ -1,0 +1,70 @@
+{
+  "source_id": "d9819d714ff50903a561698f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000623/0001193125-18-273988-index.html",
+  "title": null,
+  "时间": "2018-09-14",
+  "分类": "Finance",
+  "关键词": [
+    "Schweitzer-Mauduit International, Inc.",
+    "6.875% senior notes",
+    "2026",
+    "private offering",
+    "refinance",
+    "credit facilities",
+    "SWM"
+  ],
+  "主要内容": "Schweitzer-Mauduit International, Inc. announced the pricing of its $350 million offering of 6.875% senior notes due 2026. The Notes will bear interest at an annual rate of 6.875% and will be issued at a price equal to 99.241% of the principal amount thereof. The offering is expected to close on September 25, 2018, subject to customary closing conditions. The Company expects to use the proceeds from the offering of the Notes and the borrowings under the previously announced new credit agreement the Company intends to enter into concurrently with the closing of the Notes offering to refinance all amounts outstanding under its existing senior secured credit facilities and to pay related fees and expenses. The Notes and the related guarantees are being offered only to persons reasonably believed to be qualified institutional buyers in reliance on the exemption from registration set forth in Rule 144A under the Securities Act and outside the United States, to non-U.S. persons in reliance on the exemption from registration set forth in Regulation S under the Securities Act. Securities explicitly mentioned in the source include SWM.",
+  "股票实体": [
+    {
+      "名称": "Schweitzer-Mauduit International, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "SWM",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Textiles",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Filtration",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Transportation",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Infrastructure & Construction",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Medical",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Industrial",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:08.109393+00:00",
+    "fetched_at": "2026-11-14T12:46:09.238798+00:00",
+    "feature_available_at": "2026-11-14T12:54:11.104140+00:00",
+    "availability_basis": "extraction"
+  }
+}

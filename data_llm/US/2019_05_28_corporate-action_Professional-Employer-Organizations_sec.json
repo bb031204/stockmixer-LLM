@@ -1,0 +1,36 @@
+{
+  "source_id": "8ec5cc9ca968897ead11feef",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-19-000020-index.html",
+  "title": null,
+  "时间": "2019-05-28",
+  "分类": "corporate_action",
+  "关键词": [
+    "Insperity, Inc.",
+    "Professional Employer Organizations",
+    "Promotion"
+  ],
+  "主要内容": "On May 23, 2019, Insperity, Inc. promoted A. Steve Arizpe to the position of President and Chief Operating Officer. Mr. Arizpe, age 61, previously served as Executive Vice President of Client Services and Chief Operating Officer since August 2003. He joined Insperity in 1989 and held various roles, including Houston Sales Manager, Regional Sales Manager, and Vice President of Sales. Prior to joining Insperity, he worked for NCR Corporation and Clarke-American in sales and sales management roles. Mr. Arizpe's compensation did not change as a result of the promotion.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Professional Employer Organizations",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.106122+00:00",
+    "fetched_at": "2026-11-12T23:39:38.680823+00:00",
+    "feature_available_at": "2026-11-12T23:40:05.791520+00:00",
+    "availability_basis": "extraction"
+  }
+}

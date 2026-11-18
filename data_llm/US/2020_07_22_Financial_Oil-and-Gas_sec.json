@@ -1,0 +1,44 @@
+{
+  "source_id": "97084e41484145f6738674b8",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-20-197028-index.html",
+  "title": null,
+  "时间": "2020-07-22",
+  "分类": "Financial",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "seismic instruments",
+    "oil and gas industry",
+    "water meter products",
+    "imaging equipment",
+    "Geospace Technologies",
+    "GEOS"
+  ],
+  "主要内容": "On July 22, 2020, Geospace Technologies Corporation issued a press release announcing its third quarter 2020 results and conference call schedule. The press release is attached as Exhibit 99.1. The company designs and manufactures seismic instruments and equipment primarily for the oil and gas industry to locate, characterize, and monitor hydrocarbon producing reservoirs. It also markets its seismic products to other industries for vibration monitoring, border and perimeter security, and various geotechnical applications. The company also designs and manufactures non-seismic products, including water meter products, imaging equipment, and offshore cables. Securities explicitly mentioned in the source include Geospace Technologies (GEOS).",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies",
+      "股票代码": "GEOS",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Oil and Gas Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:15.795703+00:00",
+    "fetched_at": "2026-11-14T19:07:10.847411+00:00",
+    "feature_available_at": "2026-11-14T19:07:44.918433+00:00",
+    "availability_basis": "extraction"
+  }
+}

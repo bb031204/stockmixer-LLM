@@ -1,0 +1,39 @@
+{
+  "source_id": "89dba72a41ac8d8c3bbe637b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001564590-20-026402-index.html",
+  "title": "clb-8k_20200520.htm",
+  "时间": "2020-05-20",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "2014 Long-Term Incentive Plan",
+    "LTIP",
+    "2020 Annual Meeting",
+    "KPMG",
+    "Share Repurchase"
+  ],
+  "主要内容": "Core Laboratories N.V. held its Annual Meeting of Shareholders on May 20, 2020, in Amsterdam, the Netherlands. Shareholders approved the amendment and restatement of the 2014 Long-Term Incentive Plan (LTIP), increasing the number of shares authorized for issuance by 1.1 million shares. The amendment extends the term of the LTIP through May 20, 2025. Additionally, the company approved extending the authority to repurchase up to 10% of issued shares and to issue shares and grant rights up to 10% of outstanding shares annually. Shareholders also elected two Class I Supervisory Directors, appointed KPMG as independent registered public accountants for the year ending December 31, 2020, confirmed and adopted Dutch Statutory Annual Accounts in English for the fiscal year ended December 31, 2019, and approved the cancellation of repurchased shares held at 12:01 a.m.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.474770+00:00",
+    "fetched_at": "2026-11-13T00:32:42.300806+00:00",
+    "feature_available_at": "2026-11-13T00:33:53.620293+00:00",
+    "availability_basis": "extraction"
+  }
+}

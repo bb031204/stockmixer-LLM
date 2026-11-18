@@ -1,0 +1,60 @@
+{
+  "source_id": "558151341e914454630869e9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-15-000059-index.html",
+  "title": null,
+  "时间": "2015-09-01",
+  "分类": "Corporate",
+  "关键词": [
+    "Insperity, Inc.",
+    "UnitedHealthcare",
+    "medical and dental insurance",
+    "healthcare costs",
+    "Workforce Optimization®",
+    "Human Capital Management",
+    "Payroll Services",
+    "Financial Services",
+    "NSP"
+  ],
+  "主要内容": "On August 31, 2015, Insperity, Inc. (NYSE: NSP) extended its medical and dental insurance coverage contract with UnitedHealthcare through 2019. The agreement reflects both companies' commitment to providing health care and reform solutions. Insperity's president emphasized the strategic relationship with UnitedHealthcare to maintain stability and value in a volatile market. The partnership, established in January 2002, provides administrative cost savings to offset rising healthcare costs. Insperity offers comprehensive human resources and business solutions through its Workforce Optimization® solution, aiming to improve productivity and reduce liabilities. The company provides Human Capital Management, Payroll Services, and Financial Services, supporting over 100,000 businesses with more than 2 million employees. Insperity reported 2014 revenues of $2.4 billion and operates in 57 offices across the United States.",
+  "股票实体": [
+    {
+      "名称": "UnitedHealthcare",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": "NSP",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Human Capital Management",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Payroll Services",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.874807+00:00",
+    "fetched_at": "2026-11-14T13:14:43.530577+00:00",
+    "feature_available_at": "2026-11-14T13:15:30.871443+00:00",
+    "availability_basis": "extraction"
+  }
+}

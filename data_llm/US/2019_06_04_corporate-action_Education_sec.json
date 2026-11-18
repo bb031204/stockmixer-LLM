@@ -1,0 +1,42 @@
+{
+  "source_id": "6cec0e8a20459f729687455d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-19-164568-index.html",
+  "title": null,
+  "时间": "2019-06-04",
+  "分类": "corporate_action",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "Education",
+    "Sale Contract",
+    "Harmony Public Schools"
+  ],
+  "主要内容": "On June 3, 2019, GTC, Inc., a subsidiary of Geospace Technologies Corporation, entered into a purchase and sale contract with Harmony Public Schools, a Texas non-profit corporation, to sell all real property located at 7334-7340 Gessner Road, Houston, Texas, for $8,600,000. The transaction is expected to close in the fourth quarter of the Company’s fiscal year ending September 30, 2019, subject to due diligence completion.",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Harmony Public Schools",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Education",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.106122+00:00",
+    "fetched_at": "2026-11-12T23:49:37.126909+00:00",
+    "feature_available_at": "2026-11-12T23:49:55.591872+00:00",
+    "availability_basis": "extraction"
+  }
+}

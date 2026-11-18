@@ -1,0 +1,39 @@
+{
+  "kind": "frozen_industry_enriched_selection_v1",
+  "schema_version": "frozen_industry_enriched_selection_v1",
+  "created_at": "2026-11-17T11:33:52.747381+00:00",
+  "articles": 1903,
+  "ready_articles": 1903,
+  "time_mode": "retrospective",
+  "historical_observed_pit_ready": false,
+  "enriched_industry_articles": 25,
+  "context_reviewed_articles": 9,
+  "regional_scope_pending_articles": 1,
+  "upstream_batch_manifest_sha256": "5411eea5c97d0f232ecae247ea99e2dea7a765f91888feed9158c809b6ffda5f",
+  "legacy_metadata_policy": "Exact raw-record and text hash only; preserve pinned company/market metadata, independently version new industry evidence.",
+  "scope_reviewed_at": "2026-11-17T11:33:50.661565+00:00",
+  "enrichment_code_sha256": "266cd4d72f5bea95dc059867899e54d36a2d2834c22567a8e73dace01878ca8d",
+  "batch_summary": {
+    "total": 1904,
+    "processed": 1904,
+    "status_counts": {
+      "completed": 1904
+    },
+    "articles_with_dictionary_mentions": 930,
+    "articles_with_industry_impacts": 18,
+    "industry_impacts": 21
+  },
+  "files": {
+    "articles.jsonl": "4224b6dccc1ba99eb025501ba7c90aaa5793ec79738f00f6f2ffb7e0ae7a2b39",
+    "base_snapshot.zip": "278bab8d282a58e10bbfcd7b3b52f5a965362b4cc31aed669363afd7f4e8b1cb",
+    "dictionary_industry_dictionary.jsonl": "0a2ff3ea0ccfcc93c928c40a72f59d11f8d096204bcea7db6eba6abf60272758",
+    "dictionary_manifest.json": "cf51b8a6f50a9adfe44caf32c9f6f319affce85d377718497be0bc3bb66ac9e5",
+    "dictionary_NASDAQ_industry_ticker.json": "1e3fa58416d0f16783368fc1a7cc4a118e8067c1a4ee8667a1ae46a40747e852",
+    "dictionary_NYSE_industry_ticker.json": "8cc29ef64be3fec5bf2264dc930ed20dc105e1ec3273e0f556ab64a90ab44f7f",
+    "dictionary_sec_sic_source.html": "142f09a2d5fc33741bbfc23fc5058c9593c941367790560945e008d43330eb34",
+    "excluded_articles.jsonl": "5f93130ccdbaead90ed15872a8aecec5a1e799d99696ddca11f7eb3d0c1cf72f",
+    "legacy_snapshot.zip": "53421cd00e9d2548cc386a47b7e06b789b21844e615514a5d231501d2603abc8",
+    "raw_news.zip": "db5efab8e05b916a5dcd2acf4563724ff4f491f2e7ff5cc738aef33871509ee7",
+    "upstream_industry_batch.zip": "8acd055cf5a90f15c7d3c2e161e0330469245f273dbe1a0a8b039994d09edc38"
+  }
+}

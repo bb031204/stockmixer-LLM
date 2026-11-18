@@ -1,0 +1,43 @@
+{
+  "source_id": "7409363ce7da86fbb30c66c0",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-20-006215-index.html",
+  "title": null,
+  "时间": "2020-09-01",
+  "分类": "Dividend",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "dividend",
+    "floating rate Cumulative Class A Preference Shares, Series 25",
+    "US$550 billion",
+    "real estate",
+    "infrastructure",
+    "renewable power",
+    "private equity",
+    "credit",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. (TSX: BAM.A, NYSE: BAM) announced on September 1, 2020, that it has determined the quarterly dividend on its floating rate Cumulative Class A Preference Shares, Series 25 (TSX: BAM.PR.S). The actual quarterly dividend rate was 0.61728% (2.449% annualized), with a dividend of $0.15432 per share payable on December 31, 2020. The dividend rate is based on the annual yield of three-month Government of Canada treasury bills, with an additional 2.30% annual rate. Brookfield Asset Management is a leading global alternative asset manager with approximately US$550 billion of assets under management across real estate, infrastructure, renewable power, private equity and credit.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:15.795112+00:00",
+    "fetched_at": "2026-11-14T17:20:41.901833+00:00",
+    "feature_available_at": "2026-11-14T17:28:43.632883+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -24,20 +24,20 @@ NYSE/NASDAQ：756个候选，取740个，可能使用验证目标索引756..771�
 
 数据产物独立标记original_reproduction；所有真实采样记录在tables/epoch_samples.json。原始数据和历史结果不覆盖。
 
-## strict模式：历史可选
+## strict模式：独立严格对照与新增新闻实验
 
 将stockmixer.yaml中data.protocol改为strict，prepared_root保持null，自动使用原严格行情产物。保留合法训练目标、训练期重标定、无未来标签推理、身份/日期轴与manifest校验。不同协议checkpoint不可混用。
 
-该选项为保留既有实验和对照而存在，不与默认original模式混名比较。历史旧schema完整配置仍可用--config显式读取。
+原始复现入口仍由data.protocol控制；新增新闻流水线由llm.yaml中的pipeline.data_protocol: strict固定选择严格协议，并配对重训同协议E0，不与默认original模式混名比较。历史旧schema完整配置仍可用--config显式读取。
 
 ## LLM新增模块
 
 冻结同协议、同股票/日期轴、同预处理数据的正式E0。新闻Adapter/Gate学习收益率修正，关闭或缺失通道严格贡献0。真实FinBERT/市场路由/时间截止证据必须可审查；不伪造mask、编码或市场链接。LLM为离线预计算，不在模型forward或训练batch中调用。
 
-当前缺少可用于正式融合的真实面板，llm.enabled默认false。仅配置好开关不代表真实新闻流水线已经运行。
+llm.enabled默认false。已增加显式分步脚本与main.py，真实编码、路由、三通道及历史映射状态以准备产物和readiness.json为准。缺少核验历史主数据的启用通道会在训练前被阻止。详见[NEWS_PIPELINE.md](NEWS_PIPELINE.md)。
 
 ## 运行与产物
 
 直接运行src/train_strict.py即可完成检查/必要的数据准备、训练、每轮验证与测试、最佳权重预测。日常主配置默认100轮。latest指历史数据末日：NASDAQ/NYSE为2017-12-08，SP500为2022-05-25。
 
-训练和预测分开保存到outputs，工作流报告同时保留配置原文和来源hash。价格为数据集归一化价格，不是美元。旧3个配置已归档，活动configs只保留stockmixer.yaml和llm.yaml。
+每次训练与自动预测保存在outputs下同一实验文件夹，工作流报告同时保留配置原文和来源hash。价格为数据集归一化价格，不是美元。旧3个配置已归档，活动configs只保留stockmixer.yaml和llm.yaml。

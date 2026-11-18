@@ -1,14 +1,14 @@
-﻿# StockMixer主配置。唯一入口：python src/train_strict.py
+# StockMixer主配置。全流程入口：python main.py；已准备数据训练入口：python src/train_strict.py。
 schema_version: stockmixer_config_v2
-market_name: SP500  # NASDAQ / NYSE / SP500；其余市场参数自动取下表。
+market_name: NASDAQ  # NASDAQ / NYSE / SP500；其余市场参数自动取下表。
 llm:
-  enabled: false  # false=原始StockMixer；true=冻结同协议E0并融合离线市场信息。
+  enabled: true  # NASDAQ市场+行业探索；retrace全量完成后运行main.py，见docs/QUICKSTART.md。
   config: llm.yaml  # 相对本配置文件所在目录；关闭开关时不会读取此文件。
 
 lookback_length: 16
 steps: 1
 fea_num: 5
-scale_factor: 3  # 官方构造函数接收但未使用，网络仍为16+16+8=40。
+scale_factor: 3 # 官方构造函数接收但未使用，网络仍为16+16+8=40。
 activation: GELU  # 官方记录值；特征MLP用GELU，股票混合用Hardswish。
 datasets:
   NASDAQ: {stock_num: 1026, market_num: 20, valid_index: 756, test_index: 1008}

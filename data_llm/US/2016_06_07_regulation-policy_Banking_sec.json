@@ -1,0 +1,36 @@
+{
+  "source_id": "dc06aafc4ec99a62f0748e39",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-16-012073-index.html",
+  "title": null,
+  "时间": "2016-06-07",
+  "分类": "regulation_policy",
+  "关键词": [
+    "ROYAL BANK OF CANADA",
+    "Banking",
+    "Credit ratings"
+  ],
+  "主要内容": "On June 6, 2016, S&P revised our ratings outlook to negative from stable. Our credit ratings remained unchanged.",
+  "股票实体": [
+    {
+      "名称": "ROYAL BANK OF CANADA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.423609+00:00",
+    "fetched_at": "2026-11-12T19:33:58.573012+00:00",
+    "feature_available_at": "2026-11-12T19:34:12.915856+00:00",
+    "availability_basis": "extraction"
+  }
+}

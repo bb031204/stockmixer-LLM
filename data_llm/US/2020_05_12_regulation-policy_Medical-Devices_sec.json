@@ -1,0 +1,30 @@
+{
+  "source_id": "ee779f97db25ed519eaf8569",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-20-011775-index.html",
+  "title": null,
+  "时间": "2020-05-12",
+  "分类": "regulation_policy",
+  "关键词": [
+    "BLONDER TONGUE LABORATORIES INC",
+    "Medical Devices",
+    "regulation_policy"
+  ],
+  "主要内容": "BLONDER TONGUE LABORATORIES INC delayed filing its definitive proxy statement for its 2020 Annual Meeting of Stockholders due to the COVID-19 pandemic. The Company filed a Current Report on Form 8-K on March 26, 2020, and another on April 27, 2020, to indicate its intention to rely on an Order and delay the filing. The Original Report was filed on April 13, 2020, and the Definitive Proxy Statement, including Part III Information, was filed on May 7, 2020. The delay was due to the pandemic, which required management to focus on assessing its impact and developing operational and financial plans.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Medical Devices",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.476279+00:00",
+    "fetched_at": "2026-11-13T00:54:35.935984+00:00",
+    "feature_available_at": "2026-11-13T00:55:14.326600+00:00",
+    "availability_basis": "extraction"
+  }
+}

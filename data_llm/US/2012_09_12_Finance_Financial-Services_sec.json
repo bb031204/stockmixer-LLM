@@ -1,0 +1,38 @@
+{
+  "source_id": "cd351ce52ebd50ac19bf8885",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-12-000751-index.html",
+  "title": null,
+  "时间": "2012-09-12",
+  "分类": "Finance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "BAM",
+    "BAM.A",
+    "BAMA",
+    "Financial Services"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. completed a preferred share issue of CDN$250 million on September 12, 2012. The issue involved 10,000,000 Series 34 Shares issued at CDN$25.00 per share, generating total gross proceeds of CDN$250,000,000. Holders of the Series 34 Shares will receive a cumulative quarterly fixed dividend yielding 4.20% annually for the initial period ending March 31, 2019. The dividend rate will be reset every five years at a rate equal to the 5-year Government of Canada bond yield plus 2.63%. Brookfield Asset Management Inc. is a global alternative asset manager with over $150 billion in assets under management. The company has over a 100-year history of owning and operating assets with a focus on property, renewable power, infrastructure and private equity. It has a range of public and private investment products and services, which leverage its expertise and experience and provide Brookfield with a competitive advantage in the markets where it operates. Brookfield is co-listed on the New York and Toronto Stock Exchanges under the symbol BAM and BAM.A, respectively, and on NYSE Euronext under the symbol BAMA.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.921255+00:00",
+    "fetched_at": "2026-11-14T15:13:14.411749+00:00",
+    "feature_available_at": "2026-11-14T15:13:59.116720+00:00",
+    "availability_basis": "extraction"
+  }
+}

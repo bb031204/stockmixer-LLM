@@ -1,0 +1,33 @@
+{
+  "source_id": "c303285a2a78a0e0457c8b79",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200916a.htm",
+  "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+  "时间": "2020-09-16",
+  "分类": "Monetary Policy",
+  "关键词": [
+    "Federal Reserve",
+    "FOMC",
+    "monetary policy",
+    "interest rates",
+    "inflation target",
+    "economic outlook"
+  ],
+  "主要内容": "On September 16, 2020, the Federal Reserve issued a FOMC statement reaffirming its commitment to achieving maximum employment and a 2% inflation target over the longer run. The Fed acknowledged that inflation remains persistently below target and aims to allow it to moderately exceed 2% for some time to ensure it averages 2% in the long term. The target range for the federal funds rate remains at 0 to 1/4 percent, and the Fed anticipates this rate will stay at this level until labor market conditions align with maximum employment and inflation reaches 2% and is on track to moderately exceed it. The Fed also announced it will increase its holdings of Treasury securities and agency mortgage-backed securities at least at the current pace to sustain smooth market functioning and support credit flow to households and businesses. The Committee will monitor economic outlook implications and adjust monetary policy if risks emerge. Assessments will consider public health, labor market, inflation, and financial developments.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:39:17.003500+00:00",
+    "fetched_at": "2026-11-14T02:57:18.388869+00:00",
+    "feature_available_at": "2026-11-14T02:58:09.676589+00:00",
+    "availability_basis": "extraction"
+  }
+}

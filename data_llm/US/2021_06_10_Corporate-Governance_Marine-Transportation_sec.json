@@ -1,0 +1,39 @@
+{
+  "source_id": "d8a7045ce472cf5c23d2158d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000177/0000919574-21-004013-index.html",
+  "title": null,
+  "时间": "2021-06-10",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "NORDIC AMERICAN TANKERS Ltd",
+    "KPMG AS",
+    "Annual General Meeting",
+    "Independent Auditors",
+    "Shareholders",
+    "NAT"
+  ],
+  "主要内容": "NORDIC AMERICAN TANKERS Ltd announced its 2021 Annual General Meeting (AGM) will be held on July 19, 2021, at 10:00 a.m. Bermuda time in Monaco. The record date for shareholders is May 26, 2021. Shareholders will vote on electing four directors and approving the appointment of KPMG AS as independent auditors. The meeting will review audited financial statements for the year ended December 31, 2020. Approval requires a majority vote. The proxy statement for the AGM is being solicited, and as of May 26, 2021, the company had 156,045,542 common shares outstanding with a par value of $0.01 per share. Securities explicitly mentioned in the source include NORDIC AMERICAN TANKERS Ltd (NAT).",
+  "股票实体": [
+    {
+      "名称": "NORDIC AMERICAN TANKERS Ltd",
+      "股票代码": "NAT",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Marine Transportation",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:47.198638+00:00",
+    "fetched_at": "2026-11-14T12:54:39.735336+00:00",
+    "feature_available_at": "2026-11-14T12:57:29.646137+00:00",
+    "availability_basis": "extraction"
+  }
+}

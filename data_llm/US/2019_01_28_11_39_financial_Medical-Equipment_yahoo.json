@@ -1,0 +1,40 @@
+{
+  "source_id": "645626f77c4aead27e5964a8",
+  "url": "https://finance.yahoo.com/news/must-know-ion-beam-applications-113907677.html",
+  "title": "What You Must Know About Ion Beam Applications SA’s (EBR:IBAB) Financial Strength",
+  "时间": "2019-01-28T11:39:07+00:00",
+  "分类": "financial",
+  "关键词": [
+    "Ion Beam Applications SA",
+    "Medical Equipment"
+  ],
+  "主要内容": "Ion Beam Applications SA is a small-cap stock with a market capitalization of €356m. The company increased its total debt from €29m to €75m over the past twelve months, including long-term debt. IBAB holds €36m in cash and short-term investments, which could be used for business deployment. Its current liabilities amount to €210m, and the company maintains a current ratio of 1.36x, indicating a safe level of current assets to meet obligations. IBAB has a debt-to-equity ratio of 78%, indicating a relatively high level of leverage. While this is not uncommon for small-cap companies, the company's current unprofitability raises concerns about the sustainability of its operations. High debt levels combined with revenues below costs pose liquidity risks, especially during unexpected downturns. However, IBAB's high cash coverage allows it to efficiently utilize borrowings to generate cash flow despite its high debt levels.",
+  "股票实体": [
+    {
+      "名称": "Ion Beam Applications SA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Medical Equipment",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Semiconductor Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T02:41:21.821751+00:00",
+    "fetched_at": "2026-11-14T00:54:07.104220+00:00",
+    "feature_available_at": "2026-11-14T00:54:55.395817+00:00",
+    "availability_basis": "extraction"
+  }
+}

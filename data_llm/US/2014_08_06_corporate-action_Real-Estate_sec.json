@@ -1,0 +1,31 @@
+{
+  "source_id": "fe1e0041651d896ad51c7d88",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000955/0001477932-14-004092-index.html",
+  "title": null,
+  "时间": "2014-08-06",
+  "分类": "corporate_action",
+  "关键词": [
+    "Southcorp Capital, Inc.",
+    "Real Estate",
+    "Purchase"
+  ],
+  "主要内容": "SouthCorp Capital, Inc. agreed to purchase a single family house in Decatur, Indiana. The closing is expected to occur by the end of August. The purchase will be an all cash purchase and the Company will not incur any debt associated with the purchase of the property.",
+  "股票实体": [
+    {
+      "名称": "Southcorp Capital, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.187550+00:00",
+    "fetched_at": "2026-11-14T12:43:04.974477+00:00",
+    "feature_available_at": "2026-11-14T12:43:16.778676+00:00",
+    "availability_basis": "extraction"
+  }
+}

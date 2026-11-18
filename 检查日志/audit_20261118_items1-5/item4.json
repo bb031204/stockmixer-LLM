@@ -1,0 +1,124 @@
+{
+  "item": 4,
+  "checked_at": "2026-11-18T10:53:17+08:00",
+  "report": {
+    "NASDAQ": {
+      "mode": "retrospective",
+      "relation_time_basis": "event_date",
+      "retrospective_internal_passed": true,
+      "issues": {},
+      "cutoffs_checked": 1245,
+      "early_close_sessions": 11,
+      "ledger_rows": 365,
+      "pca": {
+        "fit_ids_count": 41,
+        "manifest_count": 41,
+        "fit_source_hash_matches": true,
+        "training_boundaries_match": true,
+        "mean_matches_train_recompute": true,
+        "basis_matches_train_recompute": true
+      },
+      "observed_pit_article_results": {
+        "unobserved_availability": 49,
+        "after_dataset": 17
+      },
+      "observed_pit_unavailable_relation_contributions": 110,
+      "source_ids_shared_across_splits": {
+        "Train/Val": 0,
+        "Train/Test": 0,
+        "Val/Test": 0
+      },
+      "strict_pit_approved": false
+    },
+    "NYSE": {
+      "mode": "retrospective",
+      "relation_time_basis": "event_date",
+      "retrospective_internal_passed": true,
+      "issues": {},
+      "cutoffs_checked": 1245,
+      "early_close_sessions": 11,
+      "ledger_rows": 315,
+      "pca": {
+        "fit_ids_count": 37,
+        "manifest_count": 37,
+        "fit_source_hash_matches": true,
+        "training_boundaries_match": true,
+        "mean_matches_train_recompute": true,
+        "basis_matches_train_recompute": true
+      },
+      "observed_pit_article_results": {
+        "unobserved_availability": 50,
+        "after_dataset": 13
+      },
+      "observed_pit_unavailable_relation_contributions": 60,
+      "source_ids_shared_across_splits": {
+        "Train/Val": 0,
+        "Train/Test": 0,
+        "Val/Test": 0
+      },
+      "strict_pit_approved": false
+    },
+    "SP500": {
+      "mode": "retrospective",
+      "relation_time_basis": "event_date",
+      "retrospective_internal_passed": true,
+      "issues": {},
+      "cutoffs_checked": 1611,
+      "early_close_sessions": 12,
+      "ledger_rows": 410,
+      "pca": {
+        "fit_ids_count": 52,
+        "manifest_count": 52,
+        "fit_source_hash_matches": true,
+        "training_boundaries_match": true,
+        "mean_matches_train_recompute": true,
+        "basis_matches_train_recompute": true
+      },
+      "observed_pit_article_results": {
+        "unobserved_availability": 73,
+        "after_dataset": 9
+      },
+      "observed_pit_unavailable_relation_contributions": 25,
+      "source_ids_shared_across_splits": {
+        "Train/Val": 0,
+        "Train/Test": 0,
+        "Val/Test": 0
+      },
+      "strict_pit_approved": false
+    },
+    "original_candidate_overlap": {
+      "NASDAQ": {
+        "target_indices": [
+          756,
+          771
+        ],
+        "target_dates": [
+          "2016-01-04",
+          "2016-01-26"
+        ]
+      },
+      "NYSE": {
+        "target_indices": [
+          756,
+          771
+        ],
+        "target_dates": [
+          "2016-01-04",
+          "2016-01-26"
+        ]
+      },
+      "SP500": {
+        "target_indices": [
+          1006,
+          1021
+        ],
+        "target_dates": [
+          "2020-01-02",
+          "2020-01-24"
+        ]
+      }
+    }
+  },
+  "text": "结论：严格PIT无未来信息泄露验收“不通过”。当前为original + retrospective探索性回溯实验；以下分别报告回溯内部时序检查与严格PIT缺口，不能混为通过。\nNASDAQ：回溯内部检查通过；核验1245个交易日cutoff（含11个提前收盘日）、365条聚合溯源；未发现的违规项计数为空才算通过：{}。\n  发布时间/仅日期顺延、严格早于cutoff、5交易日新闻有效窗口、聚合权重、事件日期历史关系已逐条检查。行业关系使用event_date：核验新闻发生日成员资格，并非每个后续决策日仍具成员资格。\n  训练期PCA：拟合文章41篇，拟合ID哈希/边界、均值、16维基向量从训练集合重算核对：{\"fit_ids_count\": 41, \"manifest_count\": 41, \"fit_source_hash_matches\": true, \"training_boundaries_match\": true, \"mean_matches_train_recompute\": true, \"basis_matches_train_recompute\": true}。跨阶段共享source_id：{\"Train/Val\": 0, \"Train/Test\": 0, \"Val/Test\": 0}；共享本身需按时间窗口解释，不能一概当泄露。\n  严格observed_pit重判已有有效文章：{\"unobserved_availability\": 49, \"after_dataset\": 17}；公司/行业中按known_from不可用于历史决策的溯源贡献110条。2026年采集/推断和证据获知时间不能回填到历史，故严格PIT不通过。\nNYSE：回溯内部检查通过；核验1245个交易日cutoff（含11个提前收盘日）、315条聚合溯源；未发现的违规项计数为空才算通过：{}。\n  发布时间/仅日期顺延、严格早于cutoff、5交易日新闻有效窗口、聚合权重、事件日期历史关系已逐条检查。行业关系使用event_date：核验新闻发生日成员资格，并非每个后续决策日仍具成员资格。\n  训练期PCA：拟合文章37篇，拟合ID哈希/边界、均值、16维基向量从训练集合重算核对：{\"fit_ids_count\": 37, \"manifest_count\": 37, \"fit_source_hash_matches\": true, \"training_boundaries_match\": true, \"mean_matches_train_recompute\": true, \"basis_matches_train_recompute\": true}。跨阶段共享source_id：{\"Train/Val\": 0, \"Train/Test\": 0, \"Val/Test\": 0}；共享本身需按时间窗口解释，不能一概当泄露。\n  严格observed_pit重判已有有效文章：{\"unobserved_availability\": 50, \"after_dataset\": 13}；公司/行业中按known_from不可用于历史决策的溯源贡献60条。2026年采集/推断和证据获知时间不能回填到历史，故严格PIT不通过。\nSP500：回溯内部检查通过；核验1611个交易日cutoff（含12个提前收盘日）、410条聚合溯源；未发现的违规项计数为空才算通过：{}。\n  发布时间/仅日期顺延、严格早于cutoff、5交易日新闻有效窗口、聚合权重、事件日期历史关系已逐条检查。行业关系使用event_date：核验新闻发生日成员资格，并非每个后续决策日仍具成员资格。\n  训练期PCA：拟合文章52篇，拟合ID哈希/边界、均值、16维基向量从训练集合重算核对：{\"fit_ids_count\": 52, \"manifest_count\": 52, \"fit_source_hash_matches\": true, \"training_boundaries_match\": true, \"mean_matches_train_recompute\": true, \"basis_matches_train_recompute\": true}。跨阶段共享source_id：{\"Train/Val\": 0, \"Train/Test\": 0, \"Val/Test\": 0}；共享本身需按时间窗口解释，不能一概当泄露。\n  严格observed_pit重判已有有效文章：{\"unobserved_availability\": 73, \"after_dataset\": 9}；公司/行业中按known_from不可用于历史决策的溯源贡献25条。2026年采集/推断和证据获知时间不能回填到历史，故严格PIT不通过。\n当前主配置data.protocol=original，新闻pipeline.data_protocol=original；当前NASDAQ original候选目标16～771，验证目标756～1007，候选中重叠756～771共16个验证标签（每轮随机取740个，是否全部采到取决于该轮）。这不是新闻发布日期违规，而是用户选择保留的原始实现训练切分。\noriginal各市场潜在重叠：{\"NASDAQ\": {\"target_indices\": [756, 771], \"target_dates\": [\"2016-01-04\", \"2016-01-26\"]}, \"NYSE\": {\"target_indices\": [756, 771], \"target_dates\": [\"2016-01-04\", \"2016-01-26\"]}, \"SP500\": {\"target_indices\": [1006, 1021], \"target_dates\": [\"2020-01-02\", \"2020-01-24\"]}}\n整改条件：若验收要求strict标签隔离，需切换两处protocol并使用同协议重训E0；若要求observed PIT，还需有历史真实可用时间及当时已知主数据。仅把mode或时间戳改早不能补齐证据。保留当前探索实验配置，本次不擅自切换或重训。",
+  "document_before_sha256": "78c6cf7f943d4fa9539fad1d589a888bfc6a26c51ddf162ab3063179c53367a5"
+}

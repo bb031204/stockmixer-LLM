@@ -1,0 +1,49 @@
+{
+  "source_id": "cca96db5eec651079beb642a",
+  "url": "https://www.bloomberg.com/news/articles/2016-02-12/gold-heads-for-the-best-week-since-2011-as-fear-is-in-control",
+  "title": "Gold Heads for the Best Week Since 2011 as `Fear Is in Control'",
+  "时间": "2016-02-12T00:10:11.149000+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "Gold",
+    "Gold prices",
+    "Bear market",
+    "Global stocks",
+    "Weakening dollar",
+    "Negative interest rates",
+    "Standard & Poor’s 500 Index",
+    "Barrick Gold Corp.",
+    "Newmont Mining Corp."
+  ],
+  "主要内容": "Gold prices surged to their highest level in a year as investors fled a bear market in global stocks, a weakening dollar, and the fallout from the spread of negative interest rates. Futures in the metal posted the biggest weekly jump in seven years, even as prices fell on Friday. A measure of gold mining shares was poised for the highest close since July. Gold is up 44 percent and is the top performer on the Standard & Poor’s 500 Index of equities.",
+  "股票实体": [
+    {
+      "名称": "Barrick Gold Corp.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Newmont Mining Corp.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Mining",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-14T02:55:53.741666+00:00",
+    "feature_available_at": "2026-11-14T02:56:18.870257+00:00",
+    "availability_basis": "extraction"
+  }
+}

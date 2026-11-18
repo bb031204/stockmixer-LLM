@@ -1,0 +1,38 @@
+{
+  "source_id": "eb043aaa00bd8595cb938559",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-18-198569-index.html",
+  "title": null,
+  "时间": "2018-06-21",
+  "分类": "corporate_action",
+  "关键词": [
+    "Henry Schein Inc",
+    "Healthcare",
+    "Reverse Morris Trust transaction",
+    "HS Merger Sub, Inc."
+  ],
+  "主要内容": "Henry Schein Inc entered into definitive agreements with HS Spinco, Inc. and Direct Vet Marketing, Inc. as part of a Reverse Morris Trust transaction. The Company will contribute its animal health business to Spinco, which will issue shares in exchange. The Company will distribute these shares to its stockholders, and Spinco will change its name to Vets First Corp. HS Merger Sub, Inc. will merge with DVM, with DVM surviving as a subsidiary.",
+  "股票实体": [
+    {
+      "名称": "HS Merger Sub, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.879895+00:00",
+    "fetched_at": "2026-11-12T21:57:53.009583+00:00",
+    "feature_available_at": "2026-11-12T21:58:15.540717+00:00",
+    "availability_basis": "extraction"
+  }
+}

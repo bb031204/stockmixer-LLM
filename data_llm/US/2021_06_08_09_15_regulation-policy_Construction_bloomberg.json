@@ -1,0 +1,56 @@
+{
+  "source_id": "a2d3436ae52fa0411e31b74d",
+  "url": "https://www.bloomberg.com/opinion/articles/2021-06-08/katerra-bankruptcy-how-softbank-s-american-house-of-cards-collapsed",
+  "title": "How SoftBank's American House of Cards Collapsed",
+  "时间": "2021-06-08T09:15:13.603000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Katerra Inc.",
+    "Construction",
+    "Bankruptcy",
+    "SoftBank Group Corp.",
+    "Greensill Capital",
+    "Credit Suisse Group AG"
+  ],
+  "主要内容": "Katerra Inc., a U.S. construction startup, filed for bankruptcy three months after Greensill Capital’s collapse. The firm relied heavily on Greensill for financing, and Greensill’s insolvency led to Katerra’s downfall. The collapse of both firms has cost SoftBank investors about $4 billion. Credit Suisse Group AG has cut ties with SoftBank and is considering suing the Japanese company to recover $440 million in client funds lent to Katerra by Greensill.",
+  "股票实体": [
+    {
+      "名称": "Katerra Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "SoftBank Group Corp.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Greensill Capital",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Credit Suisse Group AG",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Construction",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:14.078810+00:00",
+    "fetched_at": "2026-11-12T18:44:34.636527+00:00",
+    "feature_available_at": "2026-11-12T18:44:46.286381+00:00",
+    "availability_basis": "extraction"
+  }
+}

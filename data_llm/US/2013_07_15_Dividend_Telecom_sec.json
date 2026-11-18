@@ -1,0 +1,42 @@
+{
+  "source_id": "fe14954a0f5e0d3067fcd4be",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001445305-13-001628-index.html",
+  "title": null,
+  "时间": "2013-07-15",
+  "分类": "Dividend",
+  "关键词": [
+    "Optical Cable Corporation",
+    "OCC",
+    "Dividend",
+    "Fiber Optic",
+    "Copper Cabling"
+  ],
+  "主要内容": "On July 15, 2013, Optical Cable Corporation (OCC) declared a quarterly cash dividend of $0.02 per share on its common stock, effective July 12, 2013. The dividend will be paid on August 15, 2013, to shareholders of record on July 29, 2013. This represents an annual cash dividend of $0.08 per common share. The dividend is the third quarterly dividend declared by the Board of Directors during fiscal year 2013, with the next dividend expected in October 2013. OCC is a leading manufacturer of fiber optic and copper data communication cabling and connectivity solutions for the enterprise market.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Telecommunications Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.153580+00:00",
+    "fetched_at": "2026-11-14T04:32:30.325428+00:00",
+    "feature_available_at": "2026-11-14T04:47:17.876371+00:00",
+    "availability_basis": "extraction"
+  }
+}

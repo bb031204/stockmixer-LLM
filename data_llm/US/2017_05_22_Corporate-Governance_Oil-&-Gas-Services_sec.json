@@ -1,0 +1,38 @@
+{
+  "source_id": "df5cd356d76b59569a6738ca",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-17-000068-index.html",
+  "title": null,
+  "时间": "2017-05-22",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Class I Supervisory Directors",
+    "KPMG",
+    "repurchase shares",
+    "preemptive rights"
+  ],
+  "主要内容": "Core Laboratories N.V. requested shareholders to re-elect two Class I Supervisory Directors, amend Articles of Association, appoint KPMG as independent registered public accountants, approve compensation philosophy, confirm Dutch Statutory Annual Accounts, and resolve cancellation of repurchased shares. On May 22, 2017, the company approved three proposals extending its authority to repurchase up to 10% of issued share capital until November 18, 2018. The proposal received 35,801,126 votes in favor, 56,034 against, and 179,143 abstentions. It also extended the authority to issue shares and grant rights, including options, up to 10% of outstanding shares annually until November 18, 2018, with 35,693,135 votes in favor. Lastly, it extended the authority to limit or exclude preemptive rights for common and preference shares, with 34,783,344 votes in favor. The approvals were confirmed by Richard L. Bergmark, Chief Financial Officer.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.722748+00:00",
+    "fetched_at": "2026-11-12T20:37:24.212706+00:00",
+    "feature_available_at": "2026-11-12T20:38:14.966898+00:00",
+    "availability_basis": "extraction"
+  }
+}

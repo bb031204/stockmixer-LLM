@@ -1,0 +1,66 @@
+{
+  "source_id": "a0d43cc9dab3c36803fe659a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-13-001036-index.html",
+  "title": null,
+  "时间": "2013-08-21",
+  "分类": "Financial",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Brookfield Timberlands Fund V L.P.",
+    "US$1 billion",
+    "timberlands",
+    "Brazil",
+    "Australia",
+    "Canada",
+    "Chile",
+    "Uruguay",
+    "New Zealand",
+    "forward-looking statements",
+    "risks",
+    "regulatory",
+    "political factors",
+    "natural disasters",
+    "international conflicts",
+    "terrorism",
+    "Brookfield Timberlands"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. finalized the close of Brookfield Timberlands Fund V L.P., securing US$1 billion in equity commitments, surpassing the initial US$750 million target. The fund will focus on timberlands in the U.S., Brazil, and Australia, with potential expansion into Canada, Chile, Uruguay, and New Zealand. Brookfield committed US$250 million, aligning its interests with third-party investors. The filing includes forward-looking statements about the fund's operations and financial outlook, as well as economic conditions in North America and internationally. The filing highlights key risks and uncertainties affecting Brookfield Asset Management Inc., including challenges in integrating acquisitions, regulatory and political factors in operating countries, natural disasters, international conflicts, and terrorism.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Brookfield Timberlands",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Forestry",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Timberlands",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.155059+00:00",
+    "fetched_at": "2026-11-14T15:36:57.246330+00:00",
+    "feature_available_at": "2026-11-14T15:42:08.640246+00:00",
+    "availability_basis": "extraction"
+  }
+}

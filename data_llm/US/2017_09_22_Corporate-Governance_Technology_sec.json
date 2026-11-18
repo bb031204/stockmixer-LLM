@@ -1,0 +1,38 @@
+{
+  "source_id": "dd29aced50c0dedc01083bfe",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-17-291415-index.html",
+  "title": null,
+  "时间": "2017-09-22",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "Bylaws",
+    "Voting Standard",
+    "Director Elections",
+    "Resignation Process"
+  ],
+  "主要内容": "On September 21, 2017, Geospace Technologies Corporation amended its bylaws, changing the voting standard for director elections from a plurality to a majority in uncontested elections, while retaining plurality voting in contested elections. The amendment also requires directors to deliver an irrevocable resignation if they fail to receive a majority of votes cast in an election under certain conditions. The amendments include an update to Section 3.9 of the Bylaws, outlining the process for director resignations. The resignation will be effective upon the earlier of (i) the selection of a replacement director by the Board, (ii) 180 days after certification of such shareholder vote, or (iii) acceptance by the Board. The full text of the Amendment is attached as Exhibit 3.1, and the amended and restated Bylaws are provided as Exhibit 3.2.",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.017470+00:00",
+    "fetched_at": "2026-11-14T19:04:58.040302+00:00",
+    "feature_available_at": "2026-11-14T19:05:35.488783+00:00",
+    "availability_basis": "extraction"
+  }
+}

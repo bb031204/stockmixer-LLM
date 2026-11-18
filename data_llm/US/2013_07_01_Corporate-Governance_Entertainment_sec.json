@@ -1,0 +1,34 @@
+{
+  "source_id": "95d264aeea51a6fac4001b28",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001039/0001001039-13-000098-index.html",
+  "title": null,
+  "时间": "2013-07-01",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Walt Disney Co.",
+    "Robert A. Iger",
+    "Employment Agreement",
+    "Chief Executive Officer",
+    "Compensation",
+    "Restricted Stock Units",
+    "Options"
+  ],
+  "主要内容": "On July 1, 2013, Walt Disney Co. amended the Amended and Restated Employment Agreement with Robert A. Iger, extending his tenure as Chief Executive Officer until June 30, 2016. Previously, the agreement stipulated that his role as CEO would end on March 31, 2015, after which he would serve as Executive Chairman until June 30, 2016. The amendment ensures that Mr. Iger's annual compensation as CEO will remain based on the same criteria as before. His salary remains unchanged, and the target annual incentive and equity award for fiscal year 2016 will match those of fiscal year 2015. The amendment also clarifies that vesting provisions for restricted stock units and options, and exercise periods for options, will continue to apply as if the termination date occurred during the period he would have served only as Executive Chairman (from April 1, 2015).",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Entertainment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.154146+00:00",
+    "fetched_at": "2026-11-14T12:01:00.028635+00:00",
+    "feature_available_at": "2026-11-14T12:01:32.868214+00:00",
+    "availability_basis": "extraction"
+  }
+}

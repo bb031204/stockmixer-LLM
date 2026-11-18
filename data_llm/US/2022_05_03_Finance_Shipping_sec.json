@@ -1,0 +1,41 @@
+{
+  "source_id": "f0c69ad1dc73dd11ca926026",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000177/0000919574-22-002980-index.html",
+  "title": null,
+  "时间": "2022-05-03",
+  "分类": "Finance",
+  "关键词": [
+    "NORDIC AMERICAN TANKERS Ltd",
+    "Suezmax vessels",
+    "impairment charges",
+    "cash injection",
+    "fleet expansion",
+    "debt-free objective",
+    "NAT"
+  ],
+  "主要内容": "NORDIC AMERICAN TANKERS Ltd reported the sale of four Suezmax vessels, generating a cash injection of about USD 60 million. The fourth vessel was delivered to new owners on April 12, 2022. The company plans to expand its fleet to about 30 Suezmax vessels in the next few years. Two newbuildings were contracted for six years each, totaling twelve years with first-class partners. An impairment charge of USD 51.9 million was recorded for 2021, related to vessels built in 2002 and 2003. This charge is non-cash and unrelated to business operations. The 2021 impairment charge was previously USD 8.4 million but will be adjusted to USD 60.3 million in the 20-F Annual Report. The tanker market has developed positively in 2022, with recently announced spot voyage contracts expected to significantly contribute to its cash position and ability to pay dividends. The company is progressing toward its objective of becoming debt-free. Securities explicitly mentioned in the source include NORDIC AMERICAN TANKERS Ltd (NAT).",
+  "股票实体": [
+    {
+      "名称": "NORDIC AMERICAN TANKERS Ltd",
+      "股票代码": "NAT",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Marine Transportation",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.696898+00:00",
+    "fetched_at": "2026-11-14T07:01:49.782304+00:00",
+    "feature_available_at": "2026-11-14T07:07:06.183712+00:00",
+    "availability_basis": "extraction"
+  }
+}

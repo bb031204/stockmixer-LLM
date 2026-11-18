@@ -1,0 +1,56 @@
+{
+  "source_id": "a84db88d169c18f0d7f9c92a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-16-712344-index.html",
+  "title": null,
+  "时间": "2016-09-16",
+  "分类": "Financial Restructuring",
+  "关键词": [
+    "Medallion Financial Corp",
+    "Loan and Security Agreement",
+    "Autobahn Funding Company LLC",
+    "DZ Bank AG",
+    "Financial Restructuring",
+    "Taxi Medallion Loan Trust III",
+    "Medallion Funding LLC"
+  ],
+  "主要内容": "On September 13, 2016, Medallion Financial Corp, along with other entities, amended its Loan and Security Agreement as part of a broader financial restructuring effort. The amendment was executed in conjunction with an agreement between Taxi Medallion Loan Trust III, an indirect wholly-owned subsidiary of Medallion Financial Corp, and Autobahn Funding Company LLC and DZ Bank AG Deutsche Zentral-Genossenschaftsbank, Frankfurt am Main. The amendment was part of a broader financial restructuring initiative aimed at improving the company's financial position.",
+  "股票实体": [
+    {
+      "名称": "Medallion Financial Corp",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Taxi Medallion Loan Trust III",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Medallion Funding LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DZ Bank AG",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:01.341942+00:00",
+    "fetched_at": "2026-11-14T08:47:13.558821+00:00",
+    "feature_available_at": "2026-11-14T08:47:44.070878+00:00",
+    "availability_basis": "extraction"
+  }
+}

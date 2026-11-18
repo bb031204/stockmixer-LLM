@@ -1,0 +1,42 @@
+{
+  "source_id": "745e0355d084034235fd5878",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-20-000016-index.html",
+  "title": "Document",
+  "时间": "2020-04-08",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Insperity, Inc.",
+    "NYSE: NSP",
+    "Corporate Governance",
+    "Board of Directors",
+    "Austin P. Young",
+    "Paul J. Sarvadi",
+    "Timothy Clifford",
+    "Ellen Masterson",
+    "NSP"
+  ],
+  "主要内容": "Insperity, Inc. (NYSE: NSP) filed a Form 8-K with the SEC on April 8, 2020, reporting the earliest event as April 2, 2020. The filing relates to regulatory compliance and disclosure requirements under the Securities Exchange Act of 1934. The company is registered in Delaware with Commission File Number 1-13998 and IRS Employer Identification Number 76-0479645. The filing does not include specific financial results or operational updates. Additionally, Insperity, Inc. announced that Austin P. Young will retire from the board at the 2020 annual meeting of stockholders, expected in May 2020. Mr. Young served on the board for over 17 years. Paul J. Sarv5adi, chairman and CEO, acknowledged Young's leadership. The board also elected Timothy Clifford as lead independent director and appointed Ellen Masterson to chair the Finance, Risk Management and Audit Committee.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": "NSP",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.476279+00:00",
+    "fetched_at": "2026-11-13T01:20:07.028092+00:00",
+    "feature_available_at": "2026-11-13T01:20:58.226744+00:00",
+    "availability_basis": "extraction"
+  }
+}

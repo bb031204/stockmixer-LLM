@@ -1,0 +1,36 @@
+{
+  "source_id": "d8f28d0088b60de07b6e14a9",
+  "url": "https://www.bloomberg.com/news/articles/2018-10-15/sears-said-to-be-filing-for-bankruptcy-protection-monday-morning",
+  "title": "Sears Goes Bankrupt, Mired in Debt and Deserted by Shoppers",
+  "时间": "2018-10-15T03:18:36.667000+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "Sears Holdings Corp.",
+    "Retail",
+    "Bankruptcy"
+  ],
+  "主要内容": "Sears Holdings Corp., the 125-year-old retailer that became an icon for generations of American shoppers, filed for bankruptcy, saddled with billions of dollars of debt racked up as it struggled to adjust to the rapid shift toward online consumption. The company, which employs 68,000 people, filed for Chapter 11 early Monday in White Plains, New York. Eddie Lampert, the hedge fund manager who propped up the retailer for years with lifelines and financial engineering, is stepping down immediately as chief executive officer. At the same time, Lampert’s ESL Investments Inc. is negotiating a financing deal while also discussing buying “a large portion of the company’s store base,” Sears said in a statement.",
+  "股票实体": [
+    {
+      "名称": "Sears Holdings Corp.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Retail",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:03.514086+00:00",
+    "fetched_at": "2026-11-12T18:33:18.242969+00:00",
+    "feature_available_at": "2026-11-12T18:33:31.347014+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "910b1bb11524592e5e225d12",
+  "url": "https://finance.yahoo.com/news/brock-scott-sued-federal-court-033007793.html",
+  "title": "Brock & Scott Sued in Federal Court in Florida Over its Debt Collection Practices",
+  "时间": "2019-01-17T03:30:07+00:00",
+  "分类": "Legal",
+  "关键词": [
+    "Brock & Scott",
+    "debt collection",
+    "Fair Debt Collection Practices Act",
+    "Florida",
+    "SunTrust",
+    "John Skrandel"
+  ],
+  "主要内容": "Brock & Scott, a debt collection law firm, faced a federal lawsuit in Florida over alleged violations of the Fair Debt Collection Practices Act and Florida's Consumer Collection Practices Act. The case targets the firm's practices against Fort Lauderdale resident Virginia Frick. The lawsuit involves a dispute with client SunTrust, where an initial settlement was reached. Plaintiff's attorney John Skrandel stated that the client made payments as agreed, but the firm rejected an arrangement allowing advance payments. Skrand, arguing that the firm had no legal basis to reject the payment, criticized its actions, suggesting they consistently made errors favoring themselves. Brock & Scott declined to comment on the litigation.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Legal Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Debt Collection",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T02:41:21.821751+00:00",
+    "fetched_at": "2026-11-14T02:03:45.286725+00:00",
+    "feature_available_at": "2026-11-14T02:04:22.461361+00:00",
+    "availability_basis": "extraction"
+  }
+}

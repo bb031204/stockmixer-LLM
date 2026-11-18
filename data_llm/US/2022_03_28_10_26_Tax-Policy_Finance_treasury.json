@@ -1,0 +1,43 @@
+{
+  "source_id": "ce5052ffd0791826dadca042",
+  "url": "https://home.treasury.gov/news/press-releases/jy0683",
+  "title": "U.S. Department of the Treasury Releases Greenbook, Outlining Tax Proposals Will Help Build a Better America | U.S. Department of the Treasury",
+  "时间": "2022-03-28T10:26:45-04:00",
+  "分类": "Tax Policy",
+  "关键词": [
+    "U.S. Department of the Treasury",
+    "Greenbook",
+    "tax proposals",
+    "corporate tax rate",
+    "undertaxed profits rule",
+    "tax incentives",
+    "basis shifting",
+    "tax code reforms",
+    "deficit reduction",
+    "tax compliance"
+  ],
+  "主要内容": "On March 28, 2022, the U.S. Department of the Treasury released the Greenbook, outlining tax proposals included in the FY2023 Budget. The proposals aim to reform business and international taxation, raise corporate income tax rates, and close loopholes. Key measures include lowering the corporate tax rate to 28 percent, adopting the undertaxed profits rule, and providing tax incentives for locating jobs and business activity in the United States. The plan also aims to remove tax deductions for shipping jobs overseas and prevent basis shifting by related parties through partnerships. Additionally, the proposals include making the adoption tax credit refundable, allowing certain guardianship arrangements to qualify, and providing income exclusion for student debt relief. The Greenbook emphasizes tax code reforms to ensure corporations and wealthy Americans pay their fair share, aiming to reduce deficits and maintain low debt burdens.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Finance",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Insurance",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T17:41:03.335938+00:00",
+    "fetched_at": "2026-11-13T21:21:22.495222+00:00",
+    "feature_available_at": "2026-11-13T21:38:43.897439+00:00",
+    "availability_basis": "extraction"
+  }
+}

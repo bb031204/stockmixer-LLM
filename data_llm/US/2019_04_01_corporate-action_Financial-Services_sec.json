@@ -1,0 +1,25 @@
+{
+  "source_id": "7d948e573d30629bf309daee",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001144204-19-017112-index.html",
+  "title": null,
+  "时间": "2019-04-01",
+  "分类": "corporate_action",
+  "关键词": [
+    "CREDICORP LTD",
+    "Financial Services",
+    "Corporate Action"
+  ],
+  "主要内容": "CREDICORP LTD approved its audited consolidated financial statements for the year ended December 31, 2018, including financial position, income, comprehensive income, changes in equity, and cash flows. The external auditors were Gaveglio, Aparicio y Asociados Sociedad de Responsabilidad Limitada, a member firm of PricewaterhouseCoopers in Peru. The company also appointed the same firm as its external auditors for the 2019 financial year and authorized the Audit Committee to approve auditor fees. Additionally, the board approved director remuneration, including annual payments of US$50,000 to each director, US$40,000 to audit committee members, and US$1,500 per session for executive committee members.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.107122+00:00",
+    "fetched_at": "2026-11-13T00:03:52.429555+00:00",
+    "feature_available_at": "2026-11-13T00:04:14.892950+00:00",
+    "availability_basis": "extraction"
+  }
+}

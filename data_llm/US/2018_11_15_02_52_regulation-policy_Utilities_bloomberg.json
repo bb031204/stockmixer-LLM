@@ -1,0 +1,37 @@
+{
+  "source_id": "f74c5cea43857fcb93574511",
+  "url": "https://www.bloomberg.com/news/articles/2018-11-15/pg-e-faces-deepening-fire-crisis-with-12-billion-market-wipeout",
+  "title": "PG&E Soars After Regulator Signals No Bankruptcy Interest",
+  "时间": "2018-11-15T02:52:21.561000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "PG&E Corp.",
+    "Utilities",
+    "Regulation Policy"
+  ],
+  "主要内容": "PG&E Corp. saw its stock rise by 49% in extended trading after California Public Utilities Commission head Michael Picker stated that allowing the state's largest utility to go bankrupt amid potential liability from deadly wildfires would be poor policy. Picker emphasized the need for stability and economic support to ensure the utility can finance essential services and infrastructure.",
+  "股票实体": [
+    {
+      "名称": "PG&E Corp.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Utilities",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:03.514086+00:00",
+    "fetched_at": "2026-11-12T18:34:31.927484+00:00",
+    "feature_available_at": "2026-11-12T18:34:47.554958+00:00",
+    "availability_basis": "extraction"
+  }
+}

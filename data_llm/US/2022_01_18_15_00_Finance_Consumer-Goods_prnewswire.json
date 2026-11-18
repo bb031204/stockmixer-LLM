@@ -1,0 +1,55 @@
+{
+  "source_id": "c457796c1c05b3b4ad5506b3",
+  "url": "https://www.prnewswire.com/news-releases/story3-capital-partners-completes-growth-equity-investment-in-harrys-inc-301461722.html",
+  "title": "STORY3 Capital Partners Completes Growth Equity Investment in Harry's, Inc.",
+  "时间": "2022-01-18T15:00:00+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "Harry's, Inc.",
+    "STORY3 Capital Partners",
+    "Consumer Goods",
+    "Equity Investment",
+    "Growth Initiatives",
+    "Lands' End, Inc.",
+    "LE"
+  ],
+  "主要内容": "STORY3 Capital Partners completed a $115 million equity investment in Harry's, Inc. to support growth initiatives across its four brands, including the acquisition of Lumē Deodorant. The investment aims to support the future growth of Harry's family of next-generation CPG brands through incubation and acquisition. STORY3 Capital Partners has completed a growth equity investment in Harry's, Inc. Since its inception in October 2018, the firm has sourced, arranged, and executed over $1 billion in capital transactions in consumer-facing businesses. The investment strategy focuses on value creation through deep industry expertise, operating support, and transactional experience. Securities explicitly mentioned in the source include Lands' End, Inc. (LE).",
+  "股票实体": [
+    {
+      "名称": "Harry's, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "STORY3 Capital Partners",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Lands' End, Inc.",
+      "股票代码": "LE",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Consumer Goods",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Apparel Retail",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T02:41:29.079495+00:00",
+    "fetched_at": "2026-11-14T01:32:46.312326+00:00",
+    "feature_available_at": "2026-11-14T01:33:36.202199+00:00",
+    "availability_basis": "extraction"
+  }
+}

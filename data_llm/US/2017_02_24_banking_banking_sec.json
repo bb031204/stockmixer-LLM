@@ -1,0 +1,38 @@
+{
+  "source_id": "dacb14963ebdee654c30ca78",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-17-055891-index.html",
+  "title": null,
+  "时间": "2017-02-24",
+  "分类": "banking",
+  "关键词": [
+    "Royal Bank of Canada",
+    "RBC",
+    "Jennifer Tory",
+    "Neil McLaughlin",
+    "banking"
+  ],
+  "主要内容": "Royal Bank of Canada announced on February 24, 2017, that Jennifer Tory will transition from Group Head Personal & Commercial Bank (P&CB) to Chief Administrative Officer (CAO), while Neil McLaughlin will move from Executive Vice-President, Business Financial Services, P&CB to Group Head P&CB. The changes will take effect on May 1, 2017. Dave McKay, President and CEO, highlighted Tory's experience and focus on customer service, emphasizing her role in overseeing cross-business initiatives. Tory has led the transformation of RBC's Canadian retail bank to a digitally-enabled relationship bank over the past three years. The bank's strategic realignment in Caribbean Banking aims to improve client service and long-term profitability.",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:10.446085+00:00",
+    "fetched_at": "2026-11-13T04:35:46.267029+00:00",
+    "feature_available_at": "2026-11-13T04:36:14.653215+00:00",
+    "availability_basis": "extraction"
+  }
+}

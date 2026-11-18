@@ -1,0 +1,33 @@
+{
+  "source_id": "9891579459230b0b87816d42",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-12-000739-index.html",
+  "title": null,
+  "时间": "2012-09-07",
+  "分类": "corporate_action",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Financial Services",
+    "Corporate Action",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. announced an offering of C$425 million of medium term notes (unsecured) with a March 2023 maturity and a yield of 4.546%. The notes have been assigned credit ratings of Baa2 (stable outlook) by Moody’s, A - (negative outlook) by Standard & Poor’s, BBB (stable outlook) by Fitch, and A low (stable outlook) by DBRS. The company intends to use the net proceeds to redeem or repurchase $350 million of 8.95% notes maturing on June 2, 2014, and for general corporate purposes. Securities explicitly mentioned in the source include Brookfield Asset Management Inc. (BAM).",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.921255+00:00",
+    "fetched_at": "2026-11-14T15:00:21.251317+00:00",
+    "feature_available_at": "2026-11-14T15:01:03.926971+00:00",
+    "availability_basis": "extraction"
+  }
+}

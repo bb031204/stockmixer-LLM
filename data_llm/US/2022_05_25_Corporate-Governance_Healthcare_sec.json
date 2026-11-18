@@ -1,0 +1,48 @@
+{
+  "source_id": "9ab3c5f7ae2fa726ca79871d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/0001193125-22-159800-index.html",
+  "title": "8-K",
+  "时间": "2022-05-25",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Waters Corporation",
+    "Salice",
+    "Board of Directors",
+    "PricewaterhouseCoopers LLP",
+    "compensation",
+    "shareholders"
+  ],
+  "主要内容": "Waters Corporation held its annual meeting of stockholders on May 24, 2022, with 55,183,440 shares present or represented by proxy, representing approximately 91% of all shares entitled to vote. The results of the voting on the election of directors included the following: Linda Baddour received 52,904,282 votes, Udit Batra, Ph.D. received 52,609,007 votes, Edward Conard received 50,232,048 votes, Pearl. S. Huang, Ph.D. received 51,497,833 votes, Wei Jiang received 53,201,063 votes, Christopher A. Kuebler received 48,728,525 votes, Flemming Ornskov, M.D., M.P.H. received 46,860,089 votes. Salice's shareholders approved the re-election of nominated directors to the Board of Directors, and ratified the selection of PricewaterhouseCoopers LLP as the independent registered public accounting firm for the fiscal year ending December 31, 2022. Shareholders also adopted a non-binding advisory resolution approving the compensation paid to named executive officers.",
+  "股票实体": [
+    {
+      "名称": "Waters Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Salice",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.697810+00:00",
+    "fetched_at": "2026-11-14T14:54:09.061345+00:00",
+    "feature_available_at": "2026-11-14T14:59:57.769438+00:00",
+    "availability_basis": "extraction"
+  }
+}

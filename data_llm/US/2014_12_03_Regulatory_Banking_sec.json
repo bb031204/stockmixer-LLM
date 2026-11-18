@@ -1,0 +1,34 @@
+{
+  "source_id": "a1649e2e293b8e19aca75219",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-14-431513-index.html",
+  "title": null,
+  "时间": "2014-12-03",
+  "分类": "Regulatory",
+  "关键词": [
+    "Royal Bank of Canada",
+    "economic sanctions legislation",
+    "Embassy of the Islamic Republic of Iran",
+    "non-U.S. dollar denominated accounts",
+    "Ontario court order",
+    "civil litigation"
+  ],
+  "主要内容": "The SEC clarified that the designation of David F. Denison, Timothy J. Hearn, Alice D. Laberge, J. Pedro Reinhard, Thomas A. Renyi, and Victor L. Young as audit committee financial experts does not confer any expertise, impose additional duties, obligations, or liabilities on these individuals beyond those of other audit committee and board members. Royal Bank of Canada disclosed its compliance with economic sanctions legislation during fiscal 2014. The bank maintains non-U.S. dollar denominated accounts for the Embassy of the Islamic Republic of Iran in Canada, which generated less than $7,000 in gross revenue and less than $3,000 in net income. Certain accounts are frozen by Ontario court order due to civil litigation. The bank is evaluating options to discontinue these accounts while complying with court obligations.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:29.247765+00:00",
+    "fetched_at": "2026-11-14T09:28:08.216365+00:00",
+    "feature_available_at": "2026-11-14T09:29:16.269326+00:00",
+    "availability_basis": "extraction"
+  }
+}

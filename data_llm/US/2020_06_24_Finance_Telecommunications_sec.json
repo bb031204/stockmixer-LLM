@@ -1,0 +1,43 @@
+{
+  "source_id": "79b1ba6ac87b36c6858a5c71",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-20-076255-index.html",
+  "title": null,
+  "时间": "2020-06-24",
+  "分类": "Finance",
+  "关键词": [
+    "DISH Network Corporation",
+    "DISH DBS Corporation",
+    "senior notes",
+    "telecommunications",
+    "DISH"
+  ],
+  "主要内容": "On June 24, 2020, DISH Network Corporation announced its subsidiary DISH DBS Corporation's intention to offer approximately $1,000,000,000 in senior notes, subject to market and other conditions. The offering will be directed to qualified institutional buyers under Rule 144A and offshore transactions under Regulation S. The proceeds are intended for general corporate purposes.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DISH DBS Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "DISH",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.477289+00:00",
+    "fetched_at": "2026-11-13T01:27:09.710629+00:00",
+    "feature_available_at": "2026-11-13T01:27:46.100213+00:00",
+    "availability_basis": "extraction"
+  }
+}

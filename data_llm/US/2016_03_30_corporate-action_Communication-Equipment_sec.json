@@ -1,0 +1,36 @@
+{
+  "source_id": "6e66949b7b3023293c67d93d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-16-028698-index.html",
+  "title": null,
+  "时间": "2016-03-30",
+  "分类": "corporate_action",
+  "关键词": [
+    "Optical Cable Corporation",
+    "Communication Equipment",
+    "annual meeting"
+  ],
+  "主要内容": "On March 29, 2016, Optical Cable Corporation (“OCC” or the “Company”) held its annual meeting of shareholders at the Green Ridge Recreation Center, 7415 Wood Haven Road, Roanoke, Virginia for the purposes of (1) electing six directors from the slate of directors nominated in accordance with OCC’s bylaws to serve until the next annual meeting of shareholders, (2) ratifying the appointment of Brown, Edwards & Company, L.L.P. as the independent registered public accounting firm for OCC and (3) approving, on a non-binding advisory basis, the compensation of the Company’s named executive officers.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Communication Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-10T18:42:04.847853+00:00",
+    "fetched_at": "2026-11-13T04:10:51.444563+00:00",
+    "feature_available_at": "2026-11-13T04:11:16.708956+00:00",
+    "availability_basis": "extraction"
+  }
+}

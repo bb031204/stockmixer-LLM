@@ -1,0 +1,103 @@
+{
+  "source_id": "b90bc9ee0766cc5eea04fbc9",
+  "url": "https://finance.yahoo.com/news/mergers-acquisitions-m-diabetes-market-115700293.html",
+  "title": "Mergers and Acquisitions (M&A) in the Diabetes Market - Growth, Trends, COVID-19 Impact, and Forecasts (2022 - 2027)",
+  "时间": "2022-02-07T11:57:00+00:00",
+  "分类": "healthcare",
+  "关键词": [
+    "Medtronic",
+    "Companion Medical",
+    "InPen",
+    "Gendius",
+    "AstraZen",
+    "GCC",
+    "Merck",
+    "Janssen Pharmaceuticals",
+    "INVOKANA",
+    "Holmusk",
+    "Eli Lilly and Company",
+    "Cipla",
+    "Protomer Technologies",
+    "Biocorp",
+    "Novo Nordisk",
+    "Mallya",
+    "FlexTouch",
+    "Janssen Pharmaceuticals NV",
+    "Protomer Technologies Inc."
+  ],
+  "主要内容": "In August 2020, Medtronic acquired Companion Medical, the manufacturer of InPen, a U.S. FDA-cleared smart insulin pen system paired with an integrated diabetes management app. This acquisition expanded Medtronic's portfolio, offering customers a unique ecosystem of support. In August 2021, Gendius signed a contract with AstraZen, confirming a strategic partnership to develop remote diabetes management for patients in GCC countries. Merck signed a collaboration agreement with Janssen Pharmaceuticals NV to commercialize INVOK, a drug for adults with type-2 diabetes, in six growth markets, including five ASEAN countries (Malaysia, Brunei, Philippines, Singapore, Thailand). Holmusk partnered with Merck's Healthcare business to support patients and physicians in Asia-Pacific with a holistic treatment approach for prediabetes and diabetes. In October 2021, Eli Lilly and Company (India) announced a strategic partnership with Cipla to transfer its rights in India to sell, promote, and distribute Humalog and Trulicity, subject to regulatory approvals. In July 2021, Eli Lilly and Company acquired Protomer Technologies Inc. to focus on glucose-responsive insulins and next-generation protein therapeutics. In September 2021, Biocorp partnered with Novo Nordisk to develop and distribute a Mallya smart add-on device for the FlexTouch pen used by diabetes patients.",
+  "股票实体": [
+    {
+      "名称": "Medtronic",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Gendius",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Merck",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Janssen Pharmaceuticals NV",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Holmusk",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Eli Lilly and Company",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Cipla",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Protomer Technologies Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Biocorp",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Novo Nordisk",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Diabetes Management",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-10T18:39:42.398225+00:00",
+    "fetched_at": "2026-11-13T03:06:05.828667+00:00",
+    "feature_available_at": "2026-11-13T03:07:38.811777+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "source_id": "a350b462ea3d78a44c28ee90",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-14-005841-index.html",
+  "title": null,
+  "时间": "2014-08-13",
+  "分类": "corporate_action",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Banking",
+    "Corporate Action"
+  ],
+  "主要内容": "Nixon retired from his positions as Chief Executive Officer and Director effective August 1, 2014. Standard & Poor’s announced on August 8, 2014, that it has affirmed the long-term ratings of RBC and changed the ratings outlook to “negative” from “stable” for us and the five other largest Canadian banks. This reflects the possible impact of a “bail-in” policy proposal from the Canadian federal government.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.184215+00:00",
+    "fetched_at": "2026-11-14T08:46:35.484905+00:00",
+    "feature_available_at": "2026-11-14T09:00:04.413470+00:00",
+    "availability_basis": "extraction"
+  }
+}

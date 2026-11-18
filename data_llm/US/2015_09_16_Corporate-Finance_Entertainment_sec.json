@@ -1,0 +1,40 @@
+{
+  "source_id": "dd7eadfae9795fb07116b081",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001039/0001104659-15-065470-index.html",
+  "title": null,
+  "时间": "2015-09-16",
+  "分类": "Corporate Finance",
+  "关键词": [
+    "The Walt Disney Company",
+    "Goldman, Sachs & Co.",
+    "J.P. Morgan Securities LLC",
+    "Notes",
+    "2018",
+    "2020",
+    "2025"
+  ],
+  "主要内容": "On September 14, 2015, The Walt Disney Company entered into a terms agreement with Goldman, Sachs & Co. and J.P. Morgan Securities LLC, as representatives of the underwriters, regarding the offer and sale of $500,000,000 aggregate principal amount of its 1.500% Notes Due 2018, $750,000,000 aggregate principal amount of its 2.150% Notes Due 2020, and $750,000,000 aggregate principal amount of its 3.150% Notes Due 2025. The notes were registered under the Securities Act of 1933 and issued under a Senior Debt Securities Indenture dated September 24, 2001. The 2018 Notes were offered at 99.915% of par, with net proceeds of 99.715% after underwriting discounts of 0.200%. The 2020 Notes were offered at 99.750% of par, with net proceeds of 99.400% after underwriting discounts of 0.350%. The 2025 Notes were offered at 99.762% of par, with net proceeds of 99.312% after underwriting discounts of 0.450%. The document was signed on September 16, 2015, by Roger J. Patterson, Associate General Counsel of The Walt Disney Company.",
+  "股票实体": [
+    {
+      "名称": "Goldman, Sachs & Co.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Entertainment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.874807+00:00",
+    "fetched_at": "2026-11-14T13:48:13.715155+00:00",
+    "feature_available_at": "2026-11-14T13:49:01.615438+00:00",
+    "availability_basis": "extraction"
+  }
+}

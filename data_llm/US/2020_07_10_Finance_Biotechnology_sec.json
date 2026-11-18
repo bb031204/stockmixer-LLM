@@ -1,0 +1,47 @@
+{
+  "source_id": "f5b7cddd2e2eb424ccf7eedd",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001104659-20-082788-index.html",
+  "title": null,
+  "时间": "2020-07-10",
+  "分类": "Finance",
+  "关键词": [
+    "Novavax, Inc.",
+    "U.S. Government",
+    "NVX-CoV2373",
+    "Operation Warp Speed",
+    "MCDC Agreement",
+    "Phase 3 clinical trial",
+    "100 million doses"
+  ],
+  "主要内容": "Novavax, Inc. entered into a Project Agreement with Advanced Technology International, Inc. under Operation Warp Speed, which is tied to the MCDC Agreement. The U.S. Government has the discretion to unilaterally determine a fair and reasonable price if no definitive agreement is reached by December 2020. The Company is required to conduct a pivotal Phase 3 clinical trial and manufacture 100 million doses of the vaccine candidate for the U.S. Government. The payment structure is tied to specific milestones in clinical development, manufacturing, and regulatory processes. The U.S. Government can terminate the contract if the project fails to deliver results proportional to resource expenditure. The Project Agreement, which runs from July 6, 2020, to December 31, 2021, outlines the terms under which Novavax, Inc. will be compensated for work performed and costs incurred if the agreement is terminated before completion. The agreement is subject to early termination by the U.S. Government or mutual extension.",
+  "股票实体": [
+    {
+      "名称": "U.S. Government",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:15.794554+00:00",
+    "fetched_at": "2026-11-14T13:22:27.856981+00:00",
+    "feature_available_at": "2026-11-14T13:23:50.505560+00:00",
+    "availability_basis": "extraction"
+  }
+}

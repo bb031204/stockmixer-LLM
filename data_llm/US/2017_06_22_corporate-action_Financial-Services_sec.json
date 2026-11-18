@@ -1,0 +1,25 @@
+{
+  "source_id": "8ac6079d44c8cce898adea1d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001171/0001104659-17-040903-index.html",
+  "title": null,
+  "时间": "2017-06-22",
+  "分类": "corporate_action",
+  "关键词": [
+    "BROADWAY FINANCIAL CORP",
+    "Financial Services",
+    "Corporate Action"
+  ],
+  "主要内容": "BROADWAY FINANCIAL CORP shareholders approved the appointment of Moss Adams LLP as the independent registered public accounting firm for 2017, with 13,493,706 shares voting 'for', 12,764 shares voting 'against', and 274,933 shares abstaining. Shareholders also approved the executive compensation plan, with 12,607,479 shares voting 'for', 51,785 shares voting 'against', and 284,398 shares abstaining. Broker non-votes for the executive compensation proposal were 837,741.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.724747+00:00",
+    "fetched_at": "2026-11-12T21:24:04.806630+00:00",
+    "feature_available_at": "2026-11-12T21:24:32.670343+00:00",
+    "availability_basis": "extraction"
+  }
+}

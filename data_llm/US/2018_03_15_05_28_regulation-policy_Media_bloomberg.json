@@ -1,0 +1,37 @@
+{
+  "source_id": "dabca91ef666c4e44b7e2313",
+  "url": "https://www.bloomberg.com/news/articles/2018-03-15/iheart-files-bankruptcy-with-last-minute-creditor-deal-in-hand",
+  "title": "IHeart Files for Bankruptcy With Last-Minute Creditor Deal",
+  "时间": "2018-03-15T05:28:29.181000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "IHeartMedia Inc.",
+    "Media",
+    "Bankruptcy"
+  ],
+  "主要内容": "IHeartMedia Inc., the biggest U.S. radio-station owner, filed for bankruptcy with a plan to halve its debt load of more than $20 billion, the legacy of a leveraged buyout that hobbled the company as the digital era spawned new rivals. The company filed for Chapter 11 protection on Wednesday in Houston, a move that allows iHeart to keep operating while it tries to cement its turnaround plan. The deal still needs approval from the court and some holdout creditors, and the company could hear again from John Malone’s Liberty Media LLC, which has said it wants a stake in the reorganized media giant.",
+  "股票实体": [
+    {
+      "名称": "IHeartMedia Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Media",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:03.514086+00:00",
+    "fetched_at": "2026-11-12T18:32:58.666367+00:00",
+    "feature_available_at": "2026-11-12T18:33:15.172868+00:00",
+    "availability_basis": "extraction"
+  }
+}

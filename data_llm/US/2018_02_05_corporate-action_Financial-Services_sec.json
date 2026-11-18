@@ -1,0 +1,44 @@
+{
+  "source_id": "c114330178c2b885dbed6468",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-18-032155-index.html",
+  "title": null,
+  "时间": "2018-02-05",
+  "分类": "corporate_action",
+  "关键词": [
+    "Medallion Financial Corp",
+    "Financial Services",
+    "Amendments",
+    "Loan Agreement",
+    "Note",
+    "Freshstart Venture Capital Corp"
+  ],
+  "主要内容": "On January 31, 2018, Freshstart Venture Capital Corp, a wholly-owned subsidiary of Medallion Financial Corp, entered into amendments to the Loan Agreement and the Note. The amendments improved Freshstart's flexibility under the Loan Agreement and the Note. The amendments are attached as exhibits and incorporated by reference.",
+  "股票实体": [
+    {
+      "名称": "Medallion Financial Corp",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Freshstart Venture Capital Corp",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:15.045565+00:00",
+    "fetched_at": "2026-11-13T04:51:10.407498+00:00",
+    "feature_available_at": "2026-11-13T04:51:40.082966+00:00",
+    "availability_basis": "extraction"
+  }
+}

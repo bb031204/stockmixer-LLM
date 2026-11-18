@@ -1,0 +1,44 @@
+{
+  "source_id": "79a3e98f6b3ec94980a199d1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-14-000104-index.html",
+  "title": null,
+  "时间": "2014-08-29",
+  "分类": "Finance",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Credit Agreement",
+    "Bank of America",
+    "Borrowing Commitment",
+    "Revolving Credit Facility",
+    "Bank of America, N.A."
+  ],
+  "主要内容": "On August 29, 2014, Core Laboratories N.V. entered into a Sixth Amended and Restated Credit Agreement with various financial institutions, with Bank of America, N.A. serving as administrative agent, swingline lender, and letter of credit issuing bank. The Amended Credit Agreement increases the aggregate borrowing commitment from $300 million to $350 million, with an option to raise it to $400 million if conditions are met. It extends the revolving credit facility maturity to August 29, 2019, and reduces loan pricing and commitment fees on unused portions. The description is not complete and is referenced to Exhibit 10.1 of the Form 8-K filing.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Bank of America, N.A.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.182409+00:00",
+    "fetched_at": "2026-11-14T07:26:49.128210+00:00",
+    "feature_available_at": "2026-11-14T07:27:28.813171+00:00",
+    "availability_basis": "extraction"
+  }
+}

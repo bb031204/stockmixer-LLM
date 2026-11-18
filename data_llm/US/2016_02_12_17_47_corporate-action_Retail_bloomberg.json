@@ -1,0 +1,31 @@
+{
+  "source_id": "8f04a29942e49468d0ef13d6",
+  "url": "https://www.bloomberg.com/news/articles/2016-02-12/victoria-s-secret-ceo-resigns-with-l-brands-chief-taking-reins",
+  "title": "Victoria's Secret CEO Abruptly Resigns",
+  "时间": "2016-02-12T17:47:54.358000+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "Victoria's Secret",
+    "L Brands Inc.",
+    "CEO resignation"
+  ],
+  "主要内容": "Sharen Jester Turney, who has run Victoria’s Secret for the past decade, is stepping down from the L Brands Inc. division, leaving Chief Executive Officer Les Wexner directly in charge of his company’s biggest business. Turney, who became CEO of the lingerie chain in 2006, will remain an adviser to the division while Wexner assumes leadership, L Brands said in a statement Friday. The 59-year-old said she is leaving the Columbus, Ohio-based company 'to prioritize my family and my personal life and consider what’s next for me professionally.'",
+  "股票实体": [
+    {
+      "名称": "L Brands Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-14T03:48:00.142330+00:00",
+    "feature_available_at": "2026-11-14T03:48:13.167690+00:00",
+    "availability_basis": "extraction"
+  }
+}

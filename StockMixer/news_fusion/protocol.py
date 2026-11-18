@@ -77,8 +77,9 @@ def validate_config(config):
     if not isinstance(settings["device"],str) or re.fullmatch(r"auto|cpu|cuda(?::\d+)?",settings["device"]) is None:
         raise ValueError("device must be auto, cpu, cuda or cuda:<index>.")
     fusion=config["fusion"]
-    if fusion["freeze_backbone"] is not True or integer(fusion["news_dim"],"news_dim",1)!=40:
-        raise ValueError("This fusion protocol requires freeze_backbone=true and news_dim=40.")
+    if fusion["freeze_backbone"] is not True:
+        raise ValueError("This fusion protocol requires freeze_backbone=true.")
+    integer(fusion['news_dim'],'news_dim',9,776)
     integer(fusion["hidden_dim"],"hidden_dim",1)
     if not 0<=finite_number(fusion["dropout"],"dropout",minimum=0)<1:
         raise ValueError("dropout must be below 1.")

@@ -1,0 +1,70 @@
+{
+  "source_id": "c91988a870c58d8ad8a5bd39",
+  "url": "https://finance.yahoo.com/news/alpha-sintered-metals-o2-investment-121500568.html",
+  "title": "Alpha Sintered Metals and O2 Investment Partners Invest in Precision Compacted Components",
+  "时间": "2016-11-07T12:15:00+00:00",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Alpha Sintered Metals",
+    "Precision Compacted Components",
+    "O2 Investment Partners",
+    "VVT",
+    "VCT",
+    "Alpha Precision Group",
+    "PCC",
+    "Alpha Sintered Metals, Inc."
+  ],
+  "主要内容": "Alpha Sintered Metals, Inc. and Precision Compacted Components (PCC) invested in precision compacted components, focusing on the automotive industry, particularly in Variable Valve Timing (VVT) and Variable Cam Timing (VCT) systems. This marks the second investment by Alpha Sintered Metals in 2016. PCC, established in 1994, operates in Pennsylvania and has a strong history of growth through advanced technology. The partnership aims to expand participation in the high-growth VVT/VCT segment. O2 Investment Partners, a Midwestern private equity firm, focuses on acquiring majority interests in manufacturing and niche distribution businesses. The investment involves equity contributions from O2's principals and strategic investors. The companies will form Alpha Precision Group (APG), with PCC's founders remaining equity investors and leadership continuing their roles.",
+  "股票实体": [
+    {
+      "名称": "Alpha Sintered Metals",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "O2 Investment Partners",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Precision Compacted Components",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "PCC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Alpha Sintered Metals, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Manufacturing",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Automotive",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Advanced Manufacturing",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:12:05.620221+00:00",
+    "fetched_at": "2026-11-13T21:07:12.134037+00:00",
+    "feature_available_at": "2026-11-13T21:08:28.775003+00:00",
+    "availability_basis": "extraction"
+  }
+}

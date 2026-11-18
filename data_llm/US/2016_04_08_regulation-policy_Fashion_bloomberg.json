@@ -1,0 +1,36 @@
+{
+  "source_id": "53cf2d36bfe3c47fc6688ea0",
+  "url": "https://www.bloomberg.com/news/articles/2016-04-08/the-long-agonizing-fall-of-pacsun",
+  "title": "The Long, Agonizing Fall of PacSun",
+  "时间": "2016-04-08",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Pacific Sunwear of California Inc.",
+    "Fashion",
+    "Bankruptcy"
+  ],
+  "主要内容": "Pacific Sunwear of California Inc. filed for bankruptcy protection from creditors on Thursday, hoping a restructuring could help turn around the 36-year-old surf retailer's fortunes. The company's shares are down 96 percent over the past 12 months.",
+  "股票实体": [
+    {
+      "名称": "Pacific Sunwear of California Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Fashion",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:09:43.483765+00:00",
+    "fetched_at": "2026-11-12T18:25:53.499265+00:00",
+    "feature_available_at": "2026-11-12T18:26:07.918308+00:00",
+    "availability_basis": "extraction"
+  }
+}

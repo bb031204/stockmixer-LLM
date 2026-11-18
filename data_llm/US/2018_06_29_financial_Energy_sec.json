@@ -1,0 +1,54 @@
+{
+  "source_id": "a424c2ecf69cf9b70624ad90",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-18-000088-index.html",
+  "title": null,
+  "时间": "2018-06-29",
+  "分类": "financial",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "CLB US",
+    "Energy",
+    "Reservoir Description",
+    "international projects",
+    "revenue guidance",
+    "operating margins",
+    "EPS",
+    "HERO®PerFRAC perforating system",
+    "FlowProfiler™ EDS diagnostics",
+    "CORE LABORATORIES N.V."
+  ],
+  "主要内容": "On June 29, 2018, Core Laboratories N.V. (NYSE: \"CLB US\") revised its second quarter 2018 revenue guidance to $174,000,000 to $175,000,000, projecting an EPS of $0.57 to $0.59, exceeding both sequential and year-over-year results. The revisions were due to delays in international field development activity impacting revenue opportunities for its Reservoir Description segment, which derives over 85% of its revenue from international projects. The delays primarily affect the North Sea, Middle East, Asia-Pacific, Gulf of Mexico, and other deepwater regions. The revised guidance also includes ramp-up costs for new laboratory technology and infrastructure, such as client-driven labs in Qatar, Indonesia, and Alaska. Core Laboratories N.V. issued third quarter 2018 guidance, projecting revenue of approximately $177,000,000 to $179,000,000, with expected EPS ranging from $0.64 to $0.66. Operating margins are expected to exceed 20%. The guidance excludes foreign exchange gains or losses and assumes an effective tax rate of 15%.",
+  "股票实体": [
+    {
+      "名称": "CORE LABORATORIES N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Oil & Gas Equipment",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Oil and Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.879895+00:00",
+    "fetched_at": "2026-11-12T22:04:54.496712+00:00",
+    "feature_available_at": "2026-11-12T22:06:22.930075+00:00",
+    "availability_basis": "extraction"
+  }
+}

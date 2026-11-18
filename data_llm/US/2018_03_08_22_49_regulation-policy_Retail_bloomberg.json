@@ -1,0 +1,70 @@
+{
+  "source_id": "e8264f4adbb2f7536168d0ee",
+  "url": "https://www.bloomberg.com/news/articles/2018-03-08/claire-s-is-said-to-plan-bankruptcy-with-creditors-taking-over",
+  "title": "Claire's Plans Bankruptcy, With Creditors Taking Over",
+  "时间": "2018-03-08T22:49:46.168000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Claire’s Stores Inc.",
+    "Retail",
+    "Bankruptcy",
+    "Debt",
+    "Lenders",
+    "Apollo Global Management LLC",
+    "Elliott Capital Management",
+    "Monarch Alternative Capital",
+    "Venor Capital Management",
+    "Diameter Capital Partners"
+  ],
+  "主要内容": "Claire’s Stores Inc. is preparing to file for bankruptcy in the coming weeks, according to insiders. Control of the company is expected to transfer from Apollo Global Management LLC to lenders including Elliott Capital Management and Monarch Alternative Capital. Venor Capital Management and Diameter Capital Partners are also involved in the deal. The move aims to ease the company’s $2 billion debt load.",
+  "股票实体": [
+    {
+      "名称": "Claire’s Stores Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Apollo Global Management LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Elliott Capital Management",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Monarch Alternative Capital",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Venor Capital Management",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Diameter Capital Partners",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Retail",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:03.514086+00:00",
+    "fetched_at": "2026-11-12T18:33:34.695548+00:00",
+    "feature_available_at": "2026-11-12T18:33:53.509403+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "source_id": "b07614fa8906979c972c8745",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-16-002857-index.html",
+  "title": null,
+  "时间": "2016-05-25",
+  "分类": "corporate_action",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Financial Services",
+    "Corporate Action",
+    "Brookfield Finance Inc."
+  ],
+  "主要内容": "Brookfield Asset Management Inc. announced a proposed offering of US$350 million in notes due 2026, to be issued by Brookfield Finance Inc., fully guaranteed by Brookfield. The proceeds will be used for general corporate purposes. Citigroup Global Markets Inc. and Deutsche Bank Securities Inc. are joint book-running managers for the offering. The offering is subject to market and other conditions.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Brookfield Finance Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.425606+00:00",
+    "fetched_at": "2026-11-12T20:09:28.234563+00:00",
+    "feature_available_at": "2026-11-12T20:10:00.701713+00:00",
+    "availability_basis": "extraction"
+  }
+}

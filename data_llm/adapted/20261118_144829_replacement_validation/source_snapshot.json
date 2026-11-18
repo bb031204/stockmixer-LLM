@@ -1,0 +1,26 @@
+{
+  "source_root": "D:\\financial_data_project2\\data_enriched\\retraced\\20261118_144829_replacement_validation_v2\\adapted",
+  "markets": [
+    "US"
+  ],
+  "snapshot_started_at": "2026-11-18T06:58:01.729852+00:00",
+  "allow_append_only": true,
+  "market_files": {
+    "US": [
+      "data/US/0076065ceba585096b365f59.json",
+      "data/US/17ca712cdd132f39203a5aea.json",
+      "data/US/1b02e559d81c568ffa4b6ff8.json"
+    ]
+  },
+  "files": {
+    "audit/0076065ceba585096b365f59.json": "ddfca6a39f6dfed1ca79946e16294025bc27f44312e454fc9df6a6d718f7dcb7",
+    "audit/17ca712cdd132f39203a5aea.json": "fec34dc9148fd5d1811d0fc260cc52e17d9203260870af8d62b3906b23f624b0",
+    "audit/1b02e559d81c568ffa4b6ff8.json": "e90392a5e060672cdb1a4412a6a7a839fddd36532b0f83d132399c2649be4ab8",
+    "data/US/0076065ceba585096b365f59.json": "b1a2b61aa140b056800a977047db17bcae68109f59412999ea382476d59d2893",
+    "data/US/17ca712cdd132f39203a5aea.json": "778bfe7f1d66a7c12b53c4fbca8a7eb3f3e0d128a481c5da3c5b90a5d1da754c",
+    "data/US/1b02e559d81c568ffa4b6ff8.json": "06dae35b20e8973454109a1ff8ac09a69f6b607d1130399106b974867110b691",
+    "evidence/0076065ceba585096b365f59.json": "a049d3bb4350a2ba18b3e8fa62f772942fdeae65643a60809ff21aafa82808c1",
+    "evidence/17ca712cdd132f39203a5aea.json": "c8bdf9a4a247f4f025c7169a83c0f0f48d5431c508d1340057607bee2c225da4",
+    "evidence/1b02e559d81c568ffa4b6ff8.json": "f85b62d4a3f3817b03c78fb3ac59bab54a76dc1e7af25527d984f0284662c199"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "source_id": "d113ae73970f18cbfc60e08c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001193125-14-118837-index.html",
+  "title": null,
+  "时间": "2014-03-27",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Nicholas Financial Inc",
+    "NICHOLAS FINANCIAL INC",
+    "Prospect Capital Corporation",
+    "Arrangement Agreement",
+    "Peter L. Vosotas",
+    "Ralph T. Finkenbrink",
+    "Prospect",
+    "PSEC"
+  ],
+  "主要内容": "Nicholas Financial Inc announced that Peter L. Vosotas will retire as President and Chief Executive Officer effective May 31, 2014. Ralph T. Finkenbrink, currently the Company’s Senior Vice President, Chief Financial Officer and Corporate Secretary, has been appointed to succeed Mr. Vosotas as President and Chief Executive Officer, in the event that the Arrangement has not been consummated by such date. The Company has entered into an arrangement agreement with Prospect Capital Corporation, an indirect wholly-owned subsidiary of which will acquire all of its issued and outstanding Common Shares under the Business Corporations Act (British Columbia). The transactions under the Arrangement Agreement are expected to be completed by May 31, 2014, contingent on shareholder approval and other conditions. The company will mail an information circular to shareholders ahead of a special meeting to approve the agreement. If the transaction is not completed, the Board of Directors plans to reassign Mr. Finkenbrink’s duties as CFO and Corporate Secretary. Securities explicitly mentioned in the source include Prospect (PSEC).",
+  "股票实体": [
+    {
+      "名称": "Prospect Capital Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Prospect",
+      "股票代码": "PSEC",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-10T18:41:56.918277+00:00",
+    "fetched_at": "2026-11-13T03:47:31.509029+00:00",
+    "feature_available_at": "2026-11-13T03:48:18.778576+00:00",
+    "availability_basis": "extraction"
+  }
+}

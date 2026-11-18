@@ -1,0 +1,54 @@
+{
+  "source_id": "6bbf6dda13f0c1912df8b370",
+  "url": "https://www.bloomberg.com/news/articles/2018-05-01/gibson-files-for-bankruptcy-with-deal-to-renew-guitar-business",
+  "title": "Gibson Files for Bankruptcy in Deal to Renew Guitar Business",
+  "时间": "2018-05-01T12:24:50.974000+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "Gibson Brands Inc.",
+    "Music Equipment",
+    "Bankruptcy",
+    "Silver Point Capital",
+    "Melody Capital Partners",
+    "KKR Credit Advisors"
+  ],
+  "主要内容": "Gibson Brands Inc. filed for bankruptcy protection on May 1, 2018, with lenders taking control of the iconic American business. The Chapter 11 filing in Delaware keeps Gibson in business but gives ownership to noteholders, replacing stockholders including CEO Henry Juszkiewicz. Current noteholders include Silver Point Capital, Melody Capital Partners, and funds affiliated with KKR Credit Advisors.",
+  "股票实体": [
+    {
+      "名称": "Gibson Brands Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Silver Point Capital",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Melody Capital Partners",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "KKR Credit Advisors",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Music Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:03.514086+00:00",
+    "fetched_at": "2026-11-12T18:33:57.627412+00:00",
+    "feature_available_at": "2026-11-12T18:34:12.616998+00:00",
+    "availability_basis": "extraction"
+  }
+}

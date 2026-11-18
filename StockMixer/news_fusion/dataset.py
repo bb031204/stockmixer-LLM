@@ -12,8 +12,11 @@ class NewsPanel:
         self.directory=directory.resolve()
         self.manifest=json.loads((directory/"manifest.json").read_text(encoding="utf-8"))
         m=self.manifest
-        if m.get("schema_version")!=SCHEMA or m.get("kind")!="daily_news_panel" or m.get("feature_dim")!=40:
+        width=m.get('feature_dim')
+        if m.get("schema_version")!=SCHEMA or m.get("kind")!="daily_news_panel" or type(width) is not int or not 9<=width<=776:
             raise ValueError("Unsupported panel schema.")
+        if 'feature_names' in m and len(m['feature_names'])!=width:
+            raise ValueError('News feature names/dimension mismatch')
         if verify_hashes:
             required=["axis.json","trading_dates.npy","embedding_transform.npz","decision_schedule.jsonl","provenance.jsonl"]
             required += [c+suffix for c in ("company","industry","market") for suffix in ("_news_daily.npy","_news_mask.npy")]
@@ -27,11 +30,17 @@ class NewsPanel:
         n,t=len(self.axis.stock_uids),len(self.axis.dates)
         if (m["n_stocks"],m["n_dates"])!=(n,t):
             raise ValueError("Manifest axis size mismatch.")
+        if m.get("market_routing_verified") is True:
+            self.assert_market_routing()
+        if m.get('historical_relations_verified') is True:
+            self.assert_historical_relations()
+        if m.get("market_layout","shared_date") not in ("shared_date","stock_date"):
+            raise ValueError("Unknown market panel layout")
         self.features,self.masks={},{}
         for channel in ("company","industry","market"):
             features=np.load(directory/(channel+"_news_daily.npy"),mmap_mode="r",allow_pickle=False)
             mask=np.load(directory/(channel+"_news_mask.npy"),mmap_mode="r",allow_pickle=False)
-            expected=(t,40) if channel=="market" else (n,t,40)
+            expected=(t,width) if channel=="market" and m.get("market_layout","shared_date")=="shared_date" else (n,t,width)
             if features.shape!=expected or mask.shape!=expected[:-1]:
                 raise ValueError("Panel shape mismatch: "+channel)
             # Bounded-memory checks instead of materializing N*T*40 multiple times.
@@ -42,6 +51,24 @@ class NewsPanel:
                 if np.any(part[np.asarray(valid)==0]!=0):
                     raise ValueError("Missing-news features must be exactly zero: "+channel)
             self.features[channel],self.masks[channel]=features,mask
+
+    def assert_market_routing(self):
+        from .routing import assert_panel_routes
+        return assert_panel_routes(self.directory,self.axis,self.manifest)
+
+    def assert_historical_relations(self):
+        from .relations import load_relations
+        from .io import digest_file
+        if self.manifest.get('historical_relations_verified') is not True:
+            raise ValueError('Company/industry channels require frozen historical relation proof')
+        if digest_file(self.directory/'relations_manifest.json')!=self.manifest.get('relations_manifest_sha256'):
+            raise ValueError('Historical relation manifest changed')
+        links,members,manifest=load_relations(self.directory,self.axis,'relations_manifest.json','relation_')
+        if digest(links)!=self.manifest.get('relations_hash') or digest(members)!=self.manifest.get('memberships_hash'):
+            raise ValueError('Panel relation hashes differ from historical evidence')
+        if manifest.get('reference_memberships_enabled') and self.manifest.get('mode')!='retrospective':
+            raise ValueError('Reference industry memberships are forbidden in observed PIT')
+        return manifest
 
     def assert_compatible(self,eod_shape,stock_uids,dates):
         if tuple(eod_shape[:2])!=(len(self.axis.stock_uids),len(self.axis.dates)):
@@ -83,7 +110,7 @@ class NewsPanel:
             raise IndexError("Decision is outside the news date axis.")
         result={"decision_idx":int(decision)}
         for channel in ("company","industry","market"):
-            if channel=="market":
+            if channel=="market" and self.manifest.get("market_layout","shared_date")=="shared_date":
                 feature=self.features[channel][decision]
                 mask=np.asarray(self.masks[channel][decision]).reshape(1,1)
             else:

@@ -1,10 +1,8 @@
-# Install in a separate environment; do not upgrade the baseline stockmixer environment.
-# PCA is implemented with NumPy SVD; scikit-learn/joblib are unnecessary.
+# Install through main.py --step setup in the configured stockmixer environment.
+# The setup step constrains existing torch/numpy/pandas/PyYAML versions.
 transformers==4.44.2
+huggingface-hub==0.25.2
+tokenizers==0.19.1
+safetensors==0.4.5
 pyarrow==17.0.0
 exchange-calendars==4.5.5
-numpy==1.26.4
-pandas==2.2.3
-PyYAML==6.0.2
-# Reuse the baseline torch through a separate --system-site-packages venv.
-# JSONL tables work without pyarrow. Only calendar generation needs exchange-calendars.

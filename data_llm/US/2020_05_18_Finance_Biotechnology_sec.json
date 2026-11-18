@@ -1,0 +1,44 @@
+{
+  "source_id": "5d91b4af1a0f8bbf2a1d9748",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001104659-20-063237-index.html",
+  "title": null,
+  "时间": "2020-05-18",
+  "分类": "Finance",
+  "关键词": [
+    "Novavax, Inc.",
+    "B. Riley FBR, Inc.",
+    "At Market Issuance Sales Agreement",
+    "common stock",
+    "prospectus supplement"
+  ],
+  "主要内容": "On May 18, 2020, Novavax, Inc. filed a prospectus supplement with the Securities and Exchange Commission, contemplating the sale of up to $250,000,000 of common stock through at-the-market offerings under an agreement with B. Riley FBR, Inc. The company also sold 4.8 million shares of common stock under a March 2020 Sales Agreement with B. Riley FBR, Inc., generating $99.3 million in net proceeds at an average price of $21.08 per share. The March 2020 agreement was fully utilized by May 12, 2020. The May 2020 Sales Agreement remains subject to the company's instructions, with no assurances of further share issuances. Legal opinions from Ropes & Gray LLP are attached as Exhibits 5.1 and 23.1.",
+  "股票实体": [
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "B. Riley FBR, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.476279+00:00",
+    "fetched_at": "2026-11-13T01:09:08.321816+00:00",
+    "feature_available_at": "2026-11-13T01:09:48.423118+00:00",
+    "availability_basis": "extraction"
+  }
+}

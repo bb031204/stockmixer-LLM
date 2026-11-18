@@ -1,0 +1,36 @@
+{
+  "source_id": "9b095b9944161630194654fd",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-13-000015-index.html",
+  "title": null,
+  "时间": "2013-08-21",
+  "分类": "corporate_action",
+  "关键词": [
+    "Insperity, Inc.",
+    "Business Services",
+    "Bylaws amendment"
+  ],
+  "主要内容": "On August 20, 2013, Insperity, Inc. amended its Amended and Restated Bylaws to implement a majority voting standard for uncontested director elections and require nominees to provide a signed representation that they have not received compensation from third parties. The Board also updated Corporate Governance Guidelines to include director resignation procedures.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.154146+00:00",
+    "fetched_at": "2026-11-14T11:43:11.257710+00:00",
+    "feature_available_at": "2026-11-14T11:43:34.689314+00:00",
+    "availability_basis": "extraction"
+  }
+}

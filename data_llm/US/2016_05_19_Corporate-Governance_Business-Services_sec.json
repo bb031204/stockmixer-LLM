@@ -1,0 +1,61 @@
+{
+  "source_id": "8538f30975c5710b3666ea69",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-16-000109-index.html",
+  "title": null,
+  "时间": "2016-05-19",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Insperty, Inc.",
+    "NSP",
+    "Starboard Value LP",
+    "Board of Directors",
+    "Class III director",
+    "John Morphy",
+    "Richard G. Rawson",
+    "Michael W. Brown",
+    "Starboard",
+    "Insperity, Inc.",
+    "Inc.",
+    "PAYX"
+  ],
+  "主要内容": "Insperty, Inc. (NSP) entered into an agreement with Starboard Value LP, which beneficially owns approximately 15.6% of the company's common stock. Pursuant to the agreement, the Board of Directors agreed to appoint John Morphy as a Class III director with a term expiring at the 2016 annual meeting and to set the board size at ten directors. The Nominating and Corporate Governance Committee agreed to commence a search for one new independent director and retain a nationally-recognized director search firm. The company also agreed not to increase the board size beyond ten directors or change class structures without Starboard's consent. Starboard withdrew its nominations for the 2016 Annual Meeting, and the board nominated Michael W. Brown, Richard G. Rawson, and John Morphy for reelection as Class III directors with terms expiring at the 2019 annual meeting. Securities explicitly mentioned in the source include Inc. (PAYX).",
+  "股票实体": [
+    {
+      "名称": "Starboard",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": "NSP",
+      "交易所": null
+    },
+    {
+      "名称": "Inc.",
+      "股票代码": "PAYX",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Human Resources Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.424607+00:00",
+    "fetched_at": "2026-11-12T19:53:54.447115+00:00",
+    "feature_available_at": "2026-11-12T19:58:15.978815+00:00",
+    "availability_basis": "extraction"
+  }
+}

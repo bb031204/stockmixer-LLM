@@ -1,0 +1,30 @@
+{
+  "source_id": "c6dfd89ae8dd52f1ecdcb105",
+  "url": "https://www.tradingview.com/blog/tr/tradestation-and-tradingview-announce-api-integration-12802/",
+  "title": "TradingView ve TradeStation API Entegrasyonu Duyurusu",
+  "时间": "2019-06-28T11:35:50+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "TradeStation",
+    "Financial Services",
+    "API Integration"
+  ],
+  "主要内容": "TradingView announced an API integration with TradeStation Securities Inc., a subsidiary of Monex Group, to support its trading platform. This strategic partnership will allow existing TradingView users to access TradeStation's robust order execution application and place orders. The integration is expected to be completed by the third quarter of 2019. Users who open new TradeStation accounts and deposit funds by August 31, 2019, will enjoy commission-free trading for the remainder of the calendar year.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:08:15.111986+00:00",
+    "fetched_at": "2026-11-13T22:41:39.305421+00:00",
+    "feature_available_at": "2026-11-13T22:41:51.414041+00:00",
+    "availability_basis": "extraction"
+  }
+}

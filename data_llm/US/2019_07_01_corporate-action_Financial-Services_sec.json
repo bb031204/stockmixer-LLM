@@ -1,0 +1,36 @@
+{
+  "source_id": "eb1942b6419b65921cd2e4d9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001176256-19-000213-index.html",
+  "title": null,
+  "时间": "2019-07-01",
+  "分类": "corporate_action",
+  "关键词": [
+    "NICHOLAS FINANCIAL, INC.",
+    "Financial Services",
+    "Annual General Meeting"
+  ],
+  "主要内容": "NICHOLAS FINANCIAL, INC. announced the Annual General Meeting details, including the record date for notice of meeting and voting set for July 24, 2019, with the meeting scheduled for August 29, 2019 in Clearwater, FL. The company will send proxy materials directly to NOBO and will not pay for delivery to OBO. The notice and access requirements specify no NAA for registered holders.",
+  "股票实体": [
+    {
+      "名称": "NICHOLAS FINANCIAL, INC.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:11.707099+00:00",
+    "fetched_at": "2026-11-14T05:06:05.394213+00:00",
+    "feature_available_at": "2026-11-14T05:06:24.718634+00:00",
+    "availability_basis": "extraction"
+  }
+}

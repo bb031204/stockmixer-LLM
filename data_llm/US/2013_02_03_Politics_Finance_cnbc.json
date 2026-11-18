@@ -1,0 +1,51 @@
+{
+  "source_id": "e987531759824bd19e3ad306",
+  "url": "https://www.cnbc.com/2013/02/03/obama-questions-carried-interest-tax-break.html",
+  "title": "Obama Questions 'Carried Interest' Tax Break",
+  "时间": "2013-02-03",
+  "分类": "Politics",
+  "关键词": [
+    "Carried Interest",
+    "Barack Obama",
+    "Tax Break",
+    "Private Equity",
+    "Hedge Fund",
+    "Tax Revenue",
+    "Deficit",
+    "Wealthiest Americans",
+    "Tax Rates",
+    "Fiscal Cliff",
+    "Capital Gains",
+    "Dividend Taxes"
+  ],
+  "主要内容": "President Barack Obama questioned the 'carried interest' tax break, a provision benefiting private equity and hedge fund managers. He emphasized the need for additional tax revenue to reduce the U.S. deficit and signaled intent to eliminate such loopholes. This aligns with his re-election campaign promise to raise rates for the wealthiest Americans. In early 2013, Obama pushed through a legislative package increasing tax rates for high-income individuals and households. Obama criticized the carried interest tax break as unfair, calling for it to be taxed as ordinary income. The tax break was a key factor in the low tax rate paid by Mitt Romney, his 2012 Republican presidential challenger. In the year-end budget deal, capital gains and dividend taxes for incomes above $400,000 per individual or $450,000 per family were increased to 20 percent from 15 percent. The budget law extended ordinary tax cuts for incomes below $400,000 per individual or $450,000 per family, with income above that level taxed at 39.6%.",
+  "股票实体": [
+    {
+      "名称": "Carried Interest",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Private Equity",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:41:38.394167+00:00",
+    "fetched_at": "2026-11-13T21:30:22.791127+00:00",
+    "feature_available_at": "2026-11-13T21:31:11.962358+00:00",
+    "availability_basis": "extraction"
+  }
+}

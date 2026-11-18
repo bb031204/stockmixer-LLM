@@ -1,0 +1,32 @@
+{
+  "source_id": "6f43e8a488e2e30cce4d4d0a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001193125-16-652333-index.html",
+  "title": null,
+  "时间": "2016-07-20",
+  "分类": "Finance",
+  "关键词": [
+    "Nicholas Financial Inc",
+    "executive bonuses",
+    "base salary",
+    "performance metrics",
+    "stock awards"
+  ],
+  "主要内容": "On July 12, 2016, Nicholas Financial Inc's Compensation Committee awarded cash bonuses for the year ended March 31, 2016, of $32,500, $25,000, and $17,500 to Ralph T. Finkenbrink, Kevin D. Bates, and Katie L. MacGillivary, respectively. The company also announced a cash bonus program for Fiscal 2017, effective April 1, 2016, with maximum bonus amounts of 35%, 25%, and 25% of annual base salary for the executives. The non-discretionary component is based on the Cash Target Allocation, which is 17.5%, 12.5%, and 12.5% of annual base salary. The Overall Payout Factor ranges from 0% to 150%, depending on performance metrics: operating expenses as a percentage of average finance receivables and the write-off to liquidation ratio. The discretionary component is capped at 17.5% and 12.5% of base salary. The Compensation Committee also awarded performance-based awards and time-vested stock awards under the 2015 Omnibus Incentive Plan for Fiscal 2017, with vesting on March 31, 2019.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:01.340947+00:00",
+    "fetched_at": "2026-11-14T03:29:57.101919+00:00",
+    "feature_available_at": "2026-11-14T03:30:51.950554+00:00",
+    "availability_basis": "extraction"
+  }
+}

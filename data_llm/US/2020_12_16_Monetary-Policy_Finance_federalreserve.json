@@ -1,0 +1,40 @@
+{
+  "source_id": "bec1a0dc277a467c417fbb83",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20201216a.htm",
+  "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+  "时间": "2020-12-16",
+  "分类": "Monetary Policy",
+  "关键词": [
+    "Federal Reserve",
+    "Federal Open Market Committee",
+    "monetary policy",
+    "inflation",
+    "employment",
+    "interest rates",
+    "asset purchases"
+  ],
+  "主要内容": "The Federal Reserve reaffirmed its commitment to achieving maximum employment and inflation at the 2% target over the longer run. With inflation persistently below this goal, the Committee aims to allow inflation to moderately exceed 2% for some time to ensure it averages 2% over the longer term. The Fed expects to maintain an accommodative monetary policy stance until these outcomes are achieved. The target range for the federal funds rate remains at 0 to 1/4 percent, and the Committee anticipates this rate will stay at this level until labor market conditions meet its employment goals and inflation reaches 2% and is on track to moderately exceed it. The Federal Reserve announced it will continue to increase its holdings of Treasury securities by at least $80 billion per month and of agency mortgage-backed securities by at least $40 billion per month until substantial further progress has been made toward the Committee's maximum employment and price stability goals. These asset purchases aim to foster smooth market functioning and accommodative financial conditions, supporting credit flow to households and businesses.",
+  "股票实体": [
+    {
+      "名称": "Federal Reserve",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:40:55.049212+00:00",
+    "fetched_at": "2026-11-14T07:05:46.554066+00:00",
+    "feature_available_at": "2026-11-14T07:06:43.669748+00:00",
+    "availability_basis": "extraction"
+  }
+}

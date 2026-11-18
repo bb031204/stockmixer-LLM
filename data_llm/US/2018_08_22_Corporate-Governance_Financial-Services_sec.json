@@ -1,0 +1,42 @@
+{
+  "source_id": "a6b11f782d191d89f382b63e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000298/0001104659-18-053067-index.html",
+  "title": null,
+  "时间": "2018-08-22",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Impac Mortgage Holdings, Inc.",
+    "Series B Cumulative Redeemable Preferred Shares",
+    "Special Meeting",
+    "Preferred Directors"
+  ],
+  "主要内容": "Impac Mortgage Holdings, Inc. announced that Dennis L. Hesse intends to nominate David P. Sims and Joseph Waske, while Benjamin Hard intends to nominate Curtis J. Timm for election as Preferred Directors at the Special Meeting of the 9.375% Series B Cumulative Redeemable Preferred Shares, scheduled for September 13, 2018. The meeting, which is for holders of record of Series B Preferred Shares as of August 10, 2018, will take place at 9:00 a.m. local time. Only record holders and their authorized proxies have voting rights to elect two Preferred Directors. The Company disclaims responsibility for third-party information provided to shareholders.",
+  "股票实体": [
+    {
+      "名称": "Series B Cumulative Redeemable Preferred Shares",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Impac Mortgage Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:08.109393+00:00",
+    "fetched_at": "2026-11-14T11:39:21.548008+00:00",
+    "feature_available_at": "2026-11-14T11:40:30.722935+00:00",
+    "availability_basis": "extraction"
+  }
+}

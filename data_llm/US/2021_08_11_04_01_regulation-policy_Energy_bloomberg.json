@@ -1,0 +1,31 @@
+{
+  "source_id": "bf94279dcf79caf4d59c8847",
+  "url": "https://www.bloomberg.com/news/features/2021-08-11/the-fictitious-world-of-carbon-neutral-fossil-fuel",
+  "title": "How to Sell ‘Carbon Neutral’ Fossil Fuel That Doesn’t Exist",
+  "时间": "2021-08-11T04:01:34.781000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "TotalEnergies SE",
+    "Energy",
+    "carbon-neutral natural gas"
+  ],
+  "主要内容": "TotalEnergies SE's junior traders orchestrated the company’s first shipment of 'carbon-neutral' natural gas in September 2021, marking a significant step in aligning its core product with climate goals. The initiative reflects broader industry efforts to rebrand fossil fuels as sustainable options amid global warming concerns.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Energy",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:09:35.658567+00:00",
+    "fetched_at": "2026-11-13T23:33:28.960063+00:00",
+    "feature_available_at": "2026-11-13T23:33:40.743023+00:00",
+    "availability_basis": "extraction"
+  }
+}

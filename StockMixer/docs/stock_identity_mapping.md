@@ -59,7 +59,7 @@ NASDAQ/NYSE 的 `*_wiki.csv` 另有 Wikidata 标识（如 `Q312`），源文件�
 }
 ```
 
-`published_at`、`available_at` 和 `prediction_cutoff` 在真实训练样本中应填为带时区的时间，并要求 `available_at <= prediction_cutoff`。区分新闻首发时间和你实际可获得该信息的时间。不要将目标日收盘后新闻或未来标签写入预测该日的输入；模型生成的模拟市场文本应使用 `is_synthetic=true` 并记录生成来源。
+`published_at`、`available_at` 和 `prediction_cutoff` 在真实训练样本中应填为带时区的时间，并要求 `available_at < prediction_cutoff`。区分新闻首发时间和你实际可获得该信息的时间。不要将目标日收盘后新闻或未来标签写入预测该日的输入；模型生成的模拟市场文本应使用 `is_synthetic=true` 并记录生成来源。
 
 - **股票级文本**：按 `(dataset, stock_uid, 时间)` 归属，再用本表映射到 `array_index`；名称和 QID 用于辅助实体识别，不能代替经过核对的连接键。
 - **市场级文本**：可用 `entity_scope='market'`、`stock_uid=null` 保存，按时间对齐后再广播或经融合模块供股票使用，不必伪造股票编号。

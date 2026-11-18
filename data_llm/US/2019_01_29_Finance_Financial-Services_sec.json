@@ -1,0 +1,39 @@
+{
+  "source_id": "80d658ba6a481346f28e5321",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001104659-19-004056-index.html",
+  "title": null,
+  "时间": "2019-01-29",
+  "分类": "Finance",
+  "关键词": [
+    "BROOKFIELD ASSET MANAGEMENT INC.",
+    "Notes",
+    "Redemption Procedures",
+    "Change of Control Triggering Event",
+    "Redemption Price",
+    "Change of Control Payment"
+  ],
+  "主要内容": "BROOKFIELD ASSET MANAGEMENT INC. outlines redemption procedures for its Notes, requiring at least 15 days but no more than 60 days notice to holders before the Redemption Date. Interest will cease to accrue on Notes called for redemption on or after the Redemption Date. The Issuer must deposit sufficient funds with the Trustee or Paying Agent to cover the Redemption Price and accrued interest. If less than all Notes are redeemed, the Trustee will select the Notes at the Issuer's direction. The Redemption Price is calculated by an Independent Investment Banker. In the event of a Change of Control Triggering Event, the Issuer must make a repurchase offer for all or part of each Holder's Notes, equal to $2,000 or a subsequent multiple of $1,000, on the terms described. The company must deliver a notice to Note holders within 30 days of a Change of Control Triggering Event, offering to repurchase Notes on a date between 30 and 60 days after the notice is delivered.",
+  "股票实体": [
+    {
+      "名称": "Notes",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:19.618622+00:00",
+    "fetched_at": "2026-11-13T05:18:58.541323+00:00",
+    "feature_available_at": "2026-11-13T05:23:16.785411+00:00",
+    "availability_basis": "extraction"
+  }
+}

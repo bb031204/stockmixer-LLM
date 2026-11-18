@@ -1,0 +1,38 @@
+{
+  "source_id": "934b7fb5381470772f912db4",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-17-007441-index.html",
+  "title": null,
+  "时间": "2017-04-28",
+  "分类": "corporate_action",
+  "关键词": [
+    "Optical Cable Corporation",
+    "Telecom Equipment",
+    "Loan Modification Agreement",
+    "Bank of North Carolina"
+  ],
+  "主要内容": "On April 27, 2017, Optical Cable Corporation and Bank of North Carolina entered into a Third Loan Modification Agreement to revise the interest rates and extend the maturity dates of two term loans. The fixed interest rate for each loan was revised to 3.95% from 3.75%, and the maturity date was extended to May 2024.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Bank of North Carolina",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.722748+00:00",
+    "fetched_at": "2026-11-12T20:38:50.180492+00:00",
+    "feature_available_at": "2026-11-12T20:39:14.500251+00:00",
+    "availability_basis": "extraction"
+  }
+}

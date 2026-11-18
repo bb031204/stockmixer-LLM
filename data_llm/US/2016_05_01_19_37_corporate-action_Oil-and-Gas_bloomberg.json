@@ -1,0 +1,36 @@
+{
+  "source_id": "cd7c78fbf8b833435c76946f",
+  "url": "https://www.bloomberg.com/news/articles/2016-05-01/ultra-petroleum-files-for-bankruptcy-citing-3-9-billion-debt",
+  "title": "Ultra Petroleum Files for Bankruptcy, Citing $3.9 Billion Debt",
+  "时间": "2016-05-01T19:37:38.999000+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "Ultra Petroleum Corp.",
+    "Oil and Gas",
+    "Bankruptcy"
+  ],
+  "主要内容": "Ultra Petroleum Corp. filed for bankruptcy protection, the latest oil and gas explorer to fall victim to the prolonged slump in energy prices. The Houston-based company listed $1.3 billion in assets and $3.9 billion in debt in court papers filed in Houston on Friday.",
+  "股票实体": [
+    {
+      "名称": "Ultra Petroleum Corp.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil and Gas",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:09:43.483765+00:00",
+    "fetched_at": "2026-11-12T18:26:38.481850+00:00",
+    "feature_available_at": "2026-11-12T18:26:48.942889+00:00",
+    "availability_basis": "extraction"
+  }
+}

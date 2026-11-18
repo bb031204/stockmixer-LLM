@@ -1,0 +1,33 @@
+{
+  "source_id": "ffcf02488758b75d703aa5ce",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-16-000118-index.html",
+  "title": null,
+  "时间": "2016-07-01",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Insperity, Inc.",
+    "Board of Directors",
+    "Corporate Governance",
+    "Annual Meeting",
+    "Compensation Committee"
+  ],
+  "主要内容": "Dr. Eli Jones, a director of Insperity, Inc., decided not to stand for re-election to focus on other professional commitments. His resignation became effective upon the adjournment of the 2016 Annual Meeting of Stockholders held on June 30, 2016. Dr. Jones was chair of the Compensation Committee and a member of the Nominating and Corporate Governance Committee. His decision was not related to any disagreements with the company's operations, policies, or practices. Insperity, Inc. announced changes to its board of directors and committees effective as of the adjournment of its 2016 Annual Meeting. The Board of Directors and its standing committees, including the Finance, Risk Management and Audit (\"FRMA\") Committee, the NCG Committee, and the Compensation Committee, were restructured with new members and chairpersons. The changes took effect on June 30, 2016, following the Annual Meeting held at its corporate headquarters in Kingwood, Texas.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:01.342941+00:00",
+    "fetched_at": "2026-11-14T14:46:54.245273+00:00",
+    "feature_available_at": "2026-11-14T14:47:46.515167+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "source_id": "f748959c857727f770b6adc4",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001193125-17-283728-index.html",
+  "title": null,
+  "时间": "2017-09-13",
+  "分类": "corporate_action",
+  "关键词": [
+    "NICHOLAS FINANCIAL INC",
+    "Financial Services",
+    "Corporate Action",
+    "Advisory Vote on Executive Compensation"
+  ],
+  "主要内容": "NICHOLAS FINANCIAL INC held its Annual General Meeting of Shareholders on September 7, 2017. The voting results showed that Adam Peterson received 4,479,180 votes, Jeremy Zhu received 4,479,085 votes, and the directors Scott Fink, Robin Hastings, and Kevin Bates continued their terms. The Company ratified the appointment of Dixon Hughes Goodman, LLP as Independent Auditors with 5,540,801 votes for, 94 abstentions, and 18,976 votes against. An advisory vote on executive compensation received 3,980,605 votes for, 10,798 abstentions, and 571,865 votes against. The advisory vote on the frequency of the advisory vote on executive compensation was set to occur annually.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.015462+00:00",
+    "fetched_at": "2026-11-14T04:45:37.290475+00:00",
+    "feature_available_at": "2026-11-14T04:46:16.636015+00:00",
+    "availability_basis": "extraction"
+  }
+}

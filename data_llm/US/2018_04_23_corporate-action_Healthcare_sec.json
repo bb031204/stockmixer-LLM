@@ -1,0 +1,30 @@
+{
+  "source_id": "a7d0b80b1c591a5a9dd6c347",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-18-125871-index.html",
+  "title": null,
+  "时间": "2018-04-23",
+  "分类": "corporate_action",
+  "关键词": [
+    "Henry Schein Inc",
+    "Healthcare",
+    "Corporate Action"
+  ],
+  "主要内容": "On April 23, 2018, Karen Prange decided to leave Henry Schein, Inc. as Executive Vice President of the Company and Chief Executive Officer of Global Animal Health, Medical and Dental Surgical Group, effective on that date. Ms. Prange delivered a Release in favor of the Company and related parties, providing severance payments including continued base salary for 18 months, health coverage, annual bonus at target for 2018, full vesting of restricted stock, and payment of unpaid last insta.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.878895+00:00",
+    "fetched_at": "2026-11-12T21:52:29.911830+00:00",
+    "feature_available_at": "2026-11-12T21:52:47.953785+00:00",
+    "availability_basis": "extraction"
+  }
+}

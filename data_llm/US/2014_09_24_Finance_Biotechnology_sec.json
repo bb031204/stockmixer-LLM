@@ -1,0 +1,45 @@
+{
+  "source_id": "d1c7591f8ccaec6678df12a9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-14-057607-index.html",
+  "title": null,
+  "时间": "2014-09-24",
+  "分类": "Finance",
+  "关键词": [
+    "Novavax, Inc.",
+    "BARDA",
+    "contract amendment",
+    "funding",
+    "Phase 3",
+    "clinical development",
+    "NVAX"
+  ],
+  "主要内容": "On September 22, 2014, Novavax, Inc. (Nasdaq: NVAX) amended its Prime Contract with the U.S. Department of Health and Human Services, Biomedical Advanced Research and Development Authority (BARDA). The amendment extended the base period of performance to September 23, 2016, granted continued access to the remaining $97 million base period funding after September 23, 2014, and awarded additional option period funding of $70 million. The contract includes an additional funding commitment of $70 million for a 24-month option period, supporting clinical, manufacturing, and product development activities up to Phase 3. Through the second quarter of 2014, the company recognized approximately $65 million in revenue since the inception of the contract. The CEO emphasized the collaborative partnership with BARDA, which has resulted in jointly developed solutions to development challenges and is expected to deliver significant value as they advance toward Phase 3 and BLA enabling activities.",
+  "股票实体": [
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": "NVAX",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Biopharmaceuticals",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.184215+00:00",
+    "fetched_at": "2026-11-14T10:43:11.360017+00:00",
+    "feature_available_at": "2026-11-14T10:45:05.943506+00:00",
+    "availability_basis": "extraction"
+  }
+}

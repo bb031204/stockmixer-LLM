@@ -1,0 +1,36 @@
+{
+  "source_id": "9fc0e31b9678b9fc00433fce",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000955/0001477932-14-003845-index.html",
+  "title": null,
+  "时间": "2014-07-24",
+  "分类": "corporate_action",
+  "关键词": [
+    "SouthCorp Capital, Inc.",
+    "Real Estate",
+    "Property Sale"
+  ],
+  "主要内容": "SouthCorp Capital, Inc. agreed to sell its property located at 602 Wagner Street in Fort Wayne for $35,000. The property was sold under a land contract, with the Company financing the sale. The terms of the sale include a 7-year term, an interest rate of 10%, and an estimated monthly payment of $581.",
+  "股票实体": [
+    {
+      "名称": "SouthCorp Capital, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Real Estate",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.184215+00:00",
+    "fetched_at": "2026-11-14T12:08:52.381960+00:00",
+    "feature_available_at": "2026-11-14T12:09:08.564167+00:00",
+    "availability_basis": "extraction"
+  }
+}

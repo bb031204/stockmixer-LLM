@@ -1,0 +1,43 @@
+{
+  "source_id": "70614fc60eec119b4e7aa6f0",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001290/0001144204-19-025637-index.html",
+  "title": null,
+  "时间": "2019-05-13",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Credicorp Ltd.",
+    "Financial Services",
+    "share reorganization",
+    "Banco de Credito del Peru (BCP)"
+  ],
+  "主要内容": "Credicorp Ltd. confirmed the completion of the share reorganization process for its subsidiaries in Perú. The shareholding position of Grupo Credito, its subsidiary, in Banco de Credito del Peru (BCP) is 97.71%.",
+  "股票实体": [
+    {
+      "名称": "Credicorp Ltd.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Banco de Credito del Peru (BCP)",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.107122+00:00",
+    "fetched_at": "2026-11-13T00:03:30.243670+00:00",
+    "feature_available_at": "2026-11-13T00:03:47.365373+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,15 +1,36 @@
-﻿# LLM市场信息的离线处理、特征面板及融合配置。
+# LLM市场信息的离线处理、特征面板及融合配置。
 schema_version: stockmixer_llm_config_v1
 news_root: ../data_llm  # 原始US/GLOBAL只读；不在训练循环内运行Qwen或FinBERT。
-adapted_snapshot: outputs/artifacts/news/adapted/20261113_current_v1
-baseline_checkpoint: null  # 开启融合前填写同数据、同original/strict协议的正式E0 best_model.pt。
+adapted_snapshot: outputs/artifacts/news/adapted/20261118_144829_US_GLOBAL_retraced  # main.py或18_import_news.py在全量验收后自动导入/激活，不复用旧面板。
+baseline_checkpoint: null  # 自动从本次已核验准备状态读取各市场E0；下方baseline_checkpoints指定可复用权重。
 panels:
   NASDAQ: null
   NYSE: null
   SP500: null  # 填已通过身份、时间、真实FinBERT及市场路由核验的面板目录。
+market_routes:  # 已发布并验证的市场路由审核产物；与原始scope标签分开。
+  NASDAQ: null
+  NYSE: null
+  SP500: null
+review:  # 本地Qwen离线审核；FinBERT仅用于情绪和向量，不承担审核。
+  provider: ollama
+  endpoint: http://127.0.0.1:11434
+  model: qwen3:8b
+  expected_model_digest: 500a1f067a9f782620b40bee6f7b0c89e17ae61f686b92c24933e4ca4b2b8b41
+  temperature: 0.0
+  seed: 1234
+  think: false
+  num_ctx: 8192
+  num_predict: 1024
+  timeout_seconds: 120
+  max_attempts: 2
+  min_confidence: 0.75  # 模型自评阈值，未经校准；不是正确率保证。
+  max_input_chars: 20000
+  checkpoint_every: 25
+  max_consecutive_failures: 3
+  cache_dir: outputs/artifacts/news/review_cache
 finbert:
   model_id: ProsusAI/finbert
-  model_dir: null  # 本地模型目录；先离线编码，训练不加载该模型。
+  model_dir: C:/Users/marti/anaconda3/envs/stockmixer/models/ProsusAI-finbert/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031  # 本地模型目录；先离线编码，训练不加载该模型。
   local_files_only: true
   max_length: 512
   batch_size: 16
@@ -19,18 +40,188 @@ finbert:
   output_format: jsonl
 panel:
   decision_lookback: 16
+  relation_time_basis: event_date  # 按纽约发布日期核验历史身份；新闻影响延续不扩大主数据有效期。
   mode: retrospective  # 不冒充历史observed PIT；保留真实可用时间。
+  projection_components: 16  # 稀疏历史新闻使用16维PCA；可调整1..768，需要足够训练样本与秩。
   projection: pca
   projection_seed: 1234
   lookback_sessions: 5
   decay_tau_sessions: 3.0
   simulated_latency_seconds: 300
 fusion:
-  enabled_channels: [market]  # 公司/行业通道暂不启用；缺失通道修正严格为0。
-  news_dim: 40
-  hidden_dim: 32
-  dropout: 0.0
+  enabled_channels: [market, industry]  # 公司通道待历史身份覆盖补齐后单独启用。
+  news_dim: 24  # 必须等于projection_components+8（情绪3+统计5）。原行情主干的40维不变。
+  hidden_dim: 8  # 稀疏文章先使用较小的新增分支；不改变StockMixer主干。
+  dropout: 0.1
   freeze_backbone: true
 training:
-  epochs: 100  # 仅融合分支的训练；原始E0参数在stockmixer.yaml。
-  learning_rate: 0.001
+  epochs: 30  # 仅新增分支；原始E0仍为100轮、lr=0.001、alpha=0.1。
+  learning_rate: 0.0001  # 预先固定的小步长；按验证loss选模，不按测试结果调整。
+
+# 原主干/alpha/学习率/窗口保持；本轮E0与融合采用original复现，存在验证标签重叠。
+# pipeline.data_protocol支持original或strict；original仅允许retrospective。
+pipeline:
+  auto_import_retrace: true  # main.py先核验全量完成，再自动导入/激活；false时先手动运行18_import_news.py。
+  launch_state: outputs/artifacts/news/launch_state.json  # 全流程状态指针；运行main.py --step status查看。
+  baseline_checkpoints:  # null=验收新闻后，按stockmixer.yaml训练对应市场E0；不能跨市场复用。
+    NASDAQ: outputs/20261116_132645_NASDAQ_E0/checkpoints/best_model.pt
+    NYSE: null
+    SP500: null
+  sample_review: outputs/artifacts/news/acceptance/20261118_180203_NASDAQ_NYSE_SP500_partial/semantic_sample_review  # 22篇助手抽检；只限制已绑定的错误传播，不冒充人工全审。
+  retrace_artifact: D:/financial_data_project2/data_enriched/retraced/20261118_144829_US_GLOBAL_v5
+  industry_membership_mode: reference_retrospective  # 探索性无日期数据集参考表；严格历史模式改为verified_historical。
+  industry_excluded_sources: [1b02e559d81c568ffa4b6ff8, 62f0ea7d749999a245b9525b, 777b97f602ed63a72ee4f488]  # 保留用户确认的仅公司事件。
+  # 旧库行业补处理：Qwen只选择字典代码，标准名称由程序回填。
+  industry_batch_artifact: null  # 新快照不能复用旧版本的审核或特征缓存。
+  industry_batch_base_snapshot: null  # 新快照不能复用旧版本的审核或特征缓存。
+  industry_batch_legacy_snapshot: null  # 新快照不能复用旧版本的审核或特征缓存。
+  industry_batch_snapshot_output: null  # 新快照不能复用旧版本的审核或特征缓存。
+  allow_automated_industry_scope: true  # 仅可重放的摘要证据规则审核，非人工全审；仍必须匹配历史股票成员。
+  python: C:/Users/marti/anaconda3/envs/stockmixer/python.exe
+  model_directory: C:/Users/marti/anaconda3/envs/stockmixer/models/ProsusAI-finbert/0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031
+  model_revision: 0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031
+  datasets: [NASDAQ]  # 本轮先准备NASDAQ；其余数据集不启动。
+  state: outputs/artifacts/news/20261118_144829_retrace_state.json
+  semantic_review: null  # 新快照不能复用旧版本的审核或特征缓存。
+  data_protocol: original  # 用户选择原始复现：训练候选可能含验证标签；只用于retrospective同口径对照。切换strict须重建同协议E0。
+  allow_partial_routes: true  # 只发布通过证据校验的条目，pending明确排除；不代表人工审核。
+  review_limit: null  # 正式实验必须null；小样本只能用于预检查。
+  encoding_limit: null
+  cache: outputs/artifacts/news/cache
+  finbert_threads: 4  # CPU编码线程数；不改变StockMixer训练线程。
+  minimum_training_cells: 1  # 每个启用通道在训练决策区间至少有有效新闻，0不能绕过。
+  security_master: outputs/artifacts/news/historical_master/20261117_162900_NASDAQ_NYSE_SP500_SEC_SIC_v5/security_master.jsonl  # 已核验SEC历史观察；未知股票保持未匹配。
+  industry_memberships: outputs/artifacts/news/historical_master/20261117_162900_NASDAQ_NYSE_SP500_SEC_SIC_v5/industry_memberships.jsonl  # 历史有效期、security_id、数组行号、行业标准版本均须核验。
+  industry_aliases: outputs/artifacts/news/historical_master/20261117_162900_NASDAQ_NYSE_SP500_SEC_SIC_v5/industry_aliases.jsonl  # 经过审核的行业名称→标准代码，不把当今行业回填历史。
+  review_artifacts:
+    NASDAQ: null
+    NYSE: null
+    SP500: null
+  features: null  # 新快照不能复用旧版本的审核或特征缓存。
+  analysis_source: upstream_only  # 复用上游结构化分析或已核验旧缓存；下游不再调用Qwen。
+  upstream_source_root: D:/financial_data_project2  # 09_check_mapping.py 只读核对上游JSON及同版本审计；不运行采集器。
+  infer_industries: false  # 上游负责行业推断；缺字段保留待匹配，不在此重跑。
+  industry_scope_review: null  # 新快照不能复用旧版本的审核或特征缓存。
+  require_industry_scope_review: true  # 新行业传播先做作用域复核；未复核保留pending，不影响公司/市场通道。
+  industry_inference_artifact: outputs/artifacts/news/pipelines/20261117_105453_NASDAQ_NYSE_SP500_preparation/industry_inference  # 旧下游推断档案；infer_industries=false 时不再使用或发起请求。
+  industry_keep_alive: 10m  # 仅控制离线行业推断后的模型驻留时间，避免每篇重载；不改原StockMixer或Qwen采样参数。
+  industry_min_confidence: 0.75  # 自评阈值，仍必须有逐字证据和经济传导机制。
+  industry_max_impacts: 3
+  industry_cache: outputs/artifacts/news/industry_cache
+
+# SEC-SIC 仅含有官方证据的离散日期观察，不代表全股票池连续历史分类。
+historical_master:
+  cache: outputs/artifacts/news/sec_evidence_cache
+  output: outputs/artifacts/news/historical_master/20261117_162900_NASDAQ_NYSE_SP500_SEC_SIC_v5
+  offline_only: true
+  request_interval_seconds: 0.6
+  timeout_seconds: 35
+  maximum_document_bytes: 15000000
+  maximum_filings_per_issuer: null
+  maximum_documents_per_filing: 2
+  user_agent: StockMixer-LLM historical evidence research
+  issuers:
+  - cik: '1000045'
+    ticker: NICK
+    exchange: NASDAQ
+    names:
+    - Nicholas Financial, Inc.
+  - cik: '1000753'
+    ticker: NSP
+    exchange: NYSE
+    names:
+    - Insperity, Inc.
+  - cik: '1000697'
+    ticker: WAT
+    exchange: NYSE
+    names:
+    - Waters Corporation
+  - cik: '1025835'
+    ticker: EFSC
+    exchange: NASDAQ
+    names:
+    - Enterprise Financial Services Corp
+  - cik: '1102266'
+    ticker: CSFL
+    exchange: NASDAQ
+    names:
+    - CenterState Banks, Inc
+  - cik: '1127371'
+    ticker: CVCY
+    exchange: NASDAQ
+    names:
+    - Central Valley Community Bancorp (Company)
+  - cik: '1130144'
+    ticker: BSRR
+    exchange: NASDAQ
+    names:
+    - Sierra Bancorp
+  - cik: '1403475'
+    ticker: BMRC
+    exchange: NASDAQ
+    names:
+    - Bank of Marin Bancorp
+  - cik: '705432'
+    ticker: SBSI
+    exchange: NASDAQ
+    names:
+    - Southside Bancshares, Inc
+  - cik: '709337'
+    ticker: FMNB
+    exchange: NASDAQ
+    names:
+    - Farmers National Banc Corp
+  - cik: '802681'
+    ticker: BMTC
+    exchange: NASDAQ
+    names:
+    - Bryn Mawr Bank Corporation
+  - cik: '927628'
+    ticker: COF
+    exchange: NYSE
+    names:
+    - Capital One Financial Corporation
+
+industry_dictionary:
+  directory: news_assets/industry_dictionary
+  reference_archive: D:/finance/model/StockMixer/Temporal_Relational_Stock_Ranking-master/data/relation.tar.gz
+  output: outputs/artifacts/news/industry_mapping/20261118_135542_NASDAQ_NYSE_SP500_reference_v3
+# 无日期的基准行业/板块仅导出参考，不能作为历史已核验成员关系进入正式训练。
+
+# 市场通道专项（M2/M4/M5/M6，见 docs/MARKET_CHANNEL.md）。默认不启用：未写此段时面板与旧版本完全一致。
+# 启用后须用 main.py --new 新建准备版本；门槛必须在首次运行 E3 之前写定，null 门槛会阻断正式融合。
+# market_channel:
+#   news_routes: true                  # 是否使用新闻审核路由；false 时仅用官方宏观事件
+#   evidence_basis: [source_text]      # 可选 source_text / title_only / unverified_summary；后两者只用于消融
+#   official_events: null              # scripts/14_build_official_events.py 输出的 *_features 目录
+#   event_dedup:
+#     window_sessions: 1               # 同一事件的发布交易日最大间隔
+#     cosine_threshold: 0.92           # FinBERT 向量余弦相似度阈值；须在人工抽检样本上确定
+#   gates:
+#     min_events: {train: null, valid: null, test: null}
+#     min_active_days: {train: null, valid: null, test: null}
+#     max_event_type_share: 0.5        # 单一事件类型占比上限；null 表示不检查
+#   evaluation: null                   # M3 评估结果目录，仅记录在 manifest 中
+
+# NASDAQ快速探索对照：历史摘要来源未完整核验，允许摘要证据仅用于探索性消融。
+# 下面门槛是预先固定的试运行下限，不代表统计充分性或正式原文证据验收。
+market_channel:
+  news_routes: true
+  evidence_basis: [source_text, title_only, unverified_summary]
+  official_events: null
+  event_dedup:
+    window_sessions: 1
+    cosine_threshold: 0.92
+  gates:
+    min_events: {train: 15, valid: 5, test: 3}
+    min_active_days: {train: 30, valid: 10, test: 10}
+    max_event_type_share: null  # 旧新闻缺已核验事件类型；报告unknown，不能声称已通过类型多样性验收。
+  evaluation: null  # 尚缺人工精确率/召回评估；本轮不冒充已完成人工全审。
+
+# 历史三通道离线验收：行业训练股票×日 NASDAQ=35、NYSE=5、SP500=0。
+# SP500 缺同类别、同日期的已核验训练期成员；全通道 validate 继续阻断该市场。
+# 不通过外推日期或降低 minimum_training_cells 制造覆盖。未在本轮启动正式训练。
+
+# 本轮市场/行业阈值0.75均为模型自评门槛。引用、字典、数组轴和时间校验保留。
+# reference_retrospective 不构成真实历史行业有效期证明；不能用于 observed_pit。
+# SEC-SIC、TRSR-INDUSTRY、SP500-SECTOR不互猜代码；上游从各自字典选取，逐分类精确关联。

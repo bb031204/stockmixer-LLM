@@ -1,0 +1,38 @@
+{
+  "source_id": "e747974f7f423dd68327ab2b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-18-000064-index.html",
+  "title": null,
+  "时间": "2018-04-17",
+  "分类": "dividend",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "CLB US",
+    "Oil & Gas",
+    "dividend",
+    "Q2 2018"
+  ],
+  "主要内容": "Core Laboratories N.V. (CLB US) announced a cash dividend of $0.55 per share for Q2 2018, payable on 22 May 2018 to shareholders of record on 27 April 2018. The dividend represents $2.20 per share annually if maintained. Dutch withholding tax of 15% will apply. Future dividends depend on financial position, earnings, capital expenditure, share repurchases, and other factors. The company will host a conference call on 26 April 2018 to discuss Q1 2018 earnings.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.879895+00:00",
+    "fetched_at": "2026-11-12T22:00:36.793987+00:00",
+    "feature_available_at": "2026-11-12T22:01:12.085181+00:00",
+    "availability_basis": "extraction"
+  }
+}

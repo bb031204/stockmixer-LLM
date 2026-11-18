@@ -1,0 +1,42 @@
+{
+  "source_id": "c9414ebc7f93a4dabd95324d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-19-114540-index.html",
+  "title": null,
+  "时间": "2019-04-23",
+  "分类": "Financial",
+  "关键词": [
+    "Geospace Technologies",
+    "NASDAQ: GEOS",
+    "Oil and Gas",
+    "Seismic Instruments",
+    "GEOS"
+  ],
+  "主要内容": "Geospace Technologies (NASDAQ: GEOS) announced it will release its second quarter fiscal year 2019 financial results on May 2, 2019, after market close. The company will host a conference call on May 3, 2019, at 10:00 a.m. Eastern Time. The call will be available for replay for approximately 60 days. Geospace Technologies designs and manufactures seismic instruments and equipment, primarily marketed to the oil and gas industry for hydrocarbon reservoirs. The company also markets its seismic products to other industries for vibration monitoring, border and perimeter security, and various geotechnical applications. It also designs and manufactures non-seismic products such as water meter products, imaging equipment, and offshore cables.",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies",
+      "股票代码": "GEOS",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil and Gas Equipment",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Geotechnical Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.106122+00:00",
+    "fetched_at": "2026-11-12T23:48:00.410177+00:00",
+    "feature_available_at": "2026-11-12T23:48:37.964617+00:00",
+    "availability_basis": "extraction"
+  }
+}

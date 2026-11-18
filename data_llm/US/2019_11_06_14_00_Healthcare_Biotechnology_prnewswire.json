@@ -1,0 +1,41 @@
+{
+  "source_id": "971969141f83af95332a125b",
+  "url": "https://www.prnewswire.com/news-releases/thermo-fisher-scientific-introduces-first-next-generation-sequencing-platform-that-delivers-specimen-to-report-in-a-single-day-300951867.html",
+  "title": "Thermo Fisher Scientific Introduces First Next-Generation Sequencing Platform That Delivers Specimen to Report in a Single Day",
+  "时间": "2019-11-06T14:00:00+00:00",
+  "分类": "Healthcare",
+  "关键词": [
+    "Thermo Fisher Scientific",
+    "Genexus System",
+    "NGS",
+    "FFPE",
+    "liquid biopsy",
+    "FDA",
+    "oncology"
+  ],
+  "主要内容": "Thermo Fisher Scientific launched the Ion Torrent Genexus System, a next-generation sequencing (NGS) platform that delivers results in a single day. The platform enables comprehensive genomic profiling from formalin-fixed, paraffin-embedded (FFPE) tissue and liquid biopsy samples with a single assay. It was introduced at the Association for Molecular Pathology (AMP) 2019 annual meeting. The Genexus System features unprecedented speed and automation, aiming to improve access to comprehensive test results for patients and enable more effective targeted therapy. The system includes the Genexus Integrated Sequencer, Purification System, and onboard reporting software, manufactured in an ISO 13485 facility registered with the FDA. The Oncomine Precision Assay, a single test detecting biomarkers like EGFR, ALK, KRAS, BRAF, ROS1, NTRK, RET, HER2, and ERBB2 from FFPE and liquid biopsy samples, enables comprehensive NGS results within the same timeframe as single-gene tests. Thermo Fisher plans to seek FDA approval to accelerate oncology and other clinical diagnostic assays.",
+  "股票实体": [
+    {
+      "名称": "Thermo Fisher Scientific",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:12:16.209470+00:00",
+    "fetched_at": "2026-11-14T02:16:27.903386+00:00",
+    "feature_available_at": "2026-11-14T02:22:59.071498+00:00",
+    "availability_basis": "extraction"
+  }
+}

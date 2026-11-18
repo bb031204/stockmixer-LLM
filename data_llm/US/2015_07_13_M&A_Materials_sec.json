@@ -1,0 +1,45 @@
+{
+  "source_id": "7aa871a5db21dd7cb77cf79d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-15-001107-index.html",
+  "title": null,
+  "时间": "2015-07-13",
+  "分类": "M&A",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "GrafTech International Ltd.",
+    "tender offer",
+    "SEC filings",
+    "regulatory approvals",
+    "GTI"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. extended its tender offer for GrafTech International Ltd. shares to July 28, 2015, to allow additional time for clearance from the Committee on Foreign Investment in the United States. The tender offer, previously set to expire on July 7, 2015, is now subject to three conditions: (a) the completion of the tender offer and the previously announced preferred stock purchase, (b) the expiration of the sixty-day notice period relating to its notice of the Offer to the U.S. Department of State Directorate of Defense Trade Controls, and (c) clearance under the competition laws of Russia. As of July 2, 2015, approximately 11,869,693 Shares have been tendered into the offer and not properly withdrawn. The document contains a cautionary statement regarding forward-looking statements related to a potential merger and tender offer, highlighting the risks and uncertainties associated with the timing of the merger and the possibility that it may not be completed in a timely manner due to pending regulatory approvals. Securities explicitly mentioned in the source include GTI.",
+  "股票实体": [
+    {
+      "名称": "GrafTech International Ltd.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "GTI",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.874807+00:00",
+    "fetched_at": "2026-11-14T14:45:46.548997+00:00",
+    "feature_available_at": "2026-11-14T14:46:49.977854+00:00",
+    "availability_basis": "extraction"
+  }
+}

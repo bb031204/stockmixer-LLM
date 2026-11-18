@@ -1,0 +1,53 @@
+{
+  "source_id": "d74fa1cf122bcfc94f0ecb62",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-20-007495-index.html",
+  "title": null,
+  "时间": "2020-03-26",
+  "分类": "financial_news",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "BLONDER TONGUE LABORATORIES INC",
+    "COVID-19 pandemic",
+    "Annual Report on Form 10-K",
+    "earnings release",
+    "SEC"
+  ],
+  "主要内容": "Blonder Tongue Laboratories, Inc. (BLONDER TONGUE LABORATORIES INC) delayed its Annual Report on Form 10-K for the year ended December 31, 2019, due to the impact of the COVID-19 pandemic. The delay was announced on March 26, 2020, with the report expected to be filed no later than 45 days after March 30, 2020. The company also postponed its fourth quarter and fiscal year 2019 earnings release, originally scheduled for March 27, 2020. The delay was based on the SEC’s Order Under Section 36 of the Securities Exchange Act of 1934. The pandemic has diverted management resources, affecting operational and financial planning. The company added a risk factor related to health events like the Coronavirus outbreak in its disclosures. BLONDER TONGUE LABORATORIES INC reported a near-term reduction in sales due to decreased customer business activities related to the COVID-19 outbreak. The company noted uncertainty about when or if customer activities will return to historical levels.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Medical Equipment",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Medical Devices",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Communication Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:24.200963+00:00",
+    "fetched_at": "2026-11-13T05:54:09.591795+00:00",
+    "feature_available_at": "2026-11-13T05:56:22.591695+00:00",
+    "availability_basis": "extraction"
+  }
+}

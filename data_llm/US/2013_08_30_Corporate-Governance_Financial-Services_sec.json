@@ -1,0 +1,42 @@
+{
+  "source_id": "9004af4da80348a2cbbbc622",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-13-000600-index.html",
+  "title": null,
+  "时间": "2013-08-30",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "TRC Capital Corporation",
+    "mini-tender offer",
+    "Class A Limited Voting Shares",
+    "Cdn $34.50",
+    "discount",
+    "Canadian Securities Administrators",
+    "U.S. Securities and Exchange Commission"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. has been notified of an unsolicited mini-tender offer by TRC Capital Corporation to purchase up to 3,000,000 Class A Limited Voting Shares at Cdn $34.50 per share, a 4.46% discount to the Toronto Stock Exchange closing price on August 27, 2013. The offer is conditional and may be terminated if the share price declines after that date. Brookfield does not endorse the offer and advises shareholders to reject it. The Canadian Securities Administrators and the U.S. Securities and Exchange Commission have raised concerns about mini-tender offers, warning investors to understand the terms and consult financial advisors. Brookfield, a global alternative asset manager with over $175 billion in assets under management, emphasizes the importance of current market quotations and professional advice.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.155059+00:00",
+    "fetched_at": "2026-11-14T15:59:39.266865+00:00",
+    "feature_available_at": "2026-11-14T16:00:38.546803+00:00",
+    "availability_basis": "extraction"
+  }
+}

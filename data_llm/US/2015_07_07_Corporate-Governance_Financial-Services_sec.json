@@ -1,0 +1,40 @@
+{
+  "source_id": "617d48409e2d0f3cf97e97da",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-15-246341-index.html",
+  "title": null,
+  "时间": "2015-07-07",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Doug Guzman",
+    "George Lewis",
+    "Wealth Management",
+    "Insurance",
+    "Capital Markets"
+  ],
+  "主要内容": "Royal Bank of Canada announced that Doug Guzman, Managing Director and Head of Global Investment Banking, has been appointed Group Head, Wealth Management and Insurance, effective November 1, 2015. Mr. Guzman will succeed George Lewis, who will remain at RBC as a Senior Portfolio Manager in Global Asset Management. Mr. Lewis and Mr. Guzman will work together closely over the next few months to ensure a smooth transition. As Group Head, Mr. Guzman will be responsible for the strategy and performance of Wealth Management in Canada and internationally, including Global Asset Management as well as RBC’s insurance business. He will report to Dave McKay, President and Chief Executive Officer, and will become a member of RBC’s Group Executive, which is responsible for setting the overall strategic direction of the bank.",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.872809+00:00",
+    "fetched_at": "2026-11-14T08:22:03.763994+00:00",
+    "feature_available_at": "2026-11-14T08:22:57.137352+00:00",
+    "availability_basis": "extraction"
+  }
+}

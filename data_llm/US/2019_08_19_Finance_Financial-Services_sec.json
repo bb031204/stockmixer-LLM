@@ -1,0 +1,45 @@
+{
+  "source_id": "59e964eb0473db1a317a8fe0",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001564590-19-032532-index.html",
+  "title": null,
+  "时间": "2019-08-19",
+  "分类": "Finance",
+  "关键词": [
+    "NF Funding I, LLC",
+    "Nicholas Financial, Inc.",
+    "Credit Facility",
+    "Ares Agent Services, L.P.",
+    "ML Credit",
+    "ML Receivables",
+    "Excess Concentration",
+    "Consent and First Amendment",
+    "Event of Default",
+    "Borrowing Costs",
+    "Collateral",
+    "Insolvency"
+  ],
+  "主要内容": "On August 16, 2019, NF Funding I, LLC, a wholly-owned, special purpose financing subsidiary of Nicholas Financial, Inc., entered into a Consent and First Amendment to its senior secured credit facility. The amendment included approving ML Credit as an approved seller, amending the dealer agreement definition to include ML Receivables, allowing repayment of principal, and removing excess concentration limits exceeding 7.5% of the total invested amount. The credit agreement contains customary events of default and negative covenants. Nicholas Financial, Inc. disclosed potential consequences of an event of default, including increased borrowing costs, restricted access to credit, acceleration of outstanding amounts, and enforcement of collateral. Assets sold to the borrower are separate from the company's assets and not available to creditors in case of insolvency, though they are presented on a consolidated basis in the balance sheet. The filing was made on August 19, 2019.",
+  "股票实体": [
+    {
+      "名称": "NF Funding I, LLC",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:11.707099+00:00",
+    "fetched_at": "2026-11-14T05:38:16.601270+00:00",
+    "feature_available_at": "2026-11-14T05:39:04.283816+00:00",
+    "availability_basis": "extraction"
+  }
+}

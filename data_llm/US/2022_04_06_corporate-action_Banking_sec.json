@@ -1,0 +1,38 @@
+{
+  "source_id": "54a4a18c5c65a50cd7e164fb",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-22-097683-index.html",
+  "title": null,
+  "时间": "2022-04-06",
+  "分类": "corporate_action",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Banking",
+    "Annual Meeting",
+    "Virtual Format"
+  ],
+  "主要内容": "Royal Bank of Canada announced that its annual meeting of common shareholders, originally scheduled for April 7, 2022, will be held virtually due to a confirmed positive COVID-19 case impacting key staff and participants. The change aligns with RBC’s protocols to prioritize health and safety.",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.697810+00:00",
+    "fetched_at": "2026-11-14T09:15:31.121128+00:00",
+    "feature_available_at": "2026-11-14T09:15:55.452555+00:00",
+    "availability_basis": "extraction"
+  }
+}

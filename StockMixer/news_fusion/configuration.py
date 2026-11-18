@@ -31,9 +31,62 @@ def read_yaml(path):
     return value
 
 
+REVIEW_DEFAULTS={'provider':'ollama','endpoint':'http://127.0.0.1:11434','model':'qwen3:8b','expected_model_digest':None,
+    'temperature':0.0,'seed':1234,'think':False,'num_ctx':8192,'num_predict':1024,'timeout_seconds':120,
+    'max_attempts':2,'min_confidence':0.85,'max_input_chars':20000,'checkpoint_every':25,
+    'max_consecutive_failures':3,'cache_dir':'outputs/artifacts/news/review_cache'}
+
+
+def validate_review_settings(settings):
+    mapping(settings,REVIEW_DEFAULTS,'review')
+    if settings['provider']!='ollama':raise ValueError('review.provider must be ollama')
+    for key in ('endpoint','model','cache_dir'):nonempty(settings[key],'review.'+key)
+    value=settings['expected_model_digest']
+    if value is not None and (not isinstance(value,str) or re.fullmatch(r'(?:sha256:)?[a-f0-9]{64}',value) is None):
+        raise ValueError('review.expected_model_digest must be null or an exact SHA256')
+    boolean(settings['think'],'review.think')
+    for key,lo,hi in (('seed',0,2**32-1),('num_ctx',1024,65536),('num_predict',128,4096),('max_attempts',1,5),
+                      ('max_input_chars',128,100000),('checkpoint_every',1,1000),('max_consecutive_failures',1,50)):
+        integer(settings[key],'review.'+key,lo,hi)
+    for key,lo,hi in (('temperature',0,2),('min_confidence',0,1),('timeout_seconds',1,600)):
+        value=finite_number(settings[key],'review.'+key)
+        if not lo<=value<=hi:raise ValueError('review.'+key+' is outside its supported range')
+
+
 def load_llm_config(path):
     c=read_yaml(path)
-    mapping(c,('schema_version','news_root','adapted_snapshot','baseline_checkpoint','panels','finbert','panel','fusion','training'),'llm config')
+    from .pipeline import DEFAULTS, validate_settings
+    c.setdefault('pipeline',copy.deepcopy(DEFAULTS))
+    c.setdefault('market_routes',{name:None for name in ('NASDAQ','NYSE','SP500')})
+    c.setdefault('review',copy.deepcopy(REVIEW_DEFAULTS))
+    c.setdefault('historical_master',None)
+    c.setdefault('industry_dictionary',None)
+    if c['industry_dictionary'] is not None:
+        mapping(c['industry_dictionary'],('directory','reference_archive','output'),'industry_dictionary')
+        for k,v in c['industry_dictionary'].items():nonempty(v,'industry_dictionary.'+k)
+    if c['historical_master'] is not None:
+        from .master_data import validate_settings as validate_historical_settings
+        validate_historical_settings(c['historical_master'])
+    c['pipeline'].setdefault('industry_excluded_sources',[])
+    c['pipeline'].setdefault('retrace_artifact',None)
+    c['pipeline'].setdefault('industry_membership_mode','verified_historical')
+    c['pipeline'].setdefault('analysis_source','upstream_only')
+    c['pipeline'].setdefault('upstream_source_root','D:/financial_data_project2')
+    c['pipeline'].setdefault('semantic_review',None)
+    c['pipeline'].setdefault('industry_keep_alive','10m')
+    c['pipeline'].setdefault('industry_scope_review',None)
+    c['pipeline'].setdefault('require_industry_scope_review',False)
+    c['pipeline'].setdefault('industry_inference_artifact',None)
+    for key in ('industry_batch_artifact','industry_batch_base_snapshot','industry_batch_snapshot_output','industry_batch_legacy_snapshot'):
+        c['pipeline'].setdefault(key,None)
+    c['pipeline'].setdefault('allow_automated_industry_scope',False)
+    # market_channel 为可选段：缺省时不加入配置，避免改变已有流水线状态的配置指纹。
+    mapping({k:v for k,v in c.items() if k!='market_channel'},('industry_dictionary','historical_master','schema_version','news_root','adapted_snapshot','baseline_checkpoint','panels','market_routes','review','finbert','panel','fusion','training','pipeline'),'llm config')
+    if c.get('market_channel') is not None:
+        from .market_quality import validate_settings as validate_market_channel
+        validate_market_channel(c['market_channel'])
+    validate_settings(c['pipeline'])
+    validate_review_settings(c['review'])
     if c['schema_version']!='stockmixer_llm_config_v1':
         raise ValueError('Use llm.yaml schema stockmixer_llm_config_v1')
     for key in ('news_root','adapted_snapshot'):
@@ -42,19 +95,27 @@ def load_llm_config(path):
     mapping(c['panels'],('NASDAQ','NYSE','SP500'),'panels')
     for key,value in c['panels'].items():
         nonempty(value,'panels.'+key,True)
+    mapping(c['market_routes'],('NASDAQ','NYSE','SP500'),'market_routes')
+    for name,value in c['market_routes'].items():
+        nonempty(value,'market_routes.'+name,True)
     f=c['finbert']
     mapping(f,('model_id','model_dir','local_files_only','max_length','batch_size','pooling','supported_languages','device','output_format'),'finbert')
     if f['model_id']!='ProsusAI/finbert' or f['local_files_only'] is not True or f['pooling']!='cls_last_hidden':
         raise ValueError('FinBERT must use the pinned local-only model and cls_last_hidden pooling')
     nonempty(f['model_dir'],'finbert.model_dir',True)
-    integer(f['max_length'],'max_length',1,512);integer(f['batch_size'],'batch_size',1)
+    integer(f['max_length'],'max_length',8,512);integer(f['batch_size'],'batch_size',1)
     if f['supported_languages']!=['en'] or f['output_format'] not in ('jsonl','parquet'):
         raise ValueError('Unsupported FinBERT language/output format')
     nonempty(f['device'],'finbert.device')
     if re.fullmatch(r'cpu|cuda(?::\d+)?',f['device']) is None:
         raise ValueError('finbert.device must be cpu, cuda or cuda:<index>')
     p=c['panel']
-    mapping(p,('decision_lookback','mode','projection','projection_seed','lookback_sessions','decay_tau_sessions','simulated_latency_seconds'),'panel')
+    p.setdefault('projection_components',32)
+    p.setdefault('relation_time_basis','decision_and_event')
+    if p['relation_time_basis'] not in ('decision_and_event','event_date'):
+        raise ValueError('Unknown panel relation_time_basis')
+    mapping(p,('relation_time_basis','decision_lookback','mode','projection','projection_seed','projection_components','lookback_sessions','decay_tau_sessions','simulated_latency_seconds'),'panel')
+    components=integer(p['projection_components'],'projection_components',1,768)
     if p['decision_lookback']!=16 or isinstance(p['decision_lookback'],bool) or p['mode'] not in ('retrospective','simulated_pit','observed_pit') or p['projection'] not in ('pca','random_projection'):
         raise ValueError('Unsupported panel window/time/projection')
     integer(p['projection_seed'],'projection_seed',0,2**32-1)
@@ -66,8 +127,8 @@ def load_llm_config(path):
     channels=fusion['enabled_channels']
     if not isinstance(channels,list) or not channels or not all(isinstance(v,str) for v in channels) or len(set(channels))!=len(channels) or not set(channels)<={'company','industry','market'}:
         raise ValueError('fusion.enabled_channels must be nonempty, unique known channels')
-    if fusion['freeze_backbone'] is not True or integer(fusion['news_dim'],'news_dim',1)!=40:
-        raise ValueError('Fusion requires a frozen backbone and news_dim=40')
+    if fusion['freeze_backbone'] is not True or integer(fusion['news_dim'],'news_dim',9,776)!=components+8:
+        raise ValueError('Fusion requires a frozen backbone and news_dim=projection_components+8')
     integer(fusion['hidden_dim'],'hidden_dim',1)
     if not 0<=finite_number(fusion['dropout'],'dropout',minimum=0)<1:
         raise ValueError('Fusion dropout must be below 1')
@@ -134,7 +195,31 @@ def compile_config(project,path,raw,dataset=None):
         llm_path=llm_path if llm_path.is_absolute() else path.parent/llm_path
         llm=load_llm_config(llm_path)
         if llm['baseline_checkpoint'] is None or llm['panels'][market] is None:
-            raise ValueError('LLM fusion is enabled: configure baseline_checkpoint and panels.'+market+' in '+str(llm_path))
+            from .pipeline import prepared_inputs,checked_state,baseline_signature
+            try:
+                artifacts=prepared_inputs(root,llm,market)
+                if checked_state(root,llm).get('baseline_parameters_sha256')!=baseline_signature(c):
+                    raise ValueError('StockMixer parameters differ from prepared strict E0; rebuild preparation/baseline')
+            except (ValueError,OSError) as error:
+                raise ValueError('LLM fusion is enabled: configure baseline_checkpoint and panels.'+market+
+                    ' or complete main.py --step prepare. '+str(error)) from error
+            if llm['baseline_checkpoint'] is None:
+                llm['baseline_checkpoint']=artifacts['baseline_checkpoint']
+            if llm['panels'][market] is None:
+                llm['panels'][market]=artifacts['panel']
+        # Original reproduction remains intact. News E0/fusion use the same isolated strict protocol.
+        d=copy.deepcopy(d)
+        d['protocol']=llm['pipeline']['data_protocol']
+        d['prepared_root']=None
+        panel_path=Path(llm['panels'][market])
+        panel_path=panel_path if panel_path.is_absolute() else root/panel_path
+        if panel_path.exists():
+            from .dataset import NewsPanel
+            from .time_axis import Axis
+            from .pipeline import validate_panel_settings
+            panel=NewsPanel(panel_path)
+            validate_panel_settings(panel,llm,Axis.load(axis_path))
+            del panel
     fusion=copy.deepcopy(llm['fusion']) if llm else {'enabled_channels':['market'],'news_dim':40,'hidden_dim':32,'dropout':0.,'freeze_backbone':True}
     fusion['time_mode']=llm['panel']['mode'] if llm else 'retrospective'
     training=dict(t,selection_metric='val_loss',test_policy='per_epoch',metric_protocol='stockmixer_original')

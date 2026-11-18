@@ -1,0 +1,25 @@
+{
+  "source_id": "d2908e9e551b58bfcc1ca027",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001144204-19-023333-index.html",
+  "title": null,
+  "时间": "2019-05-02",
+  "分类": "corporate_action",
+  "关键词": [
+    "NOVAVAX INC",
+    "Biotechnology",
+    "Lease Extension"
+  ],
+  "主要内容": "On April 26, 2019, Novavax, Inc. executed an Extension of Lease Agreement with ARE-Maryland No. 46, LLC, extending the term of the existing Lease Agreement for approximately 51,000 square feet of facility space located at 9920 Belward Drive, Rockville, Maryland. The Lease Extension extends the current Lease Agreement term to January 31, 2024. Under the Lease Extension, the Company will pay approximately $1.7 million per year in base rent.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.106122+00:00",
+    "fetched_at": "2026-11-12T23:33:07.841195+00:00",
+    "feature_available_at": "2026-11-12T23:33:31.257373+00:00",
+    "availability_basis": "extraction"
+  }
+}

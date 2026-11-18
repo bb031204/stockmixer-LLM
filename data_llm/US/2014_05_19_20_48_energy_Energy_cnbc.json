@@ -1,0 +1,32 @@
+{
+  "source_id": "65e557943d98e4ce00add601",
+  "url": "https://www.cnbc.com/americas-power-play/",
+  "title": "America's power play",
+  "时间": "2014-05-19T20:48:51+00:00",
+  "分类": "energy",
+  "关键词": [
+    "Energy",
+    "US",
+    "Sector"
+  ],
+  "主要内容": "The energy sector could surprise in 2015, according to Lee. Cheap oil will not kill solar, as stated on February 13th, 2015. Banks are not facing an oil 'bloodbath' as per the CEO's statement on December 9th, 2014. Energy prices are falling, and consumers are saving, noted on December 5th, 2014. The sector is trying hard to attract women, as mentioned on December 5th, 2014. OPEC is not a threat to US oil growth, as stated on December 5th, 2014. US solar power production has doubled, as reported on December 2nd, 2014.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Energy",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:07:22.176611+00:00",
+    "fetched_at": "2026-11-13T21:27:13.833080+00:00",
+    "feature_available_at": "2026-11-13T21:27:38.143725+00:00",
+    "availability_basis": "extraction"
+  }
+}

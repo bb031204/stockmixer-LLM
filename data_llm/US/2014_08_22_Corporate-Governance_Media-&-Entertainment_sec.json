@@ -1,0 +1,46 @@
+{
+  "source_id": "c2f17f3cb46d5962f4e16f23",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-14-062616-index.html",
+  "title": null,
+  "时间": "2014-08-22",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "DISH Network Corporation",
+    "Robert E. Olson",
+    "Steven E. Swain",
+    "Joseph P. Clayton",
+    "CFO",
+    "Programming",
+    "Subscribers",
+    "DISH"
+  ],
+  "主要内容": "On August 22, 2014, DISH Network Corporation announced that Robert E. Olson, the company's executive vice president and CFO, will retire on October 15, 2014. Steven E. Swain, currently senior vice president of Programming, will succeed Olson as CFO, reporting to President and CEO Joseph P. Clayton. Swain, aged 47, has served as DISH Network’s Senior Vice President of Programming since April 2014, overseeing programming content acquisition and renewal. Prior to DIS, Swain spent over 15 years in telecommunications, most recently at CenturyLink, formerly Qwest Communications. Clayton praised Olson's capabilities and highlighted Swain's finance and programming experience. DISH Network Corporation (NASDAQ: DISH), through its subsidiaries, provides approximately 14.053 million pay-TV subscribers, as of June 30, 2014, with the highest quality programming and technology with the most choices at the best value.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": "DISH",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting and Telecommunications",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.188502+00:00",
+    "fetched_at": "2026-11-14T14:03:25.303500+00:00",
+    "feature_available_at": "2026-11-14T14:13:06.088370+00:00",
+    "availability_basis": "extraction"
+  }
+}

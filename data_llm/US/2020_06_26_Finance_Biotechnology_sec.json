@@ -1,0 +1,31 @@
+{
+  "source_id": "81a4cf1ac6fb1213ab84f1dd",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001104659-20-077556-index.html",
+  "title": null,
+  "时间": "2020-06-26",
+  "分类": "Finance",
+  "关键词": [
+    "NOVAVAX INC",
+    "NVX-CoV2373",
+    "Biotechnology"
+  ],
+  "主要内容": "On June 24, 2020, NOVAVAX INC received $76.0 million from the Coalition for Epidemic Preparedness Innovations under a restated funding agreement. CEPI will provide up to $384.5 million to support the development of NVX-CoV2373, the Company’s coronavirus vaccine candidate against SARS-CoV-2. The $76.0 million is forgivable and does not bear interest. The Company is only expected to repay the amount if it sells its vaccine, produced with the funds, to a third party. Additionally, on June 25, 2020, NOVAVAX INC shareholders approved the Amended 2015 Stock Plan, increasing stock award limits and adding 7,100,000 shares of Common Stock available for issuance.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.476279+00:00",
+    "fetched_at": "2026-11-13T01:16:02.991203+00:00",
+    "feature_available_at": "2026-11-13T01:16:58.811307+00:00",
+    "availability_basis": "extraction"
+  }
+}

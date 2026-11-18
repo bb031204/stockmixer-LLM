@@ -1,0 +1,45 @@
+{
+  "source_id": "f60042129555b79790082704",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-16-027848-index.html",
+  "title": null,
+  "时间": "2016-03-16",
+  "分类": "Technology",
+  "关键词": [
+    "Optical Cable Corporation (OCC)",
+    "USPTO",
+    "Category 8 (Cat 8)",
+    "RJ-45 modular connectors",
+    "Ethernet-based LANs",
+    "datacenters",
+    "Optical Cable Corporation"
+  ],
+  "主要内容": "Optical Cable Corporation (OCC) announced on March 14, 2016, that all 20 claims of its U.S. patent application for printed circuit board technology enabling the Category 8 (Cat 8) performance standard in RJ-45 modular connectors were approved by the USPTO. The patent relates to printed circuit board and related technologies that enable the pending Category 8 performance standard in RJ-45 modular connectors. The technology allows 40-Gbit/second data transmission through twisted-pair copper cabling and utilizes non-continuous ground planes and layers of high and low dielectric materials to minimize cross-talk in RJ-45 connectors, ensuring backward compatibility with Category 6A standards. Dr. Ian Timmins, Vice President of Engineering, stated that the invention provides a cost-effective solution for high-speed Category 8 performance. The patent approval was disclosed in a press release issued on March 14, 2016, and attached as Exhibit 99.1 to the 8-K filing dated March 16, 2016. OCC has been a leader in copper data communications connectivity since acquiring SMP Data Communications in May 2008.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecommunications Equipment",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Telecom Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-10T18:42:04.847853+00:00",
+    "fetched_at": "2026-11-13T04:09:44.700520+00:00",
+    "feature_available_at": "2026-11-13T04:10:47.146757+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "source_id": "6c0aa0f673f7605bf1b61f4e",
+  "url": "https://www.bloomberg.com/news/articles/2018-11-26/helicopter-company-backed-by-soros-dell-flies-into-chapter-11",
+  "title": "Helicopter Company Backed by Soros, Dell Files for Bankruptcy",
+  "时间": "2018-11-26T18:57:42.241000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Waypoint Leasing Holdings Ltd.",
+    "Aerospace & Defense",
+    "Chapter 11"
+  ],
+  "主要内容": "Waypoint Leasing Holdings Ltd. filed for Chapter 11 protection on November 26, 2018, citing a cyclical downturn in the oil and gas industry as a major factor in the company’s insolvency. The company had raised $375 million in 2013 from backers including funds controlled by George Soros and Michael Dell, with the plan to build up its leasing arm and tap demand for aircraft used in the oil and gas industry. However, the plan failed to take off five years later.",
+  "股票实体": [
+    {
+      "名称": "Waypoint Leasing Holdings Ltd.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Aerospace & Defense",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:03.514086+00:00",
+    "fetched_at": "2026-11-12T18:35:24.140995+00:00",
+    "feature_available_at": "2026-11-12T18:35:36.123232+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source_id": "925cf4492ca9db47dac95072",
+  "url": "https://www.tradingview.com/blog/cn/tradestation-and-tradingview-announce-api-integration-12802/",
+  "title": "TradeStation和TradingView宣布API集成",
+  "时间": "2019-06-28T11:35:50+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "TradingView",
+    "TradeStation",
+    "API集成"
+  ],
+  "主要内容": "TradingView宣布将与TradeStation Securities合作，未来几个月内其交易面板将支持该在线经纪商和期货交易商。此战略合作将允许现有TradingView用户通过TradeStation进行订单交易并享受其强大的订单执行服务。项目预计于2019年第三季度完成。新开设的TradeStation股票账户，若在2019年7月31日前注入资金，将在该年度剩余时间内享受免佣金交易。",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "金融",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:08:15.111986+00:00",
+    "fetched_at": "2026-11-14T01:13:32.895296+00:00",
+    "feature_available_at": "2026-11-14T01:13:42.947646+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -65,13 +65,15 @@ def normalize_article(row):
     for key in ("adapter_schema_version", "source_schema_version", "source_record_hash", "source_feature_available_at",
                 "source_availability_basis", "upstream_observed_evidence_complete", "language_basis",
                 "availability_mapping_reason", "producer_code_version", "producer_schema_version", "qwen_model_name",
-                "analysis_method", "source_verification", "adapter_status", "adapter_errors"):
+                "analysis_method", "source_verification", "adapter_status", "adapter_errors",
+                # 官方宏观事件等来源显式声明的文本来源；旧记录没有这些键，保持原样。
+                "summary_origin", "source_type", "source_url", "event_type"):
         if key in row:
             result[key]=row[key]
     # These fields are evidence for offline routing, not extra text for FinBERT.
     # Dropping them also hid conflicting same-ID enrichment versions during deduplication.
     for key in ("entities","industries","events","industry_impacts","affected_markets","industry_codes",
-                "security_ids","market_scope","scope_evidence"):
+                "security_ids","market_scope","scope_evidence","upstream_analysis","industry_enrichment"):
         if key in row:
             result[key]=metadata(row[key])
     if result["published_at"] is None and isinstance(row.get("时间"),str):

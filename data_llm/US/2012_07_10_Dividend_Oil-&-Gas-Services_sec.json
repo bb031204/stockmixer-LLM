@@ -1,0 +1,39 @@
+{
+  "source_id": "6c9ec079d6ea1190180d8485",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-12-000038-index.html",
+  "title": null,
+  "时间": "2012-07-10",
+  "分类": "Dividend",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "dividend",
+    "quarterly cash dividend",
+    "common stock",
+    "Dutch withholding tax",
+    "15%"
+  ],
+  "主要内容": "On July 10, 2012, Core Laboratories N.V. announced a quarterly cash dividend of $0.28 per share of common stock, payable on August 20, 2012, to shareholders of record on July 20, 2012. Dutch withholding tax will be deducted at a rate of 15%. The company stated that future dividend decisions will depend on financial position, earnings, earnings outlook, capital expenditure plans, ongoing share repurchases, potential acquisition opportunities, and other relevant factors. Core Laboratories N.V. is a leading provider of proprietary and patented reservoir description, production enhancement, and reservoir management services used to optimize petroleum reservoir performance, with over 70 offices in more than 50 countries and presence in every major oil-producing province worldwide.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.919267+00:00",
+    "fetched_at": "2026-11-14T04:58:47.723944+00:00",
+    "feature_available_at": "2026-11-14T04:59:42.358487+00:00",
+    "availability_basis": "extraction"
+  }
+}

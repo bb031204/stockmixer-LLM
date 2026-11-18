@@ -1,0 +1,45 @@
+{
+  "schema_version": "stockmixer_current_snapshot_v1",
+  "kind": "frozen_current_selection",
+  "created_at": "2026-11-17T08:39:09.479047+00:00",
+  "source_read_only": true,
+  "source_root": "D:\\finance\\model\\StockMixer+llm\\StockMixer\\outputs\\reports\\20261117_162900_NASDAQ_NYSE_SP500_legacy_industry\\encoding_ready_raw_selection",
+  "parent_source_root": "D:\\financial_data_project2",
+  "ready_articles": 1903,
+  "parent_manifest_sha256": "681c538d93cfefc529e0fcfe2c63a131ad65943d3b6d022068827a21e78a636d",
+  "articles": 1903,
+  "raw_files": 1903,
+  "excluded_parent_articles": 44,
+  "source_membership_hash": "b61fb7758648ae1606f121864886bb6753164f4dacad5ae0418035d202df05ba",
+  "selected_article_hash": "92266ddbb7d0deb48dc3ef09120396f1bac1d58f94a63a16e0d6e551edbc9b01",
+  "language_basis_counts": {
+    "legacy_audit_verified_unchanged_summary": 1141,
+    "matching_current_audit": 762
+  },
+  "time_mode": "retrospective",
+  "model_inference_run": false,
+  "historical_observed_pit_ready": false,
+  "publication_range": [
+    "2012-01-03",
+    "2022-05-25"
+  ],
+  "code_sha256": {
+    "snapshot.py": "31722e0ceb03ef0b9dc7f93baecf9fe980f1b8a0e9114ae41e84fb40e7fd12bf",
+    "source_adapter.py": "cddbbc03ee218a7f1b3996891224969f12b3868559967975d6237279034adb08",
+    "inputs.py": "cec18b8d4231b098f205c8b140a79210404210a85f01b4c057e15b7bf214772c",
+    "io.py": "61f423b8a8b25acdbca8985b55786da66ac1e479ebfcda2eaa5c2ae1095662da"
+  },
+  "files": {
+    "articles.jsonl": "615fb3901c7cbb90fd2783ab60715cf41e2eafcf12538214ba4de7b35a951875",
+    "duplicate_content_groups.jsonl": "4b161e7b8b0b825a99ad48578e2c52acfb3001fe464e436c13b81a0420e66273",
+    "excluded_parent_articles.jsonl": "9da136e80974037745c380b7305f362d5afde6a007f12266b995a27c07ac9f5f",
+    "excluded_parent_provenance.jsonl": "3dd8ab15bb33b4b8bef11733c27ba97b8ba5e188d5acbfb6377ee252f1b1fbd5",
+    "parent_artifact.zip": "85dc7307694ad011a782aebb881d22a0db275de91b5ccd9c50b8772603d693df",
+    "provenance.jsonl": "9cb9be0b78ba9e980d103e6dfab01fcc081858ab211ad9b7c9e2645f2946e151",
+    "raw_index.jsonl": "103444b61ba077057063e8964ecc45b130ea64e4932bfb9fcd4a4cbc53e3e488",
+    "raw_news.zip": "178a87b78a0e89f32a6a2e573a529c39ab8f8956611125f5a701aad29d19aca7",
+    "selection.json": "6ff9ff01e99028aaf58058263731b70eea88d614f6bcb6cad87f2859f9a346da",
+    "selection_ledger.jsonl": "f1f90ee791ef1ab9e52363d12fb3b4bf32a014a0b6245329ed3e5935d3dbc60f",
+    "time_checks.jsonl": "a995261b40d08f472992154c6a72ed3fe541133c8bab242a5006c63ae0a294ec"
+  }
+}

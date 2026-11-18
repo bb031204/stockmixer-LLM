@@ -1,0 +1,40 @@
+{
+  "source_id": "81c66ec480771e406368a33f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001250/0001104659-18-010060-index.html",
+  "title": null,
+  "时间": "2018-02-15",
+  "分类": "Finance",
+  "关键词": [
+    "Estée Lauder Companies Inc",
+    "Fabrizio Freda",
+    "PSU",
+    "Share Incentive Plan",
+    "Consumer Goods",
+    "Estée Lauder Companies Inc."
+  ],
+  "主要内容": "On February 14, 2018, Estée Lauder Companies Inc granted Fabrizio Freda, President and Chief Executive Officer, a long-term equity award under the Amended and Restated Fiscal 2002 Share Incentive Plan. The award covers an aggregate of 195,940 shares divided in two equal tranches, with the shares not intended to be delivered fully to Mr. Freda until after the end of fiscal 2024. The award was structured as a PSU (Performance Share Unit) to align his interests with stockholders and motivate his continued stewardship. The company also announced a long-term equity award to Mr. Freda, structured in two tranches vesting after three-and-a-half and four-and-a-half years, with payouts scheduled for September 2024. This delayed distribution is intended to incentivize long-term performance.",
+  "股票实体": [
+    {
+      "名称": "Estée Lauder Companies Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Consumer Goods",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:15.048576+00:00",
+    "fetched_at": "2026-11-13T04:58:56.472280+00:00",
+    "feature_available_at": "2026-11-13T04:59:55.473544+00:00",
+    "availability_basis": "extraction"
+  }
+}

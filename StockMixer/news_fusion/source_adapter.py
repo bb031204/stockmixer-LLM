@@ -115,7 +115,8 @@ class Snapshot:
 def choose_audit(snapshot, row):
     identity = row["source_id"]
     candidates, matches = [], []
-    for family, relative in (("production", ".runtime/simple/audit/" + identity + ".json"),
+    for family, relative in (("retraced", "audit/" + identity + ".json"),
+                              ("production", ".runtime/simple/audit/" + identity + ".json"),
                               ("enriched", "data_enriched/analysis/" + identity + ".json")):
         if not (snapshot.root / relative).is_file():
             continue
@@ -231,7 +232,7 @@ def adapt_times(row, audit, descriptor):
         warnings.append("llm_inferred_at:unknown")
     if effective is None:
         errors.append("feature_availability_unknown")
-    if basis not in ("extraction", "verified_audit", "migration", "observed"):
+    if basis not in ("extraction", "verified_audit", "migration", "observed", "retrospective_retrace_current_inference_not_historical_PIT"):
         errors.append("availability_basis_unknown")
     upstream_observed = bool(descriptor and not errors and basis in ("extraction", "verified_audit", "observed")
         and all(parsed[k] for k in ("first_seen_at", "fetched_at", "commit_verified_at", "feature_available_at"))
@@ -281,6 +282,41 @@ def adapt_one(snapshot, row, locations):
         "security_mapping_status": "unresolved", "historical_industry_mapping_status": "unresolved",
         "producer_quality_flags": audit.get("quality_flags", audit.get("relation_quality_flags", [])),
         "adapter_schema_version": ADAPTER_SCHEMA, **times}
+    # Reuse only analysis bound to the exact producer record; no NLP calls here.
+    record['upstream_analysis'] = {'record_hash': producer_hash(row), 'audit': descriptor,
+        'schema_version': audit.get('schema_version'), 'raw_industry_impacts': audit.get('industry_impacts') or [],
+        'content_hash':audit.get('content_hash'),'industry_dictionary':audit.get('industry_dictionary')}
+    if descriptor and audit.get('evidence_pack'):
+        pin = audit['evidence_pack']
+        relative = pin.get('path')
+        # Retrace exports historically pin paths relative to the batch, rather than adapted/.
+        if descriptor['family'] == 'retraced' and isinstance(relative,str) and relative.startswith('adapted/'):
+            relative = relative[len('adapted/'):]
+        if not isinstance(relative,str):
+            raise ValueError('Missing evidence pack path')
+        pack_raw = snapshot.read(relative)
+        if hashlib.sha256(pack_raw).hexdigest() != pin.get('sha256'):
+            raise ValueError('Upstream evidence pack hash mismatch')
+        pack = parse_json(pack_raw)
+        if (pack.get('record_hash') != producer_hash(row) or pack.get('source_id') != row['source_id']
+                or pack.get('source_body_hash') != audit.get('source_body_hash')):
+            raise ValueError('Upstream evidence pack record/body binding mismatch')
+        record['upstream_analysis']['bound_source_evidence'] = {
+            'audit_json': snapshot.read(descriptor['path']).decode('utf-8'),
+            'pack_json': pack_raw.decode('utf-8')}
+    for key in ('market_scope', 'affected_markets', 'scope_evidence'):
+        if key in row and key in audit and row[key] != audit[key]:
+            errors.append('conflicting_upstream_' + key)
+        if key in audit or key in row:
+            record[key] = audit.get(key, row.get(key))
+    from .upstream import industry_impact
+    try:
+        record['industry_impacts'] = [industry_impact(v) for v in record['industry_impacts']]
+    except ValueError:
+        errors.append('conflicting_upstream_industry_schema')
+    if descriptor and audit.get('market_scope_version')=='market-proof-1':
+        record['industry_pending_impacts']=[i for i in record['industry_impacts'] if i.get('propagation_approved') is not True]
+        record['industry_impacts']=[i for i in record['industry_impacts'] if i.get('propagation_approved') is True]
     normalized = normalize_article(record)
     if normalized["input_status"] != "ready":
         errors.append("encoder_input:" + normalized["input_status"])

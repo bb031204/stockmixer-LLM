@@ -1,0 +1,33 @@
+{
+  "source_id": "cc2e8fc9a5874dc86b38e717",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-18-000045-index.html",
+  "title": null,
+  "时间": "2018-05-29",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Insperity, Inc.",
+    "INSPERITY, INC.",
+    "2018 Annual Meeting",
+    "certificate of incorporation",
+    "authorized shares"
+  ],
+  "主要内容": "On May 23, 2018, Insperity, Inc. (the “Company”) approved an amendment and restatement of its certificate of incorporation at its 2018 Annual Meeting of Stockholders. The amendment increased the number of authorized shares of common stock, $0.01 par value per share, from 60,000,000 to 120,000,000 shares. It also corrected minor typographical errors and removed outdated references. The amended certificate of incorporation was filed with the Secretary of State of the State of Delaware on May 25, 2018. On May 29, 2018, INSPERITY, INC. reported shareholder votes on several corporate actions, including electing directors, approving executive compensation, ratifying the independent auditor, and amending the certificate of incorporation to increase authorized shares of common stock. The shareholder votes were conducted at the 2018 Annual Meeting.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.880895+00:00",
+    "fetched_at": "2026-11-12T22:37:57.113598+00:00",
+    "feature_available_at": "2026-11-12T22:38:35.121760+00:00",
+    "availability_basis": "extraction"
+  }
+}

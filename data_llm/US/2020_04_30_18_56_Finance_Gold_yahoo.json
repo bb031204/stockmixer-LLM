@@ -1,0 +1,39 @@
+{
+  "source_id": "62d1698646326d8f81db104a",
+  "url": "https://finance.yahoo.com/news/gold-price-prediction-prices-drop-185621797.html",
+  "title": "Gold Price Prediction – Prices Drop Sharply in Tandem with the Dollar as Jobless Claims Surge",
+  "时间": "2020-04-30T18:56:21+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "Gold",
+    "US Dollar",
+    "Jobless Claims",
+    "Gold Prices",
+    "Technical Indicators"
+  ],
+  "主要内容": "Gold prices dropped sharply on Thursday for the fourth consecutive trading session despite a decline in the dollar. The softer than expected US jobless claims put downward pressure on US yields, which in turn weighed on the dollar and generated headwinds for gold. Gold prices faced downward pressure as the US dollar strengthened alongside a surge in jobless claims. The Labor Department reported a rise of 3.84 million in initial claims last week, exceeding expectations of a 3.5 million increase. This surge in unemployment claims contributed to a negative momentum in gold, with technical indicators such as the fast stochastic and MACD signaling a crossover sell. The fast stochastic fell to 62 from 81 two days prior, below the overbought threshold of 80, while the MACD line crossed below the 9-day moving average, reinforcing the bearish outlook. Gold prices were seen testing resistance near the April high at $1,747, with potential for further declines.",
+  "股票实体": [
+    {
+      "名称": "Gold",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Precious Metals",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:07:03.988852+00:00",
+    "fetched_at": "2026-11-14T02:29:22.911306+00:00",
+    "feature_available_at": "2026-11-14T02:30:12.312775+00:00",
+    "availability_basis": "extraction"
+  }
+}

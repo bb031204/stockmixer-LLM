@@ -1,0 +1,46 @@
+{
+  "source_id": "7ee52b2d493d26f752961809",
+  "url": "https://www.cnbc.com/2022/01/05/amazon-was-the-worst-performing-faang-stock-of-2021-heres-why.html",
+  "title": "Amazon was the worst-performing FAANG stock of 2021 — here's why",
+  "时间": "2022-01-05",
+  "分类": "Finance",
+  "关键词": [
+    "Amazon",
+    "FAANG",
+    "e-commerce",
+    "cloud computing",
+    "advertising",
+    "2021",
+    "2022",
+    "revenue growth",
+    "year-over-year",
+    "supply chain",
+    "labor costs",
+    "investor concerns"
+  ],
+  "主要内容": "Amazon's stock underperformed in 2021, rising only 2.4%, far below its Big Tech peers. The company's retail division struggled, with revenue growth slowing to 27% in Q2 2021, down from 41% in the same period the previous year. This decline was attributed to a return to pre-pandemic spending habits as more Americans got vaccinated. Rising costs in retail, including coronavirus-related expenses like safety measures and physical network expansion, and global supply chain constraints led to billions in extra costs during Q4 2021. Amazon raised wages and offered bonuses to attract workers and reroute packages to adequately staffed facilities. These factors negatively impacted its stock performance in 2021. Analysts noted that Amazon faced easier year-over-year comparisons in 2022 after growth moderated in 2021. Some pandemic-related investments in supply chain and logistics may start to yield benefits, but challenges like inflationary pressures, supply chain constraints, and labor issues could still affect its stock. Despite this, several analysts have named Amazon as a top pick for 2022, citing expectations for a rebound in its e-commerce business.",
+  "股票实体": [
+    {
+      "名称": "Amazon",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "E-commerce",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-10T18:37:19.442325+00:00",
+    "fetched_at": "2026-11-13T02:09:27.298504+00:00",
+    "feature_available_at": "2026-11-13T02:10:31.098402+00:00",
+    "availability_basis": "extraction"
+  }
+}

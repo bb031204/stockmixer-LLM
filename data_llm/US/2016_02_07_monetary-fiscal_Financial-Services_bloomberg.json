@@ -1,0 +1,30 @@
+{
+  "source_id": "bfb946d46c6157988d13763b",
+  "url": "https://www.bloomberg.com/news/articles/2016-02-07/china-s-foreign-exchange-reserves-decline-to-3-23-trillion",
+  "title": "China's Foreign-Exchange Reserves Decline to $3.23 Trillion",
+  "时间": "2016-02-07",
+  "分类": "monetary_fiscal",
+  "关键词": [
+    "China",
+    "Foreign-Exchange Reserves",
+    "monetary_fiscal"
+  ],
+  "主要内容": "China’s foreign-exchange reserves declined to $3.23 trillion in January 2016, marking the smallest level since 2012. The People’s Bank of China reported a $99.5 billion decrease, below the Bloomberg survey’s median estimate of a $120 billion drop. The decline reflects the central bank’s intervention to counter the yuan’s retreat to a five-year low, which intensified depreciation pressure. This marks the first annual decline in foreign-exchange reserves since 2015.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-13T19:13:34.583174+00:00",
+    "fetched_at": "2026-11-14T04:11:00.359167+00:00",
+    "feature_available_at": "2026-11-14T04:11:14.019882+00:00",
+    "availability_basis": "extraction"
+  }
+}

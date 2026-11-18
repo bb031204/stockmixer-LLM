@@ -1,0 +1,30 @@
+{
+  "source_id": "7df7b976a4c8bd0592273b68",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001564590-21-034885-index.html",
+  "title": null,
+  "时间": "2021-06-29",
+  "分类": "corporate_action",
+  "关键词": [
+    "NICHOLAS FINANCIAL, INC.",
+    "Financial Services",
+    "Annual General Meeting"
+  ],
+  "主要内容": "NICHOLAS FINANCIAL, INC. announced details for its Annual General Meeting, scheduled for September 2, 2021. The record dates for notice and voting are both July 29, 2021. The meeting will be held in Charlotte, NC. The issuer will send proxy materials directly to NOBO and will not pay for delivery to OBO. No NAA requirements apply to registered holders, while beneficial holders require NAA. The CUSIP and ISIN numbers for the common shares are provided.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:47.198638+00:00",
+    "fetched_at": "2026-11-14T12:05:42.225743+00:00",
+    "feature_available_at": "2026-11-14T12:06:05.069783+00:00",
+    "availability_basis": "extraction"
+  }
+}

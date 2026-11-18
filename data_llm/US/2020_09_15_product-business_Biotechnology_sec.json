@@ -1,0 +1,43 @@
+{
+  "source_id": "9e07a7c034e7464cdb64b40c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000694/0001104659-20-105266-index.html",
+  "title": null,
+  "时间": "2020-09-15",
+  "分类": "product_business",
+  "关键词": [
+    "Novavax, Inc.",
+    "Biotechnology",
+    "Supply and License Agreement",
+    "Serum Institute of India Private Limited"
+  ],
+  "主要内容": "On September 11, 2020, Novavax, Inc. (the “Company”) entered into an amendment to its supply and license agreement with Serum Institute of India Private Limited. The amendment granted SIIPL a non-exclusive license to manufacture the antigen drug substance component of the Product in SIIPL’s licensed territory solely for use in the manufacture of the Product under the Supply and License Agreement. SIIPL will continue to purchase all quantities of the Matrix-M™ adjuvant component of the Product from the Company.",
+  "股票实体": [
+    {
+      "名称": "Novavax, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Serum Institute of India Private Limited",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T02:43:15.795112+00:00",
+    "fetched_at": "2026-11-14T14:35:37.817950+00:00",
+    "feature_available_at": "2026-11-14T14:36:02.095385+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "source_id": "5cee0a5ed9b6a8dac3f3f50b",
+  "url": "https://investorplace.com/2017/06/mcdonalds-delivery-ubereats/",
+  "title": "McDonald’s Delivery Rolls Out in Pittsburgh, Baltimore",
+  "时间": "2017-06-26T19:08:43+00:00",
+  "分类": "food",
+  "关键词": [
+    "McDonald's",
+    "MCD",
+    "UberEATS",
+    "McDelivery",
+    "delivery service",
+    "Pittsburgh",
+    "Baltimore",
+    "fast food"
+  ],
+  "主要内容": "McDonald’s Corporation (NYSE:MCD) is expanding its delivery service in various U.S. cities and globally, partnering with UberEATS to launch McDelivery. The service will deliver meals directly to customers in select markets, including the Twin Cities in Minnesota, Pittsburgh, Baltimore, several Oregon cities (such as Portland), and Connecticut cities (like Hartford). Internationally, it is available in select locations in the UK and Australia. In Pittsburgh and Baltimore, the service offers burgers, fries, and other menu items within a two to three-mile radius of a restaurant. Items are delivered in special packaging to maintain heat, with cold beverages and desserts also available. On the day of the announcement, MCD stock fell 0.5%.",
+  "股票实体": [
+    {
+      "名称": null,
+      "股票代码": "MCD",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Restaurants",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:08:05.690330+00:00",
+    "fetched_at": "2026-11-13T21:17:10.740668+00:00",
+    "feature_available_at": "2026-11-13T21:17:36.551131+00:00",
+    "availability_basis": "extraction"
+  }
+}

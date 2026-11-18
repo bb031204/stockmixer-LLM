@@ -1,0 +1,25 @@
+{
+  "source_id": "8a44c7649bd88448df67465d",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0001193125-17-288431-index.html",
+  "title": null,
+  "时间": "2017-09-19",
+  "分类": "corporate_action",
+  "关键词": [
+    "Nicholas Financial Inc",
+    "Financial Services",
+    "Corporate Action"
+  ],
+  "主要内容": "On September 15, 2017, Nicholas Financial, Inc. notified Ralph T. Finkenbrink that the Company would not extend his employment as President and Chief Executive Officer beyond his announced retirement date of September 30, 2017. The Board is continuing its search for a new Chief Executive Officer and has interviewed a number of qualified candidates, moving into the second round of interviews. The Board does not have an absolute timetable for the process but is operating with a sense of urgency.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.015462+00:00",
+    "fetched_at": "2026-11-14T05:00:13.588358+00:00",
+    "feature_available_at": "2026-11-14T05:00:39.228669+00:00",
+    "availability_basis": "extraction"
+  }
+}

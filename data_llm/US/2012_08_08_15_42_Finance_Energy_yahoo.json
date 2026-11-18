@@ -1,0 +1,41 @@
+{
+  "source_id": "bc0f762af0867034c17e83ec",
+  "url": "https://finance.yahoo.com/news/centaurus-capital-lp-acquired-shares-154225176.html",
+  "title": "Centaurus Capital LP has Acquired Shares of Open Range Energy Corp.",
+  "时间": "2012-08-08T15:42:25+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "Centaurus Capital LP",
+    "Open Range Energy Corp",
+    "Energy"
+  ],
+  "主要内容": "Centaurus Capital LP acquired 7,432,727 common shares of Open Range Energy Corp, representing approximately 9.95% of the issued and outstanding common shares. The acquisition was made since the original announcement by Open Range on May 31, 2012, that it had entered into an arrangement agreement for Cequence Energy Ltd. to acquire all of its shares. Subsequently, on July 3, 2012, Open Range announced an arrangement agreement with Peyto Exploration & Development Corp. The acquisition was for investment purposes only, and Centaurus may acquire or sell further shares depending on market conditions.",
+  "股票实体": [
+    {
+      "名称": "Centaurus Capital LP",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Open Range Energy Corp",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Energy",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:08:58.809756+00:00",
+    "fetched_at": "2026-11-13T20:55:08.100365+00:00",
+    "feature_available_at": "2026-11-13T20:55:36.445167+00:00",
+    "availability_basis": "extraction"
+  }
+}

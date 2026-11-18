@@ -1,0 +1,45 @@
+{
+  "source_id": "c4006409a6d5ec6e5fb7bd17",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-19-003790-index.html",
+  "title": null,
+  "时间": "2019-06-03",
+  "分类": "dividend",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Series 25 Preference Shares",
+    "dividend rate",
+    "Government of Canada treasury bills",
+    "Financial Services",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. announced a reset dividend rate on its Series 25 Preference Shares, calculated as 2.30% over the annual yield on three-month Government of Canada treasury bills. The announcement was made on June 3, 2019. Additionally, the company announced a quarterly dividend rate of 1.00494% (3.987% annualized) for the period July 1, 2019 to September 30, 2019, with a dividend of $0.251235 per share payable on September 30, 2019. The company is a leading global alternative asset manager with over US$365 billion in assets under management. Securities explicitly mentioned in the source include Brookfield Asset Management Inc. (BAM).",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": "NYSE"
+    },
+    {
+      "名称": "Series 25 Preference Shares",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.106122+00:00",
+    "fetched_at": "2026-11-12T23:45:00.818920+00:00",
+    "feature_available_at": "2026-11-12T23:45:32.329680+00:00",
+    "availability_basis": "extraction"
+  }
+}

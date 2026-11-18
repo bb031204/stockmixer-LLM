@@ -1,0 +1,44 @@
+{
+  "source_id": "fced7529c54c991f6ca997f1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-21-195089-index.html",
+  "title": "Form 8-K",
+  "时间": "2021-06-21",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Medallion Financial Corp.",
+    "Company",
+    "Mazars USA LLP",
+    "Annual Meeting",
+    "Compensation",
+    "Proxy Statement"
+  ],
+  "主要内容": "On June 17, 2021, Medallion Financial Corp. held its annual meeting of stockholders. The Company’s stockholders ratified the appointment of Mazars USA LLP as the independent registered public accounting firm for the year ending December 31, 2021, with votes for, against, and abstained as follows: 17,704,681, 1,969,592, and 1,603,391 respectively. Additionally, the stockholders approved a non-binding advisory resolution to approve the 2020 compensation of the Company’s named executive officers, as described in the proxy statement, with votes for, against, and abstained as follows: 11,217,721, 4,881,629, and 57,149 respectively. Broker non-votes totaled 5,121,165.",
+  "股票实体": [
+    {
+      "名称": "Medallion Financial Corp.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Company",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:47.199645+00:00",
+    "fetched_at": "2026-11-14T14:14:27.095393+00:00",
+    "feature_available_at": "2026-11-14T14:14:59.970358+00:00",
+    "availability_basis": "extraction"
+  }
+}

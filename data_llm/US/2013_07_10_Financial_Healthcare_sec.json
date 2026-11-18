@@ -1,0 +1,55 @@
+{
+  "source_id": "cbda87eae99c59cb576ce563",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-13-286585-index.html",
+  "title": null,
+  "时间": "2013-07-10",
+  "分类": "Financial",
+  "关键词": [
+    "Henry Schein Inc",
+    "dental wholesale distributor",
+    "Middle East",
+    "noncontrolling interest",
+    "one-time charge",
+    "third quarter 2013",
+    "core financial performance",
+    "global distributor",
+    "healthcare segments",
+    "distribution network",
+    "branded products",
+    "private-brand items",
+    "special-order items",
+    "technology solutions",
+    "financial services",
+    "HSIC"
+  ],
+  "主要内容": "On July 10, 2013, Henry Schein, Inc. announced the divestment of its noncontrolling interest in a dental wholesale distributor in the Middle East. The investment was an unprofitable, noncontrolling interest in an entity that primarily served as an importer distributing products to other distributors. The transaction is expected to generate a one-time charge of $11 million to $13 million, or 13 cents to 15 cents per diluted share, in the third quarter of 2013. The company will report third quarter earnings excluding this loss to provide more meaningful year-on-year comparisons of its core financial performance. Henry Schein Inc also announced a strategic plan to focus on growing its presence as the leading global distributor of products and related value-added services in the healthcare segments it serves. The company operates through a centralized and automated distribution network, offering over 96,000 branded products and private-brand items, with more than 110,000 additional products available as special-order items. It also provides exclusive technology solutions and financial services. Securities explicitly mentioned in the source include HSIC.",
+  "股票实体": [
+    {
+      "名称": null,
+      "股票代码": "HSIC",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Healthcare Distribution",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.153005+00:00",
+    "fetched_at": "2026-11-14T03:14:16.176750+00:00",
+    "feature_available_at": "2026-11-14T03:29:10.895731+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "ecd4ec5dfb37ac3f73d1c55a",
+  "url": "https://www.bloomberg.com/news/articles/2016-07-01/china-fishery-seeks-bankruptcy-protection-in-u-s-amid-probes",
+  "title": "Pacific Andes Enters Bankruptcy Blaming El Nino, Lender Acts",
+  "时间": "2016-07-01T04:42:29.473000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Pacific Andes Group",
+    "Seafood",
+    "Bankruptcy"
+  ],
+  "主要内容": "Pacific Andes Group, the world’s 12th-largest seafood company, filed for bankruptcy in New York after investigations by Singapore and Hong Kong market regulators and pressure by lenders to start a fire-sale. The company’s liquidity crisis was triggered by the El Nino weather pattern and the depleted Peruvian anchovy stocks that resulted, as well as 'aggressive and improper acts by certain lenders,' Chief Executive Officer Ng Puay Yee said in court filings. While 16 units filed for court protection, others aren’t in bankruptcy, according to the filings, which listed $4.7 billion in assets and $2.5 billion in debt as of March 28, 2015.",
+  "股票实体": [
+    {
+      "名称": "Pacific Andes Group",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Seafood",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:09:43.483765+00:00",
+    "fetched_at": "2026-11-12T18:25:28.470885+00:00",
+    "feature_available_at": "2026-11-12T18:25:45.091224+00:00",
+    "availability_basis": "extraction"
+  }
+}

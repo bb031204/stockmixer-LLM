@@ -1,0 +1,63 @@
+{
+  "source_id": "b9e138ca37ed34ab804b91b7",
+  "url": "https://finance.yahoo.com/news/canadian-based-neopharm-labs-completes-124500647.html",
+  "title": "Canadian-based Neopharm Labs Completes Acquisition of Boston-Based Averica Discovery Services",
+  "时间": "2016-11-03",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Neopharm Labs Inc.",
+    "Averica Discovery Services Inc.",
+    "Contract Research Organization (CRO)",
+    "pharmaceutical testing",
+    "small molecule analysis",
+    "analytical services",
+    "Neopharm Labs"
+  ],
+  "主要内容": "Neopharm Labs Inc., a Canadian-based company, completed the acquisition of Averica Discovery Services Inc., a Contract Research Organization (CRO) based in the Greater Boston area. This acquisition expands Neopharm's geographic reach into the U.S. and enhances its service offerings in the pharmaceutical testing industry. The merger combines expertise in small molecule analysis and purification, positioning Neopharm as a leader in analytical services. Averica's President, Dr. Jeffrey Kiplinger, joins Neopharm's Executive Team as Vice President, Science & Innovation. The acquisition supports chemistry teams by providing material and information required to transition programs from drug discovery to development. Averica Discovery Services offers chromatography-based services, including method development and qualification, impurity isolation and identification, scalable small molecule purification, and custom assay development.",
+  "股票实体": [
+    {
+      "名称": "Neopharm Labs Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Averica Discovery Services Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Neopharm Labs",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Pharmaceutical Testing",
+      "依据": "explicit"
+    },
+    {
+      "名称": "life sciences",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Pharmaceuticals",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Pharmaceutical R&D",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-13T19:12:05.620890+00:00",
+    "fetched_at": "2026-11-14T03:08:33.745635+00:00",
+    "feature_available_at": "2026-11-14T03:09:44.743805+00:00",
+    "availability_basis": "extraction"
+  }
+}

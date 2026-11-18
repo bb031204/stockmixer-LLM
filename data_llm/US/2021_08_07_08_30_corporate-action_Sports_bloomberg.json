@@ -1,0 +1,30 @@
+{
+  "source_id": "6862eda97ea3f7d1a10b27f5",
+  "url": "https://www.bloomberg.com/news/articles/2021-08-07/barcelona-gives-up-messi-s-star-power-to-try-fixing-its-finances",
+  "title": "Barcelona Gives Up Messi’s Star Power to Try Fixing Its Finances",
+  "时间": "2021-08-07T08:30:44.787000+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "Barcelona",
+    "Sports",
+    "Financial Issues"
+  ],
+  "主要内容": "Barcelona faces significant financial challenges, with its net debt reaching 673 million euros ($792 million) by the end of March 2021. The adjusted provisional debt now exceeds 1 billion euros, including deferred player salaries from the pandemic. The club is conducting an audit, and the final figure may be higher.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Sports",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T17:09:35.658567+00:00",
+    "fetched_at": "2026-11-13T22:56:19.225139+00:00",
+    "feature_available_at": "2026-11-13T22:56:31.502027+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "source_id": "aa790fb393ed574566b161ec",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000184/0001193125-12-409269-index.html",
+  "title": null,
+  "时间": "2012-09-28",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "SAP AG",
+    "Ariba, Inc.",
+    "UK Office of Fair Trading",
+    "U.S. Department of Justice",
+    "acquisition",
+    "regulatory approval",
+    "SAP",
+    "Ariba",
+    "Inc.",
+    "ARBA"
+  ],
+  "主要内容": "On September 28, 2012, SAP AG and Ariba, Inc. announced that the UK Office of Fair Trading has approved SAP AG's acquisition of Ariba, Inc., eliminating the need for further review by the UK Competition Commission. SAP and Ariba anticipate completing the acquisition in the fourth quarter of 2012 after receiving clearance from the U.S. Department of Justice, the last remaining regulatory condition for the transaction. SAP AG disclosed potential risks and uncertainties related to its acquisition of Ariba, including timing of the acquisition, retention of key employees, failure to achieve synergies, customer uncertainty, and competitive environment in cloud technologies. Securities explicitly mentioned in the source include Inc. (ARBA).",
+  "股票实体": [
+    {
+      "名称": "SAP AG",
+      "股票代码": "SAP",
+      "交易所": null
+    },
+    {
+      "名称": "Ariba",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Inc.",
+      "股票代码": "ARBA",
+      "交易所": "Nasdaq"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "IT Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.919267+00:00",
+    "fetched_at": "2026-11-14T02:12:05.470092+00:00",
+    "feature_available_at": "2026-11-14T02:13:07.879334+00:00",
+    "availability_basis": "extraction"
+  }
+}

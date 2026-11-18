@@ -1,0 +1,36 @@
+{
+  "source_id": "d327b4cfd1c7e2ae47b3fdfc",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-17-003233-index.html",
+  "title": null,
+  "时间": "2017-05-11",
+  "分类": "regulation_policy",
+  "关键词": [
+    "ROYAL BANK OF CANADA",
+    "Banking",
+    "Credit ratings"
+  ],
+  "主要内容": "On May 10, 2017, Moody’s announced that it has downgraded the senior long-term debt rating of ROYAL BANK OF CANADA to A1 from Aa3. The ratings outlook remains negative.",
+  "股票实体": [
+    {
+      "名称": "ROYAL BANK OF CANADA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.722748+00:00",
+    "fetched_at": "2026-11-12T20:42:46.137734+00:00",
+    "feature_available_at": "2026-11-12T20:42:57.084346+00:00",
+    "availability_basis": "extraction"
+  }
+}

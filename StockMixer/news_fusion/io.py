@@ -3,6 +3,7 @@ import json
 import os
 import shutil
 import uuid
+import time
 import re
 from contextlib import contextmanager
 from datetime import datetime, timezone
@@ -50,6 +51,18 @@ def write_records(path, rows):
     else:
         raise ValueError("Output table format must be .jsonl or .parquet.")
 
+def publish_directory(temporary,output):
+    """Retry transient Windows sharing/access failures without exposing a partial target."""
+    for attempt in range(12):
+        if output.exists():raise FileExistsError("Output appeared during processing.")
+        try:
+            os.rename(temporary,output)
+            return
+        except PermissionError as error:
+            if getattr(error,'winerror',None) not in (5,32,33) or attempt==11:raise
+            time.sleep(min(.1*(2**attempt),1.0))
+
+
 @contextmanager
 def new_artifact(output):
     """Do not overwrite existing artifacts or publish partial results."""
@@ -64,7 +77,7 @@ def new_artifact(output):
         yield temporary
         if output.exists():
             raise FileExistsError("Output appeared during processing.")
-        os.rename(temporary, output)
+        publish_directory(temporary, output)
     finally:
         if temporary.exists():
             shutil.rmtree(temporary)

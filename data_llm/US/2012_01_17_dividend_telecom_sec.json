@@ -1,0 +1,35 @@
+{
+  "source_id": "a659e346fc54574e6e2b4a49",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001193125-12-013985-index.html",
+  "title": null,
+  "时间": "2012-01-17",
+  "分类": "dividend",
+  "关键词": [
+    "Optical Cable Corporation",
+    "OCC",
+    "Nasdaq GM",
+    "dividend increase",
+    "quarterly cash dividend",
+    "fiber optic",
+    "copper data communications"
+  ],
+  "主要内容": "On January 17, 2012, Optical Cable Corporation (Nasdaq GM: OCC) announced that its Board of Directors increased the regular quarterly cash dividend to shareholders by 50%. The new dividend rate is $0.015 per share, effective January 13, 2012, with payment scheduled for February 15, 2012, to shareholders of record on January 27, 2012. This represents a $0.005 per share increase over the previous rate, which was set in October 2010. The new rate implies an annual cash dividend of $0.06 per common share. The company is a leading manufacturer of fiber optic and copper data communications cabling and connectivity solutions for the enterprise market, offering a wide range of products including cabling, connectors, patch cords, and management accessories designed for demanding applications.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-10T18:41:49.193880+00:00",
+    "fetched_at": "2026-11-13T03:34:52.279016+00:00",
+    "feature_available_at": "2026-11-13T03:35:47.943842+00:00",
+    "availability_basis": "extraction"
+  }
+}

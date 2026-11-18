@@ -1,0 +1,56 @@
+{
+  "source_id": "e88feda64ced1bcecf169f51",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-19-005721-index.html",
+  "title": null,
+  "时间": "2019-08-29",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "Oaktree Capital Group, LLC",
+    "Oaktree",
+    "Brookfield Asset Management Inc.",
+    "merger",
+    "regulatory approvals",
+    "cash or share consideration",
+    "Election Deadline",
+    "definitive consent solicitation statement/prospectus",
+    "registration statement",
+    "SEC filing",
+    "OAK"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. and Oaktree Capital Group, LLC (NYSE: OAK) announced the commencement of the election period for holders of Oaktree Class A common units and SellerCo units. Holders may elect to receive cash or share consideration during the election period, which will last at least twenty calendar days and end three business days before the closing date. Brookfield and Oaktree will issue another joint press release at least five business days prior to the Election Deadline, announcing the exact date of the Election Deadline. The merger is expected to close during the third quarter of 2019, subject to regulatory approvals and other conditions. They filed a registration statement with the SEC, which was declared effective on June 20, 2019. Oaktree began mailing the definitive consent solicitation statement/prospectus to its common unitholders on June 24, 2019. The communication does not constitute an offer to sell or the solicitation of an offer to buy any securities. Risks include uncertainty regarding regulatory approvals, potential delays in closing, business disruptions, adverse effects on current plans, and concerns about retaining key personnel and the long-term value of Brookfield's Class A shares.",
+  "股票实体": [
+    {
+      "名称": "Oaktree Capital Group, LLC",
+      "股票代码": "OAK",
+      "交易所": "NYSE"
+    },
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Oaktree",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:11.709092+00:00",
+    "fetched_at": "2026-11-14T16:47:21.691118+00:00",
+    "feature_available_at": "2026-11-14T16:48:58.358805+00:00",
+    "availability_basis": "extraction"
+  }
+}

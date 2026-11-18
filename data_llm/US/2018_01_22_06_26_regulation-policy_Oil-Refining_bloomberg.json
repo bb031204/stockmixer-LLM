@@ -1,0 +1,56 @@
+{
+  "source_id": "78170642f5b92083e1c8d08a",
+  "url": "https://www.bloomberg.com/news/articles/2018-01-22/biggest-u-s-east-coast-oil-refiner-seeks-bankruptcy-protection",
+  "title": "Biggest U.S. East Coast Oil Refinery Files for Bankruptcy",
+  "时间": "2018-01-22T06:26:33.265000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Philadelphia Energy Solutions LLC",
+    "Oil Refining",
+    "Bankruptcy",
+    "Carlyle Group LP",
+    "Energy Transfer Partners LP",
+    "Sunoco Inc."
+  ],
+  "主要内容": "Philadelphia Energy Solutions LLC, owner of an oil refinery that supplies more than a quarter of the U.S. east coast’s crude refining capacity, filed for bankruptcy with a plan that could allow it to shed some environmental costs. The restructuring would allow PES to emerge as a new company with the same stakeholders, according to the firm’s chief executive. Court filings show it intends to do so through a sale that will erase $300 million to $350 million of compliance costs. Those expenses helped spur the Chapter 11 filing by PES, which runs the largest oil refinery serving the New York Harbor gasoline and diesel market. It’s a joint venture between Carlyle Group LP and Energy Transfer Partners LP subsidiary Sunoco Inc.",
+  "股票实体": [
+    {
+      "名称": "Philadelphia Energy Solutions LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Carlyle Group LP",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Energy Transfer Partners LP",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Sunoco Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil Refining",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:03.514086+00:00",
+    "fetched_at": "2026-11-12T18:35:57.300662+00:00",
+    "feature_available_at": "2026-11-12T18:36:15.106423+00:00",
+    "availability_basis": "extraction"
+  }
+}

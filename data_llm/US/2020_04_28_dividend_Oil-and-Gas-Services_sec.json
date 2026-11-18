@@ -1,0 +1,36 @@
+{
+  "source_id": "c1612aac0843992f0bd3ba2b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001564590-20-019199-index.html",
+  "title": "clb-8k_20200428.htm",
+  "时间": "2020-04-28",
+  "分类": "dividend",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "Oil and Gas Services"
+  ],
+  "主要内容": "Core Laboratories N.V. announced a quarterly cash dividend of $0.01 per share of common stock for shareholders of record on May 8, 2020, payable on May 19, 2020. The dividend, if maintained, would result in a total annual payout of $0.28 per share when combined with the Q1 2020 dividend of $0.25 per share. Dutch withholding tax of 15% will apply. The company operates in the oil and gas services industry, providing proprietary and patented reservoir description and production enhancement services globally. Future quarterly cash dividends will depend on its financial position, earnings, earnings outlook, capital expenditure plans, ongoing share repurchases, potential acquisition opportunities, and other relevant factors.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oilfield Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.474770+00:00",
+    "fetched_at": "2026-11-13T00:31:53.849890+00:00",
+    "feature_available_at": "2026-11-13T00:32:39.178594+00:00",
+    "availability_basis": "extraction"
+  }
+}

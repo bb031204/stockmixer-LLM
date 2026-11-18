@@ -1,0 +1,31 @@
+{
+  "source_id": "a8dfa0b528d214b4fdcd4561",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000232/0001000232-19-000010-index.html",
+  "title": null,
+  "时间": "2019-09-30",
+  "分类": "corporate_action",
+  "关键词": [
+    "KENTUCKY BANCSHARES INC /KY/",
+    "Financial Services",
+    "Director Resignation",
+    "Chairman Replacement"
+  ],
+  "主要内容": "KENTUCKY BANCSHARES INC /KY/ announced on September 30, 2019, that Buckner Woodford IV had resigned as a Director and Chairman of the Board, effective December 31, 2019. The Board of Directors confirmed that B. Proctor Caudill, Jr. will replace Mr. Woodford as Chairman of the Board upon his retirement. Gregory J. Dawson, Chief Financial Officer, signed the report on behalf of the registrant.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:11.708098+00:00",
+    "fetched_at": "2026-11-14T09:26:58.421923+00:00",
+    "feature_available_at": "2026-11-14T09:27:18.745745+00:00",
+    "availability_basis": "extraction"
+  }
+}

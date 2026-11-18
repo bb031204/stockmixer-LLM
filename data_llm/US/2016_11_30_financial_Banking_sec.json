@@ -1,0 +1,44 @@
+{
+  "source_id": "f9388d69f81df74c602395f7",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001193125-16-780138-index.html",
+  "title": null,
+  "时间": "2016-11-30",
+  "分类": "financial",
+  "关键词": [
+    "Royal Bank of Canada",
+    "economic sanctions",
+    "Iranian Embassy",
+    "Ontario court order",
+    "fiscal 2016",
+    "ROYAL BANK OF CANADA"
+  ],
+  "主要内容": "Royal Bank of Canada maintains a robust economic sanctions compliance program, ensuring adherence to relevant legislation throughout fiscal 2016. The bank holds non-U.S. dollar denominated accounts for the Embassy of the Islamic Republic of Iran in Canada, which are frozen by an Ontario court order due to ongoing civil litigation. These accounts generated less than $3,000 in gross revenue and less than $3,000 in net income during fiscal 2016. The bank continues to monitor compliance with economic sanctions requirements in its operating jurisdictions.",
+  "股票实体": [
+    {
+      "名称": "ROYAL BANK OF CANADA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-12T17:10:02.675312+00:00",
+    "fetched_at": "2026-11-14T09:17:59.076091+00:00",
+    "feature_available_at": "2026-11-14T09:48:11.000926+00:00",
+    "availability_basis": "extraction"
+  }
+}

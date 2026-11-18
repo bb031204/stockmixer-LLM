@@ -1,0 +1,29 @@
+{
+  "source_id": "95fa5f474d1100db61e93fac",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000180/0001000180-12-000059-index.html",
+  "title": null,
+  "时间": "2012-09-17",
+  "分类": "corporate_action",
+  "关键词": [
+    "Sandisk Corp",
+    "Semiconductor & Memory",
+    "compensation package",
+    "base salary",
+    "cash incentive",
+    "equity grant",
+    "restricted stock unit"
+  ],
+  "主要内容": "Sandisk Corp announced a revised compensation package for Mr. Sadana, including a base salary of $475,000, a cash incentive opportunity for fiscal 2012 equal to 90% of his base salary, and an equity grant of a restricted stock unit for 25,000 shares of the Company’s common stock. The restricted stock unit will vest in four equal annual installments, with the first installment occurring on the first anniversary of the effective date of grant, provided Mr. Sadana continues to provide service to the Company during such period. The report was signed by Judy Bruner, Executive Vice President, Administration and Chief Financial Officer of Sandisk Corporation on September 17, 2012.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.919267+00:00",
+    "fetched_at": "2026-11-14T01:00:02.069047+00:00",
+    "feature_available_at": "2026-11-14T01:00:22.549853+00:00",
+    "availability_basis": "extraction"
+  }
+}

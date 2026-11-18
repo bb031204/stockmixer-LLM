@@ -1,0 +1,45 @@
+{
+  "source_id": "7076c3e82adbdf8fea45f39f",
+  "url": "https://www.prnewswire.com/news-releases/time-manufacturing-companyversalift-acquires-market-leading-composite-service-body-manufacturer-brandfx-300953077.html",
+  "title": "Time Manufacturing Company/Versalift Acquires Market-Leading Composite Service Body Manufacturer BrandFX",
+  "时间": "2019-11-06T18:09:00+00:00",
+  "分类": "M&A",
+  "关键词": [
+    "Time Manufacturing Company/Versalift",
+    "BrandFX",
+    "composite service body manufacturer",
+    "aerial lift",
+    "digger derrick",
+    "cable placer"
+  ],
+  "主要内容": "Time Manufacturing Company/Versalift acquired BrandFX, a composite service body manufacturer, in November 2019. BrandFX, established in 1965, specializes in manufacturing advanced composite service bodies, line bodies, toppers, and other fiberglass components for specialty equipment. The acquisition expands Time Manufacturing Company/Versalift's capabilities in the aerial lift design and manufacturing sector. The acquisition will enhance each company's ability to deliver reliable aerial lifts, digger derricks, cable placers, and service bodies. Both companies are known for lightweight, durable equipment that results in a lower true cost of ownership. The company now operates with a team of over 1,400 associates across 5 continents, supporting industries such as power generation, electric utility, telecommunications, and bridge inspection.",
+  "股票实体": [
+    {
+      "名称": "Time Manufacturing Company/Versalift",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "BrandFX",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Manufacturing",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-10T16:07:49.283290+00:00",
+    "fetched_at": "2026-11-13T20:42:42.299225+00:00",
+    "feature_available_at": "2026-11-13T20:43:25.945430+00:00",
+    "availability_basis": "extraction"
+  }
+}

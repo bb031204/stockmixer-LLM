@@ -1,0 +1,37 @@
+{
+  "source_id": "f1c57b082f3bc0ede9d4341f",
+  "url": "https://www.prnewswire.com/news-releases/paige-announces-first-ever-ce-mark-for-deep-learning-in-pathology-300956164.html",
+  "title": "Paige announces first ever CE Mark for Deep Learning in Pathology",
+  "时间": "2019-11-12T09:11:00+00:00",
+  "分类": "Technology",
+  "关键词": [
+    "Paige",
+    "CE Mark",
+    "prostate cancer detection",
+    "AI-native digital pathology viewer",
+    "Paige Insight",
+    "Deep Learning",
+    "Pathology",
+    "FDA breakthrough designation",
+    "oncology diagnostic"
+  ],
+  "主要内容": "Paige, a leader in clinical-grade computational pathology, announced the CE Mark for its prostate cancer detection solution, Paige Prostate, and its AI-native digital pathology viewer, Paige Insight, both intended for primary diagnosis. The solutions are vendor neutral and support seamless collaboration across teams and sites. With CE Mark, these solutions will be available to European pathology practices, which are facing increased case volumes and shortages of qualified pathologists. The solutions aim to provide pathologists with more information to streamline their workflow and improve cancer detection. Paige's offerings, including Insight, enable pathologists to view, process, and collaborate on digitized slides from different sites and scanners. These tools leverage AI-based modules to improve diagnostic quality, increase pathology throughput, and reduce costs. The technology helps pathologists detect cancerous areas more efficiently, improving diagnostic quality and reducing discrepancies. The solution supports real-time quality review, enhancing overall diagnostic accuracy.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:12:16.209470+00:00",
+    "fetched_at": "2026-11-14T01:04:01.629480+00:00",
+    "feature_available_at": "2026-11-14T01:05:06.119073+00:00",
+    "availability_basis": "extraction"
+  }
+}

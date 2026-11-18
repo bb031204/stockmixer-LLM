@@ -1,0 +1,38 @@
+{
+  "source_id": "9795f47523dca8256be99acd",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-13-058411-index.html",
+  "title": null,
+  "时间": "2013-07-31",
+  "分类": "regulation_policy",
+  "关键词": [
+    "DISH",
+    "Broadcasting & Telecommunications",
+    "NASDAQ Listing Rules",
+    "DISH Network Corporation"
+  ],
+  "主要内容": "DISH Network Corporation (the Corporation) will no longer have three audit committee members as required by Rule 5605(c)(2) of the NASDAQ Listing Rules, and the Corporation provided the required notice to NASDAQ to this effect on July 31, 2013. In the interim until this vacancy is filled, the Corporation will be relying on the cure period specified in Rule 5605(c)(4)(B) of the NASDAQ Listing Rules.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting & Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.154146+00:00",
+    "fetched_at": "2026-11-14T12:52:28.721012+00:00",
+    "feature_available_at": "2026-11-14T12:52:50.188640+00:00",
+    "availability_basis": "extraction"
+  }
+}

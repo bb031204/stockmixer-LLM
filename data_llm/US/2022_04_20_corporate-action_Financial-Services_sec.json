@@ -1,0 +1,31 @@
+{
+  "source_id": "8e92dde3bf9e53e9e8fe3bf2",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-22-002676-index.html",
+  "title": null,
+  "时间": "2022-04-20",
+  "分类": "corporate_action",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Financial Services",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. is listed on the New York and Toronto stock exchanges under the symbol BAM and BAM.A respectively. The company offers a range of alternative investment products to investors around the world, including public and private pension plans, endowments and foundations, sovereign wealth funds, financial institutions, insurance companies and private wealth investors.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.697810+00:00",
+    "fetched_at": "2026-11-14T15:23:57.422142+00:00",
+    "feature_available_at": "2026-11-14T15:24:23.836550+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "source_id": "cc94856e78a86c3a39f62c07",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001001082-18-000012-index.html",
+  "title": null,
+  "时间": "2018-08-21",
+  "分类": "corporate_action",
+  "关键词": [
+    "DISH Network Corporation",
+    "Broadcasting and Telecommunications",
+    "Executive Vice President",
+    "Chief Technology Officer"
+  ],
+  "主要内容": "On August 16, 2018, Mr. Vivek Khemka notified DISH Network Corporation that he was resigning as Executive Vice President and Chief Technology Officer effective September 7, 2018.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Broadcasting and Telecommunications",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:08.110391+00:00",
+    "fetched_at": "2026-11-14T17:18:33.074787+00:00",
+    "feature_available_at": "2026-11-14T17:18:54.557378+00:00",
+    "availability_basis": "extraction"
+  }
+}

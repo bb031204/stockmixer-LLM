@@ -1,0 +1,44 @@
+{
+  "source_id": "f45225d86f8b3acc6bb95c50",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001171843-19-003554-index.html",
+  "title": null,
+  "时间": "2019-05-22",
+  "分类": "Finance",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "NYSE: BAM",
+    "TSX: BAM.A",
+    "EURONEXT: BAMA",
+    "Class A Limited Voting Shares",
+    "normal course issuer bid",
+    "public float",
+    "open market purchases",
+    "weighted average price",
+    "US$41.45",
+    "BAM"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. (NYSE: BAM) (TSX: BAM.A) (EURONEXT: BAMA) renewed its normal course issuer bid to purchase up to 82,530,440 Class A Limited Voting Shares, representing 10% of the public float. The bid, which commenced on May 24, 2018, and will expire on May 23, 2019, will be executed through the Toronto Stock Exchange, the New York Stock Exchange, and/or alternative trading systems, with the period extending from May 24, 2019, to May 23, 2020, or an earlier date if purchases are completed. As of May 17, 2019, the number of Class A Shares issued and outstanding totalled 994,568,660, of which 825,304,404 shares represented the public float. Brookfield purchased 1,317,738 Class A Shares through open market purchases on the TSX and 3,423,912 Class A Shares through open market purchases on the NYSE as of May 17, 2019. The weighted average price that Brookfield paid per Class A Share acquired under this bid was US$41.45.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": "BAM",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.106122+00:00",
+    "fetched_at": "2026-11-12T23:43:34.114441+00:00",
+    "feature_available_at": "2026-11-12T23:44:57.305193+00:00",
+    "availability_basis": "extraction"
+  }
+}

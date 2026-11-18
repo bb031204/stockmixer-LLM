@@ -1,0 +1,37 @@
+{
+  "source_id": "d78dfe76aab8e33546acca0c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-16-013341-index.html",
+  "title": null,
+  "时间": "2016-08-22",
+  "分类": "corporate_action",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Banking",
+    "Corporate Action"
+  ],
+  "主要内容": "Royal Bank of Canada (the “Bank”) and RBC Covered Bond Guarantor Limited Partnership (the “Guarantor LP,” and together with the Bank, the “Registrants”) have amended and restated certain Program transaction agreements in connection with filing a renewal prospectus with the United Kingdom Listing Authority. The Registrants have filed a shelf registration statement on Form F-3 (File Nos. 333-203567 and 333-203567-01) for their U.S.$15,000,000,000 global covered bond programme (the “Program”).",
+  "股票实体": [
+    {
+      "名称": "Royal Bank of Canada",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:01.341942+00:00",
+    "fetched_at": "2026-11-14T10:46:11.733892+00:00",
+    "feature_available_at": "2026-11-14T10:46:36.976525+00:00",
+    "availability_basis": "extraction"
+  }
+}

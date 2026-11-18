@@ -1,0 +1,55 @@
+{
+  "source_id": "c35373a4d4d71b5d92223cea",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-21-001492-index.html",
+  "title": null,
+  "时间": "2021-01-11",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "BLONDER TONGUE LABORATORIES, INC.",
+    "executive compensation",
+    "salary reductions",
+    "deferred compensation",
+    "working capital",
+    "COVID-19 pandemic",
+    "MidCap Business Credit LLC"
+  ],
+  "主要内容": "Blonder Tongue Laboratories, Inc. announced salary reductions for its executives effective from December 2020. Grauch, President and CEO, received a 25% reduction in gross salary starting December 27, 2020, and this will continue through December 31, 2021. Skolnik, Alterio, and Horvath, senior vice presidents, had a 25% reduction in salary for the pay period from December 27, 2020, to January 9, 2021, and a 15% reduction starting January 10, 2021, continuing through December 31, 2021. The company also announced that Skolnik, Alterio, and Horvath have agreed to defer 10% of their cash compensation for the second regular pay period of 2021 through December 25, 2021. The Company will accrue shares of its common stock based on the deferred compensation amount and the fair market value of one share. This follows a similar agreement with Mr. Grauch for a 25% deferral of his cash compensation. The company is obligated to deliver Accrued Shares to executive officers by March 15, 2022, as part of its Deferred Compensation Agreement. The action is part of the company's efforts to enhance working capital and reduce expenses, offsetting the impact of the COVID-19 pandemic on its revenues.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "MidCap Business Credit LLC",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Medical Devices",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Healthcare Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T01:32:28.584595+00:00",
+    "fetched_at": "2026-11-14T03:31:27.493461+00:00",
+    "feature_available_at": "2026-11-14T03:32:55.756160+00:00",
+    "availability_basis": "extraction"
+  }
+}

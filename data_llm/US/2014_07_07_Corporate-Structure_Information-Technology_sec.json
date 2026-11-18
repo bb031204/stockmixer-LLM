@@ -1,0 +1,39 @@
+{
+  "source_id": "c264b8fe6416dfaa0fa5f31e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000184/0001193125-14-262093-index.html",
+  "title": null,
+  "时间": "2014-07-07",
+  "分类": "Corporate Structure",
+  "关键词": [
+    "SAP SE",
+    "SAP AG",
+    "European Company",
+    "Conversion",
+    "Shareholders"
+  ],
+  "主要内容": "On July 7, 2014, SAP AG completed its conversion into a European Company (Societas Europaea, SE). Effective from the entry into the commercial register at the Local Court of Mannheim, SAP AG now operates and reports as SAP SE. The conversion was approved by the required 75% majority of shareholders at the Annual General Meeting in 2014. SAP SE remains headquartered in Walldorf, Germany. Shareholders of SAP AG automatically became shareholders of SAP SE without any changes to their rights. The conversion did not affect SAP's financial reporting practices. The form of American Depositary Receipt reflecting this conversion is attached as Exhibit 4.1.",
+  "股票实体": [
+    {
+      "名称": "SAP SE",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Software",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.178099+00:00",
+    "fetched_at": "2026-11-14T02:54:15.251914+00:00",
+    "feature_available_at": "2026-11-14T02:54:51.793396+00:00",
+    "availability_basis": "extraction"
+  }
+}

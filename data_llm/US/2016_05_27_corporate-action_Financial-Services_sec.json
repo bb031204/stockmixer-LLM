@@ -1,0 +1,42 @@
+{
+  "source_id": "5a25b5a6d3ac0d770c7fbedb",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-16-606457-index.html",
+  "title": null,
+  "时间": "2016-05-27",
+  "分类": "corporate_action",
+  "关键词": [
+    "Medallion Financial Corp",
+    "Financial Services",
+    "resignation",
+    "Medallion Business Credit"
+  ],
+  "主要内容": "On May 23, 2016, Marc Adelson tendered his resignation as Chief Credit Officer and Chief Operating Officer of Medallion Financial Corp (the Company) and President of the Companys asset based lending division, Medallion Business Credit, effective June 2, 2016. Mr. Adelsons responsibilities will be assumed on an interim basis by Andrew M. Murstein, President of the Company.",
+  "股票实体": [
+    {
+      "名称": "Medallion Financial Corp",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Medallion Business Credit",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.423609+00:00",
+    "fetched_at": "2026-11-12T19:13:42.507384+00:00",
+    "feature_available_at": "2026-11-12T19:14:03.325673+00:00",
+    "availability_basis": "extraction"
+  }
+}

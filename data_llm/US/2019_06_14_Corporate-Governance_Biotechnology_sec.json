@@ -1,0 +1,32 @@
+{
+  "source_id": "792abe9487709a4feb981049",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001233/0001193125-19-173647-index.html",
+  "title": null,
+  "时间": "2019-06-14",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Prathyusha Durabaibu",
+    "Sangamo Therapeutics, Inc.",
+    "stock option",
+    "restricted stock unit award",
+    "biotechnology"
+  ],
+  "主要内容": "On June 13, 2019, Prathyusha Durabaibu was appointed as the Company’s principal accounting officer. Previously, Stéphane Boissel held these duties and was appointed as interim Chief Financial Officer on June 7, 2019. Ms. Duraibabu, 40, has served as Vice President, Finance since March 2019, with over 20 years of financial operations experience. Prior to joining the Company, she was Corporate Controller at Pacific Biosciences of California, Inc., a publicly-traded commercial biotech company. Sangamo Therapeutics, Inc. granted Ms. Durabaibu a stock option to acquire 80,500 shares of common stock with a four-year vesting schedule and a restricted stock unit award covering 5,750 shares. The stock option vests 25% after one year and monthly thereafter, while the RSU Award vests in three equal installments annually.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.107122+00:00",
+    "fetched_at": "2026-11-12T23:59:33.360302+00:00",
+    "feature_available_at": "2026-11-13T00:00:19.754940+00:00",
+    "availability_basis": "extraction"
+  }
+}

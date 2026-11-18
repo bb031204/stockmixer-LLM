@@ -1,0 +1,38 @@
+{
+  "source_id": "ddd00b9f08ad02939a4b5591",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-17-000042-index.html",
+  "title": null,
+  "时间": "2017-06-21",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Insperity, Inc.",
+    "2017 Annual Meeting",
+    "Michael W. Brown",
+    "2012 Incentive Plan",
+    "Corporate Governance"
+  ],
+  "主要内容": "Insperity, Inc. announced that Mr. Michael W. Brown retired from the board of directors effective June 16, 2017, following the adjournment of the 2017 Annual Meeting of Stockholders. The number of directors was fixed at eight. On the same date, stockholders approved the Insper, Inc. 2012 Incentive Plan, as amended and restated, increasing the number of shares of common stock available for issuance by 1,000,000 shares. The plan now limits non-employee director compensation to $500,000 annually and increases employee cash awards to $5,000,000. The changes took effect with the amended plan's expiration terms set to the 10th anniversary of grant dates. The 2017 Annual Meeting was held on June 16, 2017, at its corporate headquarters in Kingwood, Texas. Shareholders voted on several key matters, including the election of Class I directors, approval of executive compensation, advisory votes on executive compensation frequency, ratification of the independent registered public accounting firm, and approval of the 2012 Incentive Plan. The results showed strong support for director elections, executive compensation, and the accounting firm, with minimal opposition. The meeting marked a significant corporate governance event for the company.",
+  "股票实体": [
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.723748+00:00",
+    "fetched_at": "2026-11-12T21:07:59.641155+00:00",
+    "feature_available_at": "2026-11-12T21:09:20.181234+00:00",
+    "availability_basis": "extraction"
+  }
+}

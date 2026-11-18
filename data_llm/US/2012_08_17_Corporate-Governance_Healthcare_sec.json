@@ -1,0 +1,44 @@
+{
+  "source_id": "8692253da98b2c502b60fddf",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000228/0001193125-12-359830-index.html",
+  "title": null,
+  "时间": "2012-08-17",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Henry Schein Inc",
+    "Carol Raphael",
+    "Board of Directors",
+    "healthcare products",
+    "Fortune 500",
+    "NASDAQ 100",
+    "distribution network",
+    "practice management software",
+    "e-commerce solutions",
+    "HSIC"
+  ],
+  "主要内容": "On August 17, 2012, Henry Schein Inc appointed Carol Raphael to its Board of Directors. Ms. Raphael, previously President and CEO of the Visiting Nurse Service of New York, brings extensive healthcare policy, economics, and management experience to the Company. Henry Schein Inc is a Fortune 500® Company and a member of the NASDAQ 100® Index, employing nearly 15,000 Team Schein Members and serving approximately 775,000 customers. The Company operates through a centralized and automated distribution network, with a selection of more than 90,000 national and Henry Schein private-brand products in stock, as well as more than 100,000 additional products available as special-order items. The Company also offers its customers exclusive, innovative technology solutions, including practice management software and e-commerce solutions, as well as a broad range of financial services. The Company's sales reached a record $8.5 billion in 2011, and have grown at a compound annual rate of 18 percent since Henry Schein became a public company in 1995. Securities explicitly mentioned in the source include HSIC.",
+  "股票实体": [
+    {
+      "名称": null,
+      "股票代码": "HSIC",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.919267+00:00",
+    "fetched_at": "2026-11-14T04:12:39.668281+00:00",
+    "feature_available_at": "2026-11-14T04:13:52.887072+00:00",
+    "availability_basis": "extraction"
+  }
+}

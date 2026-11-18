@@ -1,0 +1,44 @@
+{
+  "source_id": "d33e5de6437a99fc5efb1db9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000229/0001000229-17-000074-index.html",
+  "title": null,
+  "时间": "2017-07-06",
+  "分类": "dividend",
+  "关键词": [
+    "Core Laboratories N.V.",
+    "CLB US",
+    "dividend",
+    "oil and gas",
+    "financial position",
+    "earnings"
+  ],
+  "主要内容": "On July 6, 2017, Core Laboratories N.V. (CLB US) announced a quarterly cash dividend of $0.55 per share for the third quarter of 2017, payable on August 14, 2017, to shareholders of record on July 17, 2017. The dividend rate represents a total annual payout of $2.20 per share if maintained. Dutch withholding tax of 15% will apply. Future dividends will depend on the company's financial position, earnings, capital expenditure, share repurchases, and other factors. The Company's outlook is subject to various important cautionary factors, including risks and uncertainties related to the oil and natural gas industry, business conditions, international markets, and political climates.",
+  "股票实体": [
+    {
+      "名称": "Core Laboratories N.V.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Oil & Gas Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Energy",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.016472+00:00",
+    "fetched_at": "2026-11-14T07:34:18.912359+00:00",
+    "feature_available_at": "2026-11-14T07:35:08.900514+00:00",
+    "availability_basis": "extraction"
+  }
+}

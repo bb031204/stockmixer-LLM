@@ -1,0 +1,74 @@
+{
+  "source_id": "8e1185594a1e86e9d0632ed5",
+  "url": "https://dbrs.morningstar.com/research/315729/dbrs-confirms-ratings-of-agt-after-closing-of-transaction-with-fairfax-financial",
+  "title": "DBRS Confirms Ratings of AGT after Closing of Transaction with Fairfax Financial",
+  "时间": "2017-09-01T18:36:37+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "AGT Food and Ingredients Inc.",
+    "AGT",
+    "Fairfax Financial Holdings Limited",
+    "Preferred Securities",
+    "Recovery Rating",
+    "DBRS",
+    "Alliance Pulse Processors Inc."
+  ],
+  "主要内容": "DBRS confirmed AGT Food and Ingredients Inc.'s Issuer Rating at B (high) and Senior Unsecured Notes at BB (low), both with Stable trends. The Recovery Rating on the Notes remains RR3. The rating actions followed AGT's closing of a transaction with Fairfax Financial Holdings Limited, through which Fairfax invested $190 million in AGT in exchange for 5.375% interest-bearing securities and common share purchase warrants. The warrants are exercisable within seven years, allowing the conversion of preferred securities into one common share each at $33.25 per share. AGT may also require early exercise if the five-day volume-weighted average closing price of its common shares reaches $53.20 after the fifth anniversary. DBRS classified the preferred securities as 100% debt for credit metrics, as they do not meet equity treatment criteria under its hybrid security guidelines. The transaction does not result in material near-term changes to the Company’s credit metrics but improves liquidity. DBRS expects credit metrics to remain challenging through the end of 2017 due to the difficult operating environment, but metrics should improve on a through-the-cycle basis. Enhanced liquidity from the Preferred Securities will support the company during this period.",
+  "股票实体": [
+    {
+      "名称": "AGT Food and Ingredients Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Fairfax Financial Holdings Limited",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "AGT",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Alliance Pulse Processors Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DBRS",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Food and Ingredients",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Insurance",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Consumer Products",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:11:09.305320+00:00",
+    "fetched_at": "2026-11-13T19:19:12.267825+00:00",
+    "feature_available_at": "2026-11-13T19:21:30.322364+00:00",
+    "availability_basis": "extraction"
+  }
+}

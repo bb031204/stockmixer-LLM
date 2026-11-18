@@ -1,0 +1,40 @@
+{
+  "source_id": "8ca2ba07444de154b90329a3",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001001082-17-000003-index.html",
+  "title": null,
+  "时间": "2017-05-05",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "DISH Network CORP",
+    "2017 Carlson Award",
+    "Compensation Committee",
+    "Stock Incentive Plan",
+    "Executive Compensation",
+    "DISH Network Corporation",
+    "Mr. W. Erik Carlson"
+  ],
+  "主要内容": "On May 1, 2017, the Compensation Committee of DISH Network Corporation approved a performance-based cash award under the 2009 Stock Incentive Plan for Mr. W. Erik Carlson, President and Chief Operating Officer. The award, known as the 2017 Carlson Award, is tied to DISH’s achievement of specified business objectives prior to December 31, 2017. Mr. Carlson, a named executive officer for the year ended December 31, 2016, is eligible to receive up to $500,000 in cash payments if all goals are met. Additionally, DISH Network CORP reported final voting results from its Annual Meeting on May 5, 2017, including director elections, KPMG LLP appointment ratification, and advisory votes on executive compensation frequency.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Mr. W. Erik Carlson",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.723748+00:00",
+    "fetched_at": "2026-11-12T21:10:42.164447+00:00",
+    "feature_available_at": "2026-11-12T21:11:38.628220+00:00",
+    "availability_basis": "extraction"
+  }
+}

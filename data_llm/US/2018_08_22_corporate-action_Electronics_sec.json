@@ -1,0 +1,36 @@
+{
+  "source_id": "e65896fafbe3a4ceabb7fcbd",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-18-011570-index.html",
+  "title": null,
+  "时间": "2018-08-22",
+  "分类": "corporate_action",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "Electronics",
+    "Resignation"
+  ],
+  "主要内容": "On August 20, 2018, Bruce Gureck, Executive Vice President and Chief Operating Officer of Blonder Tongue Laboratories, Inc., notified the Company that he was resigning from his position, effective on September 14, 2018. The resignation was formally signed by Eric Skolnik, Senior Vice President and Chief Financial Officer, on August 22, 2018.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:08.110391+00:00",
+    "fetched_at": "2026-11-14T14:04:56.707225+00:00",
+    "feature_available_at": "2026-11-14T14:05:17.076026+00:00",
+    "availability_basis": "extraction"
+  }
+}

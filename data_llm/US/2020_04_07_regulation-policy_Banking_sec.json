@@ -1,0 +1,31 @@
+{
+  "source_id": "95f8ee3e3ea14baf31aa52b1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-20-003232-index.html",
+  "title": null,
+  "时间": "2020-04-07",
+  "分类": "regulation_policy",
+  "关键词": [
+    "ROYAL BANK OF CANADA",
+    "Banking",
+    "Credit ratings"
+  ],
+  "主要内容": "On April 3, 2020, Fitch Ratings changed the outlook for ROYAL BANK OF CANADA from stable to negative. Fitch also affirmed its senior long-term debt rating of 'AA' and short-term debt rating of 'F1+', while upgrading its legacy senior long-term debt rating to 'AA+' from 'AA'.",
+  "股票实体": [
+    {
+      "名称": "ROYAL BANK OF CANADA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.474770+00:00",
+    "fetched_at": "2026-11-13T00:42:14.471709+00:00",
+    "feature_available_at": "2026-11-13T00:42:30.001159+00:00",
+    "availability_basis": "extraction"
+  }
+}

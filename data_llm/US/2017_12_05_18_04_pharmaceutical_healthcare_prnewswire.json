@@ -1,0 +1,45 @@
+{
+  "source_id": "991bb429791ea36b29dbfd21",
+  "url": "https://www.prnewswire.com/news-releases/novo-nordisk-receives-fda-approval-of-ozempic-semaglutide-injection-for-the-treatment-of-adults-with-type-2-diabetes-300567052.html",
+  "title": "Novo Nordisk Receives FDA Approval of OZEMPIC® (semaglutide) Injection For the Treatment of Adults with Type 2 Diabetes",
+  "时间": "2017-12-05T18:04:00+00:00",
+  "分类": "pharmaceutical",
+  "关键词": [
+    "Novo Nordisk",
+    "OZEMPIC",
+    "semaglutide",
+    "type 2 diabetes",
+    "FDA approval",
+    "GLP-1 receptor agonist"
+  ],
+  "主要内容": "Novo Nordisk received FDA approval for OZEMPIC® (semaglutide) injection in December 2017 for treating adults with type 2 diabetes. The drug is indicated as an adjunct to diet and exercise to improve glycemic control. OZEMPIC® is a GLP-1 analog with a long half-life, suitable for once-weekly dosing. It stimulates insulin and lowers glucagon secretion in a glucose-dependent manner. The approval comes with warnings about potential serious side effects, including thyroid tumors and cancer. Rodent studies suggest the drug may cause thyroid tumors, including thyroid cancer, though it is not known if it will cause medull, thyroid carcinoma (MTC) in humans. Patients with a history of MTC or Multiple Endocrine Neoplasia syndrome type 2 (MEN 2) should not use the drug. Allergies to semaglutide or ingredients in OZEMPIC® are also contraindications.",
+  "股票实体": [
+    {
+      "名称": "Novo Nordisk",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Pharmaceuticals",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Healthcare",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T17:43:36.947397+00:00",
+    "fetched_at": "2026-11-13T21:50:58.013428+00:00",
+    "feature_available_at": "2026-11-13T22:03:55.086724+00:00",
+    "availability_basis": "extraction"
+  }
+}

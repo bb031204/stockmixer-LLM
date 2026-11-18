@@ -1,0 +1,44 @@
+{
+  "source_id": "cb75d924ff23a828049070b4",
+  "url": "https://www.bloomberg.com/news/articles/2018-02-17/winn-dixie-and-tops-owners-are-said-to-prepare-for-bankruptcy",
+  "title": "Winn-Dixie and Tops Owners Could Prepare for Bankruptcy",
+  "时间": "2018-02-17T05:01:00.002000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Bi-Lo LLC",
+    "Winn-Dixie",
+    "Tops Friendly Markets",
+    "bankruptcy",
+    "retail"
+  ],
+  "主要内容": "Two U.S. supermarket chains are preparing for bankruptcy filings, signaling growing pressures in the grocery industry. Bi-Lo LLC, which operates Winn-Dixie, may file as early as March. The owner of Tops Friendly Markets could seek court protection from creditors this month.",
+  "股票实体": [
+    {
+      "名称": "Bi-Lo LLC",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Tops Friendly Markets",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "retail",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:03.514086+00:00",
+    "fetched_at": "2026-11-12T18:35:39.751961+00:00",
+    "feature_available_at": "2026-11-12T18:35:53.875582+00:00",
+    "availability_basis": "extraction"
+  }
+}

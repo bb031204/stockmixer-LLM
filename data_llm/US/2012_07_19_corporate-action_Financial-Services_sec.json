@@ -1,0 +1,25 @@
+{
+  "source_id": "d3af07cd6a7d03e05605de3e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000232/0001000232-12-000006-index.html",
+  "title": null,
+  "时间": "2012-07-19",
+  "分类": "corporate_action",
+  "关键词": [
+    "KENTUCKY BANCSHARES INC /KY/",
+    "Financial Services",
+    "Corporate Action"
+  ],
+  "主要内容": "KENTUCKY BANCSHARES INC /KY/ reported that its 2012 Annual Meeting of Shareholders was held on May 16, 2012. Shareholders voted on three matters: (1) ratification of the Board's selection of Crowe Horwath LLP as the Company's independent registered public accounting firm for the ensuing year, (2) election of directors, and (3) a non-binding advisory vote on the compensation paid to its named executive officers. The votes for the ratification of the accounting firm totaled 2,036,355, with 10,429 votes against. The election of directors and the advisory vote on executive compensation were also conducted, though the final results for these items are not provided in the text.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.919267+00:00",
+    "fetched_at": "2026-11-14T07:07:08.438792+00:00",
+    "feature_available_at": "2026-11-14T07:07:30.703639+00:00",
+    "availability_basis": "extraction"
+  }
+}

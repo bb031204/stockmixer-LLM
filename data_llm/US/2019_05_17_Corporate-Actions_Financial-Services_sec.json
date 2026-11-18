@@ -1,0 +1,39 @@
+{
+  "source_id": "a98e62a292ae2b84fa70cc87",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001258/0001437749-19-010380-index.html",
+  "title": null,
+  "时间": "2019-05-17",
+  "分类": "Corporate Actions",
+  "关键词": [
+    "Asta Funding, Inc.",
+    "NASDAQ: ASFI",
+    "Share Repurchase Program",
+    "Corporate Actions",
+    "Financial Services",
+    "ASFI"
+  ],
+  "主要内容": "Asta Funding, Inc. (NASDAQ: ASFI) announced on May 17, 2019, that its board of directors approved a share repurchase program allowing the company to buy back up to $10,500,000 of its common stock. The repurchases will occur at the company’s discretion, based on capital needs, market conditions, and stock price. The program is part of the company’s corporate action strategy to enhance shareholder value and is effective from May 17, 2019, through August 17, 2019. The program may be suspended or discontinued at any time.",
+  "股票实体": [
+    {
+      "名称": "Asta Funding, Inc.",
+      "股票代码": "ASFI",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.107122+00:00",
+    "fetched_at": "2026-11-13T00:02:42.385026+00:00",
+    "feature_available_at": "2026-11-13T00:03:22.205333+00:00",
+    "availability_basis": "extraction"
+  }
+}

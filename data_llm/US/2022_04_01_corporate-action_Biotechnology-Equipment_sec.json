@@ -1,0 +1,31 @@
+{
+  "source_id": "b3808068242e8d08fa86b8ac",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/0001193125-22-092984-index.html",
+  "title": "8-K",
+  "时间": "2022-04-01",
+  "分类": "corporate_action",
+  "关键词": [
+    "Waters Corporation",
+    "Biotechnology Equipment",
+    "Board of Directors resignation"
+  ],
+  "主要内容": "On March 30, 2022, John Ballbach resigned from the Board of Directors of Waters Corporation, effective as of such date. Mr. Ballbach has provided insightful strategic, operational and relevant industry perspective during his tenure. The Company thanks him for his service.",
+  "股票实体": [
+    {
+      "名称": "Waters Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.697810+00:00",
+    "fetched_at": "2026-11-14T14:09:39.718167+00:00",
+    "feature_available_at": "2026-11-14T14:09:59.208153+00:00",
+    "availability_basis": "extraction"
+  }
+}

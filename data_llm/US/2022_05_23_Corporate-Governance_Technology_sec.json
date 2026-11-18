@@ -1,0 +1,54 @@
+{
+  "source_id": "c88ed50485ac398dca4a182a",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000683/0001213900-22-029040-index.html",
+  "title": null,
+  "时间": "2022-05-23",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Blonder Tongue Laboratories, Inc.",
+    "executive compensation",
+    "deferrals",
+    "options exercise provisions",
+    "severance payments",
+    "Mr. Alterio",
+    "Mr. Horvath"
+  ],
+  "主要内容": "On May 18, 2022, Blonder Tongue Laboratories, Inc. adjusted executive compensation, including deferrals of cash compensation, adjustments to options exercise provisions, and severance payments for termination without cause. Mr. Grauch, Senior Vice President-Engineering and Chief Technology Officer, deferred all of his cash compensation for 180 days starting May 23, 2022, which will be converted into shares of the company’s common stock based on fair market value. The Accrued Shares will be paid to Mr. Grauch on or before March 15, 2023. If his employment is terminated before the 180-day period, the deferred compensation and Accrued Shares will be based on the termination date. Mr. Alterio agreed to defer a portion of his cash compensation, approximately 17% of his annual cash compensation, during the period from May 23, 2022, to August 12, 2022. The deferred amount will be paid to Mr. Alterio in cash, in equal installments, during the Company’s fourth quarter payroll periods.",
+  "股票实体": [
+    {
+      "名称": "Blonder Tongue Laboratories, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Mr. Alterio",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Mr. Horvath",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Electronics",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.697810+00:00",
+    "fetched_at": "2026-11-14T13:23:54.549766+00:00",
+    "feature_available_at": "2026-11-14T13:25:18.484033+00:00",
+    "availability_basis": "extraction"
+  }
+}

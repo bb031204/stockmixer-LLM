@@ -1,0 +1,30 @@
+{
+  "source_id": "6dbae98fb7796491b5123534",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/0001193125-18-160387-index.html",
+  "title": null,
+  "时间": "2018-05-11",
+  "分类": "corporate_action",
+  "关键词": [
+    "WATERS CORP /DE/",
+    "Chemicals",
+    "Independent Registered Public Accounting Firm"
+  ],
+  "主要内容": "WATERS CORP /DE/ approved the selection of PricewaterhouseCoopers as its independent registered public accounting firm with 69,135,164 votes in favor, 1,395,834 against, and 61,508 abstentions. The proposal was ratified on May 11, 2018.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Chemicals",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.880895+00:00",
+    "fetched_at": "2026-11-12T22:35:06.169328+00:00",
+    "feature_available_at": "2026-11-12T22:35:24.612738+00:00",
+    "availability_basis": "extraction"
+  }
+}

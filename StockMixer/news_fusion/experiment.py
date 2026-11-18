@@ -62,6 +62,12 @@ AUDITED_CONSOLE_BASELINE={'protocol.py': '2eb1a5a60d546052bb7aff39dcae1d487e1ba3
 AUDITED_NAMING_BASELINE={'protocol.py': '2eb1a5a60d546052bb7aff39dcae1d487e1ba31c6d42ddc4e3a6da0395c71620', 'experiment.py': '559fbd9fdc20751bbf39f4fd2901d7e400b68623ef693b21249bbf5a82c98b6d', 'fusion.py': 'dea2f0758fb4bbfc97e20948ba174703da6a0a5f0dcda25cd9e58e7608caeb64', 'dataset.py': 'bb80c5821349a691e9ca0fb849e347995f3e2ac7dd7eee4fea81cf35cdab163e', 'time_axis.py': 'feb5b38b6ad46be32d15154e548d5158418d0eb3de239f3a514f084d72de9f2c', 'panel.py': 'c5964bb643b7925bd914188e053ee655892e3012d6530806b42aa2fc8e2fac01', 'io.py': '61f423b8a8b25acdbca8985b55786da66ac1e479ebfcda2eaa5c2ae1095662da', 'validation.py': '40a5e94375011861be579bebd3bed7c6d90eeac094c053baf0a6b0a82e52c909', 'outputs.py': '1e1b1d317649de88dae6e13c4d1b03153502ec94523a3240c34209cc64c040c2', 'workflow.py': 'cc2bdc02f3dbb825ddd8e35acc8eae226e6fea777504652cb19fff0e4369466b', 'original_evaluator.py': '0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60', 'configuration.py': '649a64b9e9d1ba6d9d6558e9c39ce2ec1affeca3a7b3dc59946ab4c066dfc3d9', 'original.py': '7edc8d0f2acc336204d892e06e959a18757dea390d316cedb50540fa619b278e', 'console.py': '61525ce845ebe5bb42f13a4afcac239703e6848d599187c973dfd8428efea613'}
 
 
+AUDITED_SINGLE_FOLDER_BASELINE={'protocol.py': '2eb1a5a60d546052bb7aff39dcae1d487e1ba31c6d42ddc4e3a6da0395c71620', 'experiment.py': '5ac25f8b4d08126074f0523b2f45f52b95456fbba3215b021c636f24eaa730af', 'fusion.py': 'dea2f0758fb4bbfc97e20948ba174703da6a0a5f0dcda25cd9e58e7608caeb64', 'dataset.py': 'bb80c5821349a691e9ca0fb849e347995f3e2ac7dd7eee4fea81cf35cdab163e', 'time_axis.py': 'feb5b38b6ad46be32d15154e548d5158418d0eb3de239f3a514f084d72de9f2c', 'panel.py': 'c5964bb643b7925bd914188e053ee655892e3012d6530806b42aa2fc8e2fac01', 'io.py': '61f423b8a8b25acdbca8985b55786da66ac1e479ebfcda2eaa5c2ae1095662da', 'validation.py': '40a5e94375011861be579bebd3bed7c6d90eeac094c053baf0a6b0a82e52c909', 'outputs.py': '9319648e32cf898922891132697baab64c76eee56a47f0c08e51a47f142a4db9', 'workflow.py': '06770f8bf23eec790948ed88e51f11fadb36f65fb19524ab4376af874cc6a8eb', 'original_evaluator.py': '0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60', 'configuration.py': '649a64b9e9d1ba6d9d6558e9c39ce2ec1affeca3a7b3dc59946ab4c066dfc3d9', 'original.py': '7edc8d0f2acc336204d892e06e959a18757dea390d316cedb50540fa619b278e', 'console.py': '61525ce845ebe5bb42f13a4afcac239703e6848d599187c973dfd8428efea613'}
+
+
+AUDITED_OFFLINE_ENTRIES_BASELINE={'protocol.py': '2eb1a5a60d546052bb7aff39dcae1d487e1ba31c6d42ddc4e3a6da0395c71620', 'experiment.py': 'e8bcc6536c94983d1cdc5f729084dbefe527200634f831ce047e936203858d69', 'fusion.py': 'dea2f0758fb4bbfc97e20948ba174703da6a0a5f0dcda25cd9e58e7608caeb64', 'dataset.py': '1f21deaff6dffdd293496b67a6136992e5c30aa9d37b4d6c6dde6373793f25da', 'time_axis.py': 'feb5b38b6ad46be32d15154e548d5158418d0eb3de239f3a514f084d72de9f2c', 'panel.py': '6cb744a3b6deb1f68acfa749ea9cab55ec065e231bbf1e88ff008b9a95782a1c', 'io.py': '61f423b8a8b25acdbca8985b55786da66ac1e479ebfcda2eaa5c2ae1095662da', 'validation.py': '40a5e94375011861be579bebd3bed7c6d90eeac094c053baf0a6b0a82e52c909', 'outputs.py': '9319648e32cf898922891132697baab64c76eee56a47f0c08e51a47f142a4db9', 'workflow.py': '06770f8bf23eec790948ed88e51f11fadb36f65fb19524ab4376af874cc6a8eb', 'original_evaluator.py': '0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60', 'configuration.py': '1f6b465c933cc970786b65ef2f2da0128124008872b7608cdf2b7599c4b35b10', 'original.py': '7edc8d0f2acc336204d892e06e959a18757dea390d316cedb50540fa619b278e', 'console.py': '61525ce845ebe5bb42f13a4afcac239703e6848d599187c973dfd8428efea613', 'routing.py': 'e85553d109de5362fdf17a551e8098c698a04c8ebee965637a75f7c8bdc0a795'}
+
+
 def model_api():
     spec = importlib.util.spec_from_file_location("strict_pinned_stockmixer", PROJECT / "src/model.py")
     module = importlib.util.module_from_spec(spec)
@@ -69,9 +75,15 @@ def model_api():
     return module.StockMixer, module.get_loss
 
 
+AUDITED_AUTO_REVIEW_BASELINE={'protocol.py': '2eb1a5a60d546052bb7aff39dcae1d487e1ba31c6d42ddc4e3a6da0395c71620', 'experiment.py': '89021d7ef8d5097ae9c4d9002c7cd308638c593a8a0d7e6ea58c09351d813853', 'fusion.py': 'dea2f0758fb4bbfc97e20948ba174703da6a0a5f0dcda25cd9e58e7608caeb64', 'dataset.py': '1f21deaff6dffdd293496b67a6136992e5c30aa9d37b4d6c6dde6373793f25da', 'time_axis.py': 'feb5b38b6ad46be32d15154e548d5158418d0eb3de239f3a514f084d72de9f2c', 'panel.py': '6cb744a3b6deb1f68acfa749ea9cab55ec065e231bbf1e88ff008b9a95782a1c', 'io.py': '61f423b8a8b25acdbca8985b55786da66ac1e479ebfcda2eaa5c2ae1095662da', 'validation.py': '40a5e94375011861be579bebd3bed7c6d90eeac094c053baf0a6b0a82e52c909', 'outputs.py': '9319648e32cf898922891132697baab64c76eee56a47f0c08e51a47f142a4db9', 'workflow.py': '06770f8bf23eec790948ed88e51f11fadb36f65fb19524ab4376af874cc6a8eb', 'original_evaluator.py': '0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60', 'configuration.py': '5bd99c8ff44ffc58876af0230acb2de3bc1ddb315b866e85e2e9528ef7d345ce', 'original.py': '7edc8d0f2acc336204d892e06e959a18757dea390d316cedb50540fa619b278e', 'console.py': '61525ce845ebe5bb42f13a4afcac239703e6848d599187c973dfd8428efea613', 'routing.py': 'e85553d109de5362fdf17a551e8098c698a04c8ebee965637a75f7c8bdc0a795'}
+
+
+AUDITED_NEWS_PIPELINE_BASELINE={'protocol.py': '9d162f0f6bcd8b7f45c7867e9c2420d802dfedb66a3cfd03150e16ce6909c5a4', 'experiment.py': 'e9bcf9eacc19e14c85defc0a1bd65b63bd0f501e03e32e4108788976cfa40f99', 'fusion.py': 'dea2f0758fb4bbfc97e20948ba174703da6a0a5f0dcda25cd9e58e7608caeb64', 'dataset.py': '337f8a779c7198bb77cf1e2fca0612a70183ec60873e03cdc4a19c8fac8e2083', 'time_axis.py': 'feb5b38b6ad46be32d15154e548d5158418d0eb3de239f3a514f084d72de9f2c', 'panel.py': 'ec9dd7de9484fd71780a0feaaebf9c41000dbaf0b89862227b3a7846bd94d7e1', 'io.py': '61f423b8a8b25acdbca8985b55786da66ac1e479ebfcda2eaa5c2ae1095662da', 'validation.py': '40a5e94375011861be579bebd3bed7c6d90eeac094c053baf0a6b0a82e52c909', 'outputs.py': '9319648e32cf898922891132697baab64c76eee56a47f0c08e51a47f142a4db9', 'workflow.py': '06770f8bf23eec790948ed88e51f11fadb36f65fb19524ab4376af874cc6a8eb', 'original_evaluator.py': '0ca7398f8c975b65be5fe003975dc28732acb27278716ed00fce0d628d0a0e60', 'configuration.py': '391a0051ebc10d9329c25191f5fa03c87e7fa5c1fe5886332aa52b92774a9e41', 'original.py': '7edc8d0f2acc336204d892e06e959a18757dea390d316cedb50540fa619b278e', 'console.py': '61525ce845ebe5bb42f13a4afcac239703e6848d599187c973dfd8428efea613', 'routing.py': 'e85553d109de5362fdf17a551e8098c698a04c8ebee965637a75f7c8bdc0a795', 'relations.py': 'd5a407e387272c0d1d410de1646f39b4a984719007e75dcbf71b99356ae80c88'}
+
+
 def code_hashes():
     return {name: digest_file(PROJECT / "news_fusion" / name) for name in
-            ("protocol.py", "experiment.py", "fusion.py", "dataset.py", "time_axis.py", "panel.py", "io.py", "validation.py", "outputs.py", "workflow.py", "original_evaluator.py", "configuration.py", "original.py", "console.py")}
+            ("protocol.py", "experiment.py", "fusion.py", "dataset.py", "time_axis.py", "panel.py", "io.py", "validation.py", "outputs.py", "workflow.py", "original_evaluator.py", "configuration.py", "original.py", "console.py", "routing.py", "relations.py", "semantic_review.py", "master_data.py", "industry_review.py", "industry_scope_review.py", "upstream.py", "industry_dictionary.py")}
 
 
 def choose_device(requested):
@@ -205,7 +217,11 @@ def validate_checkpoint(checkpoint, data, panel=None):
     two_configs=checkpoint.get("mode")=="baseline" and checkpoint["code_sha256"]==AUDITED_TWO_CONFIGS_BASELINE
     console=checkpoint.get("mode")=="baseline" and checkpoint["code_sha256"]==AUDITED_CONSOLE_BASELINE
     naming=checkpoint.get("mode")=="baseline" and checkpoint["code_sha256"]==AUDITED_NAMING_BASELINE
-    if not exact and not prior and not review and not outputs and not workflow and not original_metrics and not two_configs and not console and not naming:
+    single_folder=checkpoint.get("mode")=="baseline" and checkpoint["code_sha256"]==AUDITED_SINGLE_FOLDER_BASELINE
+    offline_entries=checkpoint.get("mode")=="baseline" and checkpoint["code_sha256"]==AUDITED_OFFLINE_ENTRIES_BASELINE
+    auto_review=checkpoint.get("mode")=="baseline" and checkpoint["code_sha256"]==AUDITED_AUTO_REVIEW_BASELINE
+    news_pipeline=checkpoint.get("mode")=="baseline" and checkpoint["code_sha256"]==AUDITED_NEWS_PIPELINE_BASELINE
+    if not news_pipeline and not auto_review and not exact and not prior and not review and not outputs and not workflow and not original_metrics and not two_configs and not console and not naming and not single_folder and not offline_entries:
         raise ValueError("Checkpoint code mismatch: only explicitly audited earlier baseline versions are compatible.")
     validate_config(checkpoint["config"])
     expected={"dataset":data.axis.dataset,"stock_axis_hash":data.axis.stock_hash,"date_axis_hash":data.axis.date_hash,
@@ -218,13 +234,15 @@ def validate_checkpoint(checkpoint, data, panel=None):
         raise ValueError("A fusion checkpoint requires its verified panel; baseline requires no panel.")
     if panel is not None and checkpoint.get("panel_manifest_sha256") != digest_file(panel.directory / "manifest.json"):
         raise ValueError("Checkpoint/news panel mismatch.")
-    return "exact_code" if exact else "audited_naming_baseline" if naming else "audited_console_baseline" if console else "audited_two_configs_baseline" if two_configs else "audited_original_metrics_baseline" if original_metrics else "audited_workflow_baseline" if workflow else "audited_outputs_baseline" if outputs else "audited_review_baseline" if review else "audited_phase1_baseline"
+    return "exact_code" if exact else "audited_news_pipeline_baseline" if news_pipeline else "audited_auto_review_baseline" if auto_review else "audited_offline_entries_baseline" if offline_entries else "audited_single_folder_baseline" if single_folder else "audited_naming_baseline" if naming else "audited_console_baseline" if console else "audited_two_configs_baseline" if two_configs else "audited_original_metrics_baseline" if original_metrics else "audited_workflow_baseline" if workflow else "audited_outputs_baseline" if outputs else "audited_review_baseline" if review else "audited_phase1_baseline"
 
 
 def load_panel(path, data, config, require_training_activity=True):
     from .dataset import NewsPanel
     panel = NewsPanel(path)
     panel.assert_experiment(data.axis, config["fusion"]["time_mode"],lookback=data.split.lookback)
+    if panel.manifest['feature_dim']!=config['fusion']['news_dim']:
+        raise ValueError('News panel dimension differs from the configured fusion input')
     if panel.manifest.get("article_encoder",{}).get("model_id")!="ProsusAI/finbert":
         raise ValueError("A real, pinned FinBERT artifact is required; synthetic fixtures cannot train an experiment.")
     channels = config["fusion"]["enabled_channels"]
@@ -232,11 +250,25 @@ def load_panel(path, data, config, require_training_activity=True):
         raise ValueError("Select at least one valid fusion channel; E0 uses baseline mode.")
     if "market" in channels and panel.manifest.get("market_routing_verified") is not True:
         raise ValueError("Market routing has not been verified. Build reviewed market links before fusion training.")
+    if "market" in channels:
+        panel.assert_market_routing()
+    if set(channels)&{'company','industry'}:
+        relation_proof=panel.assert_historical_relations()
+        from .relations import require_industry_timing
+        require_industry_timing(relation_proof,config['fusion']['time_mode'],channels)
     decisions = data.split.targets("train") - 1
+    eligible_price=None
     for channel in channels if require_training_activity else ():
-        active = panel.masks[channel][decisions] if channel == "market" else panel.masks[channel][:, decisions]
+        active = panel.masks[channel][decisions] if panel.masks[channel].ndim == 1 else panel.masks[channel][:, decisions]
         if not active.any():
             raise ValueError("Enabled channel has no valid training news: " + channel)
+        if eligible_price is None:
+            targets=decisions+1
+            missing=np.pad(np.cumsum(np.asarray(data.arrays['mask'])<=0,axis=1,dtype=np.int32),((0,0),(1,0)))
+            eligible_price=missing[:,targets+1]==missing[:,targets-data.split.lookback]
+        usable=active & eligible_price.any(axis=0) if active.ndim==1 else active & eligible_price
+        if not usable.any():
+            raise ValueError('Enabled channel has no news with valid training price/label windows: '+channel)
     return panel
 
 

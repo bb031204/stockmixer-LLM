@@ -1,0 +1,39 @@
+{
+  "source_id": "742065fc93ed504343260d85",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001233/0001193125-17-185733-index.html",
+  "title": null,
+  "时间": "2017-05-26",
+  "分类": "Finance",
+  "关键词": [
+    "Sangamo Therapeutics, Inc.",
+    "Cowen and Company, LLC",
+    "Amended Sales Agreement",
+    "NASDAQ Global Market",
+    "Form S-3",
+    "Cowen"
+  ],
+  "主要内容": "On May 26, 2017, Sangamo Therapeutics, Inc. entered into an Amended and Restated At-the-Market Offering Program Sales Agreement with Cowen and Company, LLC. The agreement allows the company to issue and sell up to $75.0 million of common stock through Cowen as the sales agent. The Amended Sales Agreement supersedes the original agreement dated December 7, 2016, and requires the effectiveness of a registration statement on Form S-3 filed on May 26, 2017. Sales will be made at market prices through various methods, including direct sales on The NASDAQ Global Market and sales to or through a market maker. The company agreed to pay Cowen a commission rate of 3.0% of the gross proceeds from the sales. Both parties have the right to terminate the agreement at any time by giving written notice. The full text of the Amended Sales Agreement is filed as Exhibit 1.1 to this Current Report on Form 8-K.",
+  "股票实体": [
+    {
+      "名称": "Sangamo Therapeutics, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Cowen",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.724747+00:00",
+    "fetched_at": "2026-11-12T21:31:09.261919+00:00",
+    "feature_available_at": "2026-11-12T21:31:39.303528+00:00",
+    "availability_basis": "extraction"
+  }
+}

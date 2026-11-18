@@ -13,7 +13,8 @@ from news_fusion import experiment
 from news_fusion.io import write_json
 from news_fusion.panel import relationship_valid
 from news_fusion.dataset import NewsPanel
-from news_fusion.protocol import MarketData, TargetSplit, configuration, positive_train_scale
+from news_fusion.protocol import MarketData, TargetSplit, positive_train_scale
+from tests_news.baseline_fixture import configuration
 from news_fusion.time_axis import Axis, Schedule
 
 

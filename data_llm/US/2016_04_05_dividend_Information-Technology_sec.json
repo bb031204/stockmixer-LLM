@@ -1,0 +1,49 @@
+{
+  "source_id": "70e37fa2a11a6bebeb96dd06",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000184/0001193125-16-530114-index.html",
+  "title": null,
+  "时间": "2016-04-05",
+  "分类": "dividend",
+  "关键词": [
+    "SAP SE",
+    "NYSE: SAP",
+    "Information Technology",
+    "dividend",
+    "1.15 per share",
+    "2015 fiscal year",
+    "1.10",
+    "1.4 billion",
+    "45% pay-out ratio",
+    "35% of profit after tax",
+    "SAP"
+  ],
+  "主要内容": "SAP SE (NYSE: SAP) recommended a dividend of 1.15 per share for the fiscal year 2015, representing a 5% increase compared to last year’s dividend of 1.10. If approved, the total dividend will be approximately 1.4 billion, with a pay-out ratio of 45%. SAP aims to maintain a dividend policy of more than 35% of profit after tax. The recommendation was made by the Executive Board and the Supervisory Board and is subject to shareholder approval at the Annual General Meeting of Shareholders. The 2015 fiscal year dividend is scheduled to be paid on or after May 13, 2016. The final dividend amount per ADR is dependent upon the euro/US dollar exchange rate. The final dividend payment by SAP SE to the depositary bank is scheduled for May 13, 2016. The depositary bank will then convert the dividend payment from euro into US dollars as promptly as practicable.",
+  "股票实体": [
+    {
+      "名称": "SAP SE",
+      "股票代码": "SAP",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Software",
+      "依据": "inferred"
+    },
+    {
+      "名称": "enterprise application software",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.422610+00:00",
+    "fetched_at": "2026-11-12T19:05:54.647232+00:00",
+    "feature_available_at": "2026-11-12T19:07:07.987571+00:00",
+    "availability_basis": "extraction"
+  }
+}

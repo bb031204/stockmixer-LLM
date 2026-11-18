@@ -1,0 +1,43 @@
+{
+  "source_id": "b328d7bb6e5a34a066d95439",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-18-000039-index.html",
+  "title": null,
+  "时间": "2018-05-07",
+  "分类": "Corporate",
+  "关键词": [
+    "Insperity, Inc.",
+    "NYSE: NSP",
+    "UnitedHealthcare",
+    "health insurance",
+    "NSP"
+  ],
+  "主要内容": "On May 3, 2018, Insperity, Inc. (NYSE: NSP) entered into an amendment to its arrangement with UnitedHealthcare, extending the health insurance partnership through 2022. The amendment reduced certain costs payable by the Company and recognized Insperity’s growth exceeding previous targets. The partnership, established in 2002, covers most of Insperity’s corporate and worksite employees. Administrative cost savings began in 2019, with additional savings as future growth objectives are met. Other previously disclosed material terms remain unchanged.",
+  "股票实体": [
+    {
+      "名称": "UnitedHealthcare",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Insperity, Inc.",
+      "股票代码": "NSP",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Healthcare",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:51.880895+00:00",
+    "fetched_at": "2026-11-12T22:37:07.664430+00:00",
+    "feature_available_at": "2026-11-12T22:37:54.356511+00:00",
+    "availability_basis": "extraction"
+  }
+}

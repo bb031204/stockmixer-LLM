@@ -1,0 +1,55 @@
+{
+  "source_id": "e0b40fc88e2a268d51bf5487",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000230/0001437749-14-012841-index.html",
+  "title": null,
+  "时间": "2014-07-16",
+  "分类": "Financial",
+  "关键词": [
+    "Optical Cable Corporation",
+    "OCC",
+    "fiber optic",
+    "copper cabling",
+    "dividend",
+    "quarterly cash dividend",
+    "common stock",
+    "data communication",
+    "Optical Cable Corp"
+  ],
+  "主要内容": "On July 16, 2014, Optical Cable Corporation (OCC) declared a regular quarterly cash dividend of $0.02 per share on its common stock, effective July 15, 2014. The dividend will be paid on or about August 15, 2014, to shareholders of record on July 29, 2014, implying an annual cash dividend of $0.08 per common share. The company has maintained a quarterly dividend since October 2010, reflecting its continued positive operating cash flow. Optical Cable Corp is a leading manufacturer of fiber optic and copper data communication cabling and connectivity solutions primarily for the enterprise market. Its product offerings include designs for commercial, enterprise network, datacenter, wireless, residential, and campus installations, as well as customized products for specialty applications and harsh environments such as military, industrial, mining, petrochemical, wireless carrier, and broadcast applications.",
+  "股票实体": [
+    {
+      "名称": "Optical Cable Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Optical Cable Corp",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Telecom Equipment",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Telecommunications Equipment",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Communication Equipment",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.183318+00:00",
+    "fetched_at": "2026-11-14T07:51:20.576007+00:00",
+    "feature_available_at": "2026-11-14T07:52:26.510453+00:00",
+    "availability_basis": "extraction"
+  }
+}

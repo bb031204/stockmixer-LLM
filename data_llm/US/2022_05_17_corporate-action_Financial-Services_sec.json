@@ -1,0 +1,31 @@
+{
+  "source_id": "b1d0f38422f56952e87a9778",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000045/0000950170-22-010155-index.html",
+  "title": "8-K/A",
+  "时间": "2022-05-17",
+  "分类": "corporate_action",
+  "关键词": [
+    "Nicholas Financial, Inc.",
+    "Financial Services",
+    "compensation"
+  ],
+  "主要内容": "Nicholas Financial, Inc. reported compensation earned by interim Chief Executive Officer Michael Rost during specific periods. From April 1, 2021 through May 9, 2022, Rost earned $238,752. From April 1, 2020 through March 31, 2021, he earned $196,823. From April 1, 2019 through March 31, 2020, he earned $173,267. The report is in compliance with regulatory requirements.",
+  "股票实体": [
+    {
+      "名称": "Nicholas Financial, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:51.696898+00:00",
+    "fetched_at": "2026-11-14T05:50:39.048581+00:00",
+    "feature_available_at": "2026-11-14T05:51:00.714473+00:00",
+    "availability_basis": "extraction"
+  }
+}

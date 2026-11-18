@@ -1,0 +1,55 @@
+{
+  "source_id": "93ebb5519a673447f256a578",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000209/0001193125-17-238543-index.html",
+  "title": null,
+  "时间": "2017-07-27",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "MEDALLION FINANCIAL CORP",
+    "Medallion Bank",
+    "Board of Directors",
+    "John W. Everets",
+    "Audit Committee",
+    "NASDAQ",
+    "specialty finance",
+    "commercial loans",
+    "consumer loans",
+    "small businesses",
+    "MFIN"
+  ],
+  "主要内容": "On July 27, 2017, Medallion Financial Corp. expanded its Board of Directors from seven to eight members and appointed John W. Everets as a director, effective immediately. Mr. Everets was also added to the Audit Committee. The Board confirmed his independence under NASDAQ listing standards. He is currently a partner at Arcturus Capital in Boston, Massachusetts. Previously, he served as Chairman and CEO of the Bank of Maine from 2010 to 2015 and held executive roles at Advest, Inc. Andrew Murstein, President of Medallion Financial, highlighted Mr. Everets’ financial expertise and leadership experience as valuable additions to the Board. MEDALLION FINANCIAL CORP is a specialty finance company that originates and services loans in various commercial industries, and its wholly-owned portfolio company, Medallion Bank, also originates and services consumer loans. The Company and its subsidiaries have lent approximately $7 billion to small businesses. Securities explicitly mentioned in the source include MFIN.",
+  "股票实体": [
+    {
+      "名称": "MEDALLION FINANCIAL CORP",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Medallion Bank",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "MFIN",
+      "交易所": "Nasdaq"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.015462+00:00",
+    "fetched_at": "2026-11-14T06:12:06.316546+00:00",
+    "feature_available_at": "2026-11-14T06:13:21.313417+00:00",
+    "availability_basis": "extraction"
+  }
+}

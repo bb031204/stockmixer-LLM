@@ -1,0 +1,38 @@
+{
+  "source_id": "c736bb1ec3a1ef973b525d46",
+  "url": "https://www.bloomberg.com/news/articles/2019-01-29/pg-e-files-for-bankruptcy-while-facing-billions-in-fire-damages",
+  "title": "PG&E Enters Bankruptcy Setting Stage for Major Restructuring",
+  "时间": "2019-01-29T08:20:27.096000+00:00",
+  "分类": "regulation_policy",
+  "关键词": [
+    "PG&E Corp.",
+    "Utilities",
+    "Bankruptcy"
+  ],
+  "主要内容": "PG&E Corp. filed for Chapter 11 protection early Tuesday morning, marking the largest utility bankruptcy in U.S. history. The filing follows a series of wildfires that left more than 100 people dead and destroyed an entire Northern California town. PG&E listed $51.7 billion in total debts, with an estimated $30 billion in potential wildfire liabilities. Despite last-minute rescue packages proposed by Elliott Management Corp. and Apollo Global Management LLC, and California’s assurances to address fire-liability policies, the state’s largest utility owner declared bankruptcy.",
+  "股票实体": [
+    {
+      "名称": "PG&E Corp.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Utilities",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-11T05:10:07.358739+00:00",
+    "fetched_at": "2026-11-12T18:38:30.994797+00:00",
+    "feature_available_at": "2026-11-12T18:38:47.616006+00:00",
+    "availability_basis": "extraction"
+  }
+}

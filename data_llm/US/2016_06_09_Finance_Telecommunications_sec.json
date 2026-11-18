@@ -1,0 +1,45 @@
+{
+  "source_id": "ca9556fc7cb0e35064b3e6e1",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001082/0001104659-16-126282-index.html",
+  "title": null,
+  "时间": "2016-06-09",
+  "分类": "Finance",
+  "关键词": [
+    "DISH Network Corporation",
+    "DISH DBS Corporation",
+    "Senior Notes",
+    "2016-06-09",
+    "Telecommunications",
+    "DISH"
+  ],
+  "主要内容": "On June 9, 2016, DISH Network Corporation announced that its subsidiary, DISH DBS Corporation, priced $2 billion aggregate principal amount of 10-year, 7.75% Senior Notes due 2026. The Notes will mature on July 1, 2026, with interest paid semi-annually on January 1 and July 1, starting from January 1, 2017. The offering is expected to close on June 13, 2016, subject to customary conditions. The Notes will be issued at 100% of par value and placed in a private placement under Rule 144A and Regulation S under the Securities Act of 1933, as amended. The net proceeds are intended for strategic transactions, including wireless and spectrum-related activities.",
+  "股票实体": [
+    {
+      "名称": "DISH Network Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "DISH DBS Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "DISH",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.424607+00:00",
+    "fetched_at": "2026-11-12T20:00:40.066522+00:00",
+    "feature_available_at": "2026-11-12T20:01:39.503161+00:00",
+    "availability_basis": "extraction"
+  }
+}

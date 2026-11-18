@@ -1,0 +1,31 @@
+{
+  "source_id": "8a0c3ae213bceb3b574b30e9",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001193125-19-094630-index.html",
+  "title": null,
+  "时间": "2019-04-01",
+  "分类": "corporate_action",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "Technology",
+    "Loan Agreement Amendment"
+  ],
+  "主要内容": "On March 29, 2019, Geospace Technologies Corporation entered into a Sixth Amendment to its Loan Agreement, which amended the unencumbered liquid assets covenant to reduce the minimum threshold from $10,000,000 to $5,000,000 and include unencumbered liquid assets held outside the United States. The Company must maintain unencumbered liquid assets with an aggregate market value of not less than $5 million. The Amendment also added a requirement to maintain tangible net worth of not less than $140 million.",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:56.106122+00:00",
+    "fetched_at": "2026-11-12T23:47:37.632165+00:00",
+    "feature_available_at": "2026-11-12T23:47:56.536640+00:00",
+    "availability_basis": "extraction"
+  }
+}

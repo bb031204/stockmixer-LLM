@@ -1,0 +1,26 @@
+{
+  "source_id": "5462b0500b6f4e7f051caed3",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-12-003262-index.html",
+  "title": null,
+  "时间": "2012-07-31",
+  "分类": "regulation_policy",
+  "关键词": [
+    "Royal Bank of Canada",
+    "Banking",
+    "Regulation Policy"
+  ],
+  "主要内容": "Royal Bank of Canada updated its credit rating outlook to 'negative' from 'stable' following an announcement by Standard & Poor’s Rating Agency on July 27, 2012. This update was incorporated into its Second Quarter 2012 Report to Shareholders, which was previously filed as an exhibit to its Form 6-K dated May 24, 2012.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.920284+00:00",
+    "fetched_at": "2026-11-14T07:50:57.191146+00:00",
+    "feature_available_at": "2026-11-14T07:51:17.114899+00:00",
+    "availability_basis": "extraction"
+  }
+}

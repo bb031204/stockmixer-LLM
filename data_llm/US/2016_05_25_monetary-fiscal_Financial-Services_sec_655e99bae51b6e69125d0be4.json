@@ -1,0 +1,37 @@
+{
+  "source_id": "655e99bae51b6e69125d0be4",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001104659-16-123362-index.html",
+  "title": null,
+  "时间": "2016-05-25",
+  "分类": "monetary_fiscal",
+  "关键词": [
+    "BAMACN",
+    "Financial Services",
+    "Notes"
+  ],
+  "主要内容": "BROOKFIELD ASSET MANAGEMENT INC. issued 4.250% Senior Unsecured Notes due June 2, 2026, with a size of US$500,000,000. The trade date was May 25, 2016, with an expected settlement date of June 2, 2016. The yield is 4.370%, and the notes have denominations starting at US$2,000. The notes include covenants such as change of control and negative pledge. Redemption provisions include a make-whole call prior to March 2, 2026, and a par call at 100% of the principal amount on or after March 2, 2026. Securities explicitly mentioned in the source include BAMACN.",
+  "股票实体": [
+    {
+      "名称": "BAMACN",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "BAMACN",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:43.425606+00:00",
+    "fetched_at": "2026-11-12T20:10:37.738016+00:00",
+    "feature_available_at": "2026-11-12T20:11:08.726928+00:00",
+    "availability_basis": "extraction"
+  }
+}

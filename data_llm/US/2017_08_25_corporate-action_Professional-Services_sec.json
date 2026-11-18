@@ -1,0 +1,31 @@
+{
+  "source_id": "c532dbc63309b8a8bfb70ae6",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-17-000055-index.html",
+  "title": null,
+  "时间": "2017-08-25",
+  "分类": "corporate_action",
+  "关键词": [
+    "INSPERITY, INC.",
+    "Professional Services",
+    "board resignation"
+  ],
+  "主要内容": "Ms. McKenna-Doyle resigned from the board of directors of INSPERITY, INC. effective August 24, 2017, to focus on other professional commitments. Her resignation is not due to any disagreements with the company on operational, policy, or practice matters. She had served on the board since 2015 and held roles on the Nominating and Corporate Governance Committee, as well as the Finance, Risk Management and Audit Committee.",
+  "股票实体": [
+    {
+      "名称": "INSPERITY, INC.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:05.016472+00:00",
+    "fetched_at": "2026-11-14T12:45:40.280794+00:00",
+    "feature_available_at": "2026-11-14T12:46:01.689520+00:00",
+    "availability_basis": "extraction"
+  }
+}

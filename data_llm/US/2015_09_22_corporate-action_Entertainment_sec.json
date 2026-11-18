@@ -1,0 +1,25 @@
+{
+  "source_id": "8f6ae56cfa6193ff4f1841aa",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001039/0001001039-15-000214-index.html",
+  "title": null,
+  "时间": "2015-09-22",
+  "分类": "corporate_action",
+  "关键词": [
+    "Walt Disney Co",
+    "Entertainment",
+    "Director Election"
+  ],
+  "主要内容": "On September 22, 2015, Walt Disney Co's Board of Directors elected Maria Elena Lagomasino as a Director, effective December 1, 2015. Ms. Lagomasino is Chief Executive Officer and Managing Partner of WE Family Offices, a wealth advisory firm. No determination has been made as to the committee on which she will serve.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.874807+00:00",
+    "fetched_at": "2026-11-14T14:03:31.411395+00:00",
+    "feature_available_at": "2026-11-14T14:03:48.857966+00:00",
+    "availability_basis": "extraction"
+  }
+}

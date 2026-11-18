@@ -68,7 +68,7 @@ def validate_outputs(probs,vectors,count):
     if np.any(probs<0) or np.any(probs>1) or not np.allclose(probs.sum(-1),1,atol=1e-5):
         raise ValueError("Invalid sentiment probabilities.")
 
-def encode_articles(articles,backend,output,cache,batch_size=16,table_format="jsonl"):
+def encode_articles(articles,backend,output,cache,batch_size=16,table_format="jsonl",input_provenance=None,progress=None):
     if Path(output).exists():
         raise FileExistsError("Output already exists; select a new version directory.")
     if not articles or batch_size<1:
@@ -128,6 +128,8 @@ def encode_articles(articles,backend,output,cache,batch_size=16,table_format="js
             results[a["source_id"]]=(probs[j],vector,int(token_counts[j]),completed)
             counts["inferred"]+=1
         index+=len(chunk)
+        if progress is not None:
+            progress(index,len(pending),dict(counts))
     rows,vectors=[],[]
     for a in articles:
         row={k:v for k,v in a.items() if k not in ("title","summary","input_status")}
@@ -152,6 +154,7 @@ def encode_articles(articles,backend,output,cache,batch_size=16,table_format="js
             "counts":dict(counts),"status_counts":dict(Counter(r["finbert_status"] for r in rows)),
             "record_table":"article_finbert."+table_format,
             "source_input_hash":digest([[a["source_id"],a["input_text_hash"]] for a in articles]),
+            "input_provenance":input_provenance,
             "files":file_manifest(directory)}
         write_json(directory/"manifest.json",manifest)
     return manifest

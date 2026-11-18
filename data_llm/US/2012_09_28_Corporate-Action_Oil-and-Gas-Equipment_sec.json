@@ -1,0 +1,56 @@
+{
+  "source_id": "a6fa94b4bba77d4ab0148bf7",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001115/0001181431-12-052254-index.html",
+  "title": null,
+  "时间": "2012-09-28",
+  "分类": "Corporate Action",
+  "关键词": [
+    "Geospace Technologies Corporation",
+    "OYO Geospace Corporation",
+    "NASDAQ",
+    "GEOS",
+    "Oil and Gas Equipment",
+    "CHANGE",
+    "OYO Geospace",
+    "OYOG"
+  ],
+  "主要内容": "On September 28, 2012, OYO Geospace Corporation announced a name change to Geospace Technologies Corporation and a ticker symbol change to GEOS, effective October 1, 2012. The name change followed the sale of OYO Corporation U.S.A.'s stake in February 2012, resulting in no further affiliation with OYO Corporation. The company designs and manufactures instruments and equipment for the oil and gas industry, including seismic data acquisition and reservoir characterization tools, as well as other industrial products like thermal printing equipment and film. Securities explicitly mentioned in the source include OYO Geospace (OYOG).",
+  "股票实体": [
+    {
+      "名称": "Geospace Technologies Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "OYO Geospace Corporation",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "CHANGE",
+      "交易所": null
+    },
+    {
+      "名称": "OYO Geospace",
+      "股票代码": "OYOG",
+      "交易所": "NASDAQ"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.921255+00:00",
+    "fetched_at": "2026-11-14T16:04:57.042859+00:00",
+    "feature_available_at": "2026-11-14T16:05:46.136613+00:00",
+    "availability_basis": "extraction"
+  }
+}

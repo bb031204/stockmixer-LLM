@@ -1,0 +1,32 @@
+{
+  "source_id": "bde509102106df6222a0e87c",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200303a.htm",
+  "title": "Federal Reserve Board - Federal Reserve issues FOMC statement",
+  "时间": "2020-03-03",
+  "分类": "Monetary Policy",
+  "关键词": [
+    "Federal Reserve",
+    "FOMC",
+    "Federal Funds Rate",
+    "Coronavirus",
+    "Monetary Policy"
+  ],
+  "主要内容": "On March 3, 2020, the Federal Reserve issued a statement following its FOMC meeting. In response to evolving risks from the coronavirus, the Federal Reserve lowered the target range for the federal funds rate by 1/2 percentage point to 1 to 1‑1/4 percent. This decision aims to support achieving maximum employment and price stability goals.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:39:17.004294+00:00",
+    "fetched_at": "2026-11-14T04:35:14.618841+00:00",
+    "feature_available_at": "2026-11-14T04:35:32.924774+00:00",
+    "availability_basis": "extraction"
+  }
+}

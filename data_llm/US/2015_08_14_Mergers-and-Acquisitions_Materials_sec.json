@@ -1,0 +1,45 @@
+{
+  "source_id": "8241e7ff317adaa37faf9cda",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001102624-15-001309-index.html",
+  "title": null,
+  "时间": "2015-08-14",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "BROOKFIELD ASSET MANAGEMENT INC.",
+    "GrafTech International Ltd.",
+    "tender offer",
+    "merger",
+    "convertible preferred stock",
+    "GTI"
+  ],
+  "主要内容": "BROOKFIELD ASSET MANAGEMENT INC. completed a tender offer for GrafTech International Ltd. shares, which expired on August 13, 2015. Approximately 83.4% of the company's outstanding shares were tendered, with 116,266,327 shares accepted. The tendered shares, along with shares owned by the Purchaser and Acquisition Sub, represented about 86.4% of the company's shares outstanding, satisfying the merger conditions. All accepted shares will be paid in cash at $5.05 per share, matching the tender offer price. The merger will result in GrafTech becoming a wholly-owned subsidiary of the Purchaser, with its common stock delisted from the NYSE. Convertible preferred stock owned by the Purchaser or Acquisition Sub will be canceled post-merger. Securities explicitly mentioned in the source include GTI.",
+  "股票实体": [
+    {
+      "名称": "GrafTech International Ltd.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": null,
+      "股票代码": "GTI",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:19:57.874807+00:00",
+    "fetched_at": "2026-11-14T15:53:44.313029+00:00",
+    "feature_available_at": "2026-11-14T15:54:36.796960+00:00",
+    "availability_basis": "extraction"
+  }
+}

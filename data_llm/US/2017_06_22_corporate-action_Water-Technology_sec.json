@@ -1,0 +1,25 @@
+{
+  "source_id": "7d73b9577091e9ea1c8d3967",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/0001193125-17-210200-index.html",
+  "title": null,
+  "时间": "2017-06-22",
+  "分类": "corporate_action",
+  "关键词": [
+    "WATERS CORP /DE/",
+    "Water Technology",
+    "corporate_action"
+  ],
+  "主要内容": "Dr. Ornskov was granted a stock award with a grant date value of approximately $220,000, 50% in restricted stock and 50% in non-qualified stock options, effective on the date of his election. Non-employee directors receive annual retainer of $55,000, $1,500 per meeting for in-person attendance, and annual stock awards of approximately $220,000. Equity awards have a one-year vesting term.",
+  "股票实体": [],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.723748+00:00",
+    "fetched_at": "2026-11-12T21:04:58.036079+00:00",
+    "feature_available_at": "2026-11-12T21:05:17.151298+00:00",
+    "availability_basis": "extraction"
+  }
+}

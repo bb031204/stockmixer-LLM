@@ -1,0 +1,36 @@
+{
+  "source_id": "9acb2ca6ca36c8ee3828880c",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-12-000722-index.html",
+  "title": null,
+  "时间": "2012-08-30",
+  "分类": "corporate_action",
+  "关键词": [
+    "Brookfield Asset Management Inc.",
+    "Financial Services",
+    "Redemption of Class A Preference Shares"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. announced the redemption of its Class A Preference Shares, Series 11, for cash with a redemption date of September 30, 2012. The redemption price will be C$25.00 per share, plus any accrued and unpaid dividends. Notice of redemption has been sent to all registered holders, and payment will be made to beneficial holders on or after October 1, 2012 through CDS & Co., and to other registered holders on October 1, 2012.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.921255+00:00",
+    "fetched_at": "2026-11-14T14:28:43.936822+00:00",
+    "feature_available_at": "2026-11-14T14:29:22.095402+00:00",
+    "availability_basis": "extraction"
+  }
+}

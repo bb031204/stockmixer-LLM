@@ -15,7 +15,8 @@ import yaml
 from news_fusion import experiment, workflow
 from news_fusion.outputs import verify_bundle, bundle_files
 from news_fusion.io import digest_file, write_json
-from news_fusion.protocol import configuration, validate_config
+from news_fusion.protocol import validate_config
+from tests_news.baseline_fixture import configuration
 from tests_news.test_review_regressions import make_market
 
 

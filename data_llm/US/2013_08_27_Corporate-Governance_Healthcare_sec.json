@@ -1,0 +1,45 @@
+{
+  "source_id": "931440da8b2f0658d5e3f1c5",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000697/0001193125-13-347274-index.html",
+  "title": null,
+  "时间": "2013-08-27",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Waters Corporation",
+    "Douglas A. Berthiaume",
+    "Michael F. Silveira",
+    "Succession Planning Committee",
+    "CEO transition",
+    "Corporate Governance",
+    "Leadership Change"
+  ],
+  "主要内容": "On August 23, 2013, Douglas A. Berthiaume, Chairman, President, and Chief Executive Officer of Waters Corporation, announced his intention to retire as CEO within the next twenty-four months. He will continue to serve as CEO until his successor is appointed. The Board of Directors appointed Michael F. Silveira as Vice President and Corporate Controller. Silveira, who joined the company in 2004, most recently served as Controller, Corporate Accounting. The Board also established a Succession Planning Committee to guide the selection of a successor and plans to engage an executive search firm to consider both internal and external candidates. Waters Corporation emphasized a thoughtful process to select a new CEO and remains focused on executing its fundamental strategy. The company reported revenue of $1.84 billion in fiscal year 2012, operating in healthcare delivery, environmental management, food safety, and water quality, with technology in separations science, laboratory information management, mass spectrometry, and thermal analysis.",
+  "股票实体": [
+    {
+      "名称": "Waters Corporation",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Biotechnology",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Pharmaceuticals",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.154146+00:00",
+    "fetched_at": "2026-11-14T10:50:17.536724+00:00",
+    "feature_available_at": "2026-11-14T10:51:17.713853+00:00",
+    "availability_basis": "extraction"
+  }
+}

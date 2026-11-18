@@ -1,0 +1,38 @@
+{
+  "source_id": "b2b27d8e878545455c93722d",
+  "url": "https://finance.yahoo.com/news/citizens-financial-closes-clarfeld-financial-134301923.html",
+  "title": "Citizens Financial Closes Clarfeld Financial Advisors Buyout",
+  "时间": "2019-01-03T13:43:01+00:00",
+  "分类": "Mergers & Acquisitions",
+  "关键词": [
+    "Citizens Financial Group, Inc.",
+    "Clarfeld Financial Advisors",
+    "Wealth Management",
+    "CFG"
+  ],
+  "主要内容": "Citizens Financial Group, Inc. completed the acquisition of Clarfeld Financial Advisors, integrating the latter into its Wealth Management division. Clarfeld will retain its brand name and operate as a unit of Citizens Bank Wealth Management. Robert A. Clarfeld will serve as CEO of Citizens' high net worth and ultra-high net worth businesses. As of September 30, 2018, Clarfeld managed $6.6 billion in assets and administered $900 million. The combined entity will have approximately $14.4 billion in AUM and $34.1 billion in AUM/AUA. This acquisition reflects the company's strategy to strengthen its capital position and diversify revenue streams. Securities explicitly mentioned in the source include Citizens Financial Group, Inc. (CFG).",
+  "股票实体": [
+    {
+      "名称": "Citizens Financial Group, Inc.",
+      "股票代码": "CFG",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-12T02:41:21.821751+00:00",
+    "fetched_at": "2026-11-14T00:01:23.634492+00:00",
+    "feature_available_at": "2026-11-14T00:26:08.615752+00:00",
+    "availability_basis": "extraction"
+  }
+}

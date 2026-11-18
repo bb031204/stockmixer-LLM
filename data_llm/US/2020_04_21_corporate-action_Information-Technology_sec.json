@@ -1,0 +1,37 @@
+{
+  "source_id": "d0117927c4c9185a4dae7774",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000184/0001104659-20-048940-index.html",
+  "title": null,
+  "时间": "2020-04-21",
+  "分类": "corporate_action",
+  "关键词": [
+    "SAP SE",
+    "Information Technology",
+    "CEO change",
+    "SAP"
+  ],
+  "主要内容": "SAP SE announced on April 20, 2020, that Christian Klein will continue as sole Chief Executive Officer, while Jennifer Morgan will depart the company effective April 30, 2020. The decision to transition from a co-CEO model to a sole CEO model was made earlier than planned to ensure strong leadership during the unprecedented crisis. Jennifer Morgan's departure was mutually agreed with the Supervisory Board.",
+  "股票实体": [
+    {
+      "名称": "SAP SE",
+      "股票代码": "SAP",
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Information Technology",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.474770+00:00",
+    "fetched_at": "2026-11-13T00:16:34.017597+00:00",
+    "feature_available_at": "2026-11-13T00:17:19.443342+00:00",
+    "availability_basis": "extraction"
+  }
+}

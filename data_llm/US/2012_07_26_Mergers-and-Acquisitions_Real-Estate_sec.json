@@ -1,0 +1,70 @@
+{
+  "source_id": "5883515be4b4037f2213002b",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-12-000605-index.html",
+  "title": null,
+  "时间": "2012-07-26",
+  "分类": "Mergers and Acquisitions",
+  "关键词": [
+    "Verde Realty",
+    "Brookfield Asset Management Inc.",
+    "Mergers and Acquisitions",
+    "Real Estate",
+    "Brookfield Property Group",
+    "Verde",
+    "Hillwood"
+  ],
+  "主要内容": "Brookfield Asset Management Inc. and Hillwood Development Company, LLC have entered into a definitive merger agreement to acquire Verde Realty. The transaction will provide Verde shareholders with a price of $12.85 per share and a total equity transaction value of up to $366 million. BROOKFIELD ASSET MANAGEMENT INC. and certain shareholders of Verde, comprising approximately 19% of the outstanding shares, have entered into definitive voting agreements to support the merger. At closing, a subsidiary of the Fund will merge into Verde Realty, with Verde as the surviving entity. Hillwood will be an investor in Verde. All existing shareholders will receive cash, with accredited investors having the option to receive common shares instead, subject to a shareholders’ agreement and a requirement that the Fund acquires at least 55% of Verde on a fully diluted basis. The merger is subject to shareholder approval and expected to close in Q4 2012. Wells Fargo Securities provided a fairness opinion. Brookfield's merger is expected to position Verde to benefit from increased industrial space demand as the economy improves. The Fund agreed to provide up to $200 million in capital for rights offerings.",
+  "股票实体": [
+    {
+      "名称": "Verde Realty",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Brookfield Property Group",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Verde",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Hillwood",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Real Estate Investment Trust (REIT)",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Real Estate",
+      "依据": "inferred"
+    },
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry",
+    "market"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.921255+00:00",
+    "fetched_at": "2026-11-14T12:58:33.787587+00:00",
+    "feature_available_at": "2026-11-14T13:00:16.235689+00:00",
+    "availability_basis": "extraction"
+  }
+}

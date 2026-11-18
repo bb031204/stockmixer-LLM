@@ -1,0 +1,36 @@
+{
+  "source_id": "d14dd7e1d104e024bdce31b6",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000275/0001214659-18-004903-index.html",
+  "title": null,
+  "时间": "2018-07-19",
+  "分类": "regulation_policy",
+  "关键词": [
+    "ROYAL BANK OF CANADA",
+    "Banking",
+    "ratings outlook"
+  ],
+  "主要内容": "On June 26, 2018, DBRS changed the long-term ratings outlook to positive from stable. On June 27, 2018, Standard & Poor’s changed the ratings outlook to stable from negative. On July 16, 2018, Moody’s upgraded the senior long-term debt rating to Aa2 from A1 and changed the ratings outlook to stable from negative.",
+  "股票实体": [
+    {
+      "名称": "ROYAL BANK OF CANADA",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Banking",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T19:20:08.109393+00:00",
+    "fetched_at": "2026-11-14T09:43:10.269812+00:00",
+    "feature_available_at": "2026-11-14T09:43:28.806903+00:00",
+    "availability_basis": "extraction"
+  }
+}

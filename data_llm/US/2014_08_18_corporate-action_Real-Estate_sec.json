@@ -1,0 +1,30 @@
+{
+  "source_id": "633ee852bb46d8c1a6a53f01",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000955/0001477932-14-004583-index.html",
+  "title": null,
+  "时间": "2014-08-18",
+  "分类": "corporate_action",
+  "关键词": [
+    "Southcorp Capital, Inc.",
+    "Real Estate",
+    "Material Definitive Agreement"
+  ],
+  "主要内容": "Southcorp Capital, Inc. announced on August 18, 2014, that it has acquired an additional residential property in Indiana. The house is already rented and the Company expects an annual ROI of 8-10%. The Company expects to add 2 properties to its rental portfolio for every 10 houses it acquires. The other 8 will be renovated and resold. The Company agreed to sell two of its properties for $70,000. The Company’s cost related to the properties was approximately $7,500. As such, the Company expects to issue a dividend of approximately $50,000 to the shareholders from the sale of these properties.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Real Estate",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:45:09.187550+00:00",
+    "fetched_at": "2026-11-14T13:00:22.805559+00:00",
+    "feature_available_at": "2026-11-14T13:00:42.885076+00:00",
+    "availability_basis": "extraction"
+  }
+}

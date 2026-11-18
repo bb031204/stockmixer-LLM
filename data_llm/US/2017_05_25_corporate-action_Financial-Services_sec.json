@@ -1,0 +1,37 @@
+{
+  "source_id": "751896ae58228283dc7ca53e",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000298/0001104659-17-035204-index.html",
+  "title": null,
+  "时间": "2017-05-25",
+  "分类": "corporate_action",
+  "关键词": [
+    "Impac Mortgage Holdings, Inc.",
+    "Financial Services",
+    "Inc.",
+    "DX"
+  ],
+  "主要内容": "Impac Mortgage Holdings, Inc. appointed Tom Akin to its board of directors. Mr. Akin brings experience from financial institutions and investment industries. The company provides mortgage lending and real estate solutions. The appointment aims to leverage growth opportunities in non-QM originations. Securities explicitly mentioned in the source include Inc. (DX).",
+  "股票实体": [
+    {
+      "名称": "Impac Mortgage Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Inc.",
+      "股票代码": "DX",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:11:47.722748+00:00",
+    "fetched_at": "2026-11-12T20:50:22.548755+00:00",
+    "feature_available_at": "2026-11-12T20:51:13.044914+00:00",
+    "availability_basis": "extraction"
+  }
+}

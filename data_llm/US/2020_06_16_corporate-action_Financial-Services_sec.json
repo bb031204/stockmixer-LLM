@@ -1,0 +1,30 @@
+{
+  "source_id": "f18dc9748fa324ddc09001d6",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000232/0001558370-20-007556-index.html",
+  "title": null,
+  "时间": "2020-06-16",
+  "分类": "corporate_action",
+  "关键词": [
+    "KENTUCKY BANCSHARES INC /KY/",
+    "Financial Services",
+    "corporate_action"
+  ],
+  "主要内容": "KENTUCKY BANCSHARES INC /KY/ reported a non-binding advisory vote on executive compensation, with 2,946,944 votes for, 235,229 against, and 52,566 abstentions. The company also held a vote on the frequency of shareholder votes for executive compensation, with 2,828,638 votes for, 216,289 against, and 105,232 abstentions. The votes were conducted on June 16, 2020.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T05:12:00.474770+00:00",
+    "fetched_at": "2026-11-13T00:41:36.407355+00:00",
+    "feature_available_at": "2026-11-13T00:42:11.642423+00:00",
+    "availability_basis": "extraction"
+  }
+}

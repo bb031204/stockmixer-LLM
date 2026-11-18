@@ -1,0 +1,242 @@
+{
+  "item": 5,
+  "checked_at": "2026-11-18T10:54:52+08:00",
+  "report": {
+    "NASDAQ": {
+      "passed": true,
+      "news_panel": "D:\\finance\\model\\StockMixer+llm\\StockMixer\\outputs\\artifacts\\news\\pipelines\\20261118_102410_NASDAQ_preparation\\NASDAQ_panel",
+      "market_data": "D:\\finance\\model\\StockMixer+llm\\StockMixer\\outputs\\artifacts\\market_original\\NASDAQ",
+      "market_shape": [
+        1026,
+        1245,
+        5
+      ],
+      "channels": {
+        "company": {
+          "shape": [
+            1026,
+            1245,
+            24
+          ],
+          "mask_shape": [
+            1026,
+            1245
+          ],
+          "active_cells": 58,
+          "ledger_cells_match": true,
+          "dtype": "float32",
+          "mask_dtype": "uint8"
+        },
+        "industry": {
+          "shape": [
+            1026,
+            1245,
+            24
+          ],
+          "mask_shape": [
+            1026,
+            1245
+          ],
+          "active_cells": 45,
+          "ledger_cells_match": true,
+          "dtype": "float32",
+          "mask_dtype": "uint8"
+        },
+        "market": {
+          "shape": [
+            1245,
+            24
+          ],
+          "mask_shape": [
+            1245
+          ],
+          "active_cells": 226,
+          "ledger_cells_match": true,
+          "dtype": "float32",
+          "mask_dtype": "uint8"
+        }
+      },
+      "feature_dim": 24,
+      "all_axes_and_splits_match": true,
+      "nominal_training_active_cells": {
+        "company": 46,
+        "industry": 35,
+        "market": 126
+      },
+      "market_protocol": "original_reproduction",
+      "raw_source_hashes_verified": true,
+      "all_panel_manifest_file_hashes_verified": true,
+      "date_splits": {
+        "Train": [
+          "2013-01-25",
+          "2015-12-31"
+        ],
+        "Val": [
+          "2016-01-04",
+          "2016-12-30"
+        ],
+        "Test": [
+          "2017-01-03",
+          "2017-12-08"
+        ]
+      }
+    },
+    "NYSE": {
+      "passed": true,
+      "news_panel": "D:\\finance\\model\\StockMixer+llm\\StockMixer\\outputs\\artifacts\\news\\pipelines\\20261117_194036_NASDAQ_NYSE_SP500_preparation\\NYSE_panel",
+      "market_data": "D:\\finance\\model\\StockMixer+llm\\StockMixer\\outputs\\artifacts\\market_original\\NYSE",
+      "market_shape": [
+        1737,
+        1245,
+        5
+      ],
+      "channels": {
+        "company": {
+          "shape": [
+            1737,
+            1245,
+            24
+          ],
+          "mask_shape": [
+            1737,
+            1245
+          ],
+          "active_cells": 55,
+          "ledger_cells_match": true,
+          "dtype": "float32",
+          "mask_dtype": "uint8"
+        },
+        "industry": {
+          "shape": [
+            1737,
+            1245,
+            24
+          ],
+          "mask_shape": [
+            1737,
+            1245
+          ],
+          "active_cells": 5,
+          "ledger_cells_match": true,
+          "dtype": "float32",
+          "mask_dtype": "uint8"
+        },
+        "market": {
+          "shape": [
+            1245,
+            24
+          ],
+          "mask_shape": [
+            1245
+          ],
+          "active_cells": 226,
+          "ledger_cells_match": true,
+          "dtype": "float32",
+          "mask_dtype": "uint8"
+        }
+      },
+      "feature_dim": 24,
+      "all_axes_and_splits_match": true,
+      "nominal_training_active_cells": {
+        "company": 34,
+        "industry": 5,
+        "market": 126
+      },
+      "market_protocol": "original_reproduction",
+      "raw_source_hashes_verified": true,
+      "all_panel_manifest_file_hashes_verified": true,
+      "date_splits": {
+        "Train": [
+          "2013-01-25",
+          "2015-12-31"
+        ],
+        "Val": [
+          "2016-01-04",
+          "2016-12-30"
+        ],
+        "Test": [
+          "2017-01-03",
+          "2017-12-08"
+        ]
+      }
+    },
+    "SP500": {
+      "passed": true,
+      "news_panel": "D:\\finance\\model\\StockMixer+llm\\StockMixer\\outputs\\artifacts\\news\\pipelines\\20261117_194036_NASDAQ_NYSE_SP500_preparation\\SP500_panel",
+      "market_data": "D:\\finance\\model\\StockMixer+llm\\StockMixer\\outputs\\artifacts\\market_original\\SP500",
+      "market_shape": [
+        474,
+        1611,
+        5
+      ],
+      "channels": {
+        "company": {
+          "shape": [
+            474,
+            1611,
+            24
+          ],
+          "mask_shape": [
+            474,
+            1611
+          ],
+          "active_cells": 25,
+          "ledger_cells_match": true,
+          "dtype": "float32",
+          "mask_dtype": "uint8"
+        },
+        "industry": {
+          "shape": [
+            474,
+            1611,
+            24
+          ],
+          "mask_shape": [
+            474,
+            1611
+          ],
+          "active_cells": 0
+        },
+        "market": {
+          "shape": [
+            1611,
+            24
+          ],
+          "mask_shape": [
+            1611
+          ],
+          "active_cells": 348,
+          "ledger_cells_match": true,
+          "dtype": "float32",
+          "mask_dtype": "uint8"
+        }
+      },
+      "feature_dim": 24,
+      "all_axes_and_splits_match": true,
+      "nominal_training_active_cells": {
+        "company": 20,
+        "industry": 0,
+        "market": 220
+      },
+      "market_protocol": "original_reproduction",
+      "raw_source_hashes_verified": true,
+      "all_panel_manifest_file_hashes_verified": true,
+      "date_splits": {
+        "Train": [
+          "2016-01-27",
+          "2019-12-31"
+        ],
+        "Val": [
+          "2020-01-02",
+          "2020-12-31"
+        ],
+        "Test": [
+          "2021-01-04",
+          "2022-05-25"
+        ]
+      }
+    }
+  },
+  "text": "结论：结构与数组一致性检查见下；结构通过不等于三通道新闻充分，也不代表严格PIT通过。\nNASDAQ：结构检查通过。行情shape=(1026, 1245, 5)；新闻宽度24（PCA16+情绪3+统计5）；股票UID顺序、原始身份数组行号、全部交易日期与两个切分边界均一致。\n  新闻数组/Mask：{\"company\": {\"shape\": [1026, 1245, 24], \"mask_shape\": [1026, 1245], \"active_cells\": 58, \"ledger_cells_match\": true, \"dtype\": \"float32\", \"mask_dtype\": \"uint8\"}, \"industry\": {\"shape\": [1026, 1245, 24], \"mask_shape\": [1026, 1245], \"active_cells\": 45, \"ledger_cells_match\": true, \"dtype\": \"float32\", \"mask_dtype\": \"uint8\"}, \"market\": {\"shape\": [1245, 24], \"mask_shape\": [1245], \"active_cells\": 226, \"ledger_cells_match\": true, \"dtype\": \"float32\", \"mask_dtype\": \"uint8\"}}。已核验所有面板manifest文件哈希、冻结映射、数组有限值、二值Mask、缺失位置严格为0、有效情绪概率及provenance与Mask逐单元一致。\n  名义标签日期：{\"Train\": [\"2013-01-25\", \"2015-12-31\"], \"Val\": [\"2016-01-04\", \"2016-12-30\"], \"Test\": [\"2017-01-03\", \"2017-12-08\"]}；original训练额外候选重叠详见第4项。\nNYSE：结构检查通过。行情shape=(1737, 1245, 5)；新闻宽度24（PCA16+情绪3+统计5）；股票UID顺序、原始身份数组行号、全部交易日期与两个切分边界均一致。\n  新闻数组/Mask：{\"company\": {\"shape\": [1737, 1245, 24], \"mask_shape\": [1737, 1245], \"active_cells\": 55, \"ledger_cells_match\": true, \"dtype\": \"float32\", \"mask_dtype\": \"uint8\"}, \"industry\": {\"shape\": [1737, 1245, 24], \"mask_shape\": [1737, 1245], \"active_cells\": 5, \"ledger_cells_match\": true, \"dtype\": \"float32\", \"mask_dtype\": \"uint8\"}, \"market\": {\"shape\": [1245, 24], \"mask_shape\": [1245], \"active_cells\": 226, \"ledger_cells_match\": true, \"dtype\": \"float32\", \"mask_dtype\": \"uint8\"}}。已核验所有面板manifest文件哈希、冻结映射、数组有限值、二值Mask、缺失位置严格为0、有效情绪概率及provenance与Mask逐单元一致。\n  名义标签日期：{\"Train\": [\"2013-01-25\", \"2015-12-31\"], \"Val\": [\"2016-01-04\", \"2016-12-30\"], \"Test\": [\"2017-01-03\", \"2017-12-08\"]}；original训练额外候选重叠详见第4项。\nSP500：结构检查通过。行情shape=(474, 1611, 5)；新闻宽度24（PCA16+情绪3+统计5）；股票UID顺序、原始身份数组行号、全部交易日期与两个切分边界均一致。\n  新闻数组/Mask：{\"company\": {\"shape\": [474, 1611, 24], \"mask_shape\": [474, 1611], \"active_cells\": 25, \"ledger_cells_match\": true, \"dtype\": \"float32\", \"mask_dtype\": \"uint8\"}, \"industry\": {\"shape\": [474, 1611, 24], \"mask_shape\": [474, 1611], \"active_cells\": 0}, \"market\": {\"shape\": [1611, 24], \"mask_shape\": [1611], \"active_cells\": 348, \"ledger_cells_match\": true, \"dtype\": \"float32\", \"mask_dtype\": \"uint8\"}}。已核验所有面板manifest文件哈希、冻结映射、数组有限值、二值Mask、缺失位置严格为0、有效情绪概率及provenance与Mask逐单元一致。\n  名义标签日期：{\"Train\": [\"2016-01-27\", \"2019-12-31\"], \"Val\": [\"2020-01-02\", \"2020-12-31\"], \"Test\": [\"2021-01-04\", \"2022-05-25\"]}；original训练额外候选重叠详见第4项。\nMask口径：新闻Mask表示新闻特征可用，行情Mask表示行情/标签可用，两者语义不同，不应强行数值相等；其股票/日期索引必须一致，损失仍按原行情有效性Mask处理。\n可用性限制：SP500 Industry三个阶段均为0，NYSE Industry验证和测试为0，NASDAQ Industry验证为0，故三数据集三通道完整实验仍未具备充分数据条件。当前只启用NASDAQ Market，不能直接将当前配置改market_name后宣称其他两市场准备就绪。\n配置一致性提示：第7项原文字段“40维新闻特征”与当前实际24维新闻面板不一致；本次按请求保留第6～9项原文，未修改其标题。原行情主干temporal_dim=40与新闻输入维度不是同一参数。\n时间限制补充：原始行情manifest已注明保留原始尺度/归一化可能使用全期间信息；本次保留用户选择的original，不将其标记为strict无泄露。新闻数据的结构通过不能消除此限制。\n本次只改检查日志与证据文件，未改模型/配置/数据、未发起训练或预测、未操作上游采集器。",
+  "document_before_sha256": "05b3c4a180950d044b7263cd1974bcc661fade668912ba914dd47a8ab2abc046"
+}

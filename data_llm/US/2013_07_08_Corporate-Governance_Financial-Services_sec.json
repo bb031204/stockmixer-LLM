@@ -1,0 +1,59 @@
+{
+  "source_id": "8b29396da86f714964380066",
+  "url": "https://www.sec.gov/Archives/edgar/data/1001085/0001199073-13-000524-index.html",
+  "title": null,
+  "时间": "2013-07-08",
+  "分类": "Corporate Governance",
+  "关键词": [
+    "Brookfield Investment Management Inc.",
+    "Craig Noble",
+    "Chief Executive Officer",
+    "Kevin English",
+    "Chief Operating Officer",
+    "Brookfield Asset Management Inc.",
+    "assets under management",
+    "public securities",
+    "infrastructure securities",
+    "Mr. Kevin English",
+    "Mr. Kim Redding"
+  ],
+  "主要内容": "Brookfield Investment Management Inc. appointed Craig Noble as Chief Executive Officer, effective July 8, 2013. Noble, who has led the firm’s global infrastructure securities business since 2008, will retain his role as Co-Chief Investment Officer and Portfolio Manager. Kevin English was named Chief Operating Officer, overseeing portfolio operations across public equities and fixed income securities. Brookfield Asset Management Inc., with over $175 billion in assets under management as of March 31, 2013, has a 100-year history in property, renewable power, infrastructure, and private equity. The company, through Brookfield Investment Management, actively invests in public securities with over 30 years of experience.",
+  "股票实体": [
+    {
+      "名称": "Brookfield Investment Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Mr. Kevin English",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Mr. Kim Redding",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Brookfield Asset Management Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Financial Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.154146+00:00",
+    "fetched_at": "2026-11-14T14:10:52.897249+00:00",
+    "feature_available_at": "2026-11-14T14:12:16.077667+00:00",
+    "availability_basis": "extraction"
+  }
+}

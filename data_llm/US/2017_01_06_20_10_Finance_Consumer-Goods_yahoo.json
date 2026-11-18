@@ -1,0 +1,47 @@
+{
+  "source_id": "96dd0b81f60e886141fcfc4e",
+  "url": "https://finance.yahoo.com/news/iconic-retailer-lots-earnings-power-201054482.html",
+  "title": "An Iconic Retailer With Lots of Earnings Power",
+  "时间": "2017-01-06T20:10:54+00:00",
+  "分类": "Finance",
+  "关键词": [
+    "Estée Lauder Companies Inc.",
+    "EL",
+    "Global Household & Personal Products",
+    "revenue",
+    "EBITDA",
+    "EPS",
+    "emerging markets",
+    "long-term debt",
+    "financial strength"
+  ],
+  "主要内容": "Estée Lauder Companies Inc. (EL) reported fiscal 2016 revenue of $11.262 billion, with makeup surpassing skincare as its largest revenue contributor. The company anticipates continued revenue growth in fiscal 2017, driven by new product launches, brand momentum, and increased social media engagement. Estée Lauder holds a 25% share in the global prestige makeup market, ranking No. 1 or 2 in 18 countries. It operates in over 150 countries and has a strong brand portfolio. Morningstar awards it a narrow moat due to its size, scale, and global reach. Its scale provides leverage over suppliers and cash flow for research and development. The company experienced three-year average revenue growth of 5.1%, EBITDA growth of 4.1%, and EPS growth of 4.7%. Its five-year average operating margin is 3.3%, ranking higher than 81% of the 1,565 companies in the Global Household & Personal Products industry. Estée Lauder also reported over 25% growth in emerging markets (excluding China) and double-digit growth in the U.K.",
+  "股票实体": [
+    {
+      "名称": null,
+      "股票代码": "EL",
+      "交易所": "NYSE"
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Beauty Products",
+      "依据": "explicit"
+    },
+    {
+      "名称": "Household & Personal Products",
+      "依据": "explicit"
+    }
+  ],
+  "影响范围": [
+    "company",
+    "industry"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-10T18:36:59.414568+00:00",
+    "fetched_at": "2026-11-13T01:58:07.169987+00:00",
+    "feature_available_at": "2026-11-13T02:00:48.758682+00:00",
+    "availability_basis": "extraction"
+  }
+}

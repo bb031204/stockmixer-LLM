@@ -1,0 +1,30 @@
+{
+  "source_id": "f86539bf66c369183bbdc09f",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000753/0001000753-13-000012-index.html",
+  "title": null,
+  "时间": "2013-08-07",
+  "分类": "corporate_action",
+  "关键词": [
+    "Insperity, Inc.",
+    "Business Services",
+    "corporate_action"
+  ],
+  "主要内容": "On August 5, 2013, Richard G. Rawson, President of Insperity, Inc., established new structured, prearranged trading plans to sell a portion of his common shares over a nine month period in accordance with Rule 10b5-1 of the Securities Exchange Act of 1934. The plans allow him to sell a maximum of 66,440 shares, representing approximately 9% of his current holdings. The transactions were initiated during the company's open window for insider trading. Rule 10b5-1 permits insiders to implement written plans for selling stock at times when they are not in possession of material nonpublic information, enabling regular, non-discretionary sales regardless of subsequent information received.",
+  "股票实体": [],
+  "涉及行业": [
+    {
+      "名称": "Business Services",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:58.154146+00:00",
+    "fetched_at": "2026-11-14T11:25:33.534644+00:00",
+    "feature_available_at": "2026-11-14T11:25:56.696735+00:00",
+    "availability_basis": "extraction"
+  }
+}

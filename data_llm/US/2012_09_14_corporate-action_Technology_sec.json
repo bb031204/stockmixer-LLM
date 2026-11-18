@@ -1,0 +1,38 @@
+{
+  "source_id": "62d7af2037423ae18de87458",
+  "url": "https://www.sec.gov/Archives/edgar/data/1000285/0001144204-12-051439-index.html",
+  "title": null,
+  "时间": "2012-09-14",
+  "分类": "corporate_action",
+  "关键词": [
+    "SOLUTION TECHNOLOGY INTERNATIONAL INC",
+    "Technology",
+    "Merger Agreement",
+    "ReTech Solutions, Inc.",
+    "Ludvik Holdings, Inc."
+  ],
+  "主要内容": "SOLUTION TECHNOLOGY INTERNATIONAL INC amended the Merger Agreement with ReTech Solutions, Inc. and Ludvik Holdings, Inc., extending the due diligence period for Ludvik from June 30, 2012 to September 21, 2012. The Merger Agreement is contingent upon the completion of due diligence by Ludvik.",
+  "股票实体": [
+    {
+      "名称": "ReTech Solutions, Inc.",
+      "股票代码": null,
+      "交易所": null
+    },
+    {
+      "名称": "Ludvik Holdings, Inc.",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "date",
+    "first_seen_at": "2026-11-11T17:44:54.920284+00:00",
+    "fetched_at": "2026-11-14T09:23:25.001144+00:00",
+    "feature_available_at": "2026-11-14T09:23:49.171837+00:00",
+    "availability_basis": "extraction"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "source_id": "81bbe8cd79949374b7d5bdcd",
+  "url": "https://www.cnbc.com/video/2021/11/09/how-hertz-went-from-bankruptcy-to-relisting-its-stock.html",
+  "title": "How Hertz went from bankruptcy to relisting its stock",
+  "时间": "2021-11-09T15:25:37+00:00",
+  "分类": "corporate_action",
+  "关键词": [
+    "Hertz",
+    "Transportation"
+  ],
+  "主要内容": "Hertz relisted its stock on the Nasdaq after declaring bankruptcy in 2020. The company's interim CEO, Mark Fields, and board members Greg O'Hara and Tom Wagner, discussed the relisting on \"Squawk Box.\"",
+  "股票实体": [
+    {
+      "名称": "Hertz",
+      "股票代码": null,
+      "交易所": null
+    }
+  ],
+  "涉及行业": [
+    {
+      "名称": "Transportation",
+      "依据": "inferred"
+    }
+  ],
+  "影响范围": [
+    "company"
+  ],
+  "时间信息": {
+    "publication_precision": "second",
+    "first_seen_at": "2026-11-13T19:12:22.917149+00:00",
+    "fetched_at": "2026-11-13T23:39:57.529981+00:00",
+    "feature_available_at": "2026-11-13T23:40:13.202511+00:00",
+    "availability_basis": "extraction"
+  }
+}
